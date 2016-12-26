@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="jSsZZ21t-rq">
-  <granularity>hours</granularity>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="pM4-oWdBYrv">
+  <start-date>2016-12-26T07:30:00.000Z</start-date>
   <prototype-task>
     <task id="t-2">
       <title>Task 1</title>
@@ -112,7 +112,8 @@
   </task>
   <task id="t5">
     <title>API Reference</title>
-    <effort>43200</effort>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
     <assignment idref="r1"/>
   </task>
   <task id="t6">

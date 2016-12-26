@@ -2,7 +2,7 @@
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <window x="1295" y="-280" w="1864" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
-    <comparison-scenario>jSsZZ21t-rq</comparison-scenario>
+    <comparison-scenario>pM4-oWdBYrv</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
@@ -135,7 +135,7 @@
     <next-task-id>10</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
-    <scenario id="jSsZZ21t-rq" name="Baseline 26/12/2016" filename="jSsZZ21t-rq.xml"/>
+    <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>

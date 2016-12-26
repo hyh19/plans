@@ -103,6 +103,18 @@
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-26T11:55:51.723Z" timestamp="2016-12-26T11:55:51.723Z">
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" to="2001-01-01T07:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-26T11:58:27.308Z" timestamp="2016-12-26T11:58:27.308Z">
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" from="2001-01-01T07:30:00.000Z" to="2016-12-26T07:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-26T11:58:50.326Z" timestamp="2016-12-26T11:58:50.326Z">
+    <change idref="t5" attribute="noEarlierThanConstraintDate" type="date" from="2016-12-26T07:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-26T11:59:55.059Z" timestamp="2016-12-26T11:59:55.059Z">
+    <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-27T02:00:00.000Z" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-12-26T11:42:53.795Z" timestamp="2016-12-26T11:42:53.795Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;" resolved="yes"/>
   </resource-change-set>
@@ -128,6 +140,38 @@
                 {
             name = &quot;Baseline 26/12/2016&quot;;
             uuid = &quot;jSsZZ21t-rq&quot;;
+        }
+    );
+}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Yuhui Huang" date="2016-12-26T11:55:51.722Z" timestamp="2016-12-26T11:55:51.722Z">
+    <change idref="m1" attribute="scheduleGranularity" type="real" from="1" to="0" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Yuhui Huang" date="2016-12-26T11:57:26.816Z" timestamp="2016-12-26T11:57:26.816Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{
+    info =     (
+                {
+            name = &quot;Baseline 26/12/2016&quot;;
+            uuid = &quot;jSsZZ21t-rq&quot;;
+        }
+    );
+}" to="{
+    info =     (
+    );
+}" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Yuhui Huang" date="2016-12-26T11:58:27.307Z" timestamp="2016-12-26T11:58:27.307Z">
+    <change idref="m1" attribute="fixedDate" type="date" to="2016-12-26T07:30:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="Yuhui Huang" date="2016-12-26T11:59:13.052Z" timestamp="2016-12-26T11:59:13.052Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{
+    info =     (
+    );
+}" to="{
+    info =     (
+                {
+            name = &quot;Baseline 26/12/2016&quot;;
+            uuid = &quot;pM4-oWdBYrv&quot;;
         }
     );
 }" resolved="yes"/>
