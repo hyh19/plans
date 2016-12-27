@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="aTkDw3MqWDS">
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="dSBGUeHasKw">
   <start-date>2016-12-26T07:30:00.000Z</start-date>
   <prototype-task>
     <task id="t-2">
@@ -109,54 +109,11 @@
     <title>Study Plan</title>
     <type>group</type>
     <child-task idref="t1"/>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="font-fill">
-                <color space="srgb" r="1" g="0.149131" b="0"/>
-              </value>
-              <value key="strikethrough-color">
-                <color space="srgb" r="1" g="0.149131" b="0"/>
-              </value>
-              <value key="strikethrough-style">single</value>
-            </style>
-            <lit>Red: Done</lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <style>
-              <value key="font-fill">
-                <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-              </value>
-            </style>
-            <lit>Blue: In-Progress</lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <lit>Black: To-Do</lit>
-          </run>
-        </p>
-      </text>
-    </note>
   </task>
   <task id="t5">
     <title>API Reference</title>
     <effort>7200</effort>
     <effort-done>7200</effort-done>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="font-size">12</value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <assignment idref="r1"/>
   </task>
   <task id="t6">
