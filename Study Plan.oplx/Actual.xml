@@ -50,32 +50,32 @@
     <type>Group</type>
     <schedule>
       <schedule-day day-of-week="sunday">
-        <time-span start-time="36000" end-time="43200"/>
-        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="68400"/>
       </schedule-day>
       <schedule-day day-of-week="monday">
-        <time-span start-time="36000" end-time="43200"/>
-        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="68400"/>
       </schedule-day>
       <schedule-day day-of-week="tuesday">
-        <time-span start-time="36000" end-time="43200"/>
-        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="68400"/>
       </schedule-day>
       <schedule-day day-of-week="wednesday">
-        <time-span start-time="36000" end-time="43200"/>
-        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="68400"/>
       </schedule-day>
       <schedule-day day-of-week="thursday">
-        <time-span start-time="36000" end-time="43200"/>
-        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="68400"/>
       </schedule-day>
       <schedule-day day-of-week="friday">
-        <time-span start-time="36000" end-time="43200"/>
-        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="68400"/>
       </schedule-day>
       <schedule-day day-of-week="saturday">
-        <time-span start-time="36000" end-time="43200"/>
-        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="68400"/>
       </schedule-day>
       <calendar name="Time Off" editable="yes" overtime="no"/>
       <calendar name="Overtime" editable="yes" overtime="yes"/>
@@ -161,11 +161,12 @@
   </task>
   <task id="t6">
     <title>Programming Guide</title>
+    <split/>
     <effort>43200</effort>
-    <start-constraint-date>2016-12-27T02:00:00.000Z</start-constraint-date>
+    <effort-done>5400</effort-done>
+    <child-task idref="t10"/>
+    <child-task idref="t11"/>
     <prerequisite-task idref="t5"/>
-    <assignment idref="r1"/>
-    <start-no-earlier-than>2016-12-27T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t7">
     <title>Source Code</title>
@@ -184,6 +185,21 @@
     <effort>43200</effort>
     <prerequisite-task idref="t8"/>
     <assignment idref="r1"/>
+  </task>
+  <task id="t10">
+    <title>Programming Guide</title>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2016-12-27T03:30:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-12-27T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t11">
+    <title>Programming Guide</title>
+    <effort>37800</effort>
+    <start-constraint-date>2016-12-28T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-12-28T02:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
