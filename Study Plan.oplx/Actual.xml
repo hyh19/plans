@@ -181,6 +181,7 @@
   <task id="t7">
     <title>Source Code</title>
     <effort>43200</effort>
+    <effort-done>1800</effort-done>
     <start-constraint-date>2016-12-28T07:00:00.000Z</start-constraint-date>
     <prerequisite-task idref="t6"/>
     <assignment idref="r1"/>

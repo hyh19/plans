@@ -184,6 +184,9 @@
   <task-change-set user="Yuhui Huang" date="2016-12-28T04:25:38.960Z" timestamp="2016-12-28T04:25:38.960Z">
     <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-28T07:00:00.000Z" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-28T04:56:10.600Z" timestamp="2016-12-28T04:56:10.600Z">
+    <change idref="t7" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-12-26T11:42:53.795Z" timestamp="2016-12-26T11:42:53.795Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;" resolved="yes"/>
   </resource-change-set>
