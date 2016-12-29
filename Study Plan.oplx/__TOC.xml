@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1296" y="-280" w="1864" h="1057">
+  <window x="1293" y="-280" w="1864" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>hoKc9fJUwlK</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>576</split-view-divider-position>
-      <outline x="0" y="0" w="576" h="961">
-        <column name="Violations" width="20"/>
+      <split-view-divider-position>715</split-view-divider-position>
+      <outline x="0" y="0" w="715" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="378"/>
+        <column name="Title" width="346"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
-        <expanded-items idrefs="t1 t3 t4"/>
+        <column name="Prerequisites" width="100"/>
+        <column name="Dependents" width="84"/>
+        <expanded-items idrefs="t3 t4 t1"/>
         <expanded-item-notes idrefs="t4"/>
         <selected-items-at-filter-time idrefs="t9 t4 t7 t5 t8 t3 t6"/>
       </outline>
-      <gantt-view x="-23" y="0" w="986" h="961">
+      <gantt-view x="-16" y="0" w="847" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -50,10 +51,10 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="300">
+        <scale scale-name="Automatic" full-day-width="346.106"/>
+        <scale scale-name="Day" full-day-width="366.316">
           <selected/>
         </scale>
-        <scale scale-name="Day" full-day-width="1215"/>
         <scale scale-name="Hour" full-day-width="65880"/>
         <scale scale-name="Minute" full-day-width="64800"/>
         <scale scale-name="Month" full-day-width="34.5"/>
