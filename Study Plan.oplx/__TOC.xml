@@ -2,24 +2,24 @@
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <window x="1293" y="-280" w="1864" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
-    <comparison-scenario>hoKc9fJUwlK</comparison-scenario>
+    <comparison-scenario>koSS-Gt_H7n</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>715</split-view-divider-position>
-      <outline x="0" y="0" w="715" h="961">
+      <split-view-divider-position>659</split-view-divider-position>
+      <outline x="29" y="0" w="659" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="346"/>
+        <column name="Title" width="423"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t1 t4 t3 t20"/>
+        <expanded-items idrefs="t8 t1 t4 t3 t20"/>
         <expanded-item-notes idrefs="t4"/>
-        <selected-items-at-filter-time idrefs="t9 t20 t4 t7 t22 t5 t8 t3 t21 t6"/>
+        <selected-items-at-filter-time idrefs="t9 t4 t20 t7 t5 t22 t28 t3 t21 t8 t6"/>
       </outline>
-      <gantt-view x="-14" y="0" w="847" h="961">
+      <gantt-view x="-14" y="0" w="903" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -139,12 +139,13 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>28</next-task-id>
+    <next-task-id>31</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
     <scenario id="dSBGUeHasKw" name="Baseline 27/12/2016" filename="dSBGUeHasKw.xml"/>
     <scenario id="hoKc9fJUwlK" name="Baseline 28/12/2016" filename="hoKc9fJUwlK.xml"/>
+    <scenario id="koSS-Gt_H7n" name="Baseline 29/12/2016" filename="koSS-Gt_H7n.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>
@@ -199,6 +200,9 @@ End:</group-table-style>
     <leveling>
       <constrains-completion-date/>
     </leveling>
+    <rescheduling>
+      <updates-selected-tasks/>
+    </rescheduling>
     <page-adornment>
       <master-page-headers>
         <header location="left">
