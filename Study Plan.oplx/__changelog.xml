@@ -120,6 +120,55 @@
   <task-change-set user="Yuhui Huang" date="2016-12-29T04:43:30.179Z" timestamp="2016-12-29T04:43:30.179Z">
     <change idref="t9" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-29T07:00:00.000Z" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-29T04:46:57.252Z" timestamp="2016-12-29T04:46:57.252Z">
+    <change idref="t20" to="t4" to-position="1" resolved="yes">
+      <change idref="t20" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-29T03:00:00.000Z"/>
+      <change idref="t20" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t20" attribute="title" type="string" to="Data Structure"/>
+    </change>
+    <change idref="t21" to="t20" to-position="0" resolved="yes">
+      <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-29T03:00:00.000Z"/>
+      <change idref="t21" attribute="title" type="string" to="妙趣横生的算法（C语言实现）"/>
+    </change>
+    <change idref="t22" to="t20" to-position="1" resolved="yes">
+      <change idref="t22" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-29T03:00:00.000Z"/>
+      <change idref="t22" attribute="title" type="string" to="妙趣横生的算法（C++语言实现）"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-29T04:48:55.215Z" timestamp="2016-12-29T04:48:55.215Z">
+    <change idref="t20" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t21" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t22" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-29T04:49:44.492Z" timestamp="2016-12-29T04:49:44.492Z">
+    <change idref="t21" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
+    <change idref="t22" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-29T04:50:26.211Z" timestamp="2016-12-29T04:50:26.211Z">
+    <change idref="t20" attribute="title" type="string" from="Data Structure" to="Data Structure &amp; Algorithm" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2016-12-27T04:54:47.389Z" timestamp="2016-12-27T04:54:47.389Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800;36000,43200,50400,64800" to="39600,46800,54000,68400;39600,46800,54000,68400;39600,46800,54000,68400;39600,46800,54000,68400;39600,46800,54000,68400;39600,46800,54000,68400;39600,46800,54000,68400" resolved="yes"/>
   </resource-change-set>
