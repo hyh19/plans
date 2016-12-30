@@ -2,13 +2,13 @@
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <window x="1293" y="-280" w="1864" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
-    <comparison-scenario>koSS-Gt_H7n</comparison-scenario>
+    <comparison-scenario>nCargEdNqwo</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1058</split-view-divider-position>
-      <outline x="1" y="0" w="1058" h="961">
+      <outline x="0" y="0" w="1058" h="961">
         <column name="Notes" width="20"/>
         <column name="Title" width="495"/>
         <column name="Effort" width="70"/>
@@ -21,7 +21,7 @@
         <expanded-item-notes idrefs="t4"/>
         <selected-items-at-filter-time idrefs="t9 t4 t20 t7 t5 t22 t8 t3 t28 t6 t21"/>
       </outline>
-      <gantt-view x="-14" y="0" w="504" h="961">
+      <gantt-view x="89" y="0" w="504" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -141,13 +141,14 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>31</next-task-id>
+    <next-task-id>32</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
     <scenario id="dSBGUeHasKw" name="Baseline 27/12/2016" filename="dSBGUeHasKw.xml"/>
     <scenario id="hoKc9fJUwlK" name="Baseline 28/12/2016" filename="hoKc9fJUwlK.xml"/>
     <scenario id="koSS-Gt_H7n" name="Baseline 29/12/2016" filename="koSS-Gt_H7n.xml"/>
+    <scenario id="nCargEdNqwo" name="Baseline 30/12/2016" filename="nCargEdNqwo.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>
