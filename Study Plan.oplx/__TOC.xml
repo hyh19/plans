@@ -7,19 +7,21 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>659</split-view-divider-position>
-      <outline x="29" y="0" w="659" h="961">
+      <split-view-divider-position>1058</split-view-divider-position>
+      <outline x="1" y="0" w="1058" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="423"/>
+        <column name="Title" width="495"/>
         <column name="Effort" width="70"/>
+        <column name="Effort Done" width="83"/>
+        <column name="Remaining Effort" width="108"/>
         <column name="%Done" width="82"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t8 t1 t4 t3 t20"/>
+        <expanded-items idrefs="t1 t4 t8 t3 t20"/>
         <expanded-item-notes idrefs="t4"/>
-        <selected-items-at-filter-time idrefs="t9 t4 t20 t7 t5 t22 t28 t3 t21 t8 t6"/>
+        <selected-items-at-filter-time idrefs="t9 t4 t20 t7 t5 t22 t8 t3 t28 t6 t21"/>
       </outline>
-      <gantt-view x="-14" y="0" w="903" h="961">
+      <gantt-view x="-14" y="0" w="504" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>

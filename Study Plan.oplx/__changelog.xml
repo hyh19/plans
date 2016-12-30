@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2016-12-28T04:24:32.937Z" timestamp="2016-12-28T04:24:32.937Z">
-    <change idref="t6" attribute="effort" type="real" from="43200" to="18000" resolved="yes"/>
-    <change idref="t6" attribute="internalEffortDone" type="real" from="12600" to="18000" resolved="yes"/>
-    <change idref="t13" attribute="effort" type="real" from="30600" to="5400" resolved="yes"/>
-    <change idref="t13" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-12-28T04:25:38.960Z" timestamp="2016-12-28T04:25:38.960Z">
-    <change idref="t7" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-28T07:00:00.000Z" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-12-28T04:56:10.600Z" timestamp="2016-12-28T04:56:10.600Z">
-    <change idref="t7" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2016-12-28T10:23:01.999Z" timestamp="2016-12-28T10:23:01.999Z">
     <change idref="t7" attribute="internalEffortDone" type="real" from="1800" to="14400" resolved="yes"/>
   </task-change-set>
@@ -149,6 +137,10 @@
       <change idref="t30" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-30T03:00:00.000Z"/>
       <change idref="t30" attribute="title" type="string" to="https://github.com/steipete/Aspects #2"/>
     </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-30T05:03:30.155Z" timestamp="2016-12-30T05:03:30.155Z">
+    <change idref="t28" attribute="internalEffortDone" type="real" from="3600" to="7200" resolved="yes"/>
+    <change idref="t30" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
   </task-change-set>
   <metadata-change-set user="Yuhui Huang" date="2016-12-28T10:29:02.744Z" timestamp="2016-12-28T10:29:02.744Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{

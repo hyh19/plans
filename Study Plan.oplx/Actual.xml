@@ -287,7 +287,7 @@
     <title>https://github.com/steipete/Aspects</title>
     <split/>
     <effort>21600</effort>
-    <effort-done>3600</effort-done>
+    <effort-done>7200</effort-done>
     <child-task idref="t29"/>
     <child-task idref="t30"/>
   </task>
@@ -301,6 +301,7 @@
   <task id="t30">
     <title>https://github.com/steipete/Aspects</title>
     <effort>18000</effort>
+    <effort-done>3600</effort-done>
     <start-constraint-date>2016-12-30T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2016-12-30T03:00:00.000Z</start-no-earlier-than>
   </task>
