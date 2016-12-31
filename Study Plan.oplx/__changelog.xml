@@ -142,6 +142,10 @@
     </change>
     <change idref="t30" attribute="effort" type="real" from="39600" to="18000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2016-12-31T04:07:13.209Z" timestamp="2016-12-31T04:07:13.209Z">
+    <change idref="t28" attribute="internalEffortDone" type="real" from="21600" to="28800" resolved="yes"/>
+    <change idref="t31" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+  </task-change-set>
   <metadata-change-set user="Yuhui Huang" date="2016-12-29T10:35:50.266Z" timestamp="2016-12-29T10:35:50.266Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{
     info =     (

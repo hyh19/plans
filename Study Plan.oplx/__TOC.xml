@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1293" y="-280" w="1864" h="1057">
+  <window x="1282" y="-280" w="1864" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>nCargEdNqwo</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1058</split-view-divider-position>
-      <outline x="0" y="0" w="1058" h="961">
+      <split-view-divider-position>1012</split-view-divider-position>
+      <outline x="0" y="0" w="1012" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="495"/>
+        <column name="Title" width="425"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
         <column name="Remaining Effort" width="108"/>
@@ -19,9 +19,9 @@
         <column name="Dependents" width="84"/>
         <expanded-items idrefs="t1 t4 t8 t3 t20"/>
         <expanded-item-notes idrefs="t4"/>
-        <selected-items-at-filter-time idrefs="t9 t4 t20 t7 t5 t22 t8 t3 t28 t6 t21"/>
+        <selected-items-at-filter-time idrefs="t9 t20 t4 t7 t5 t22 t28 t8 t21 t6 t3"/>
       </outline>
-      <gantt-view x="89" y="0" w="504" h="961">
+      <gantt-view x="12697" y="0" w="550" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -54,7 +54,7 @@
           <key>Assigned</key>
         </task-bar-label>
         <scale scale-name="Automatic" full-day-width="346.106"/>
-        <scale scale-name="Day" full-day-width="384.506">
+        <scale scale-name="Day" full-day-width="54855">
           <selected/>
         </scale>
         <scale scale-name="Hour" full-day-width="65880"/>
