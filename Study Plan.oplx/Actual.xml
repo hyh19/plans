@@ -78,13 +78,19 @@
         <time-span start-time="54000" end-time="68400"/>
       </schedule-day>
       <calendar name="Time Off" editable="yes" overtime="no"/>
-      <calendar name="Overtime" editable="yes" overtime="yes"/>
+      <calendar name="Overtime" editable="yes" overtime="yes">
+        <event start="2017-01-01T11:00:00.000Z" end="2017-01-01T12:00:00.000Z" sd="5844" st="68400" ed="5844" et="72000"/>
+      </calendar>
     </schedule>
     <child-resource idref="r1"/>
   </resource>
   <resource id="r1">
     <name>Yuhui</name>
     <type>Staff</type>
+    <schedule>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+    </schedule>
   </resource>
   <top-task idref="t-1"/>
   <task id="t-1">
@@ -158,7 +164,6 @@
       </value>
       <value key="strikethrough-style">single</value>
     </style>
-    <assignment idref="r1"/>
   </task>
   <task id="t6">
     <title>Programming Guide</title>
@@ -195,7 +200,6 @@
       <value key="strikethrough-style">single</value>
     </style>
     <prerequisite-task idref="t6"/>
-    <assignment idref="r1"/>
     <start-no-earlier-than>2016-12-28T07:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t8">
@@ -209,7 +213,6 @@
     <title>Articles</title>
     <effort>43200</effort>
     <start-constraint-date>2016-12-29T07:00:00.000Z</start-constraint-date>
-    <assignment idref="r1"/>
     <start-no-earlier-than>2016-12-29T07:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t12">
@@ -227,7 +230,6 @@
       </value>
       <value key="strikethrough-style">single</value>
     </style>
-    <assignment idref="r1"/>
     <start-no-earlier-than>2016-12-27T03:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t13">
@@ -245,7 +247,6 @@
       </value>
       <value key="strikethrough-style">single</value>
     </style>
-    <assignment idref="r1"/>
     <start-no-earlier-than>2016-12-28T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t20">
@@ -286,8 +287,8 @@
   <task id="t28">
     <title>https://github.com/steipete/Aspects</title>
     <split/>
-    <effort>43200</effort>
-    <effort-done>37800</effort-done>
+    <effort>72000</effort>
+    <effort-done>54000</effort-done>
     <child-task idref="t29"/>
     <child-task idref="t30"/>
     <child-task idref="t31"/>
@@ -316,8 +317,8 @@
   </task>
   <task id="t32">
     <title>https://github.com/steipete/Aspects</title>
-    <effort>14400</effort>
-    <effort-done>9000</effort-done>
+    <effort>43200</effort>
+    <effort-done>25200</effort-done>
     <start-constraint-date>2017-01-01T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-01T03:00:00.000Z</start-no-earlier-than>
   </task>

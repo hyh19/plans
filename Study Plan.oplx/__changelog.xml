@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2016-12-30T11:08:48.262Z" timestamp="2016-12-30T11:08:48.262Z">
-    <change idref="t28" attribute="effort" type="real" from="21600" to="43200" resolved="yes"/>
-    <change idref="t28" attribute="internalEffortDone" type="real" from="7200" to="21600" resolved="yes"/>
-    <change idref="t30" attribute="effort" type="real" from="18000" to="39600" resolved="yes"/>
-    <change idref="t30" attribute="internalEffortDone" type="real" from="3600" to="18000" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2016-12-30T11:09:53.572Z" timestamp="2016-12-30T11:09:53.572Z">
-    <change idref="t31" to="t28" to-position="2" resolved="yes">
-      <change idref="t31" attribute="effort" type="real" from="28800" to="21600"/>
-      <change idref="t31" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t31" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-31T03:00:00.000Z"/>
-      <change idref="t31" attribute="title" type="string" to="https://github.com/steipete/Aspects #3"/>
-    </change>
-    <change idref="t30" attribute="effort" type="real" from="39600" to="18000" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2016-12-31T04:07:13.209Z" timestamp="2016-12-31T04:07:13.209Z">
     <change idref="t28" attribute="internalEffortDone" type="real" from="21600" to="28800" resolved="yes"/>
     <change idref="t31" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
@@ -31,49 +16,48 @@
     </change>
     <change idref="t31" attribute="effort" type="real" from="21600" to="7200" resolved="yes"/>
   </task-change-set>
-  <metadata-change-set user="Yuhui Huang" date="2016-12-30T11:10:02.987Z" timestamp="2016-12-30T11:10:02.987Z">
-    <change idref="m1" attribute="baselineInfo" type="dict" from="{
-    info =     (
-                {
-            name = &quot;Baseline 26/12/2016&quot;;
-            uuid = &quot;pM4-oWdBYrv&quot;;
-        },
-                {
-            name = &quot;Baseline 27/12/2016&quot;;
-            uuid = dSBGUeHasKw;
-        },
-                {
-            name = &quot;Baseline 28/12/2016&quot;;
-            uuid = hoKc9fJUwlK;
-        },
-                {
-            name = &quot;Baseline 29/12/2016&quot;;
-            uuid = &quot;koSS-Gt_H7n&quot;;
-        }
-    );
-}" to="{
-    info =     (
-                {
-            name = &quot;Baseline 26/12/2016&quot;;
-            uuid = &quot;pM4-oWdBYrv&quot;;
-        },
-                {
-            name = &quot;Baseline 27/12/2016&quot;;
-            uuid = dSBGUeHasKw;
-        },
-                {
-            name = &quot;Baseline 28/12/2016&quot;;
-            uuid = hoKc9fJUwlK;
-        },
-                {
-            name = &quot;Baseline 29/12/2016&quot;;
-            uuid = &quot;koSS-Gt_H7n&quot;;
-        },
-                {
-            name = &quot;Baseline 30/12/2016&quot;;
-            uuid = nCargEdNqwo;
-        }
-    );
-}" resolved="yes"/>
-  </metadata-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-01T12:34:21.668Z" timestamp="2017-01-01T12:34:21.668Z">
+    <change idref="t28" attribute="effort" type="real" from="43200" to="72000" resolved="yes"/>
+    <change idref="t28" attribute="internalEffortDone" type="real" from="37800" to="55800" resolved="yes"/>
+    <change idref="t32" attribute="effort" type="real" from="14400" to="43200" resolved="yes"/>
+    <change idref="t32" attribute="internalEffortDone" type="real" from="9000" to="27000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-01T12:42:17.582Z" timestamp="2017-01-01T12:42:17.582Z">
+    <change idref="t28" attribute="internalEffortDone" type="real" from="55800" to="54000" resolved="yes"/>
+    <change idref="t32" attribute="title" type="string" from="https://github.com/steipete/Aspects" to="https://github.com/steipete/Aspects #4" resolved="yes"/>
+    <change idref="t32" attribute="isSplitChunk" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t32" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-01T03:00:00.000Z" resolved="yes"/>
+    <change idref="t32" attribute="internalEffortDone" type="real" from="27000" to="25200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-01T12:46:27.434Z" timestamp="2017-01-01T12:46:27.434Z">
+    <change idref="t21" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t22" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t28" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t29" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t30" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t31" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t32" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-01T12:46:36.395Z" timestamp="2017-01-01T12:46:36.395Z">
+    <change idref="t5" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t6" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t7" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t9" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t12" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t13" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t21" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t22" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t28" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t29" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t30" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t31" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+    <change idref="t32" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Yuhui Huang" date="2017-01-01T12:42:52.920Z" timestamp="2017-01-01T12:42:52.920Z">
+    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2017-01-01T12:43:22.449Z" timestamp="2017-01-01T12:43:22.449Z">
+    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
+    <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" to="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" resolved="yes"/>
+  </resource-change-set>
 </changelog>
