@@ -53,6 +53,37 @@
     <change idref="t28" attribute="internalEffortDone" type="real" from="54000" to="64800" resolved="yes"/>
     <change idref="t32" attribute="internalEffortDone" type="real" from="25200" to="36000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-02T10:15:30.965Z" timestamp="2017-01-02T10:15:30.965Z">
+    <change idref="t28" attribute="effort" type="real" from="72000" to="75600" resolved="yes"/>
+    <change idref="t28" attribute="internalEffortDone" type="real" from="64800" to="75600" resolved="yes"/>
+    <change idref="t32" attribute="effort" type="real" from="43200" to="46800" resolved="yes"/>
+    <change idref="t32" attribute="internalEffortDone" type="real" from="36000" to="46800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-02T10:15:50.632Z" timestamp="2017-01-02T10:15:50.632Z">
+    <change idref="t28" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 12;
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-02T10:16:11.052Z" timestamp="2017-01-02T10:16:11.052Z">
+    <change idref="t28" attribute="title" type="string" from="https://github.com/steipete/Aspects" to="Aspects" resolved="yes"/>
+    <change idref="t28" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZ2l0aHViLmNvbS9zdGVpcGV0ZS9Bc3BlY3RzIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZ2l0aHViLmNvbS9zdGVpcGV0ZS9Bc3BlY3RzfX19" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-02T10:16:51.707Z" timestamp="2017-01-02T10:16:51.707Z">
+    <change idref="t8" attribute="title" type="string" from="Open Source Projects" to="Open Source" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-01T12:42:52.920Z" timestamp="2017-01-01T12:42:52.920Z">
     <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
   </resource-change-set>
