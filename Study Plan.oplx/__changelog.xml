@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2016-12-31T04:07:13.209Z" timestamp="2016-12-31T04:07:13.209Z">
-    <change idref="t28" attribute="internalEffortDone" type="real" from="21600" to="28800" resolved="yes"/>
-    <change idref="t31" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-01T05:21:46.882Z" timestamp="2017-01-01T05:21:46.882Z">
     <change idref="t28" attribute="internalEffortDone" type="real" from="28800" to="37800" resolved="yes"/>
     <change idref="t32" to="t28" to-position="3" resolved="yes">
@@ -53,11 +49,18 @@
     <change idref="t31" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
     <change idref="t32" attribute="internalAssignments" type="string" from="1" to="" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-02T05:17:48.760Z" timestamp="2017-01-02T05:17:48.760Z">
+    <change idref="t28" attribute="internalEffortDone" type="real" from="54000" to="64800" resolved="yes"/>
+    <change idref="t32" attribute="internalEffortDone" type="real" from="25200" to="36000" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-01T12:42:52.920Z" timestamp="2017-01-01T12:42:52.920Z">
     <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
   </resource-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-01T12:43:22.449Z" timestamp="2017-01-01T12:43:22.449Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
     <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" to="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2017-01-02T05:12:55.345Z" timestamp="2017-01-02T05:12:55.345Z">
+    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" to="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwAAgLFBcaHSAjKC02OT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" resolved="yes"/>
   </resource-change-set>
 </changelog>
