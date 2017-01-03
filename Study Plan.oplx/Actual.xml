@@ -254,7 +254,6 @@
   <task id="t20">
     <title>Data Structure &amp; Algorithm</title>
     <type>group</type>
-    <start-constraint-date>2016-12-29T03:00:00.000Z</start-constraint-date>
     <child-task idref="t21"/>
     <child-task idref="t22"/>
     <style>
@@ -262,12 +261,14 @@
         <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
       </value>
     </style>
-    <start-no-earlier-than>2016-12-29T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t21">
     <title>妙趣横生的算法（C语言实现）</title>
+    <split/>
     <effort>216000</effort>
     <effort-done>9000</effort-done>
+    <child-task idref="t44"/>
+    <child-task idref="t45"/>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
@@ -277,13 +278,11 @@
   <task id="t22">
     <title>妙趣横生的算法（C++语言实现）</title>
     <effort>216000</effort>
-    <start-constraint-date>2016-12-29T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
       </value>
     </style>
-    <start-no-earlier-than>2016-12-29T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t28">
     <title>Aspects</title>
@@ -384,6 +383,29 @@
       <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-01T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t44">
+    <title>妙趣横生的算法（C语言实现）</title>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t45">
+    <title>妙趣横生的算法（C语言实现）</title>
+    <effort>207000</effort>
+    <start-constraint-date>2017-01-04T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-04T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

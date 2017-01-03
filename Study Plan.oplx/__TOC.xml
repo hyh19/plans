@@ -8,13 +8,14 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>953</split-view-divider-position>
-      <outline x="10" y="0" w="953" h="961">
+      <outline x="0" y="0" w="953" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="414"/>
+        <column name="Title" width="361"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
-        <column name="Remaining Effort" width="108"/>
         <column name="%Done" width="82"/>
+        <column name="Start" width="127"/>
+        <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
         <expanded-items idrefs="t1 t4 t8 t3 t20"/>
@@ -141,7 +142,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>42</next-task-id>
+    <next-task-id>46</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

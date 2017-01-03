@@ -79,6 +79,57 @@
   <task-change-set user="Yuhui Huang" date="2017-01-03T05:31:07.333Z" timestamp="2017-01-03T05:31:07.333Z">
     <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T05:35:43.725Z" timestamp="2017-01-03T05:35:43.725Z">
+    <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" from="2016-12-29T03:00:00.000Z" resolved="yes"/>
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-26T03:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T05:36:29.164Z" timestamp="2017-01-03T05:36:29.164Z">
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" from="2016-12-26T03:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T05:38:27.300Z" timestamp="2017-01-03T05:38:27.300Z">
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-26T03:00:00.000Z" resolved="yes"/>
+    <change idref="t21" attribute="internalEffortDone" type="real" from="9000" to="0" resolved="yes"/>
+    <change idref="t22" attribute="noEarlierThanConstraintDate" type="date" from="2016-12-29T03:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T05:38:40.215Z" timestamp="2017-01-03T05:38:40.215Z">
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" from="2016-12-26T03:00:00.000Z" to="2017-01-03T03:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T05:39:16.494Z" timestamp="2017-01-03T05:39:16.494Z">
+    <change idref="t21" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T05:40:18.675Z" timestamp="2017-01-03T05:40:18.675Z">
+    <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-03T03:00:00.000Z" resolved="yes"/>
+    <change idref="t21" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t44" to="t21" to-position="0" resolved="yes">
+      <change idref="t44" attribute="effort" type="real" from="28800" to="9000"/>
+      <change idref="t44" attribute="internalEffortDone" type="real" from="0" to="9000"/>
+      <change idref="t44" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t44" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t44" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t44" attribute="title" type="string" to="妙趣横生的算法（C语言实现） #1"/>
+    </change>
+    <change idref="t45" to="t21" to-position="1" resolved="yes">
+      <change idref="t45" attribute="effort" type="real" from="28800" to="207000"/>
+      <change idref="t45" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t45" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-04T03:00:00.000Z"/>
+      <change idref="t45" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.211432&quot;;
+        g = &quot;0.458381&quot;;
+        r = &quot;0.988&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t45" attribute="title" type="string" to="妙趣横生的算法（C语言实现） #2"/>
+    </change>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-01T12:42:52.920Z" timestamp="2017-01-01T12:42:52.920Z">
     <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
   </resource-change-set>
