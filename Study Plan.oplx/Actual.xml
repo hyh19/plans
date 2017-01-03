@@ -103,9 +103,10 @@
     <title>iOS</title>
     <type>group</type>
     <child-task idref="t3"/>
+    <child-task idref="t46"/>
   </task>
   <task id="t3">
-    <title>Objective-C Runtime</title>
+    <title>Runtime</title>
     <type>group</type>
     <child-task idref="t5"/>
     <child-task idref="t6"/>
@@ -406,6 +407,72 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-04T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t46">
+    <title>Media</title>
+    <type>group</type>
+    <child-task idref="t47"/>
+    <child-task idref="t49"/>
+  </task>
+  <task id="t47">
+    <title>Programming Guide</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t48"/>
+    <child-task idref="t54"/>
+    <child-task idref="t55"/>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t48">
+    <title>AVFoundation Programming Guide</title>
+    <effort>28800</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-03T07:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t49">
+    <title>API Reference</title>
+    <type>group</type>
+    <child-task idref="t50"/>
+    <child-task idref="t52"/>
+    <child-task idref="t53"/>
+    <child-task idref="t51"/>
+  </task>
+  <task id="t50">
+    <title>AVFoundation</title>
+    <effort>7200</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t51">
+    <title>AudioToolbox</title>
+    <effort>7200</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t52">
+    <title>AVKit</title>
+    <effort>7200</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t53">
+    <title>VideoToolbox</title>
+    <effort>7200</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t54">
+    <title>Multimedia Programming Guide</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t55">
+    <title>Audio Session Programming Guide</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

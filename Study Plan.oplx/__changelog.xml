@@ -130,6 +130,95 @@
       <change idref="t45" attribute="title" type="string" to="妙趣横生的算法（C语言实现） #2"/>
     </change>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T07:14:15.233Z" timestamp="2017-01-03T07:14:15.233Z">
+    <change idref="t46" to="t1" to-position="1" resolved="yes">
+      <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t46" attribute="title" type="string" to="Media"/>
+    </change>
+    <change idref="t3" attribute="title" type="string" from="Objective-C Runtime" to="Runtime" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T07:17:44.299Z" timestamp="2017-01-03T07:17:44.299Z">
+    <change idref="t46" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t46" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t46" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t46" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t46" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t46" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t46" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t46" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t46" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t46" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t46" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t46" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t47" to="t46" to-position="0" resolved="yes">
+      <change idref="t47" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t47" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t47" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t47" attribute="title" type="string" to="Programming Guide"/>
+    </change>
+    <change idref="t48" to="t47" to-position="0" resolved="yes">
+      <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t48" attribute="title" type="string" to="AVFoundation Programming Guide"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T07:18:03.255Z" timestamp="2017-01-03T07:18:03.255Z">
+    <change idref="t49" to="t46" to-position="1" resolved="yes">
+      <change idref="t49" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t49" attribute="title" type="string" to="API Reference"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T07:21:48.368Z" timestamp="2017-01-03T07:21:48.368Z">
+    <change idref="t46" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-03T03:00:00.000Z" resolved="yes"/>
+    <change idref="t49" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t49" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t49" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t49" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t49" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t49" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t49" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t49" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t49" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t49" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-03T03:00:00.000Z" resolved="yes"/>
+    <change idref="t49" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t49" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t49" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t50" to="t49" to-position="0" resolved="yes">
+      <change idref="t50" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t50" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t50" attribute="title" type="string" to="AVFoundation"/>
+    </change>
+    <change idref="t52" to="t49" to-position="1" resolved="yes">
+      <change idref="t52" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t52" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t52" attribute="title" type="string" to="AVKit"/>
+    </change>
+    <change idref="t53" to="t49" to-position="2" resolved="yes">
+      <change idref="t53" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t53" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t53" attribute="title" type="string" to="VideoToolbox"/>
+    </change>
+    <change idref="t51" to="t49" to-position="3" resolved="yes">
+      <change idref="t51" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t51" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t51" attribute="title" type="string" to="AudioToolbox"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T07:37:56.094Z" timestamp="2017-01-03T07:37:56.094Z">
+    <change idref="t54" to="t47" to-position="1" resolved="yes">
+      <change idref="t54" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t54" attribute="title" type="string" to="Multimedia Programming Guide"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T08:18:47.432Z" timestamp="2017-01-03T08:18:47.432Z">
+    <change idref="t55" to="t47" to-position="2" resolved="yes">
+      <change idref="t55" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t55" attribute="title" type="string" to="Audio Session Programming Guide"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T09:33:30.769Z" timestamp="2017-01-03T09:33:30.769Z">
+    <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-03T03:00:00.000Z" to="2017-01-03T07:00:00.000Z" resolved="yes"/>
+    <change idref="t48" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-01T12:42:52.920Z" timestamp="2017-01-01T12:42:52.920Z">
     <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
   </resource-change-set>
