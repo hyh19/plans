@@ -219,6 +219,105 @@
     <change idref="t48" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-03T03:00:00.000Z" to="2017-01-03T07:00:00.000Z" resolved="yes"/>
     <change idref="t48" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T10:23:13.730Z" timestamp="2017-01-03T10:23:13.730Z">
+    <change idref="t56" to="t1" to-position="2" resolved="yes">
+      <change idref="t56" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t56" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t56" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t56" attribute="title" type="string" to="UnitTest"/>
+    </change>
+    <change idref="t58" to="t56" to-position="0" resolved="yes">
+      <change idref="t58" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t58" attribute="title" type="string" to="Articles"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T10:23:31.091Z" timestamp="2017-01-03T10:23:31.091Z">
+    <change idref="t58" attribute="effort" type="real" from="28800" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T11:08:38.097Z" timestamp="2017-01-03T11:08:38.097Z">
+    <change idref="t56" attribute="title" type="string" from="UnitTest" to="UnitTest &amp; UITest" resolved="yes"/>
+    <change idref="t59" to="t56" to-position="1" resolved="yes">
+      <change idref="t59" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t59" attribute="title" type="string" to="Programming Guide"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T11:08:49.192Z" timestamp="2017-01-03T11:08:49.192Z">
+    <change idref="t60" to="t56" to-position="2" resolved="yes">
+      <change idref="t60" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t60" attribute="title" type="string" to="API Reference"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T11:08:58.025Z" timestamp="2017-01-03T11:08:58.025Z">
+    <change idref="t61" to="t56" to-position="2" resolved="yes">
+      <change idref="t61" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T03:00:00.000Z"/>
+      <change idref="t61" attribute="title" type="string" to="Testing with Xcode"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T11:30:34.388Z" timestamp="2017-01-03T11:30:34.388Z">
+    <change idref="t58" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-03T03:00:00.000Z" to="2017-01-03T10:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T11:31:16.764Z" timestamp="2017-01-03T11:31:16.764Z">
+    <change idref="t58" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T11:32:22.186Z" timestamp="2017-01-03T11:32:22.186Z">
+    <change idref="t58" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-03T10:00:00.000Z" resolved="yes"/>
+    <change idref="t58" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t62" to="t58" to-position="0" resolved="yes">
+      <change idref="t62" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t62" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t62" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t62" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-03T10:00:00.000Z"/>
+      <change idref="t62" attribute="title" type="string" to="Articles #1"/>
+    </change>
+    <change idref="t63" to="t58" to-position="1" resolved="yes">
+      <change idref="t63" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t63" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t63" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-05T03:00:00.000Z"/>
+      <change idref="t63" attribute="title" type="string" to="Articles #2"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-03T11:33:26.165Z" timestamp="2017-01-03T11:33:26.165Z">
+    <change idref="t56" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t58" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t59" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t60" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t61" attribute="styleDict" type="dict" to="{
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-01T12:42:52.920Z" timestamp="2017-01-01T12:42:52.920Z">
     <change idref="r1" attribute="overtimeString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoAAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
   </resource-change-set>

@@ -104,6 +104,7 @@
     <type>group</type>
     <child-task idref="t3"/>
     <child-task idref="t46"/>
+    <child-task idref="t56"/>
   </task>
   <task id="t3">
     <title>Runtime</title>
@@ -473,6 +474,90 @@
     <effort>28800</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t56">
+    <title>UnitTest &amp; UITest</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t58"/>
+    <child-task idref="t59"/>
+    <child-task idref="t61"/>
+    <child-task idref="t60"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t58">
+    <title>Articles</title>
+    <split/>
+    <effort>7200</effort>
+    <effort-done>3600</effort-done>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+  </task>
+  <task id="t59">
+    <title>Programming Guide</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t60">
+    <title>API Reference</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t61">
+    <title>Testing with Xcode</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t62">
+    <title>Articles</title>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-03T10:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-03T10:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t63">
+    <title>Articles</title>
+    <effort>3600</effort>
+    <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
