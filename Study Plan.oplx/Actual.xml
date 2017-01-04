@@ -273,9 +273,10 @@
     <title>妙趣横生的算法（C语言实现）</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>9000</effort-done>
+    <effort-done>12600</effort-done>
     <child-task idref="t44"/>
     <child-task idref="t45"/>
+    <child-task idref="t70"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -400,14 +401,15 @@
   </task>
   <task id="t45">
     <title>妙趣横生的算法（C语言实现）</title>
-    <effort>207000</effort>
-    <start-constraint-date>2017-01-04T03:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-04T10:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-04T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-04T10:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t46">
     <title>Media</title>
@@ -668,6 +670,17 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t70">
+    <title>妙趣横生的算法（C语言实现）</title>
+    <effort>203400</effort>
+    <start-constraint-date>2017-01-05T10:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-05T10:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

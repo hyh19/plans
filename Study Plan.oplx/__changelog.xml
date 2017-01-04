@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2017-01-02T10:15:30.965Z" timestamp="2017-01-02T10:15:30.965Z">
-    <change idref="t28" attribute="effort" type="real" from="72000" to="75600" resolved="yes"/>
-    <change idref="t28" attribute="internalEffortDone" type="real" from="64800" to="75600" resolved="yes"/>
-    <change idref="t32" attribute="effort" type="real" from="43200" to="46800" resolved="yes"/>
-    <change idref="t32" attribute="internalEffortDone" type="real" from="36000" to="46800" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-02T10:15:50.632Z" timestamp="2017-01-02T10:15:50.632Z">
-    <change idref="t28" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = &quot;0.149131&quot;;
-        r = 1;
-        space = srgb;
-    };
-    &quot;font-size&quot; = 12;
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = &quot;0.149131&quot;;
-        r = 1;
-        space = srgb;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-02T10:16:11.052Z" timestamp="2017-01-02T10:16:11.052Z">
-    <change idref="t28" attribute="title" type="string" from="https://github.com/steipete/Aspects" to="Aspects" resolved="yes"/>
-    <change idref="t28" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZ2l0aHViLmNvbS9zdGVpcGV0ZS9Bc3BlY3RzIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIGh0dHBzOi8vZ2l0aHViLmNvbS9zdGVpcGV0ZS9Bc3BlY3RzfX19" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-02T10:16:51.707Z" timestamp="2017-01-02T10:16:51.707Z">
-    <change idref="t8" attribute="title" type="string" from="Open Source Projects" to="Open Source" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-03T05:30:44.656Z" timestamp="2017-01-03T05:30:44.656Z">
     <change idref="t21" attribute="noEarlierThanConstraintDate" type="date" from="2016-12-29T03:00:00.000Z" resolved="yes"/>
   </task-change-set>
@@ -683,6 +652,28 @@
         space = srgb;
     };
 }" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-04T11:20:24.483Z" timestamp="2017-01-04T11:20:24.483Z">
+    <change idref="t70" to="t21" to-position="2" resolved="yes">
+      <change idref="t70" attribute="effort" type="real" from="28800" to="203400"/>
+      <change idref="t70" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t70" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-05T10:00:00.000Z"/>
+      <change idref="t70" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t70" attribute="title" type="string" to="妙趣横生的算法（C语言实现） #3"/>
+    </change>
+    <change idref="t45" attribute="effort" type="real" from="207000" to="3600" resolved="yes"/>
+    <change idref="t45" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-04T03:00:00.000Z" to="2017-01-04T10:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-04T11:20:39.026Z" timestamp="2017-01-04T11:20:39.026Z">
+    <change idref="t21" attribute="internalEffortDone" type="real" from="9000" to="12600" resolved="yes"/>
+    <change idref="t45" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-03T05:30:08.127Z" timestamp="2017-01-03T05:30:08.127Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwAAgLFBcaHSAjKC02OT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" to="YnBsaXN0MDCjAQkN1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgACAwVGBseISQpLjc6P0RNUFUAAAAAAAABAQAAAAAAAAARAAAAAAAAAAAAAAAAAAAAWg==" resolved="yes"/>
