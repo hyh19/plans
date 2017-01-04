@@ -483,12 +483,11 @@
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t56">
-    <title>UnitTest</title>
+    <title>Unit Test</title>
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <child-task idref="t58"/>
     <child-task idref="t59"/>
-    <child-task idref="t61"/>
     <child-task idref="t60"/>
     <child-task idref="t67"/>
     <style>
@@ -509,6 +508,9 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -517,8 +519,9 @@
   </task>
   <task id="t59">
     <title>Programming Guide</title>
-    <effort>28800</effort>
+    <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t61"/>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
@@ -539,14 +542,19 @@
   </task>
   <task id="t61">
     <title>Testing with Xcode</title>
-    <effort>28800</effort>
-    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <split/>
+    <effort>14400</effort>
+    <effort-done>5400</effort-done>
+    <child-task idref="t68"/>
+    <child-task idref="t69"/>
     <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t62">
     <title>Articles</title>
@@ -556,6 +564,9 @@
     <style>
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
@@ -572,6 +583,9 @@
     <style>
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
@@ -619,7 +633,41 @@
     <title>Demo</title>
     <effort>28800</effort>
     <start-constraint-date>2017-01-04T02:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-01-04T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t68">
+    <title>Testing with Xcode</title>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-04T07:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-04T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t69">
+    <title>Testing with Xcode</title>
+    <effort>9000</effort>
+    <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
