@@ -130,6 +130,7 @@
               <value key="font-fill">
                 <color space="srgb" r="1" g="0.149131" b="0"/>
               </value>
+              <value key="font-size">13</value>
               <value key="strikethrough-color">
                 <color space="srgb" r="1" g="0.149131" b="0"/>
               </value>
@@ -144,12 +145,19 @@
               <value key="font-fill">
                 <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
               </value>
+              <value key="font-size">13</value>
             </style>
             <lit>Blue: In-Progress</lit>
           </run>
         </p>
         <p>
           <run>
+            <style>
+              <value key="font-fill">
+                <color w="0"/>
+              </value>
+              <value key="font-size">13</value>
+            </style>
             <lit>Black: To-Do</lit>
           </run>
         </p>
@@ -164,7 +172,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -182,7 +189,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -199,7 +205,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -230,7 +235,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -247,7 +251,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -313,7 +316,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -329,7 +331,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -346,7 +347,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -363,7 +363,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -380,7 +379,6 @@
       <value key="font-fill">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="font-size">12</value>
       <value key="strikethrough-color">
         <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
@@ -503,14 +501,18 @@
   <task id="t58">
     <title>Articles</title>
     <split/>
-    <effort>10800</effort>
-    <effort-done>7200</effort-done>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
     <child-task idref="t62"/>
     <child-task idref="t63"/>
     <style>
       <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
   </task>
   <task id="t59">
@@ -553,20 +555,28 @@
     <start-constraint-date>2017-01-03T10:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-03T10:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t63">
     <title>Articles</title>
-    <effort>7200</effort>
-    <effort-done>3600</effort-done>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-04T04:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-04T04:30:00.000Z</start-no-earlier-than>
   </task>

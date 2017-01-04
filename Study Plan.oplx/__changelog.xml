@@ -389,6 +389,162 @@
     <change idref="t58" attribute="internalEffortDone" type="real" from="3600" to="7200" resolved="yes"/>
     <change idref="t63" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-04T07:27:48.916Z" timestamp="2017-01-04T07:27:48.916Z">
+    <change idref="t58" attribute="effort" type="real" from="10800" to="9000" resolved="yes"/>
+    <change idref="t58" attribute="internalEffortDone" type="real" from="7200" to="9000" resolved="yes"/>
+    <change idref="t63" attribute="effort" type="real" from="7200" to="5400" resolved="yes"/>
+    <change idref="t63" attribute="internalEffortDone" type="real" from="3600" to="5400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-04T07:28:36.801Z" timestamp="2017-01-04T07:28:36.801Z">
+    <change idref="t4" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDI1MVxncmVlbjJcYmx1ZTc7XHJlZDBcZ3JlZW4wXGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1Owp9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NzcmdiXGMxMDAwMDBcYzE0OTEzXGMwO1xjc3NyZ2JcYzE2ODBcYzE5ODM1XGMxMDAwMDA7XGNzZ3JheVxjNDA5MjI7Cn0KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcc3RyaWtlIFxzdHJpa2VjMiBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFJlZDogRG9uZVwKXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwClxjZjMgXHN0cmlrZTBcc3RyaWtlZDAgQmx1ZTogSW4tUHJvZ3Jlc3NcClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2Y0IEJsYWNrOiBUby1Eb30=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDI1MVxncmVlbjJcYmx1ZTc7XHJlZDBcZ3JlZW4wXGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjMTAwMDAwXGMxNDkxM1xjMDtcY3NzcmdiXGMxNjgwXGMxOTgzNVxjMTAwMDAwO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNiBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcc3RyaWtlIFxzdHJpa2VjMiBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFJlZDogRG9uZVwKXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwClxjZjMgXHN0cmlrZTBcc3RyaWtlZDAgQmx1ZTogSW4tUHJvZ3Jlc3NcClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YwIEJsYWNrOiBUby1Eb30=" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-04T07:29:27.707Z" timestamp="2017-01-04T07:29:27.707Z">
+    <change idref="t5" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 12;
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t6" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 12;
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t7" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 12;
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t28" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;font-size&quot; = 12;
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+    <change idref="t58" attribute="styleDict" type="dict" from="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-04T07:30:47.773Z" timestamp="2017-01-04T07:30:47.773Z">
+    <change idref="t4" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDI1MVxncmVlbjJcYmx1ZTc7XHJlZDBcZ3JlZW4wXGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1Owp9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NzcmdiXGMxMDAwMDBcYzE0OTEzXGMwO1xjc3NyZ2JcYzE2ODBcYzE5ODM1XGMxMDAwMDA7XGNzZ3JheVxjNDA5MjI7Cn0KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNiBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcc3RyaWtlIFxzdHJpa2VjMiBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFJlZDogRG9uZVwKXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwClxjZjMgXHN0cmlrZTBcc3RyaWtlZDAgQmx1ZTogSW4tUHJvZ3Jlc3NcClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2Y0IEJsYWNrOiBUby1Eb30=" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDI1MVxncmVlbjJcYmx1ZTc7XHJlZDBcZ3JlZW4wXGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7XGNzc3JnYlxjMTAwMDAwXGMxNDkxM1xjMDtcY3NzcmdiXGMxNjgwXGMxOTgzNVxjMTAwMDAwO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNiBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcc3RyaWtlIFxzdHJpa2VjMiBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFJlZDogRG9uZVwKXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwClxjZjMgXHN0cmlrZTBcc3RyaWtlZDAgQmx1ZTogSW4tUHJvZ3Jlc3NcClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMApcY2YwIEJsYWNrOiBUby1Eb30=" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-03T05:30:08.127Z" timestamp="2017-01-03T05:30:08.127Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCiAQnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwAAgLFBcaHSAjKC02OT4AAAAAAAABAQAAAAAAAAANAAAAAAAAAAAAAAAAAAAAQw==" to="YnBsaXN0MDCjAQkN1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgACAwVGBseISQpLjc6P0RNUFUAAAAAAAABAQAAAAAAAAARAAAAAAAAAAAAAAAAAAAAWg==" resolved="yes"/>
   </resource-change-set>
