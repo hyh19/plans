@@ -7,10 +7,10 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1125</split-view-divider-position>
-      <outline x="0" y="0" w="1125" h="961">
+      <split-view-divider-position>1180</split-view-divider-position>
+      <outline x="0" y="0" w="1180" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="432"/>
+        <column name="Title" width="487"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
         <column name="%Done" width="82"/>
@@ -18,10 +18,10 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t56 t20 t59 t46 t49 t4 t8 t3 t47 t1"/>
+        <expanded-items idrefs="t56 t4 t46 t59 t20 t8 t3 t47 t1"/>
         <expanded-item-notes idrefs="t28 t4"/>
       </outline>
-      <gantt-view x="368" y="0" w="449" h="961">
+      <gantt-view x="-29" y="0" w="394" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -53,11 +53,11 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="346.106"/>
-        <scale scale-name="Day" full-day-width="175.06">
+        <scale scale-name="Automatic" full-day-width="346.106">
           <selected/>
         </scale>
-        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Day" full-day-width="60.3452"/>
+        <scale scale-name="Hour" full-day-width="240"/>
         <scale scale-name="Minute" full-day-width="64800"/>
         <scale scale-name="Month" full-day-width="34.5"/>
         <scale scale-name="Quarter" full-day-width="9.6"/>
@@ -141,7 +141,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>76</next-task-id>
+    <next-task-id>77</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
@@ -154,7 +154,7 @@ End:</group-table-style>
     <critical-path-slack>0</critical-path-slack>
     <currency-format>CN¥1,234.56</currency-format>
     <duration-format hours-per-day="6" hours-per-week="42" hours-per-month="180" hours-per-year="2190" hours="true" days="true"/>
-    <effort-format hours-per-day="6" hours-per-week="42" hours-per-month="180" hours-per-year="2190" hours="true"/>
+    <effort-format hours-per-day="6" hours-per-week="42" hours-per-month="180" hours-per-year="2190" hours="true" days="true"/>
     <base-style>
       <style/>
     </base-style>
@@ -200,9 +200,11 @@ End:</group-table-style>
       </style>
     </not-editable-style>
 <!-- completedPercentage == 100 -->
-    <filter name="Completed" flat="0" id="gFbo-ij4uFz">YnBsaXN0MDDUAQIDBAUGY2RYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlZaXmBVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81Njc4WU5TS2V5UGF0aIALEAqACl8QE2NvbXBsZXRlZFBlcmNlbnRhZ2XSKis7PF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jOy4v0iorPj9eTlNNdXRhYmxlQXJyYXmjPkAvV05TQXJyYXnSKitCQ18QE05TS2V5UGF0aEV4cHJlc3Npb26kQkQuL18QFE5TRnVuY3Rpb25FeHByZXNzaW9u00YfC0dISV8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEBBk0iorTE1fEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo0wuL9ULT1BRUlNIVEhVWk5TTW9kaWZpZXJYTlNOZWdhdGVZTlNPcHRpb25zXk5TT3BlcmF0b3JUeXBlgBIIEATSKitXWF8QG05TRXF1YWxpdHlQcmVkaWNhdGVPcGVyYXRvcqNXWS9fEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0iorW1xfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjW10vW05TUHJlZGljYXRl0iorQF+iQC/SKithYl8QE05TQ29tcG91bmRQcmVkaWNhdGWjYV0vXxAPTlNLZXllZEFyY2hpdmVy0WVmVHJvb3SAAQAIABEAGgAjAC0AMgA3AFAAVgBdAHcAiQCQAJIAlACWAJsApgCoAKoArAC1AMkA3ADyAPQA9gD4APoBBQEPAR4BMQE9AT8BQQFDAUUBRwFUAVkBWwFgAWsBdAGHAYsBmAGhAaYBqAGqAawBswG9Ab8BwQHDAdkB3gH9AgECBgIVAhkCIQImAjwCQQJYAl8CcQJzAnUCdwJ5An4CmgKeAqkCtAK9AscC1gLYAtkC2wLgAv4DAgMYAx0DNQM5A0UDSgNNA1IDaANsA34DgQOGAAAAAAAAAgEAAAAAAAAAZwAAAAAAAAAAAAAAAAAAA4g=</filter>
-<!-- completedPercentage == 100 -->
-    <filter name="Last Used" flat="0" id="kez5XInZV2t">YnBsaXN0MDDUAQIDBAUGY2RYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlZaXmBVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81Njc4WU5TS2V5UGF0aIALEAqACl8QE2NvbXBsZXRlZFBlcmNlbnRhZ2XSKis7PF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jOy4v0iorPj9eTlNNdXRhYmxlQXJyYXmjPkAvV05TQXJyYXnSKitCQ18QE05TS2V5UGF0aEV4cHJlc3Npb26kQkQuL18QFE5TRnVuY3Rpb25FeHByZXNzaW9u00YfC0dISV8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEBBk0iorTE1fEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo0wuL9ULT1BRUlNIVEhVWk5TTW9kaWZpZXJYTlNOZWdhdGVZTlNPcHRpb25zXk5TT3BlcmF0b3JUeXBlgBIIEATSKitXWF8QG05TRXF1YWxpdHlQcmVkaWNhdGVPcGVyYXRvcqNXWS9fEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0iorW1xfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjW10vW05TUHJlZGljYXRl0iorQF+iQC/SKithYl8QE05TQ29tcG91bmRQcmVkaWNhdGWjYV0vXxAPTlNLZXllZEFyY2hpdmVy0WVmVHJvb3SAAQAIABEAGgAjAC0AMgA3AFAAVgBdAHcAiQCQAJIAlACWAJsApgCoAKoArAC1AMkA3ADyAPQA9gD4APoBBQEPAR4BMQE9AT8BQQFDAUUBRwFUAVkBWwFgAWsBdAGHAYsBmAGhAaYBqAGqAawBswG9Ab8BwQHDAdkB3gH9AgECBgIVAhkCIQImAjwCQQJYAl8CcQJzAnUCdwJ5An4CmgKeAqkCtAK9AscC1gLYAtkC2wLgAv4DAgMYAx0DNQM5A0UDSgNNA1IDaANsA34DgQOGAAAAAAAAAgEAAAAAAAAAZwAAAAAAAAAAAAAAAAAAA4g=</filter>
+    <filter name="Done" flat="0" id="gFbo-ij4uFz">YnBsaXN0MDDUAQIDBAUGY2RYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QFgcIDxQcJicpMDQ5Oj1BRUpLTlZaXmBVJG51bGzTCQoLDA0OXxAXTlNDb21wb3VuZFByZWRpY2F0ZVR5cGVfEA9OU1N1YnByZWRpY2F0ZXNWJGNsYXNzEAGAAoAV0hALERNaTlMub2JqZWN0c6ESgAOAFNQLFRYXGBkaG18QEU5TUmlnaHRFeHByZXNzaW9uXxAQTlNMZWZ0RXhwcmVzc2lvbl8QE05TUHJlZGljYXRlT3BlcmF0b3KAE4AOgASAEdUdHh8gCyEiIyQlWU5TT3BlcmFuZF5OU1NlbGVjdG9yTmFtZV8QEE5TRXhwcmVzc2lvblR5cGVbTlNBcmd1bWVudHOABoAFEAOACIANXHZhbHVlRm9yS2V5OtIfCwwogAfSKissLVokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMsLi9cTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMTOhMoAJgAzTCx81Njc4WU5TS2V5UGF0aIALEAqACl8QE2NvbXBsZXRlZFBlcmNlbnRhZ2XSKis7PF8QHE5TS2V5UGF0aFNwZWNpZmllckV4cHJlc3Npb26jOy4v0iorPj9eTlNNdXRhYmxlQXJyYXmjPkAvV05TQXJyYXnSKitCQ18QE05TS2V5UGF0aEV4cHJlc3Npb26kQkQuL18QFE5TRnVuY3Rpb25FeHByZXNzaW9u00YfC0dISV8QD05TQ29uc3RhbnRWYWx1ZYAPEACAEBBk0iorTE1fEBlOU0NvbnN0YW50VmFsdWVFeHByZXNzaW9uo0wuL9ULT1BRUlNIVEhVWk5TTW9kaWZpZXJYTlNOZWdhdGVZTlNPcHRpb25zXk5TT3BlcmF0b3JUeXBlgBIIEATSKitXWF8QG05TRXF1YWxpdHlQcmVkaWNhdGVPcGVyYXRvcqNXWS9fEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0iorW1xfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjW10vW05TUHJlZGljYXRl0iorQF+iQC/SKithYl8QE05TQ29tcG91bmRQcmVkaWNhdGWjYV0vXxAPTlNLZXllZEFyY2hpdmVy0WVmVHJvb3SAAQAIABEAGgAjAC0AMgA3AFAAVgBdAHcAiQCQAJIAlACWAJsApgCoAKoArAC1AMkA3ADyAPQA9gD4APoBBQEPAR4BMQE9AT8BQQFDAUUBRwFUAVkBWwFgAWsBdAGHAYsBmAGhAaYBqAGqAawBswG9Ab8BwQHDAdkB3gH9AgECBgIVAhkCIQImAjwCQQJYAl8CcQJzAnUCdwJ5An4CmgKeAqkCtAK9AscC1gLYAtkC2wLgAv4DAgMYAx0DNQM5A0UDSgNNA1IDaANsA34DgQOGAAAAAAAAAgEAAAAAAAAAZwAAAAAAAAAAAAAAAAAAA4g=</filter>
+<!-- completedPercentage < 100 AND completedPercentage > 0 -->
+    <filter name="In-Progress" flat="0" id="eedS7bZlWgL">YnBsaXN0MDDUAQIDBAUGbm9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QGgcIDxUdJygqMTU6Oz5CRktMT1VaXmNJZmlrVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxABgAKAGdIQCxEUWk5TLm9iamVjdHOiEhOAA4AUgBjUCxYXGBkaGxxfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBOADoAEgBHVHh8gIQsiIyQlJllOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSIAsMKYAH0issLS5aJGNsYXNzbmFtZVgkY2xhc3Nlc18QEE5TU2VsZkV4cHJlc3Npb26jLS8wXE5TRXhwcmVzc2lvblhOU09iamVjdNIQCzI0oTOACYAM0wsgNjc4OVlOU0tleVBhdGiACxAKgApfEBNjb21wbGV0ZWRQZXJjZW50YWdl0issPD1fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uozwvMNIrLD9AXk5TTXV0YWJsZUFycmF5oz9BMFdOU0FycmF50issQ0RfEBNOU0tleVBhdGhFeHByZXNzaW9upENFLzBfEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNHIAtISUpfEA9OU0NvbnN0YW50VmFsdWWADxAAgBAQZNIrLE1OXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNNLzDVC1BRUlNUSUlJSVpOU01vZGlmaWVyWU5TVmFyaWFudFlOU09wdGlvbnNeTlNPcGVyYXRvclR5cGWAEtIrLFZXXxAdTlNDb21wYXJpc29uUHJlZGljYXRlT3BlcmF0b3KjWFkwXxAdTlNDb21wYXJpc29uUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0issW1xfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjW10wW05TUHJlZGljYXRl1AsWFxgZYBtigBOAFYAEgBfTRyALZElKgBaAENULUFFSU1RJaElogBIQAtIrLEFqokEw0issbG1fEBNOU0NvbXBvdW5kUHJlZGljYXRlo2xdMF8QD05TS2V5ZWRBcmNoaXZlctFwcVRyb290gAEACAARABoAIwAtADIANwBUAFoAYQB7AI0AlACWAJgAmgCfAKoArQCvALEAswC8ANAA4wD5APsA/QD/AQEBDAEWASUBOAFEAUYBSAFKAUwBTgFbAWABYgFnAXIBewGOAZIBnwGoAa0BrwGxAbMBugHEAcYByAHKAeAB5QIEAggCDQIcAiACKAItAkMCSAJfAmYCeAJ6AnwCfgKAAoUCoQKlArACuwLFAs8C3gLgAuUDBQMJAykDPwNEA1wDYANsA3UDdwN5A3sDfQOEA4YDiAOTA5UDlwOcA58DpAO6A74D0APTA9gAAAAAAAACAQAAAAAAAAByAAAAAAAAAAAAAAAAAAAD2g==</filter>
+<!-- completedPercentage < 100 AND completedPercentage > 0 -->
+    <filter name="Last Used" flat="0" id="kez5XInZV2t">YnBsaXN0MDDUAQIDBAUGbm9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QGgcIDxUdJygqMTU6Oz5CRktMT1VaXmNJZmlrVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxABgAKAGdIQCxEUWk5TLm9iamVjdHOiEhOAA4AUgBjUCxYXGBkaGxxfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBOADoAEgBHVHh8gIQsiIyQlJllOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSIAsMKYAH0issLS5aJGNsYXNzbmFtZVgkY2xhc3Nlc18QEE5TU2VsZkV4cHJlc3Npb26jLS8wXE5TRXhwcmVzc2lvblhOU09iamVjdNIQCzI0oTOACYAM0wsgNjc4OVlOU0tleVBhdGiACxAKgApfEBNjb21wbGV0ZWRQZXJjZW50YWdl0issPD1fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uozwvMNIrLD9AXk5TTXV0YWJsZUFycmF5oz9BMFdOU0FycmF50issQ0RfEBNOU0tleVBhdGhFeHByZXNzaW9upENFLzBfEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNHIAtISUpfEA9OU0NvbnN0YW50VmFsdWWADxAAgBAQZNIrLE1OXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNNLzDVC1BRUlNUSUlJSVpOU01vZGlmaWVyWU5TVmFyaWFudFlOU09wdGlvbnNeTlNPcGVyYXRvclR5cGWAEtIrLFZXXxAdTlNDb21wYXJpc29uUHJlZGljYXRlT3BlcmF0b3KjWFkwXxAdTlNDb21wYXJpc29uUHJlZGljYXRlT3BlcmF0b3JfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0issW1xfEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjW10wW05TUHJlZGljYXRl1AsWFxgZYBtigBOAFYAEgBfTRyALZElKgBaAENULUFFSU1RJaElogBIQAtIrLEFqokEw0issbG1fEBNOU0NvbXBvdW5kUHJlZGljYXRlo2xdMF8QD05TS2V5ZWRBcmNoaXZlctFwcVRyb290gAEACAARABoAIwAtADIANwBUAFoAYQB7AI0AlACWAJgAmgCfAKoArQCvALEAswC8ANAA4wD5APsA/QD/AQEBDAEWASUBOAFEAUYBSAFKAUwBTgFbAWABYgFnAXIBewGOAZIBnwGoAa0BrwGxAbMBugHEAcYByAHKAeAB5QIEAggCDQIcAiACKAItAkMCSAJfAmYCeAJ6AnwCfgKAAoUCoQKlArACuwLFAs8C3gLgAuUDBQMJAykDPwNEA1wDYANsA3UDdwN5A3sDfQOEA4YDiAOTA5UDlwOcA58DpAO6A74D0APTA9gAAAAAAAACAQAAAAAAAAByAAAAAAAAAAAAAAAAAAAD2g==</filter>
     <subscribe-refresh>0</subscribe-refresh>
     <leveling>
       <constrains-completion-date/>

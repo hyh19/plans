@@ -154,7 +154,7 @@
           <run>
             <style>
               <value key="font-fill">
-                <color w="0"/>
+                <color space="gg22" w="0"/>
               </value>
               <value key="font-size">13</value>
             </style>
@@ -179,7 +179,7 @@
     </style>
   </task>
   <task id="t6">
-    <title>Programming Guide</title>
+    <title>Programming Guides</title>
     <split/>
     <effort>18000</effort>
     <effort-done>18000</effort-done>
@@ -227,7 +227,7 @@
     <start-no-earlier-than>2016-12-29T07:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t12">
-    <title>Programming Guide</title>
+    <title>Programming Guides</title>
     <effort>12600</effort>
     <effort-done>12600</effort-done>
     <start-constraint-date>2016-12-27T03:30:00.000Z</start-constraint-date>
@@ -243,7 +243,7 @@
     <start-no-earlier-than>2016-12-27T03:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t13">
-    <title>Programming Guide</title>
+    <title>Programming Guides</title>
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2016-12-28T03:00:00.000Z</start-constraint-date>
@@ -416,9 +416,10 @@
     <type>group</type>
     <child-task idref="t47"/>
     <child-task idref="t49"/>
+    <child-task idref="t76"/>
   </task>
   <task id="t47">
-    <title>Programming Guide</title>
+    <title>Programming Guides</title>
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <child-task idref="t48"/>
@@ -429,15 +430,19 @@
   <task id="t48">
     <title>AVFoundation Programming Guide</title>
     <split/>
-    <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort>18000</effort>
+    <effort-done>18000</effort-done>
     <child-task idref="t64"/>
     <child-task idref="t65"/>
     <child-task idref="t66"/>
     <style>
       <value key="font-fill">
-        <color r="0" g="0" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
   </task>
   <task id="t49">
@@ -520,7 +525,7 @@
     </style>
   </task>
   <task id="t59">
-    <title>Programming Guide</title>
+    <title>Programming Guides</title>
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <child-task idref="t61"/>
@@ -603,8 +608,12 @@
     <start-constraint-date>2017-01-03T07:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
-        <color r="0" g="0" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-03T07:00:00.000Z</start-no-earlier-than>
   </task>
@@ -615,19 +624,28 @@
     <start-constraint-date>2017-01-04T02:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
-        <color r="0" g="0" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-04T02:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t66">
     <title>AVFoundation Programming Guide</title>
-    <effort>14400</effort>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
-        <color r="0" g="0" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
@@ -681,6 +699,12 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-05T10:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t76">
+    <title>Sample Code</title>
+    <effort>43200</effort>
+    <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
