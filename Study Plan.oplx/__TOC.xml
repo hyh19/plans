@@ -20,9 +20,8 @@
         <column name="Dependents" width="84"/>
         <expanded-items idrefs="t56 t4 t46 t59 t20 t8 t3 t47 t76 t1"/>
         <expanded-item-notes idrefs="t4"/>
-        <selected-items-at-filter-time idrefs="t77"/>
       </outline>
-      <gantt-view x="-26" y="0" w="394" h="961">
+      <gantt-view x="639" y="0" w="394" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -142,7 +141,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>78</next-task-id>
+    <next-task-id>81</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

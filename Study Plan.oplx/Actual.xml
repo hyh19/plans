@@ -720,8 +720,37 @@
     <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t77">
-    <title>AVCam-iOS: Using AVFoundation to Capture Images and Movies</title>
+    <title>AVCam-iOS</title>
+    <split/>
     <effort>21600</effort>
+    <effort-done>10800</effort-done>
+    <child-task idref="t78"/>
+    <child-task idref="t79"/>
+    <child-task idref="t80"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://developer.apple.com/library/content/samplecode/AVCam</value>
+            </style>
+            <lit>https://developer.apple.com/library/content/samplecode/AVCam</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+  </task>
+  <task id="t78">
+    <title>AVCam-iOS</title>
+    <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-01-05T04:30:00.000Z</start-constraint-date>
     <note>
@@ -736,7 +765,68 @@
         </p>
       </text>
     </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-01-05T04:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t79">
+    <title>AVCam-iOS</title>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-05T07:30:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://developer.apple.com/library/content/samplecode/AVCam</value>
+            </style>
+            <lit>https://developer.apple.com/library/content/samplecode/AVCam</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-05T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t80">
+    <title>AVCam-iOS</title>
+    <effort>10800</effort>
+    <start-constraint-date>2017-01-06T03:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://developer.apple.com/library/content/samplecode/AVCam</value>
+            </style>
+            <lit>https://developer.apple.com/library/content/samplecode/AVCam</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-06T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
