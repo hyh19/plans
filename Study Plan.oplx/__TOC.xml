@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1294" y="-280" w="1876" h="1057">
+  <window x="1292" y="-280" w="1876" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>k7EQy-rrBPn</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>960</split-view-divider-position>
-      <outline x="5" y="0" w="960" h="938">
+      <split-view-divider-position>1071</split-view-divider-position>
+      <outline x="0" y="0" w="1071" h="938">
         <column name="Notes" width="20"/>
         <column name="Title" width="371"/>
         <column name="Effort" width="70"/>
@@ -21,7 +21,7 @@
         <expanded-items idrefs="t56 t46 t20 t59 t4 t8 t3 t47 t76 t1"/>
         <expanded-item-notes idrefs="t4"/>
       </outline>
-      <gantt-view x="20659" y="0" w="614" h="938">
+      <gantt-view x="19236" y="0" w="503" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -68,13 +68,13 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="961">
+      <outline x="0" y="0" w="306" h="938">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="157"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="-80" y="0" w="1240" h="961">
+      <timeline x="-80" y="0" w="1240" h="938">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -118,7 +118,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="778">
+      <outline x="0" y="0" w="290" h="755">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="175"/>
