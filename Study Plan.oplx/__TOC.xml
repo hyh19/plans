@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1289" y="-281" w="1876" h="1057">
+  <window x="1283" y="-280" w="1876" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>k7EQy-rrBPn</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1071</split-view-divider-position>
-      <outline x="0" y="0" w="1071" h="938">
+      <split-view-divider-position>1139</split-view-divider-position>
+      <outline x="0" y="0" w="1139" h="938">
         <column name="Notes" width="20"/>
-        <column name="Title" width="371"/>
+        <column name="Title" width="436"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
@@ -19,11 +19,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t60 t4 t49 t20 t59 t76 t22 t8 t47 t89 t1"/>
+        <expanded-items idrefs="t89 t4 t20 t76 t49 t59 t22 t8 t47 t60 t1"/>
         <expanded-item-notes idrefs="t48 t4"/>
         <selected-items-at-filter-time idrefs="t89"/>
       </outline>
-      <gantt-view x="25961" y="0" w="503" h="938">
+      <gantt-view x="25557" y="0" w="435" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>95</next-task-id>
+    <next-task-id>96</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

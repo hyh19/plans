@@ -1,145 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2017-01-04T09:08:15.495Z" timestamp="2017-01-04T09:08:15.495Z">
-    <change idref="t59" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t59" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
-    <change idref="t59" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
-    <change idref="t59" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
-    <change idref="t59" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
-    <change idref="t59" attribute="staticCost" type="real" from="0" resolved="yes"/>
-    <change idref="t59" attribute="effort" type="real" from="28800" resolved="yes"/>
-    <change idref="t59" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
-    <change idref="t59" attribute="scheduleType" type="real" from="0" resolved="yes"/>
-    <change idref="t59" attribute="internalAssignments" type="string" from="" resolved="yes"/>
-    <change idref="t59" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
-    <change idref="t59" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
-    <change idref="t61" from="t56" from-position="2" to="t59" to-position="0" resolved="yes"/>
-    <change idref="t61" attribute="effort" type="real" from="28800" to="14400" resolved="yes"/>
-    <change idref="t61" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-03T03:00:00.000Z" to="2017-01-04T07:30:00.000Z" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-04T09:08:22.055Z" timestamp="2017-01-04T09:08:22.055Z">
-    <change idref="t61" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-04T09:08:36.781Z" timestamp="2017-01-04T09:08:36.781Z">
-    <change idref="t61" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-04T07:30:00.000Z" resolved="yes"/>
-    <change idref="t61" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t68" to="t61" to-position="0" resolved="yes">
-      <change idref="t68" attribute="effort" type="real" from="28800" to="5400"/>
-      <change idref="t68" attribute="internalEffortDone" type="real" from="0" to="5400"/>
-      <change idref="t68" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t68" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-04T07:30:00.000Z"/>
-      <change idref="t68" attribute="styleDict" type="dict" to="{
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t68" attribute="title" type="string" to="Testing with Xcode #1"/>
-    </change>
-    <change idref="t69" to="t61" to-position="1" resolved="yes">
-      <change idref="t69" attribute="effort" type="real" from="28800" to="9000"/>
-      <change idref="t69" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t69" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-05T03:00:00.000Z"/>
-      <change idref="t69" attribute="styleDict" type="dict" to="{
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t69" attribute="title" type="string" to="Testing with Xcode #2"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-04T09:08:47.079Z" timestamp="2017-01-04T09:08:47.079Z">
-    <change idref="t61" attribute="styleDict" type="dict" from="{
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-04T09:08:59.137Z" timestamp="2017-01-04T09:08:59.137Z">
-    <change idref="t56" attribute="title" type="string" from="UnitTest" to="Unit Test" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-04T09:10:12.789Z" timestamp="2017-01-04T09:10:12.789Z">
-    <change idref="t58" attribute="styleDict" type="dict" from="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = &quot;0.149131&quot;;
-        r = 1;
-        space = srgb;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = &quot;0.149131&quot;;
-        r = 1;
-        space = srgb;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" to="{
-    &quot;font-fill&quot; =     {
-        b = 0;
-        g = &quot;0.149131&quot;;
-        r = 1;
-        space = srgb;
-    };
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-    &quot;strikethrough-color&quot; =     {
-        b = 0;
-        g = &quot;0.149131&quot;;
-        r = 1;
-        space = srgb;
-    };
-    &quot;strikethrough-style&quot; = single;
-}" resolved="yes"/>
-    <change idref="t61" attribute="styleDict" type="dict" from="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}" resolved="yes"/>
-    <change idref="t67" attribute="styleDict" type="dict" to="{
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-04T11:20:24.483Z" timestamp="2017-01-04T11:20:24.483Z">
     <change idref="t70" to="t21" to-position="2" resolved="yes">
       <change idref="t70" attribute="effort" type="real" from="28800" to="203400"/>
@@ -613,6 +474,29 @@
   <task-change-set user="Yuhui Huang" date="2017-01-06T08:58:40.264Z" timestamp="2017-01-06T08:58:40.264Z">
     <change idref="t54" attribute="priority" type="real" from="0" to="1000" resolved="yes"/>
     <change idref="t55" attribute="priority" type="real" from="0" to="1000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-06T10:29:24.336Z" timestamp="2017-01-06T10:29:24.336Z">
+    <change idref="t90" attribute="internalEffortDone" type="real" from="18000" to="23400" resolved="yes"/>
+    <change idref="t94" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-06T10:00:00.000Z" to="2017-01-06T09:00:00.000Z" resolved="yes"/>
+    <change idref="t94" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-06T10:29:57.620Z" timestamp="2017-01-06T10:29:57.620Z">
+    <change idref="t95" to="t90" to-position="4" resolved="yes">
+      <change idref="t95" attribute="effort" type="real" from="28800" to="16200"/>
+      <change idref="t95" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t95" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-07T09:00:00.000Z"/>
+      <change idref="t95" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t95" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t95" attribute="title" type="string" to="数据结构基础 #5"/>
+    </change>
+    <change idref="t94" attribute="effort" type="real" from="21600" to="5400" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-05T12:03:10.451Z" timestamp="2017-01-05T12:03:10.451Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDClAQkNERTUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEggOFxodICMmKzA5PEFGT1JXXGVobQAAAAAAAAEBAAAAAAAAABUAAAAAAAAAAAAAAAAAAAB2" to="YnBsaXN0MDCmAQkNERQV1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtgIDxgbHiEkJywxOj1CR1BTWF1maW53gAAAAAAAAAEBAAAAAAAAABcAAAAAAAAAAAAAAAAAAACD" resolved="yes"/>
