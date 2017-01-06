@@ -263,7 +263,7 @@
   <task id="t20">
     <title>Data Structure &amp; Algorithm</title>
     <type>group</type>
-    <child-task idref="t21"/>
+    <child-task idref="t89"/>
     <child-task idref="t22"/>
     <style>
       <value key="gantt-fill-color">
@@ -271,24 +271,9 @@
       </value>
     </style>
   </task>
-  <task id="t21">
-    <title>妙趣横生的算法（C语言实现）</title>
-    <split/>
-    <effort>216000</effort>
-    <effort-done>18000</effort-done>
-    <child-task idref="t44"/>
-    <child-task idref="t45"/>
-    <child-task idref="t70"/>
-    <child-task idref="t82"/>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-    </style>
-  </task>
   <task id="t22">
     <title>妙趣横生的算法（C++语言实现）</title>
-    <effort>216000</effort>
+    <type>group</type>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
@@ -390,30 +375,6 @@
     </style>
     <start-no-earlier-than>2017-01-01T03:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t44">
-    <title>妙趣横生的算法（C语言实现）</title>
-    <effort>9000</effort>
-    <effort-done>9000</effort-done>
-    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-    </style>
-    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t45">
-    <title>妙趣横生的算法（C语言实现）</title>
-    <effort>3600</effort>
-    <effort-done>3600</effort-done>
-    <start-constraint-date>2017-01-04T10:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-    </style>
-    <start-no-earlier-than>2017-01-04T10:00:00.000Z</start-no-earlier-than>
-  </task>
   <task id="t46">
     <title>Media</title>
     <type>group</type>
@@ -433,6 +394,7 @@
   <task id="t48">
     <title>AVFoundation Programming Guide</title>
     <split/>
+    <priority>1000</priority>
     <effort>18000</effort>
     <effort-done>18000</effort-done>
     <child-task idref="t64"/>
@@ -470,36 +432,42 @@
   </task>
   <task id="t50">
     <title>AVFoundation</title>
+    <priority>1000</priority>
     <effort>7200</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t51">
     <title>AudioToolbox</title>
+    <priority>1000</priority>
     <effort>7200</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t52">
     <title>AVKit</title>
+    <priority>1000</priority>
     <effort>7200</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t53">
     <title>VideoToolbox</title>
+    <priority>1000</priority>
     <effort>7200</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t54">
     <title>Multimedia Programming Guide</title>
+    <priority>1000</priority>
     <effort>28800</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t55">
     <title>Audio Session Programming Guide</title>
+    <priority>1000</priority>
     <effort>28800</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
@@ -512,6 +480,7 @@
     <child-task idref="t59"/>
     <child-task idref="t60"/>
     <child-task idref="t67"/>
+    <child-task idref="t88"/>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
@@ -553,7 +522,7 @@
   </task>
   <task id="t60">
     <title>API Reference</title>
-    <effort>28800</effort>
+    <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="gantt-fill-color">
@@ -618,6 +587,7 @@
   </task>
   <task id="t64">
     <title>AVFoundation Programming Guide</title>
+    <priority>1000</priority>
     <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-01-03T07:00:00.000Z</start-constraint-date>
@@ -634,6 +604,7 @@
   </task>
   <task id="t65">
     <title>AVFoundation Programming Guide</title>
+    <priority>1000</priority>
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-04T02:30:00.000Z</start-constraint-date>
@@ -650,6 +621,7 @@
   </task>
   <task id="t66">
     <title>AVFoundation Programming Guide</title>
+    <priority>1000</priority>
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
@@ -704,18 +676,6 @@
     </style>
     <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t70">
-    <title>妙趣横生的算法（C语言实现）</title>
-    <effort>5400</effort>
-    <effort-done>5400</effort-done>
-    <start-constraint-date>2017-01-05T10:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-    </style>
-    <start-no-earlier-than>2017-01-05T10:30:00.000Z</start-no-earlier-than>
-  </task>
   <task id="t76">
     <title>Sample Code</title>
     <type>group</type>
@@ -726,6 +686,7 @@
   <task id="t77">
     <title>AVCam-iOS</title>
     <split/>
+    <priority>1000</priority>
     <effort>19800</effort>
     <effort-done>19800</effort-done>
     <child-task idref="t78"/>
@@ -755,6 +716,7 @@
   </task>
   <task id="t78">
     <title>AVCam-iOS</title>
+    <priority>1000</priority>
     <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-01-05T04:30:00.000Z</start-constraint-date>
@@ -783,6 +745,7 @@
   </task>
   <task id="t79">
     <title>AVCam-iOS</title>
+    <priority>1000</priority>
     <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-01-05T07:30:00.000Z</start-constraint-date>
@@ -811,6 +774,7 @@
   </task>
   <task id="t80">
     <title>AVCam-iOS</title>
+    <priority>1000</priority>
     <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-01-06T02:00:00.000Z</start-constraint-date>
@@ -837,9 +801,91 @@
     </style>
     <start-no-earlier-than>2017-01-06T02:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t82">
+  <task id="t88">
+    <title>XCTest</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-01-06T07:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <start-no-earlier-than>2017-01-06T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t89">
     <title>妙趣横生的算法（C语言实现）</title>
-    <effort>198000</effort>
+    <type>group</type>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t90"/>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t90">
+    <title>数据结构基础</title>
+    <split/>
+    <priority>1000</priority>
+    <effort>39600</effort>
+    <effort-done>18000</effort-done>
+    <child-task idref="t91"/>
+    <child-task idref="t92"/>
+    <child-task idref="t93"/>
+    <child-task idref="t94"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t91">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t92">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-04T10:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-04T10:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t93">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-05T10:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-05T10:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t94">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>21600</effort>
     <start-constraint-date>2017-01-06T10:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
