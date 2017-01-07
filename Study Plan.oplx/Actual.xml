@@ -681,6 +681,7 @@
     <type>group</type>
     <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
     <child-task idref="t77"/>
+    <child-task idref="t96"/>
     <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t77">
@@ -907,6 +908,35 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-07T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t96">
+    <title>AVCamManual</title>
+    <priority>2000</priority>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-01-07T03:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://developer.apple.com/library/content/samplecode/AVCamManual</value>
+            </style>
+            <lit>https://developer.apple.com/library/content/samplecode/AVCamManual</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
+      </value>
+      <value key="strikethrough-style">single</value>
+    </style>
+    <start-no-earlier-than>2017-01-07T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
