@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1278" y="-280" w="1876" h="1057">
+  <window x="1277" y="-280" w="1876" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>k7EQy-rrBPn</comparison-scenario>
     <view>task</view>
-    <current-filter>gwloCJB5PjO</current-filter>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1098</split-view-divider-position>
-      <outline x="0" y="0" w="1098" h="917">
+      <outline x="0" y="0" w="1098" h="938">
         <column name="Notes" width="20"/>
         <column name="Title" width="344"/>
         <column name="Priority" width="60"/>
@@ -22,9 +21,8 @@
         <column name="Dependents" width="84"/>
         <expanded-items idrefs="t60 t4 t49 t46 t20 t59 t8 t47 t89 t1"/>
         <expanded-item-notes idrefs="t48 t4 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t54 t96 t50 t92 t55 t51 t80 t64 t93 t48 t77 t98 t52 t65 t94 t78 t53 t90 t66 t95 t79 t91"/>
       </outline>
-      <gantt-view x="25073" y="0" w="476" h="917">
+      <gantt-view x="25073" y="0" w="476" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
