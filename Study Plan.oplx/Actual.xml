@@ -109,6 +109,7 @@
     <child-task idref="t3"/>
     <child-task idref="t46"/>
     <child-task idref="t56"/>
+    <child-task idref="t99"/>
   </task>
   <task id="t3">
     <title>Runtime</title>
@@ -432,7 +433,7 @@
   </task>
   <task id="t50">
     <title>AVFoundation</title>
-    <priority>2000</priority>
+    <priority>1000</priority>
     <effort>14400</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-01-07T04:30:00.000Z</start-constraint-date>
@@ -943,6 +944,40 @@
       <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-07T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t99">
+    <title>Threading</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-07T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t100"/>
+    <start-no-earlier-than>2017-01-07T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t100">
+    <title>Guides</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-07T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t101"/>
+    <start-no-earlier-than>2017-01-07T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t101">
+    <title>Threading Programming Guide</title>
+    <priority>1000</priority>
+    <effort>21600</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-07T07:30:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</value>
+            </style>
+            <lit>https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <start-no-earlier-than>2017-01-07T07:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

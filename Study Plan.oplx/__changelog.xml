@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2017-01-05T07:02:34.573Z" timestamp="2017-01-05T07:02:34.573Z">
-    <change idref="t77" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-05T10:19:17.469Z" timestamp="2017-01-05T10:19:17.469Z">
     <change idref="t77" attribute="title" type="string" from="AVCam-iOS: Using AVFoundation to Capture Images and Movies" to="AVCam-iOS" resolved="yes"/>
     <change idref="t77" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-05T04:30:00.000Z" resolved="yes"/>
@@ -468,6 +452,40 @@
         space = srgb;
     };
 }" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-07T07:03:30.268Z" timestamp="2017-01-07T07:03:30.268Z">
+    <change idref="t99" to="t1" to-position="3" resolved="yes">
+      <change idref="t99" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t99" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-07T03:00:00.000Z"/>
+      <change idref="t99" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t99" attribute="title" type="string" to="Threading"/>
+    </change>
+    <change idref="t100" to="t99" to-position="0" resolved="yes">
+      <change idref="t100" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t100" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-07T03:00:00.000Z"/>
+      <change idref="t100" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t100" attribute="title" type="string" to="Guides"/>
+    </change>
+    <change idref="t101" to="t100" to-position="0" resolved="yes">
+      <change idref="t101" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-07T03:00:00.000Z"/>
+      <change idref="t101" attribute="title" type="string" to="Threading Programming Guide"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-07T07:03:41.809Z" timestamp="2017-01-07T07:03:41.809Z">
+    <change idref="t101" attribute="effort" type="real" from="28800" to="21600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-07T07:04:09.595Z" timestamp="2017-01-07T07:04:09.595Z">
+    <change idref="t50" attribute="priority" type="real" from="2000" to="1000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-07T07:04:46.821Z" timestamp="2017-01-07T07:04:46.821Z">
+    <change idref="t101" attribute="priority" type="real" from="0" to="1000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-07T08:47:39.454Z" timestamp="2017-01-07T08:47:39.454Z">
+    <change idref="t101" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvZG9jdW1lbnRhdGlvbi9Db2NvYS9Db25jZXB0dWFsL011bHRpdGhyZWFkaW5nIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvZG9jdW1lbnRhdGlvbi9Db2NvYS9Db25jZXB0dWFsL011bHRpdGhyZWFkaW5nfX19" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-07T08:48:16.934Z" timestamp="2017-01-07T08:48:16.934Z">
+    <change idref="t101" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-07T03:00:00.000Z" to="2017-01-07T07:30:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-05T12:03:10.451Z" timestamp="2017-01-05T12:03:10.451Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDClAQkNERTUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEggOFxodICMmKzA5PEFGT1JXXGVobQAAAAAAAAEBAAAAAAAAABUAAAAAAAAAAAAAAAAAAAB2" to="YnBsaXN0MDCmAQkNERQV1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtgIDxgbHiEkJywxOj1CR1BTWF1maW53gAAAAAAAAAEBAAAAAAAAABcAAAAAAAAAAAAAAAAAAACD" resolved="yes"/>
