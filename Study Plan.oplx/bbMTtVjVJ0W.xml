@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="aTkDw3MqWDS">
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="bbMTtVjVJ0W">
   <start-date>2016-12-26T07:30:00.000Z</start-date>
   <prototype-task>
     <task id="t-2">
@@ -125,61 +125,11 @@
     <type>group</type>
     <child-task idref="t1"/>
     <child-task idref="t20"/>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="font-fill">
-                <color space="srgb" r="1" g="0.149131" b="0"/>
-              </value>
-              <value key="font-size">13</value>
-              <value key="strikethrough-color">
-                <color space="srgb" r="1" g="0.149131" b="0"/>
-              </value>
-              <value key="strikethrough-style">single</value>
-            </style>
-            <lit>Red: Done</lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <style>
-              <value key="font-fill">
-                <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-              </value>
-              <value key="font-size">13</value>
-            </style>
-            <lit>Blue: In-Progress</lit>
-          </run>
-        </p>
-        <p>
-          <run>
-            <style>
-              <value key="font-fill">
-                <color space="gg22" w="0"/>
-              </value>
-              <value key="font-size">13</value>
-            </style>
-            <lit>Black: To-Do</lit>
-          </run>
-        </p>
-      </text>
-    </note>
   </task>
   <task id="t5">
     <title>API Reference</title>
     <effort>7200</effort>
     <effort-done>7200</effort-done>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
   </task>
   <task id="t6">
     <title>Programming Guides</title>
@@ -188,15 +138,6 @@
     <effort-done>18000</effort-done>
     <child-task idref="t12"/>
     <child-task idref="t13"/>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <prerequisite-task idref="t5"/>
   </task>
   <task id="t7">
@@ -204,15 +145,6 @@
     <effort>18000</effort>
     <effort-done>18000</effort-done>
     <start-constraint-date>2016-12-28T07:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <prerequisite-task idref="t6"/>
     <start-no-earlier-than>2016-12-28T07:00:00.000Z</start-no-earlier-than>
   </task>
@@ -234,15 +166,6 @@
     <effort>12600</effort>
     <effort-done>12600</effort-done>
     <start-constraint-date>2016-12-27T03:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2016-12-27T03:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t13">
@@ -250,15 +173,6 @@
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2016-12-28T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2016-12-28T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t20">
@@ -266,20 +180,10 @@
     <type>group</type>
     <child-task idref="t89"/>
     <child-task idref="t22"/>
-    <style>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
   </task>
   <task id="t22">
     <title>妙趣横生的算法（C++语言实现）</title>
     <type>group</type>
-    <style>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
   </task>
   <task id="t28">
     <title>Aspects</title>
@@ -289,42 +193,12 @@
     <child-task idref="t29"/>
     <child-task idref="t30"/>
     <child-task idref="t32"/>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="link">https://github.com/steipete/Aspects</value>
-            </style>
-            <lit>https://github.com/steipete/Aspects</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
   </task>
   <task id="t29">
     <title>Aspects</title>
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2016-12-29T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2016-12-29T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t30">
@@ -332,15 +206,6 @@
     <effort>25200</effort>
     <effort-done>25200</effort-done>
     <start-constraint-date>2016-12-30T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2016-12-30T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t32">
@@ -348,15 +213,6 @@
     <effort>46800</effort>
     <effort-done>46800</effort-done>
     <start-constraint-date>2017-01-01T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-01T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t46">
@@ -384,27 +240,6 @@
     <child-task idref="t64"/>
     <child-task idref="t65"/>
     <child-task idref="t66"/>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="link">https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/AVFoundationPG</value>
-            </style>
-            <lit>https://developer.apple.com/library/content/documentation/AudioVideo/Conceptual/AVFoundationPG</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
   </task>
   <task id="t49">
     <title>API Reference</title>
@@ -420,11 +255,6 @@
     <effort>14400</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-01-07T04:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-07T04:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t51">
@@ -471,11 +301,6 @@
     <child-task idref="t60"/>
     <child-task idref="t67"/>
     <child-task idref="t88"/>
-    <style>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t58">
@@ -485,40 +310,18 @@
     <effort-done>9000</effort-done>
     <child-task idref="t62"/>
     <child-task idref="t63"/>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
   </task>
   <task id="t59">
     <title>Programming Guides</title>
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <child-task idref="t61"/>
-    <style>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t60">
     <title>API Reference</title>
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t61">
@@ -528,32 +331,12 @@
     <effort-done>5400</effort-done>
     <child-task idref="t68"/>
     <child-task idref="t69"/>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-    </style>
   </task>
   <task id="t62">
     <title>Articles</title>
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-03T10:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-03T10:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t63">
@@ -561,18 +344,6 @@
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-04T04:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-04T04:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t64">
@@ -581,15 +352,6 @@
     <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-01-03T07:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-03T07:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t65">
@@ -598,15 +360,6 @@
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-04T02:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-04T02:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t66">
@@ -615,26 +368,12 @@
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t67">
     <title>Demo</title>
     <effort>28800</effort>
     <start-constraint-date>2017-01-04T02:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-04T02:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t68">
@@ -642,28 +381,12 @@
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-04T07:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-04T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t69">
     <title>Testing with Xcode</title>
     <effort>9000</effort>
     <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t76">
@@ -683,27 +406,6 @@
     <child-task idref="t78"/>
     <child-task idref="t79"/>
     <child-task idref="t80"/>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="link">https://developer.apple.com/library/content/samplecode/AVCam</value>
-            </style>
-            <lit>https://developer.apple.com/library/content/samplecode/AVCam</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
   </task>
   <task id="t78">
     <title>AVCam-iOS</title>
@@ -711,27 +413,6 @@
     <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-01-05T04:30:00.000Z</start-constraint-date>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="link">https://developer.apple.com/library/content/samplecode/AVCam</value>
-            </style>
-            <lit>https://developer.apple.com/library/content/samplecode/AVCam</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-05T04:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t79">
@@ -740,27 +421,6 @@
     <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-01-05T07:30:00.000Z</start-constraint-date>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="link">https://developer.apple.com/library/content/samplecode/AVCam</value>
-            </style>
-            <lit>https://developer.apple.com/library/content/samplecode/AVCam</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-05T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t80">
@@ -769,27 +429,6 @@
     <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-01-06T02:00:00.000Z</start-constraint-date>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="link">https://developer.apple.com/library/content/samplecode/AVCam</value>
-            </style>
-            <lit>https://developer.apple.com/library/content/samplecode/AVCam</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-06T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t88">
@@ -797,18 +436,6 @@
     <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-01-06T07:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-06T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t89">
@@ -816,11 +443,6 @@
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <child-task idref="t90"/>
-    <style>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t90">
@@ -835,14 +457,6 @@
     <child-task idref="t94"/>
     <child-task idref="t95"/>
     <child-task idref="t107"/>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
   </task>
   <task id="t91">
     <title>数据结构基础</title>
@@ -850,14 +464,6 @@
     <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t92">
@@ -866,14 +472,6 @@
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-04T10:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-04T10:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t93">
@@ -882,14 +480,6 @@
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-05T10:30:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-05T10:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t94">
@@ -898,14 +488,6 @@
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-06T09:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-06T09:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t95">
@@ -914,14 +496,6 @@
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-07T09:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-07T09:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t96">
@@ -930,27 +504,6 @@
     <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-01-07T03:00:00.000Z</start-constraint-date>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="link">https://developer.apple.com/library/content/samplecode/AVCamManual</value>
-            </style>
-            <lit>https://developer.apple.com/library/content/samplecode/AVCamManual</lit>
-          </run>
-        </p>
-      </text>
-    </note>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-color">
-        <color space="srgb" r="1" g="0.149131" b="0"/>
-      </value>
-      <value key="strikethrough-style">single</value>
-    </style>
     <start-no-earlier-than>2017-01-07T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t99">
@@ -973,18 +526,6 @@
     <effort>21600</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-07T07:30:00.000Z</start-constraint-date>
-    <note>
-      <text>
-        <p>
-          <run>
-            <style>
-              <value key="link">https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</value>
-            </style>
-            <lit>https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</lit>
-          </run>
-        </p>
-      </text>
-    </note>
     <start-no-earlier-than>2017-01-07T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t107">
@@ -992,14 +533,6 @@
     <priority>1000</priority>
     <effort>12600</effort>
     <start-constraint-date>2017-01-08T09:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
-      </value>
-    </style>
     <start-no-earlier-than>2017-01-08T09:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
