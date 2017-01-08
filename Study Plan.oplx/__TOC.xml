@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1280" y="-280" w="1876" h="1057">
+  <window x="1284" y="-280" w="1875" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>bbMTtVjVJ0W</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1129</split-view-divider-position>
-      <outline x="0" y="169" w="1129" h="938">
+      <split-view-divider-position>1283</split-view-divider-position>
+      <outline x="0" y="109" w="1283" h="923">
         <column name="Notes" width="20"/>
-        <column name="Title" width="375"/>
+        <column name="Title" width="415"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
-        <column name="Effort Done" width="83"/>
         <column name="%Done" width="82"/>
+        <column name="Effort Done" width="83"/>
+        <column name="Remaining Effort" width="113"/>
         <column name="Start" width="127"/>
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t3 t8 t49 t4 t22 t47 t89 t20 t56 t1 t100 t76 t59 t60 t46 t99"/>
-        <expanded-item-notes idrefs="t77 t48 t4 t96 t101"/>
+        <expanded-items idrefs="t8 t99 t49 t4 t22 t47 t89 t20 t1 t56 t100 t76 t59 t60 t3 t46"/>
+        <expanded-item-notes idrefs="t48 t4 t77 t96 t101"/>
+        <selected-items-at-filter-time idrefs="t108"/>
       </outline>
-      <gantt-view x="-56" y="169" w="445" h="938">
+      <gantt-view x="-18" y="109" w="260" h="923">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -119,10 +121,10 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="914">
+      <outline x="0" y="0" w="275" h="740">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="175"/>
+        <column name="Resource" width="160"/>
         <column name="Custom Work Week" width="20"/>
         <column name="Schedule Exception" width="20"/>
       </outline>
@@ -142,7 +144,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>108</next-task-id>
+    <next-task-id>111</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

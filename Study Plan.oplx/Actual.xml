@@ -86,6 +86,7 @@
         <event start="2017-01-04T05:00:00.000Z" end="2017-01-04T05:30:00.000Z" sd="5847" st="46800" ed="5847" et="48600"/>
         <event start="2017-01-05T11:00:00.000Z" end="2017-01-05T12:00:00.000Z" sd="5848" st="68400" ed="5848" et="72000"/>
         <event start="2017-01-06T02:30:00.000Z" end="2017-01-06T03:00:00.000Z" sd="5849" st="37800" ed="5849" et="39600"/>
+        <event start="2017-01-08T05:00:00.000Z" end="2017-01-08T05:30:00.000Z" sd="5851" st="46800" ed="5851" et="48600"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -416,7 +417,7 @@
   </task>
   <task id="t50">
     <title>AVFoundation</title>
-    <priority>1000</priority>
+    <priority>100</priority>
     <effort>14400</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-01-07T04:30:00.000Z</start-constraint-date>
@@ -524,6 +525,7 @@
   <task id="t61">
     <title>Testing with Xcode</title>
     <split/>
+    <priority>100</priority>
     <effort>14400</effort>
     <effort-done>5400</effort-done>
     <child-task idref="t68"/>
@@ -639,6 +641,7 @@
   </task>
   <task id="t68">
     <title>Testing with Xcode</title>
+    <priority>100</priority>
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-04T07:30:00.000Z</start-constraint-date>
@@ -654,6 +657,7 @@
   </task>
   <task id="t69">
     <title>Testing with Xcode</title>
+    <priority>100</priority>
     <effort>9000</effort>
     <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
     <style>
@@ -816,6 +820,7 @@
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <child-task idref="t90"/>
+    <child-task idref="t108"/>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
@@ -969,7 +974,7 @@
   </task>
   <task id="t101">
     <title>Threading Programming Guide</title>
-    <priority>1000</priority>
+    <priority>100</priority>
     <effort>21600</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-07T07:30:00.000Z</start-constraint-date>
@@ -985,6 +990,14 @@
         </p>
       </text>
     </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-01-07T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t107">
@@ -1001,6 +1014,54 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-08T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t108">
+    <title>常用的查找与排序算法</title>
+    <split/>
+    <priority>1000</priority>
+    <effort>28800</effort>
+    <effort-done>9000</effort-done>
+    <child-task idref="t109"/>
+    <child-task idref="t110"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
+      </value>
+    </style>
+  </task>
+  <task id="t109">
+    <title>常用的查找与排序算法</title>
+    <priority>1000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-08T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-08T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t110">
+    <title>常用的查找与排序算法</title>
+    <priority>1000</priority>
+    <effort>19800</effort>
+    <start-constraint-date>2017-01-09T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-09T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
