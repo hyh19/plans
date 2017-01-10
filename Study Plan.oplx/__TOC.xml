@@ -7,10 +7,10 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1283</split-view-divider-position>
-      <outline x="0" y="109" w="1283" h="923">
+      <split-view-divider-position>1239</split-view-divider-position>
+      <outline x="0" y="119" w="1239" h="938">
         <column name="Notes" width="20"/>
-        <column name="Title" width="415"/>
+        <column name="Title" width="371"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -20,11 +20,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t8 t99 t49 t4 t22 t47 t89 t20 t1 t56 t100 t76 t59 t60 t3 t46"/>
-        <expanded-item-notes idrefs="t48 t4 t77 t96 t101"/>
+        <expanded-items idrefs="t8 t3 t49 t4 t22 t47 t89 t20 t1 t56 t100 t76 t59 t60 t46 t99"/>
+        <expanded-item-notes idrefs="t77 t48 t4 t96 t101"/>
         <selected-items-at-filter-time idrefs="t108"/>
       </outline>
-      <gantt-view x="-18" y="109" w="260" h="923">
+      <gantt-view x="-57" y="119" w="334" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -56,7 +56,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="73.8711">
+        <scale scale-name="Automatic" full-day-width="66.1739">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="60.3452"/>
@@ -144,7 +144,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>111</next-task-id>
+    <next-task-id>112</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
