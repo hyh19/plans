@@ -219,4 +219,73 @@
   <resource-change-set user="Yuhui Huang" date="2017-01-10T10:29:28.612Z" timestamp="2017-01-10T10:29:28.612Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCoAQkNERQVFxnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW2wgRGh0gIyYpLjM8P0RJUlVaX2hrcHmChY6RmgAAAAAAAAEBAAAAAAAAABsAAAAAAAAAAAAAAAAAAACd" to="YnBsaXN0MDCpAQkNERQVFxkb1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQACBIbHiEkJyovND1ARUpTVltgaWxxeoOGj5KbnqeqrwAAAAAAAAEBAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAC0" resolved="yes"/>
   </resource-change-set>
+  <metadata-change-set user="Yuhui Huang" date="2017-01-10T10:40:47.041Z" timestamp="2017-01-10T10:40:47.041Z">
+    <change idref="m1" attribute="baselineInfo" type="dict" from="{
+    info =     (
+                {
+            name = &quot;Baseline 26/12/2016&quot;;
+            uuid = &quot;pM4-oWdBYrv&quot;;
+        },
+                {
+            name = &quot;Baseline 27/12/2016&quot;;
+            uuid = dSBGUeHasKw;
+        },
+                {
+            name = &quot;Baseline 28/12/2016&quot;;
+            uuid = hoKc9fJUwlK;
+        },
+                {
+            name = &quot;Baseline 29/12/2016&quot;;
+            uuid = &quot;koSS-Gt_H7n&quot;;
+        },
+                {
+            name = &quot;Baseline 30/12/2016&quot;;
+            uuid = nCargEdNqwo;
+        },
+                {
+            name = &quot;Baseline 05/01/2017&quot;;
+            uuid = &quot;k7EQy-rrBPn&quot;;
+        },
+                {
+            name = &quot;Baseline 07/01/2017&quot;;
+            uuid = bbMTtVjVJ0W;
+        }
+    );
+}" to="{
+    info =     (
+                {
+            name = &quot;Baseline 26/12/2016&quot;;
+            uuid = &quot;pM4-oWdBYrv&quot;;
+        },
+                {
+            name = &quot;Baseline 27/12/2016&quot;;
+            uuid = dSBGUeHasKw;
+        },
+                {
+            name = &quot;Baseline 28/12/2016&quot;;
+            uuid = hoKc9fJUwlK;
+        },
+                {
+            name = &quot;Baseline 29/12/2016&quot;;
+            uuid = &quot;koSS-Gt_H7n&quot;;
+        },
+                {
+            name = &quot;Baseline 30/12/2016&quot;;
+            uuid = nCargEdNqwo;
+        },
+                {
+            name = &quot;Baseline 05/01/2017&quot;;
+            uuid = &quot;k7EQy-rrBPn&quot;;
+        },
+                {
+            name = &quot;Baseline 07/01/2017&quot;;
+            uuid = bbMTtVjVJ0W;
+        },
+                {
+            name = &quot;Baseline 10/01/2017&quot;;
+            uuid = &quot;mdKZNp_tsWe&quot;;
+        }
+    );
+}"/>
+  </metadata-change-set>
 </changelog>

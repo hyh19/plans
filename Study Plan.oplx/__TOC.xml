@@ -2,7 +2,7 @@
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <window x="1283" y="-282" w="1875" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
-    <comparison-scenario>bbMTtVjVJ0W</comparison-scenario>
+    <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
@@ -154,6 +154,7 @@ End:</group-table-style>
     <scenario id="nCargEdNqwo" name="Baseline 30/12/2016" filename="nCargEdNqwo.xml"/>
     <scenario id="k7EQy-rrBPn" name="Baseline 05/01/2017" filename="k7EQy-rrBPn.xml"/>
     <scenario id="bbMTtVjVJ0W" name="Baseline 07/01/2017" filename="bbMTtVjVJ0W.xml"/>
+    <scenario id="mdKZNp_tsWe" name="Baseline 10/01/2017" filename="mdKZNp_tsWe.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>

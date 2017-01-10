@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="mdKZNp_tsWe">
+  <start-date>2016-12-26T07:30:00.000Z</start-date>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday">
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="39600" end-time="46800"/>
+        <time-span start-time="54000" end-time="64800"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes">
+        <event start="2017-01-01T11:00:00.000Z" end="2017-01-01T12:00:00.000Z" sd="5844" st="68400" ed="5844" et="72000"/>
+        <event start="2017-01-02T02:00:00.000Z" end="2017-01-02T03:00:00.000Z" sd="5845" st="36000" ed="5845" et="39600"/>
+        <event start="2017-01-03T05:00:00.000Z" end="2017-01-03T05:30:00.000Z" sd="5846" st="46800" ed="5846" et="48600"/>
+        <event start="2017-01-04T02:30:00.000Z" end="2017-01-04T03:00:00.000Z" sd="5847" st="37800" ed="5847" et="39600"/>
+        <event start="2017-01-04T05:00:00.000Z" end="2017-01-04T05:30:00.000Z" sd="5847" st="46800" ed="5847" et="48600"/>
+        <event start="2017-01-05T11:00:00.000Z" end="2017-01-05T12:00:00.000Z" sd="5848" st="68400" ed="5848" et="72000"/>
+        <event start="2017-01-06T02:30:00.000Z" end="2017-01-06T03:00:00.000Z" sd="5849" st="37800" ed="5849" et="39600"/>
+        <event start="2017-01-08T05:00:00.000Z" end="2017-01-08T05:30:00.000Z" sd="5851" st="46800" ed="5851" et="48600"/>
+        <event start="2017-01-10T10:00:00.000Z" end="2017-01-10T10:30:00.000Z" sd="5853" st="64800" ed="5853" et="66600"/>
+      </calendar>
+    </schedule>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>Yuhui</name>
+    <type>Staff</type>
+    <schedule>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+    </schedule>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t4"/>
+  </task>
+  <task id="t1">
+    <title>iOS</title>
+    <type>group</type>
+    <child-task idref="t3"/>
+    <child-task idref="t46"/>
+    <child-task idref="t56"/>
+    <child-task idref="t99"/>
+  </task>
+  <task id="t3">
+    <title>Runtime</title>
+    <type>group</type>
+    <child-task idref="t5"/>
+    <child-task idref="t6"/>
+    <child-task idref="t7"/>
+    <child-task idref="t8"/>
+    <child-task idref="t9"/>
+  </task>
+  <task id="t4">
+    <title>Study Plan</title>
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t20"/>
+    <child-task idref="t115"/>
+  </task>
+  <task id="t5">
+    <title>API Reference</title>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+  </task>
+  <task id="t6">
+    <title>Programming Guides</title>
+    <split/>
+    <effort>18000</effort>
+    <effort-done>18000</effort-done>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+    <prerequisite-task idref="t5"/>
+  </task>
+  <task id="t7">
+    <title>Source Code</title>
+    <effort>18000</effort>
+    <effort-done>18000</effort-done>
+    <start-constraint-date>2016-12-28T07:00:00.000Z</start-constraint-date>
+    <prerequisite-task idref="t6"/>
+    <start-no-earlier-than>2016-12-28T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t8">
+    <title>Open Source</title>
+    <type>group</type>
+    <start-constraint-date>2016-12-29T07:00:00.000Z</start-constraint-date>
+    <child-task idref="t28"/>
+    <start-no-earlier-than>2016-12-29T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t9">
+    <title>Articles</title>
+    <effort>43200</effort>
+    <start-constraint-date>2016-12-29T07:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-12-29T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>Programming Guides</title>
+    <effort>12600</effort>
+    <effort-done>12600</effort-done>
+    <start-constraint-date>2016-12-27T03:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-12-27T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>Programming Guides</title>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2016-12-28T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-12-28T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t20">
+    <title>Data Structure &amp; Algorithm</title>
+    <type>group</type>
+    <child-task idref="t89"/>
+    <child-task idref="t22"/>
+  </task>
+  <task id="t22">
+    <title>妙趣横生的算法（C++语言实现）</title>
+    <type>group</type>
+  </task>
+  <task id="t28">
+    <title>Aspects</title>
+    <split/>
+    <effort>75600</effort>
+    <effort-done>75600</effort-done>
+    <child-task idref="t29"/>
+    <child-task idref="t30"/>
+    <child-task idref="t32"/>
+  </task>
+  <task id="t29">
+    <title>Aspects</title>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2016-12-29T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-12-29T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t30">
+    <title>Aspects</title>
+    <effort>25200</effort>
+    <effort-done>25200</effort-done>
+    <start-constraint-date>2016-12-30T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2016-12-30T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t32">
+    <title>Aspects</title>
+    <effort>46800</effort>
+    <effort-done>46800</effort-done>
+    <start-constraint-date>2017-01-01T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-01T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t46">
+    <title>Media</title>
+    <type>group</type>
+    <child-task idref="t47"/>
+    <child-task idref="t76"/>
+    <child-task idref="t49"/>
+  </task>
+  <task id="t47">
+    <title>Guides</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t48"/>
+    <child-task idref="t54"/>
+    <child-task idref="t55"/>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t48">
+    <title>AVFoundation Programming Guide</title>
+    <split/>
+    <priority>1000</priority>
+    <effort>18000</effort>
+    <effort-done>18000</effort-done>
+    <child-task idref="t64"/>
+    <child-task idref="t65"/>
+    <child-task idref="t66"/>
+  </task>
+  <task id="t49">
+    <title>API Reference</title>
+    <type>group</type>
+    <child-task idref="t50"/>
+    <child-task idref="t52"/>
+    <child-task idref="t53"/>
+    <child-task idref="t51"/>
+  </task>
+  <task id="t50">
+    <title>AVFoundation</title>
+    <priority>100</priority>
+    <effort>14400</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-01-07T04:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-07T04:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t51">
+    <title>AudioToolbox</title>
+    <priority>1000</priority>
+    <effort>7200</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t52">
+    <title>AVKit</title>
+    <priority>1000</priority>
+    <effort>7200</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t53">
+    <title>VideoToolbox</title>
+    <priority>1000</priority>
+    <effort>7200</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t54">
+    <title>Multimedia Programming Guide</title>
+    <priority>1000</priority>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t55">
+    <title>Audio Session Programming Guide</title>
+    <priority>1000</priority>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t56">
+    <title>Unit Test</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t58"/>
+    <child-task idref="t59"/>
+    <child-task idref="t60"/>
+    <child-task idref="t67"/>
+    <child-task idref="t88"/>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t58">
+    <title>Articles</title>
+    <split/>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+  </task>
+  <task id="t59">
+    <title>Programming Guides</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t61"/>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t60">
+    <title>API Reference</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t61">
+    <title>Testing with Xcode</title>
+    <split/>
+    <priority>100</priority>
+    <effort>14400</effort>
+    <effort-done>5400</effort-done>
+    <child-task idref="t68"/>
+    <child-task idref="t69"/>
+  </task>
+  <task id="t62">
+    <title>Articles</title>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-03T10:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T10:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t63">
+    <title>Articles</title>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-04T04:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-04T04:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t64">
+    <title>AVFoundation Programming Guide</title>
+    <priority>1000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-03T07:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t65">
+    <title>AVFoundation Programming Guide</title>
+    <priority>1000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-04T02:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-04T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t66">
+    <title>AVFoundation Programming Guide</title>
+    <priority>1000</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t67">
+    <title>Demo</title>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-04T02:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-04T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t68">
+    <title>Testing with Xcode</title>
+    <priority>100</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-04T07:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-04T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t69">
+    <title>Testing with Xcode</title>
+    <priority>100</priority>
+    <effort>9000</effort>
+    <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t76">
+    <title>Sample Code</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-05T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t77"/>
+    <child-task idref="t96"/>
+    <start-no-earlier-than>2017-01-05T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t77">
+    <title>AVCam-iOS</title>
+    <split/>
+    <priority>1000</priority>
+    <effort>19800</effort>
+    <effort-done>19800</effort-done>
+    <child-task idref="t78"/>
+    <child-task idref="t79"/>
+    <child-task idref="t80"/>
+  </task>
+  <task id="t78">
+    <title>AVCam-iOS</title>
+    <priority>1000</priority>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-01-05T04:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-05T04:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t79">
+    <title>AVCam-iOS</title>
+    <priority>1000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-05T07:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-05T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t80">
+    <title>AVCam-iOS</title>
+    <priority>1000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-06T02:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-06T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t88">
+    <title>XCTest</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-01-06T07:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-06T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t89">
+    <title>妙趣横生的算法（C语言实现）</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t90"/>
+    <child-task idref="t108"/>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t90">
+    <title>数据结构基础</title>
+    <split/>
+    <priority>1000</priority>
+    <effort>39600</effort>
+    <effort-done>27000</effort-done>
+    <child-task idref="t91"/>
+    <child-task idref="t92"/>
+    <child-task idref="t93"/>
+    <child-task idref="t94"/>
+    <child-task idref="t95"/>
+    <child-task idref="t107"/>
+  </task>
+  <task id="t91">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t92">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-04T10:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-04T10:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t93">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-05T10:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-05T10:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t94">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-06T09:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-06T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t95">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-07T09:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-07T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t96">
+    <title>AVCamManual</title>
+    <priority>2000</priority>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-01-07T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-07T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t99">
+    <title>Threading</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-07T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t100"/>
+    <start-no-earlier-than>2017-01-07T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t100">
+    <title>Guides</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-07T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t101"/>
+    <start-no-earlier-than>2017-01-07T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t101">
+    <title>Threading Programming Guide</title>
+    <split/>
+    <priority>1000</priority>
+    <effort>21600</effort>
+    <effort-done>9000</effort-done>
+    <child-task idref="t112"/>
+    <child-task idref="t113"/>
+    <child-task idref="t114"/>
+  </task>
+  <task id="t107">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>12600</effort>
+    <start-constraint-date>2017-01-08T09:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-08T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t108">
+    <title>常用的查找与排序算法</title>
+    <split/>
+    <priority>1000</priority>
+    <effort>28800</effort>
+    <effort-done>16200</effort-done>
+    <child-task idref="t109"/>
+    <child-task idref="t110"/>
+    <child-task idref="t111"/>
+  </task>
+  <task id="t109">
+    <title>常用的查找与排序算法</title>
+    <priority>1000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-08T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-08T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t110">
+    <title>常用的查找与排序算法</title>
+    <priority>1000</priority>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-01-10T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-10T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t111">
+    <title>常用的查找与排序算法</title>
+    <priority>1000</priority>
+    <effort>12600</effort>
+    <start-constraint-date>2017-01-11T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-11T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t112">
+    <title>Threading Programming Guide</title>
+    <priority>1000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-07T07:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-07T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t113">
+    <title>Threading Programming Guide</title>
+    <priority>1000</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-10T07:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-10T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t114">
+    <title>Threading Programming Guide</title>
+    <priority>1000</priority>
+    <effort>12600</effort>
+    <start-constraint-date>2017-01-11T07:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-11T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t115">
+    <title>Operating System</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-10T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t116"/>
+    <start-no-earlier-than>2017-01-10T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t116">
+    <title>深入解析Mac OS X &amp; iOS操作系统</title>
+    <split/>
+    <priority>100</priority>
+    <effort>144000</effort>
+    <effort-done>5400</effort-done>
+    <child-task idref="t117"/>
+    <child-task idref="t118"/>
+  </task>
+  <task id="t117">
+    <title>深入解析Mac OS X &amp; iOS操作系统</title>
+    <priority>100</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-10T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-10T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t118">
+    <title>深入解析Mac OS X &amp; iOS操作系统</title>
+    <priority>100</priority>
+    <effort>138600</effort>
+    <start-constraint-date>2017-01-11T03:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-01-11T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
