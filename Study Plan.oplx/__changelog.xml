@@ -1,55 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2017-01-08T05:45:21.296Z" timestamp="2017-01-08T05:45:21.296Z">
-    <change idref="t108" attribute="priority" type="real" from="0" to="1000" resolved="yes"/>
-    <change idref="t108" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-08T03:00:00.000Z" resolved="yes"/>
-    <change idref="t108" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t108" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
-    <change idref="t109" to="t108" to-position="0" resolved="yes">
-      <change idref="t109" attribute="effort" type="real" from="28800" to="9000"/>
-      <change idref="t109" attribute="internalEffortDone" type="real" from="0" to="9000"/>
-      <change idref="t109" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t109" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-08T03:00:00.000Z"/>
-      <change idref="t109" attribute="priority" type="real" from="0" to="1000"/>
-      <change idref="t109" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.287296&quot;;
-        g = &quot;0.25662&quot;;
-        r = &quot;0.987&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t109" attribute="title" type="string" to="常用的查找与排序算法 #1"/>
-    </change>
-    <change idref="t110" to="t108" to-position="1" resolved="yes">
-      <change idref="t110" attribute="effort" type="real" from="28800" to="19800"/>
-      <change idref="t110" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t110" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-09T03:00:00.000Z"/>
-      <change idref="t110" attribute="priority" type="real" from="0" to="1000"/>
-      <change idref="t110" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.287296&quot;;
-        g = &quot;0.25662&quot;;
-        r = &quot;0.987&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t110" attribute="title" type="string" to="常用的查找与排序算法 #2"/>
-    </change>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-10T05:38:28.917Z" timestamp="2017-01-10T05:38:28.917Z">
     <change idref="t110" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-09T03:00:00.000Z" to="2017-01-10T03:00:00.000Z" resolved="yes"/>
   </task-change-set>
@@ -81,7 +32,84 @@
     </change>
     <change idref="t110" attribute="effort" type="real" from="19800" to="7200" resolved="yes"/>
   </task-change-set>
-  <resource-change-set user="Yuhui Huang" date="2017-01-08T05:44:31.712Z" timestamp="2017-01-08T05:44:31.712Z">
-    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCnAQkNERQVF9QCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZCBAZHB8iJSgtMjs+Q0hRVFleZ2pveIGEjQAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAACQ" to="YnBsaXN0MDCoAQkNERQVFxnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW2wgRGh0gIyYpLjM8P0RJUlVaX2hrcHmChY6RmgAAAAAAAAEBAAAAAAAAABsAAAAAAAAAAAAAAAAAAACd" resolved="yes"/>
-  </resource-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-10T08:39:06.543Z" timestamp="2017-01-10T08:39:06.543Z">
+    <change idref="t47" attribute="title" type="string" from="Programming Guide" to="Guides" resolved="yes"/>
+    <change idref="t101" attribute="priority" type="real" from="100" to="1000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-10T08:40:18.081Z" timestamp="2017-01-10T08:40:18.081Z">
+    <change idref="t101" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-07T07:30:00.000Z" resolved="yes"/>
+    <change idref="t101" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t101" attribute="internalEffortDone" type="real" from="5400" to="9000" resolved="yes"/>
+    <change idref="t112" to="t101" to-position="0" resolved="yes">
+      <change idref="t112" attribute="effort" type="real" from="28800" to="5400"/>
+      <change idref="t112" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t112" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t112" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-07T07:30:00.000Z"/>
+      <change idref="t112" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvZG9jdW1lbnRhdGlvbi9Db2NvYS9Db25jZXB0dWFsL011bHRpdGhyZWFkaW5nIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvZG9jdW1lbnRhdGlvbi9Db2NvYS9Db25jZXB0dWFsL011bHRpdGhyZWFkaW5nfX19"/>
+      <change idref="t112" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t112" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t112" attribute="title" type="string" to="Threading Programming Guide #1"/>
+    </change>
+    <change idref="t113" to="t101" to-position="1" resolved="yes">
+      <change idref="t113" attribute="effort" type="real" from="28800" to="16200"/>
+      <change idref="t113" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t113" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t113" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-10T07:30:00.000Z"/>
+      <change idref="t113" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvZG9jdW1lbnRhdGlvbi9Db2NvYS9Db25jZXB0dWFsL011bHRpdGhyZWFkaW5nIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvZG9jdW1lbnRhdGlvbi9Db2NvYS9Db25jZXB0dWFsL011bHRpdGhyZWFkaW5nfX19"/>
+      <change idref="t113" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t113" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t113" attribute="title" type="string" to="Threading Programming Guide #2"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-10T08:40:38.310Z" timestamp="2017-01-10T08:40:38.310Z">
+    <change idref="t114" to="t101" to-position="2" resolved="yes">
+      <change idref="t114" attribute="effort" type="real" from="28800" to="12600"/>
+      <change idref="t114" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t114" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-11T07:00:00.000Z"/>
+      <change idref="t114" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvZG9jdW1lbnRhdGlvbi9Db2NvYS9Db25jZXB0dWFsL011bHRpdGhyZWFkaW5nIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvZG9jdW1lbnRhdGlvbi9Db2NvYS9Db25jZXB0dWFsL011bHRpdGhyZWFkaW5nfX19"/>
+      <change idref="t114" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t114" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t114" attribute="title" type="string" to="Threading Programming Guide #3"/>
+    </change>
+    <change idref="t113" attribute="effort" type="real" from="16200" to="3600" resolved="yes"/>
+  </task-change-set>
 </changelog>

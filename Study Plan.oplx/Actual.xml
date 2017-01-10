@@ -368,7 +368,7 @@
     <child-task idref="t49"/>
   </task>
   <task id="t47">
-    <title>Programming Guide</title>
+    <title>Guides</title>
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <child-task idref="t48"/>
@@ -974,10 +974,13 @@
   </task>
   <task id="t101">
     <title>Threading Programming Guide</title>
-    <priority>100</priority>
+    <split/>
+    <priority>1000</priority>
     <effort>21600</effort>
-    <effort-done>5400</effort-done>
-    <start-constraint-date>2017-01-07T07:30:00.000Z</start-constraint-date>
+    <effort-done>9000</effort-done>
+    <child-task idref="t112"/>
+    <child-task idref="t113"/>
+    <child-task idref="t114"/>
     <note>
       <text>
         <p>
@@ -998,7 +1001,6 @@
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-07T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t107">
     <title>数据结构基础</title>
@@ -1079,6 +1081,89 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-11T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t112">
+    <title>Threading Programming Guide</title>
+    <priority>1000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-07T07:30:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</value>
+            </style>
+            <lit>https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-07T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t113">
+    <title>Threading Programming Guide</title>
+    <priority>1000</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-10T07:30:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</value>
+            </style>
+            <lit>https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-10T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t114">
+    <title>Threading Programming Guide</title>
+    <priority>1000</priority>
+    <effort>12600</effort>
+    <start-constraint-date>2017-01-11T07:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</value>
+            </style>
+            <lit>https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Multithreading</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-11T07:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
