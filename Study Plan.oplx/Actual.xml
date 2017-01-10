@@ -87,6 +87,7 @@
         <event start="2017-01-05T11:00:00.000Z" end="2017-01-05T12:00:00.000Z" sd="5848" st="68400" ed="5848" et="72000"/>
         <event start="2017-01-06T02:30:00.000Z" end="2017-01-06T03:00:00.000Z" sd="5849" st="37800" ed="5849" et="39600"/>
         <event start="2017-01-08T05:00:00.000Z" end="2017-01-08T05:30:00.000Z" sd="5851" st="46800" ed="5851" et="48600"/>
+        <event start="2017-01-10T10:00:00.000Z" end="2017-01-10T10:30:00.000Z" sd="5853" st="64800" ed="5853" et="66600"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -126,6 +127,7 @@
     <type>group</type>
     <child-task idref="t1"/>
     <child-task idref="t20"/>
+    <child-task idref="t115"/>
     <note>
       <text>
         <p>
@@ -1164,6 +1166,61 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-11T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t115">
+    <title>Operating System</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-10T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t116"/>
+    <start-no-earlier-than>2017-01-10T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t116">
+    <title>深入解析Mac OS X &amp; iOS操作系统</title>
+    <split/>
+    <priority>100</priority>
+    <effort>144000</effort>
+    <effort-done>5400</effort-done>
+    <child-task idref="t117"/>
+    <child-task idref="t118"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+  </task>
+  <task id="t117">
+    <title>深入解析Mac OS X &amp; iOS操作系统</title>
+    <priority>100</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-10T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-10T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t118">
+    <title>深入解析Mac OS X &amp; iOS操作系统</title>
+    <priority>100</priority>
+    <effort>138600</effort>
+    <start-constraint-date>2017-01-11T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-11T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
