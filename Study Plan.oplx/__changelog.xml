@@ -265,6 +265,52 @@
     &quot;strikethrough-style&quot; = single;
 }" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-11T09:59:26.891Z" timestamp="2017-01-11T09:59:26.891Z">
+    <change idref="t119" to="t1" to-position="0" resolved="yes">
+      <change idref="t119" attribute="internalPrerequisitesString" type="string" to="1FS"/>
+      <change idref="t119" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t119" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-11T03:00:00.000Z"/>
+      <change idref="t119" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t119" attribute="title" type="string" to="Open Source"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-11T09:59:46.306Z" timestamp="2017-01-11T09:59:46.306Z">
+    <change idref="t120" to="t119" to-position="0" resolved="yes">
+      <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-11T03:00:00.000Z"/>
+      <change idref="t120" attribute="title" type="string" to="MJExtension"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-11T10:00:51.671Z" timestamp="2017-01-11T10:00:51.671Z">
+    <change idref="t120" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZ2l0aHViLmNvbS9Db2Rlck1KTGVlL01KRXh0ZW5zaW9uIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZ2l0aHViLmNvbS9Db2Rlck1KTGVlL01KRXh0ZW5zaW9ufX19" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-11T10:01:25.983Z" timestamp="2017-01-11T10:01:25.983Z">
+    <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-11T03:00:00.000Z" to="2017-01-11T07:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="internalEffortDone" type="real" from="0" to="10800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-11T10:01:33.644Z" timestamp="2017-01-11T10:01:33.644Z">
+    <change idref="t120" attribute="priority" type="real" from="0" to="2000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-11T10:03:31.907Z" timestamp="2017-01-11T10:03:31.907Z">
+    <change idref="t120" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-11T07:00:00.000Z" resolved="yes"/>
+    <change idref="t120" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t123" to="t120" to-position="0" resolved="yes">
+      <change idref="t123" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t123" attribute="internalEffortDone" type="real" from="0" to="10800"/>
+      <change idref="t123" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t123" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-11T07:00:00.000Z"/>
+      <change idref="t123" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZ2l0aHViLmNvbS9Db2Rlck1KTGVlL01KRXh0ZW5zaW9uIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZ2l0aHViLmNvbS9Db2Rlck1KTGVlL01KRXh0ZW5zaW9ufX19"/>
+      <change idref="t123" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t123" attribute="title" type="string" to="MJExtension #1"/>
+    </change>
+    <change idref="t124" to="t120" to-position="1" resolved="yes">
+      <change idref="t124" attribute="effort" type="real" from="28800" to="18000"/>
+      <change idref="t124" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t124" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-12T07:00:00.000Z"/>
+      <change idref="t124" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZ2l0aHViLmNvbS9Db2Rlck1KTGVlL01KRXh0ZW5zaW9uIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZ2l0aHViLmNvbS9Db2Rlck1KTGVlL01KRXh0ZW5zaW9ufX19"/>
+      <change idref="t124" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t124" attribute="title" type="string" to="MJExtension #2"/>
+    </change>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-10T10:29:28.612Z" timestamp="2017-01-10T10:29:28.612Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCoAQkNERQVFxnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW2wgRGh0gIyYpLjM8P0RJUlVaX2hrcHmChY6RmgAAAAAAAAEBAAAAAAAAABsAAAAAAAAAAAAAAAAAAACd" to="YnBsaXN0MDCpAQkNERQVFxkb1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQACBIbHiEkJyovND1ARUpTVltgaWxxeoOGj5KbnqeqrwAAAAAAAAEBAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAC0" resolved="yes"/>
   </resource-change-set>
