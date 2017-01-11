@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1283" y="-282" w="1875" h="1057">
+  <window x="1279" y="-281" w="1875" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1033</split-view-divider-position>
-      <outline x="8" y="280" w="1033" h="938">
+      <split-view-divider-position>1226</split-view-divider-position>
+      <outline x="0" y="92" w="1226" h="938">
         <column name="Notes" width="20"/>
-        <column name="Title" width="414"/>
+        <column name="Title" width="358"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -20,11 +20,10 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t8 t99 t49 t4 t115 t22 t47 t89 t20 t1 t56 t100 t76 t59 t60 t3 t46"/>
-        <expanded-item-notes idrefs="t77 t4 t48 t96 t101"/>
-        <selected-items-at-filter-time idrefs="t115 t116"/>
+        <expanded-items idrefs="t8 t46 t49 t4 t22 t115 t47 t89 t20 t56 t1 t100 t76 t59 t60 t3 t99"/>
+        <expanded-item-notes idrefs="t48 t4 t77 t96 t101"/>
       </outline>
-      <gantt-view x="131" y="280" w="540" h="938">
+      <gantt-view x="-46" y="92" w="347" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>

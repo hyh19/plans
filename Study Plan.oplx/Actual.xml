@@ -432,21 +432,21 @@
   </task>
   <task id="t51">
     <title>AudioToolbox</title>
-    <priority>1000</priority>
+    <priority>100</priority>
     <effort>7200</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t52">
     <title>AVKit</title>
-    <priority>1000</priority>
+    <priority>100</priority>
     <effort>7200</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t53">
     <title>VideoToolbox</title>
-    <priority>1000</priority>
+    <priority>100</priority>
     <effort>7200</effort>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-01-03T03:00:00.000Z</start-no-earlier-than>
@@ -1022,65 +1022,70 @@
   <task id="t108">
     <title>常用的查找与排序算法</title>
     <split/>
-    <priority>1000</priority>
-    <effort>28800</effort>
-    <effort-done>16200</effort-done>
+    <priority>2000</priority>
+    <effort>21600</effort>
+    <effort-done>21600</effort-done>
     <child-task idref="t109"/>
     <child-task idref="t110"/>
     <child-task idref="t111"/>
     <style>
       <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-style">single</value>
     </style>
   </task>
   <task id="t109">
     <title>常用的查找与排序算法</title>
-    <priority>1000</priority>
+    <priority>2000</priority>
     <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-01-08T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-08T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t110">
     <title>常用的查找与排序算法</title>
-    <priority>1000</priority>
+    <priority>2000</priority>
     <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-01-10T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-10T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t111">
     <title>常用的查找与排序算法</title>
-    <priority>1000</priority>
-    <effort>12600</effort>
+    <priority>2000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
     <start-constraint-date>2017-01-11T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
+      <value key="strikethrough-color">
+        <color space="srgb" r="1" g="0.149131" b="0"/>
       </value>
+      <value key="strikethrough-style">single</value>
     </style>
     <start-no-earlier-than>2017-01-11T03:00:00.000Z</start-no-earlier-than>
   </task>
