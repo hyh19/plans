@@ -20,11 +20,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t8 t49 t4 t119 t22 t47 t89 t1 t100 t76 t59 t60"/>
-        <expanded-item-notes idrefs="t48 t4 t77 t96 t101 t120"/>
+        <expanded-items idrefs="t8 t49 t4 t119 t22 t47 t89 t1 t100 t76 t59 t60 t3 t99"/>
+        <expanded-item-notes idrefs="t77 t48 t4 t120 t96 t101"/>
         <selected-items-at-filter-time idrefs="t120 t119"/>
       </outline>
-      <gantt-view x="-60" y="0" w="276" h="938">
+      <gantt-view x="-51" y="0" w="276" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -56,7 +56,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="35.5379">
+        <scale scale-name="Automatic" full-day-width="37.381">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="60.3452"/>
@@ -144,7 +144,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>125</next-task-id>
+    <next-task-id>130</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
