@@ -1242,10 +1242,12 @@
     <title>MJExtension</title>
     <split/>
     <priority>2000</priority>
-    <effort>28800</effort>
-    <effort-done>18000</effort-done>
+    <effort>57600</effort>
+    <effort-done>28800</effort-done>
     <child-task idref="t123"/>
     <child-task idref="t124"/>
+    <child-task idref="t133"/>
+    <child-task idref="t134"/>
     <note>
       <text>
         <p>
@@ -1298,7 +1300,7 @@
   <task id="t124">
     <title>MJExtension</title>
     <priority>2000</priority>
-    <effort>18000</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-01-12T03:30:00.000Z</start-constraint-date>
     <note>
@@ -1370,6 +1372,61 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-13T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t133">
+    <title>MJExtension</title>
+    <priority>2000</priority>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-01-13T07:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://github.com/CoderMJLee/MJExtension</value>
+            </style>
+            <lit>https://github.com/CoderMJLee/MJExtension</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-13T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t134">
+    <title>MJExtension</title>
+    <priority>2000</priority>
+    <effort>28800</effort>
+    <start-constraint-date>2017-01-14T07:00:00.000Z</start-constraint-date>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="link">https://github.com/CoderMJLee/MJExtension</value>
+            </style>
+            <lit>https://github.com/CoderMJLee/MJExtension</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-14T07:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
