@@ -132,6 +132,7 @@
     <child-task idref="t1"/>
     <child-task idref="t20"/>
     <child-task idref="t115"/>
+    <child-task idref="t136"/>
     <note>
       <text>
         <p>
@@ -1443,6 +1444,52 @@
       </value>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-16T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t136">
+    <title>C++</title>
+    <type>group</type>
+    <start-constraint-date>2017-01-15T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t137"/>
+    <start-no-earlier-than>2017-01-15T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t137">
+    <title>C++程序设计语言特别版</title>
+    <split/>
+    <priority>100</priority>
+    <effort>28800</effort>
+    <effort-done>14400</effort-done>
+    <child-task idref="t138"/>
+    <child-task idref="t139"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t138">
+    <title>C++程序设计语言特别版</title>
+    <priority>100</priority>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2017-01-15T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-15T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t139">
+    <title>C++程序设计语言特别版</title>
+    <priority>100</priority>
+    <effort>14400</effort>
+    <start-constraint-date>2017-01-16T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
     <start-no-earlier-than>2017-01-16T03:00:00.000Z</start-no-earlier-than>
