@@ -77,7 +77,9 @@
         <time-span start-time="39600" end-time="46800"/>
         <time-span start-time="54000" end-time="64800"/>
       </schedule-day>
-      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Time Off" editable="yes" overtime="no">
+        <event start="2017-01-15T03:00:00.000Z" end="2017-01-15T05:00:00.000Z" sd="5858" st="39600" ed="5858" et="46800"/>
+      </calendar>
       <calendar name="Overtime" editable="yes" overtime="yes">
         <event start="2017-01-01T11:00:00.000Z" end="2017-01-01T12:00:00.000Z" sd="5844" st="68400" ed="5844" et="72000"/>
         <event start="2017-01-02T02:00:00.000Z" end="2017-01-02T03:00:00.000Z" sd="5845" st="36000" ed="5845" et="39600"/>
@@ -91,6 +93,8 @@
         <event start="2017-01-12T05:00:00.000Z" end="2017-01-12T05:30:00.000Z" sd="5855" st="46800" ed="5855" et="48600"/>
         <event start="2017-01-14T05:00:00.000Z" end="2017-01-14T05:30:00.000Z" sd="5857" st="46800" ed="5857" et="48600"/>
         <event start="2017-01-14T10:00:00.000Z" end="2017-01-14T11:30:00.000Z" sd="5857" st="64800" ed="5857" et="70200"/>
+        <event start="2017-01-15T05:00:00.000Z" end="2017-01-15T07:00:00.000Z" sd="5858" st="46800" ed="5858" et="54000"/>
+        <event start="2017-01-15T10:00:00.000Z" end="2017-01-15T10:30:00.000Z" sd="5858" st="64800" ed="5858" et="66600"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -270,7 +274,7 @@
     <start-no-earlier-than>2016-12-28T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t20">
-    <title>Data Structure &amp; Algorithm</title>
+    <title>数据结构与算法</title>
     <type>group</type>
     <child-task idref="t89"/>
     <child-task idref="t22"/>
@@ -1333,10 +1337,11 @@
     <split/>
     <priority>3000</priority>
     <effort>57600</effort>
-    <effort-done>34200</effort-done>
+    <effort-done>37800</effort-done>
     <child-task idref="t131"/>
     <child-task idref="t132"/>
     <child-task idref="t135"/>
+    <child-task idref="t142"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1436,8 +1441,9 @@
   <task id="t135">
     <title>基础数据结构</title>
     <priority>3000</priority>
-    <effort>23400</effort>
-    <start-constraint-date>2017-01-16T03:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-15T09:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1446,7 +1452,7 @@
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-16T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-15T09:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t136">
     <title>C++</title>
@@ -1461,38 +1467,53 @@
     <priority>100</priority>
     <effort>28800</effort>
     <effort-done>14400</effort-done>
-    <child-task idref="t138"/>
-    <child-task idref="t139"/>
+    <child-task idref="t140"/>
+    <child-task idref="t141"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
   </task>
-  <task id="t138">
+  <task id="t140">
     <title>C++程序设计语言特别版</title>
     <priority>100</priority>
     <effort>14400</effort>
     <effort-done>14400</effort-done>
-    <start-constraint-date>2017-01-15T03:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2017-01-15T05:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-15T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-15T05:30:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t139">
+  <task id="t141">
     <title>C++程序设计语言特别版</title>
     <priority>100</priority>
     <effort>14400</effort>
-    <start-constraint-date>2017-01-16T03:00:00.000Z</start-constraint-date>
+    <start-constraint-date>2017-01-17T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-16T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-17T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t142">
+    <title>基础数据结构</title>
+    <priority>3000</priority>
+    <effort>19800</effort>
+    <start-constraint-date>2017-01-17T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-17T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
