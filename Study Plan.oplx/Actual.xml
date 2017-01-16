@@ -95,6 +95,7 @@
         <event start="2017-01-14T10:00:00.000Z" end="2017-01-14T11:30:00.000Z" sd="5857" st="64800" ed="5857" et="70200"/>
         <event start="2017-01-15T05:00:00.000Z" end="2017-01-15T07:00:00.000Z" sd="5858" st="46800" ed="5858" et="54000"/>
         <event start="2017-01-15T10:00:00.000Z" end="2017-01-15T10:30:00.000Z" sd="5858" st="64800" ed="5858" et="66600"/>
+        <event start="2017-01-16T05:00:00.000Z" end="2017-01-16T05:30:00.000Z" sd="5859" st="46800" ed="5859" et="48600"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -1337,11 +1338,12 @@
     <split/>
     <priority>3000</priority>
     <effort>57600</effort>
-    <effort-done>37800</effort-done>
+    <effort-done>45000</effort-done>
     <child-task idref="t131"/>
     <child-task idref="t132"/>
     <child-task idref="t135"/>
     <child-task idref="t142"/>
+    <child-task idref="t143"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1503,7 +1505,23 @@
   <task id="t142">
     <title>基础数据结构</title>
     <priority>3000</priority>
-    <effort>19800</effort>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-01-16T03:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-16T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t143">
+    <title>基础数据结构</title>
+    <priority>3000</priority>
+    <effort>12600</effort>
     <start-constraint-date>2017-01-17T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
