@@ -1,145 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2017-01-15T09:25:46.062Z" timestamp="2017-01-15T09:25:46.062Z">
-    <change idref="t136" to="t4" to-position="3" resolved="yes">
-      <change idref="t136" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t136" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-15T03:00:00.000Z"/>
-      <change idref="t136" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t136" attribute="title" type="string" to="C++"/>
-    </change>
-    <change idref="t137" to="t136" to-position="0" resolved="yes">
-      <change idref="t137" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-15T03:00:00.000Z"/>
-      <change idref="t137" attribute="title" type="string" to="C++程序设计语言特别版"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-15T09:26:49.564Z" timestamp="2017-01-15T09:26:49.564Z">
-    <change idref="t137" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-15T09:27:06.217Z" timestamp="2017-01-15T09:27:06.217Z">
-    <change idref="t137" attribute="priority" type="real" from="0" to="100" resolved="yes"/>
-    <change idref="t137" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-15T03:00:00.000Z" resolved="yes"/>
-    <change idref="t137" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t138" to="t137" to-position="0" resolved="yes">
-      <change idref="t138" attribute="effort" type="real" from="28800" to="14400"/>
-      <change idref="t138" attribute="internalEffortDone" type="real" from="0" to="14400"/>
-      <change idref="t138" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t138" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-15T03:00:00.000Z"/>
-      <change idref="t138" attribute="priority" type="real" from="0" to="100"/>
-      <change idref="t138" attribute="title" type="string" to="C++程序设计语言特别版 #1"/>
-    </change>
-    <change idref="t139" to="t137" to-position="1" resolved="yes">
-      <change idref="t139" attribute="effort" type="real" from="28800" to="14400"/>
-      <change idref="t139" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t139" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-16T03:00:00.000Z"/>
-      <change idref="t139" attribute="priority" type="real" from="0" to="100"/>
-      <change idref="t139" attribute="title" type="string" to="C++程序设计语言特别版 #2"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-15T09:27:13.876Z" timestamp="2017-01-15T09:27:13.876Z">
-    <change idref="t137" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-15T10:40:34.956Z" timestamp="2017-01-15T10:40:34.956Z">
-    <change idref="t139" from="t137" from-position="1" resolved="yes">
-      <change idref="t139" attribute="effort" type="real" from="28800" to="14400"/>
-      <change idref="t139" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t139" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-16T03:00:00.000Z"/>
-      <change idref="t139" attribute="priority" type="real" from="0" to="100"/>
-      <change idref="t139" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t139" attribute="title" type="string" to="C++程序设计语言特别版 #2"/>
-    </change>
-    <change idref="t138" from="t137" from-position="0" resolved="yes">
-      <change idref="t138" attribute="effort" type="real" from="28800" to="14400"/>
-      <change idref="t138" attribute="internalEffortDone" type="real" from="0" to="14400"/>
-      <change idref="t138" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t138" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-15T03:00:00.000Z"/>
-      <change idref="t138" attribute="priority" type="real" from="0" to="100"/>
-      <change idref="t138" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t138" attribute="title" type="string" to="C++程序设计语言特别版 #1"/>
-    </change>
-    <change idref="t140" to="t137" to-position="0" resolved="yes">
-      <change idref="t140" attribute="effort" type="real" from="28800" to="14400"/>
-      <change idref="t140" attribute="internalEffortDone" type="real" from="0" to="14400"/>
-      <change idref="t140" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t140" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-15T05:30:00.000Z"/>
-      <change idref="t140" attribute="priority" type="real" from="0" to="100"/>
-      <change idref="t140" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t140" attribute="title" type="string" to="C++程序设计语言特别版 #1"/>
-    </change>
-    <change idref="t141" to="t137" to-position="1" resolved="yes">
-      <change idref="t141" attribute="effort" type="real" from="28800" to="14400"/>
-      <change idref="t141" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t141" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-17T03:00:00.000Z"/>
-      <change idref="t141" attribute="priority" type="real" from="0" to="100"/>
-      <change idref="t141" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t141" attribute="title" type="string" to="C++程序设计语言特别版 #2"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-15T10:40:54.153Z" timestamp="2017-01-15T10:40:54.153Z">
-    <change idref="t20" attribute="title" type="string" from="Data Structure &amp; Algorithm" to="数据结构与算法" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-15T10:41:36.426Z" timestamp="2017-01-15T10:41:36.426Z">
-    <change idref="t130" attribute="internalEffortDone" type="real" from="34200" to="37800" resolved="yes"/>
-    <change idref="t142" to="t130" to-position="3" resolved="yes">
-      <change idref="t142" attribute="effort" type="real" from="28800" to="19800"/>
-      <change idref="t142" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t142" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-17T03:00:00.000Z"/>
-      <change idref="t142" attribute="priority" type="real" from="0" to="3000"/>
-      <change idref="t142" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t142" attribute="title" type="string" to="基础数据结构 #4"/>
-    </change>
-    <change idref="t135" attribute="effort" type="real" from="23400" to="3600" resolved="yes"/>
-    <change idref="t135" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-16T03:00:00.000Z" to="2017-01-15T09:30:00.000Z" resolved="yes"/>
-    <change idref="t135" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-16T05:30:39.794Z" timestamp="2017-01-16T05:30:39.794Z">
     <change idref="t130" attribute="internalEffortDone" type="real" from="37800" to="45000" resolved="yes"/>
     <change idref="t142" attribute="title" type="string" from="基础数据结构" to="基础数据结构 #4" resolved="yes"/>
@@ -269,10 +130,56 @@
     <change idref="t143" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-17T03:00:00.000Z" to="2017-01-17T03:30:00.000Z" resolved="yes"/>
     <change idref="t143" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
   </task-change-set>
-  <resource-change-set user="Yuhui Huang" date="2017-01-15T10:39:00.142Z" timestamp="2017-01-15T10:39:00.142Z">
-    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCsAQkNERQVFxkbHyEj1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHAAIFR4hJCcqLTI3QENITVZZXmNsb3R9homSlZ6hqq2yt8DDzM/YAAAAAAAAAQEAAAAAAAAAJQAAAAAAAAAAAAAAAAAAAN0=" to="YnBsaXN0MDCuAQkNERQVFxkbHyEjJSjUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4mCBcgIyYpLC80OUJFSk9YW2BlbnF2f4iLlJego6yvtLnCxc7R2t/o6/AAAAAAAAABAQAAAAAAAAApAAAAAAAAAAAAAAAAAAAA+Q==" resolved="yes"/>
-    <change idref="r-1" attribute="timeOffString" type="string" from="YnBsaXN0MDCgCAAAAAAAAAEBAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAJ" to="YnBsaXN0MDChAdQCAwQFBgcIBlJlZFJzdFJldFJzZBEW4iJHGrAAIkc20AAIChMWGRwfIicAAAAAAAABAQAAAAAAAAAJAAAAAAAAAAAAAAAAAAAALA==" resolved="yes"/>
-  </resource-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-17T11:23:52.712Z" timestamp="2017-01-17T11:23:52.712Z">
+    <change idref="t130" attribute="effort" type="real" from="57600" to="86400" resolved="yes"/>
+    <change idref="t152" to="t130" to-position="5" resolved="yes">
+      <change idref="t152" attribute="effort" type="real" from="28800" to="37800"/>
+      <change idref="t152" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t152" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-17T07:30:00.000Z"/>
+      <change idref="t152" attribute="priority" type="real" from="0" to="3000"/>
+      <change idref="t152" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t152" attribute="title" type="string" to="基础数据结构 #6"/>
+    </change>
+    <change idref="t143" attribute="effort" type="real" from="12600" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-17T11:24:35.842Z" timestamp="2017-01-17T11:24:35.842Z">
+    <change idref="t130" attribute="internalEffortDone" type="real" from="48600" to="57600" resolved="yes"/>
+    <change idref="t153" to="t130" to-position="6" resolved="yes">
+      <change idref="t153" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t153" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-19T03:00:00.000Z"/>
+      <change idref="t153" attribute="priority" type="real" from="0" to="3000"/>
+      <change idref="t153" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t153" attribute="title" type="string" to="基础数据结构 #7"/>
+    </change>
+    <change idref="t152" attribute="effort" type="real" from="37800" to="9000" resolved="yes"/>
+    <change idref="t152" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-16T05:30:39.789Z" timestamp="2017-01-16T05:30:39.789Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCuAQkNERQVFxkbHyEjJSjUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4mCBcgIyYpLC80OUJFSk9YW2BlbnF2f4iLlJego6yvtLnCxc7R2t/o6/AAAAAAAAABAQAAAAAAAAApAAAAAAAAAAAAAAAAAAAA+Q==" to="YnBsaXN0MDCvEA8BCQ0RFBUXGRsfISMlKCnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4m1AIDBAUqDxAqERbjAAgAGgAjACYAKQAsAC8AMgA3ADwARQBIAE0AUgBbAF4AYwBoAHEAdAB5AIIAiwCOAJcAmgCjAKYArwCyALcAvADFAMgA0QDUAN0A4gDrAO4A8wD8AQUAAAAAAAACAQAAAAAAAAArAAAAAAAAAAAAAAAAAAABCA==" resolved="yes"/>
   </resource-change-set>
