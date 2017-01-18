@@ -290,6 +290,7 @@
     <title>妙趣横生的算法（C++语言实现）</title>
     <type>group</type>
     <child-task idref="t130"/>
+    <child-task idref="t154"/>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
@@ -1657,6 +1658,21 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-19T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t154">
+    <title>排序算法</title>
+    <effort>28800</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-18T04:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-18T04:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
