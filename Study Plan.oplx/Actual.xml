@@ -79,6 +79,7 @@
       </schedule-day>
       <calendar name="Time Off" editable="yes" overtime="no">
         <event start="2017-01-15T03:00:00.000Z" end="2017-01-15T05:00:00.000Z" sd="5858" st="39600" ed="5858" et="46800"/>
+        <event start="2017-01-19T03:00:00.000Z" end="2017-01-19T04:15:00.000Z" sd="5862" st="39600" ed="5862" et="44100"/>
       </calendar>
       <calendar name="Overtime" editable="yes" overtime="yes">
         <event start="2017-01-01T11:00:00.000Z" end="2017-01-01T12:00:00.000Z" sd="5844" st="68400" ed="5844" et="72000"/>
@@ -96,6 +97,7 @@
         <event start="2017-01-15T05:00:00.000Z" end="2017-01-15T07:00:00.000Z" sd="5858" st="46800" ed="5858" et="54000"/>
         <event start="2017-01-15T10:00:00.000Z" end="2017-01-15T10:30:00.000Z" sd="5858" st="64800" ed="5858" et="66600"/>
         <event start="2017-01-16T05:00:00.000Z" end="2017-01-16T05:30:00.000Z" sd="5859" st="46800" ed="5859" et="48600"/>
+        <event start="2017-01-19T05:00:00.000Z" end="2017-01-19T06:00:00.000Z" sd="5862" st="46800" ed="5862" et="50400"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -1661,7 +1663,25 @@
   </task>
   <task id="t154">
     <title>排序算法</title>
+    <split/>
     <effort>28800</effort>
+    <effort-done>16200</effort-done>
+    <child-task idref="t155"/>
+    <child-task idref="t156"/>
+    <child-task idref="t157"/>
+    <child-task idref="t164"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+  </task>
+  <task id="t155">
+    <title>排序算法</title>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-18T04:00:00.000Z</start-constraint-date>
     <style>
@@ -1673,6 +1693,50 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-18T04:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t156">
+    <title>排序算法</title>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-01-18T07:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-18T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t157">
+    <title>排序算法</title>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-19T03:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-19T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t164">
+    <title>排序算法</title>
+    <effort>12600</effort>
+    <start-constraint-date>2017-01-19T07:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-19T07:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
