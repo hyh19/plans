@@ -1,40 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2017-01-18T05:07:12.377Z" timestamp="2017-01-18T05:07:12.377Z">
-    <change idref="t154" to="t22" to-position="1" resolved="yes">
-      <change idref="t154" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-18T03:00:00.000Z"/>
-      <change idref="t154" attribute="title" type="string" to="排序算法"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-18T05:07:26.277Z" timestamp="2017-01-18T05:07:26.277Z">
-    <change idref="t154" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-18T03:00:00.000Z" to="2017-01-18T04:00:00.000Z" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-18T05:07:30.411Z" timestamp="2017-01-18T05:07:30.411Z">
-    <change idref="t154" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-18T05:07:44.020Z" timestamp="2017-01-18T05:07:44.020Z">
-    <change idref="t154" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-18T05:08:07.005Z" timestamp="2017-01-18T05:08:07.005Z">
-    <change idref="t154" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibH0Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fQp7XCpcZXhwYW5kZWRjb2xvcnRibDs7fQp9" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-18T05:08:28.000Z" timestamp="2017-01-18T05:08:28.000Z">
-    <change idref="t154" attribute="notesAllowingNil" type="textdata" from="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO1xmMVxmbmlsXGZjaGFyc2V0MTM0IFBpbmdGYW5nU0MtUmVndWxhcjt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQ4NVxncmVlbjg1XGJsdWU4NTt9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NncmF5XGM0MDkyMjt9ClxwYXJkXHR4NTYwXHR4MTEyMFx0eDE2ODBcdHgyMjQwXHR4MjgwMFx0eDMzNjBcdHgzOTIwXHR4NDQ4MFx0eDUwNDBcdHg1NjAwXHR4NjE2MFx0eDY3MjBccGFyZGlybmF0dXJhbFxwYXJ0aWdodGVuZmFjdG9yMAoKXGYwXGZzMjQgXGNmMiAtIApcZjEgXCdkNlwnYjFcJ2JkXCdkM1wnYjJcJ2U1XCdjOFwnZWJcJ2M1XCdjNVwnZDBcJ2YyfQ==" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-19T05:52:38.889Z" timestamp="2017-01-19T05:52:38.889Z">
     <change idref="t154" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-18T04:00:00.000Z" resolved="yes"/>
     <change idref="t154" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
@@ -157,6 +123,27 @@
     <change idref="t164" attribute="effort" type="real" from="12600" to="3600" resolved="yes"/>
     <change idref="t164" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-19T07:30:00.000Z" to="2017-01-20T03:45:00.000Z" resolved="yes"/>
     <change idref="t164" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-20T10:32:58.765Z" timestamp="2017-01-20T10:32:58.765Z">
+    <change idref="t137" attribute="internalEffortDone" type="real" from="14400" to="21600" resolved="yes"/>
+    <change idref="t166" to="t137" to-position="2" resolved="yes">
+      <change idref="t166" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t166" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t166" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-21T03:00:00.000Z"/>
+      <change idref="t166" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t166" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t166" attribute="title" type="string" to="C++程序设计语言特别版 #3"/>
+    </change>
+    <change idref="t141" attribute="effort" type="real" from="14400" to="7200" resolved="yes"/>
+    <change idref="t141" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-17T03:00:00.000Z" to="2017-01-20T07:00:00.000Z" resolved="yes"/>
+    <change idref="t141" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-19T05:51:06.693Z" timestamp="2017-01-19T05:51:06.693Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEA8BCQ0RFBUXGRsfISMlKCnUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4m1AIDBAUqDxAqERbjAAgAGgAjACYAKQAsAC8AMgA3ADwARQBIAE0AUgBbAF4AYwBoAHEAdAB5AIIAiwCOAJcAmgCjAKYArwCyALcAvADFAMgA0QDUAN0A4gDrAO4A8wD8AQUAAAAAAAACAQAAAAAAAAArAAAAAAAAAAAAAAAAAAABCA==" to="YnBsaXN0MDCvEBABCQ0RFBUXGRsfISMlKCkr1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8QLBEW5gAIABsAJAAnACoALQAwADMAOAA9AEYASQBOAFMAXABfAGQAaQByAHUAegCDAIwAjwCYAJsApACnALAAswC4AL0AxgDJANIA1QDeAOMA7ADvAPQA/QEGAQkBEgAAAAAAAAIBAAAAAAAAAC0AAAAAAAAAAAAAAAAAAAEV" resolved="yes"/>
