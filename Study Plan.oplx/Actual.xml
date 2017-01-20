@@ -1665,11 +1665,12 @@
     <title>排序算法</title>
     <split/>
     <effort>28800</effort>
-    <effort-done>16200</effort-done>
+    <effort-done>19800</effort-done>
     <child-task idref="t155"/>
     <child-task idref="t156"/>
     <child-task idref="t157"/>
     <child-task idref="t164"/>
+    <child-task idref="t165"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1726,8 +1727,9 @@
   </task>
   <task id="t164">
     <title>排序算法</title>
-    <effort>12600</effort>
-    <start-constraint-date>2017-01-19T07:30:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-20T03:45:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1736,7 +1738,21 @@
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-19T07:30:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-20T03:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t165">
+    <title>排序算法</title>
+    <effort>9000</effort>
+    <start-constraint-date>2017-01-20T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-20T07:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
