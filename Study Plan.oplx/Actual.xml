@@ -98,6 +98,7 @@
         <event start="2017-01-15T10:00:00.000Z" end="2017-01-15T10:30:00.000Z" sd="5858" st="64800" ed="5858" et="66600"/>
         <event start="2017-01-16T05:00:00.000Z" end="2017-01-16T05:30:00.000Z" sd="5859" st="46800" ed="5859" et="48600"/>
         <event start="2017-01-19T05:00:00.000Z" end="2017-01-19T06:00:00.000Z" sd="5862" st="46800" ed="5862" et="50400"/>
+        <event start="2017-01-21T13:00:00.000Z" end="2017-01-21T14:00:00.000Z" sd="5864" st="75600" ed="5864" et="79200"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -1788,9 +1789,10 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>5400</effort-done>
+    <effort-done>9000</effort-done>
     <child-task idref="t169"/>
     <child-task idref="t170"/>
+    <child-task idref="t171"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1813,14 +1815,27 @@
   <task id="t170">
     <title>C++标准程序库</title>
     <priority>100</priority>
-    <effort>23400</effort>
-    <start-constraint-date>2017-01-22T03:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-21T13:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-22T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-21T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t171">
+    <title>C++标准程序库</title>
+    <priority>100</priority>
+    <effort>19800</effort>
+    <start-constraint-date>2017-01-23T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-23T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
