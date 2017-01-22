@@ -1789,11 +1789,12 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>12600</effort-done>
+    <effort-done>14400</effort-done>
     <child-task idref="t169"/>
     <child-task idref="t170"/>
     <child-task idref="t171"/>
     <child-task idref="t172"/>
+    <child-task idref="t173"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1842,7 +1843,20 @@
   <task id="t172">
     <title>C++标准程序库</title>
     <priority>100</priority>
-    <effort>16200</effort>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-01-22T08:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-22T08:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t173">
+    <title>C++标准程序库</title>
+    <priority>100</priority>
+    <effort>14400</effort>
     <start-constraint-date>2017-01-23T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">

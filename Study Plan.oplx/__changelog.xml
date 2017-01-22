@@ -143,6 +143,29 @@
     </change>
     <change idref="t171" attribute="effort" type="real" from="19800" to="3600" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-22T09:15:41.840Z" timestamp="2017-01-22T09:15:41.840Z">
+    <change idref="t172" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-23T03:00:00.000Z" to="2017-01-22T08:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-22T09:15:51.225Z" timestamp="2017-01-22T09:15:51.225Z">
+    <change idref="t168" attribute="internalEffortDone" type="real" from="12600" to="14400" resolved="yes"/>
+    <change idref="t173" to="t168" to-position="4" resolved="yes">
+      <change idref="t173" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t173" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t173" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-23T03:00:00.000Z"/>
+      <change idref="t173" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t173" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t173" attribute="title" type="string" to="C++标准程序库 #5"/>
+    </change>
+    <change idref="t172" attribute="effort" type="real" from="16200" to="1800" resolved="yes"/>
+    <change idref="t172" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-21T14:28:31.275Z" timestamp="2017-01-21T14:28:31.275Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBABCQ0RFBUXGRsfISMlKCkr1AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8tLBEW5iJHROAAAAgAGwAkACcAKgAtADAAMwA4AD0ARgBJAE4AUwBcAF8AZABpAHIAdQB6AIMAjACPAJgAmwCkAKcAsACzALgAvQDGAMkA0gDVAN4A4wDsAO8A9AD9AQYBCQESARUAAAAAAAACAQAAAAAAAAAuAAAAAAAAAAAAAAAAAAABGg==" to="YnBsaXN0MDCvEBEBCQ0RFBUXGRsfISMlKCkrLtQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZ1AIDBAUaDxAaERbb1AIDBAUcHR4cERbdIkd9IAAiR4IUANQCAwQFIA8QIBEW39QCAwQFIg8QIhEW4dQCAwQFIh0kIiJHiRwA1AIDBAUmDycmERbiIkdS8ADUAgMEBSYdHibUAgMEBSoPECoRFuPUAgMEBSwPLSwRFuYiR0TgANQCAwQFLzAxLxEW6CJHk6gAIkeasAAACAAcACUAKAArAC4AMQA0ADkAPgBHAEoATwBUAF0AYABlAGoAcwB2AHsAhACNAJAAmQCcAKUAqACxALQAuQC+AMcAygDTANYA3wDkAO0A8AD1AP4BBwEKARMBFgEbASQBJwEsAAAAAAAAAgEAAAAAAAAAMgAAAAAAAAAAAAAAAAAAATE=" resolved="yes"/>
   </resource-change-set>
