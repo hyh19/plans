@@ -284,6 +284,7 @@
     <type>group</type>
     <child-task idref="t89"/>
     <child-task idref="t22"/>
+    <child-task idref="t178"/>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
@@ -1919,6 +1920,45 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-24T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t178">
+    <title>大话数据结构</title>
+    <split/>
+    <priority>100</priority>
+    <effort>28800</effort>
+    <effort-done>3600</effort-done>
+    <child-task idref="t179"/>
+    <child-task idref="t180"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t179">
+    <title>大话数据结构</title>
+    <priority>100</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-23T09:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-23T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t180">
+    <title>大话数据结构</title>
+    <priority>100</priority>
+    <effort>25200</effort>
+    <start-constraint-date>2017-01-25T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-25T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
