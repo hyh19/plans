@@ -1872,9 +1872,10 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>9000</effort-done>
+    <effort-done>14400</effort-done>
     <child-task idref="t175"/>
     <child-task idref="t176"/>
+    <child-task idref="t177"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1897,7 +1898,20 @@
   <task id="t176">
     <title>STL源码剖析</title>
     <priority>100</priority>
-    <effort>19800</effort>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-23T07:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-23T07:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t177">
+    <title>STL源码剖析</title>
+    <priority>100</priority>
+    <effort>14400</effort>
     <start-constraint-date>2017-01-24T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
