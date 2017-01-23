@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1298" y="-249" w="1751" h="1026">
+  <window x="1303" y="-280" w="1852" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
@@ -8,7 +8,7 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1273</split-view-divider-position>
-      <outline x="5" y="0" w="1273" h="907">
+      <outline x="0" y="0" w="1273" h="938">
         <column name="Notes" width="20"/>
         <column name="Title" width="405"/>
         <column name="Priority" width="60"/>
@@ -24,7 +24,7 @@
         <expanded-item-notes idrefs="t48 t4 t77 t120 t101 t96"/>
         <selected-items-at-filter-time idrefs="t168 t178 t146 t147 t144 t154 t174 t145"/>
       </outline>
-      <gantt-view x="-2" y="0" w="176" h="907">
+      <gantt-view x="-61" y="0" w="277" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -121,7 +121,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="724">
+      <outline x="0" y="0" w="290" h="755">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="175"/>
@@ -144,7 +144,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>181</next-task-id>
+    <next-task-id>182</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
