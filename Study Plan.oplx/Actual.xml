@@ -101,6 +101,7 @@
         <event start="2017-01-21T13:00:00.000Z" end="2017-01-21T14:00:00.000Z" sd="5864" st="75600" ed="5864" et="79200"/>
         <event start="2017-01-23T02:30:00.000Z" end="2017-01-23T03:00:00.000Z" sd="5866" st="37800" ed="5866" et="39600"/>
         <event start="2017-01-23T13:30:00.000Z" end="2017-01-23T15:00:00.000Z" sd="5866" st="77400" ed="5866" et="82800"/>
+        <event start="2017-01-24T10:00:00.000Z" end="2017-01-24T10:45:00.000Z" sd="5867" st="64800" ed="5867" et="67500"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -1346,7 +1347,7 @@
     <split/>
     <priority>3000</priority>
     <effort>86400</effort>
-    <effort-done>63000</effort-done>
+    <effort-done>75600</effort-done>
     <child-task idref="t131"/>
     <child-task idref="t132"/>
     <child-task idref="t135"/>
@@ -1355,6 +1356,7 @@
     <child-task idref="t152"/>
     <child-task idref="t153"/>
     <child-task idref="t182"/>
+    <child-task idref="t183"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1980,8 +1982,9 @@
   <task id="t182">
     <title>基础数据结构</title>
     <priority>3000</priority>
-    <effort>23400</effort>
-    <start-constraint-date>2017-01-25T03:00:00.000Z</start-constraint-date>
+    <effort>12600</effort>
+    <effort-done>12600</effort-done>
+    <start-constraint-date>2017-01-24T07:15:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1990,7 +1993,22 @@
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-25T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-24T07:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t183">
+    <title>基础数据结构</title>
+    <priority>3000</priority>
+    <effort>10800</effort>
+    <start-constraint-date>2017-01-26T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-26T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

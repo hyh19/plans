@@ -1,52 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2017-01-22T05:10:18.399Z" timestamp="2017-01-22T05:10:18.399Z">
-    <change idref="t168" attribute="internalEffortDone" type="real" from="9000" to="12600" resolved="yes"/>
-    <change idref="t171" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-23T03:00:00.000Z" to="2017-01-22T04:00:00.000Z" resolved="yes"/>
-    <change idref="t171" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-22T05:10:28.264Z" timestamp="2017-01-22T05:10:28.264Z">
-    <change idref="t172" to="t168" to-position="3" resolved="yes">
-      <change idref="t172" attribute="effort" type="real" from="28800" to="16200"/>
-      <change idref="t172" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t172" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-23T03:00:00.000Z"/>
-      <change idref="t172" attribute="priority" type="real" from="0" to="100"/>
-      <change idref="t172" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t172" attribute="title" type="string" to="C++标准程序库 #4"/>
-    </change>
-    <change idref="t171" attribute="effort" type="real" from="19800" to="3600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-22T09:15:41.840Z" timestamp="2017-01-22T09:15:41.840Z">
-    <change idref="t172" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-23T03:00:00.000Z" to="2017-01-22T08:30:00.000Z" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-01-22T09:15:51.225Z" timestamp="2017-01-22T09:15:51.225Z">
-    <change idref="t168" attribute="internalEffortDone" type="real" from="12600" to="14400" resolved="yes"/>
-    <change idref="t173" to="t168" to-position="4" resolved="yes">
-      <change idref="t173" attribute="effort" type="real" from="28800" to="14400"/>
-      <change idref="t173" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t173" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-23T03:00:00.000Z"/>
-      <change idref="t173" attribute="priority" type="real" from="0" to="100"/>
-      <change idref="t173" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t173" attribute="title" type="string" to="C++标准程序库 #5"/>
-    </change>
-    <change idref="t172" attribute="effort" type="real" from="16200" to="1800" resolved="yes"/>
-    <change idref="t172" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-23T05:18:49.411Z" timestamp="2017-01-23T05:18:49.411Z">
     <change idref="t174" to="t136" to-position="2" resolved="yes">
       <change idref="t174" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-23T03:00:00.000Z"/>
@@ -215,6 +169,33 @@
     <change idref="t153" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-19T03:00:00.000Z" to="2017-01-24T03:30:00.000Z" resolved="yes"/>
     <change idref="t153" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-24T10:26:26.893Z" timestamp="2017-01-24T10:26:26.893Z">
+    <change idref="t130" attribute="internalEffortDone" type="real" from="63000" to="75600" resolved="yes"/>
+    <change idref="t183" to="t130" to-position="8" resolved="yes">
+      <change idref="t183" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t183" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t183" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-26T03:00:00.000Z"/>
+      <change idref="t183" attribute="priority" type="real" from="0" to="3000"/>
+      <change idref="t183" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t183" attribute="title" type="string" to="基础数据结构 #9"/>
+    </change>
+    <change idref="t182" attribute="effort" type="real" from="23400" to="12600" resolved="yes"/>
+    <change idref="t182" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-25T03:00:00.000Z" to="2017-01-24T07:15:00.000Z" resolved="yes"/>
+    <change idref="t182" attribute="internalEffortDone" type="real" from="0" to="12600" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-23T05:19:07.485Z" timestamp="2017-01-23T05:19:07.485Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBEBCQ0RFBUXGRsfISMlKCkrLtQCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZ1AIDBAUaDxAaERbb1AIDBAUcHR4cERbdIkd9IAAiR4IUANQCAwQFIA8QIBEW39QCAwQFIg8QIhEW4dQCAwQFIh0kIiJHiRwA1AIDBAUmDycmERbiIkdS8ADUAgMEBSYdHibUAgMEBSoPECoRFuPUAgMEBSwPLSwRFuYiR0TgANQCAwQFLzAxLxEW6CJHk6gAIkeasAAACAAcACUAKAArAC4AMQA0ADkAPgBHAEoATwBUAF0AYABlAGoAcwB2AHsAhACNAJAAmQCcAKUAqACxALQAuQC+AMcAygDTANYA3wDkAO0A8AD1AP4BBwEKARMBFgEbASQBJwEsAAAAAAAAAgEAAAAAAAAAMgAAAAAAAAAAAAAAAAAAATE=" to="YnBsaXN0MDCvEBIBCQ0RFBUXGRsfISMlKCkrLjLUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4m1AIDBAUqDxAqERbj1AIDBAUsDy0sERbmIkdE4ADUAgMEBS8wMS8RFugiR5OoACJHmrAA1AIDBAUzDxAzERbqAAgAHQAmACkALAAvADIANQA6AD8ASABLAFAAVQBeAGEAZgBrAHQAdwB8AIUAjgCRAJoAnQCmAKkAsgC1ALoAvwDIAMsA1ADXAOAA5QDuAPEA9gD/AQgBCwEUARcBHAElASgBLQEyATsAAAAAAAACAQAAAAAAAAA0AAAAAAAAAAAAAAAAAAABPg==" resolved="yes"/>
   </resource-change-set>
@@ -223,6 +204,9 @@
   </resource-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-23T15:10:23.039Z" timestamp="2017-01-23T15:10:23.039Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBIBCQ0RFBUXGRsfISMlKCkrLjLUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4m1AIDBAUqDxAqERbj1AIDBAUsDy0sERbmIkdE4ADUAgMEBS8wMS8RFugiR5OoACJHmrAA1AIDBAUzEwwzERbqAAgAHQAmACkALAAvADIANQA6AD8ASABLAFAAVQBeAGEAZgBrAHQAdwB8AIUAjgCRAJoAnQCmAKkAsgC1ALoAvwDIAMsA1ADXAOAA5QDuAPEA9gD/AQgBCwEUARcBHAElASgBLQEyATsAAAAAAAACAQAAAAAAAAA0AAAAAAAAAAAAAAAAAAABPg==" to="YnBsaXN0MDCvEBMBCQ0RFBUXGRsfISMlKCkrLjI01AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8tLBEW5iJHROAA1AIDBAUvMDEvERboIkeTqAAiR5qwANQCAwQFMxMMMxEW6tQCAwQFMzU2MyJHlywAIkehuAAACAAeACcAKgAtADAAMwA2ADsAQABJAEwAUQBWAF8AYgBnAGwAdQB4AH0AhgCPAJIAmwCeAKcAqgCzALYAuwDAAMkAzADVANgA4QDmAO8A8gD3AQABCQEMARUBGAEdASYBKQEuATMBPAE/AUgBTQAAAAAAAAIBAAAAAAAAADcAAAAAAAAAAAAAAAAAAAFS" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2017-01-24T10:26:26.888Z" timestamp="2017-01-24T10:26:26.888Z">
+    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBMBCQ0RFBUXGRsfISMlKCkrLjI01AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8tLBEW5iJHROAA1AIDBAUvMDEvERboIkeTqAAiR5qwANQCAwQFMxMMMxEW6tQCAwQFMzU2MyJHlywAIkehuAAACAAeACcAKgAtADAAMwA2ADsAQABJAEwAUQBWAF8AYgBnAGwAdQB4AH0AhgCPAJIAmwCeAKcAqgCzALYAuwDAAMkAzADVANgA4QDmAO8A8gD3AQABCQEMARUBGAEdASYBKQEuATMBPAE/AUgBTQAAAAAAAAIBAAAAAAAAADcAAAAAAAAAAAAAAAAAAAFS" to="YnBsaXN0MDCvEBQBCQ0RFBUXGRsfISMlKCkrLjI0N9QCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZ1AIDBAUaDxAaERbb1AIDBAUcHR4cERbdIkd9IAAiR4IUANQCAwQFIA8QIBEW39QCAwQFIg8QIhEW4dQCAwQFIh0kIiJHiRwA1AIDBAUmDycmERbiIkdS8ADUAgMEBSYdHibUAgMEBSoPECoRFuPUAgMEBSwPLSwRFuYiR0TgANQCAwQFLzAxLxEW6CJHk6gAIkeasADUAgMEBTMTDDMRFurUAgMEBTM1NjMiR5csACJHobgA1AIDBAU4HTk4ERbrIkeD1gAACAAfACgAKwAuADEANAA3ADwAQQBKAE0AUgBXAGAAYwBoAG0AdgB5AH4AhwCQAJMAnACfAKgAqwC0ALcAvADBAMoAzQDWANkA4gDnAPAA8wD4AQEBCgENARYBGQEeAScBKgEvATQBPQFAAUkBTgFTAVwBXwAAAAAAAAIBAAAAAAAAADoAAAAAAAAAAAAAAAAAAAFk" resolved="yes"/>
   </resource-change-set>
   <metadata-change-set user="Yuhui Huang" date="2017-01-10T10:40:47.041Z" timestamp="2017-01-10T10:40:47.041Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{
