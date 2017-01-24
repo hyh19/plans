@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1303" y="-280" w="1852" h="1057">
+  <window x="1303" y="-281" w="1852" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1273</split-view-divider-position>
-      <outline x="0" y="0" w="1273" h="938">
+      <split-view-divider-position>1218</split-view-divider-position>
+      <outline x="0" y="0" w="1218" h="938">
         <column name="Notes" width="20"/>
-        <column name="Title" width="405"/>
+        <column name="Title" width="350"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -20,11 +20,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t8 t99 t49 t4 t119 t22 t47 t144 t20 t56 t100 t76 t59 t60 t136 t46 t3"/>
-        <expanded-item-notes idrefs="t48 t4 t77 t120 t101 t96"/>
+        <expanded-items idrefs="t99 t8 t49 t4 t119 t22 t47 t144 t20 t56 t100 t76 t59 t60 t136 t3 t46"/>
+        <expanded-item-notes idrefs="t48 t77 t4 t120 t101 t96"/>
         <selected-items-at-filter-time idrefs="t168 t178 t146 t147 t144 t154 t174 t145"/>
       </outline>
-      <gantt-view x="-61" y="0" w="277" h="938">
+      <gantt-view x="-61" y="0" w="332" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -144,7 +144,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>182</next-task-id>
+    <next-task-id>183</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

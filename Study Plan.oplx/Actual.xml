@@ -1346,7 +1346,7 @@
     <split/>
     <priority>3000</priority>
     <effort>86400</effort>
-    <effort-done>57600</effort-done>
+    <effort-done>63000</effort-done>
     <child-task idref="t131"/>
     <child-task idref="t132"/>
     <child-task idref="t135"/>
@@ -1354,6 +1354,7 @@
     <child-task idref="t143"/>
     <child-task idref="t152"/>
     <child-task idref="t153"/>
+    <child-task idref="t182"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1658,8 +1659,9 @@
   <task id="t153">
     <title>基础数据结构</title>
     <priority>3000</priority>
-    <effort>28800</effort>
-    <start-constraint-date>2017-01-19T03:00:00.000Z</start-constraint-date>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-01-24T03:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1668,7 +1670,7 @@
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-19T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-24T03:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t154">
     <title>排序算法</title>
@@ -1974,6 +1976,21 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-24T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t182">
+    <title>基础数据结构</title>
+    <priority>3000</priority>
+    <effort>23400</effort>
+    <start-constraint-date>2017-01-25T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-25T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
