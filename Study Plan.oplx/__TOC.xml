@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1300" y="-281" w="1852" h="1057">
+  <window x="1300" y="-280" w="1852" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
@@ -20,7 +20,7 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t8 t99 t49 t4 t119 t22 t47 t144 t20 t56 t100 t76 t59 t60 t136 t3 t46"/>
+        <expanded-items idrefs="t46 t59 t1 t47 t76 t144 t22 t100 t3 t89 t56 t4 t136 t60 t147 t119 t49 t99 t20 t115 t8"/>
         <expanded-item-notes idrefs="t77 t4 t48 t96 t120 t101"/>
         <selected-items-at-filter-time idrefs="t168 t178 t146 t147 t144 t154 t174 t145"/>
       </outline>
