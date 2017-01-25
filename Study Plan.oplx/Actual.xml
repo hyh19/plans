@@ -1347,8 +1347,8 @@
     <title>基础数据结构</title>
     <split/>
     <priority>3000</priority>
-    <effort>86400</effort>
-    <effort-done>84600</effort-done>
+    <effort>75600</effort>
+    <effort-done>75600</effort-done>
     <child-task idref="t131"/>
     <child-task idref="t132"/>
     <child-task idref="t135"/>
@@ -1357,8 +1357,6 @@
     <child-task idref="t152"/>
     <child-task idref="t153"/>
     <child-task idref="t182"/>
-    <child-task idref="t183"/>
-    <child-task idref="t184"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1935,10 +1933,11 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>7200</effort-done>
+    <effort-done>10800</effort-done>
     <child-task idref="t179"/>
     <child-task idref="t180"/>
     <child-task idref="t181"/>
+    <child-task idref="t186"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1974,14 +1973,15 @@
   <task id="t181">
     <title>大话数据结构</title>
     <priority>100</priority>
-    <effort>21600</effort>
-    <start-constraint-date>2017-01-24T03:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-25T08:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-24T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-25T08:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t182">
     <title>基础数据结构</title>
@@ -1999,41 +1999,22 @@
     </style>
     <start-no-earlier-than>2017-01-24T07:15:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t183">
-    <title>基础数据结构</title>
-    <priority>3000</priority>
-    <effort>9000</effort>
-    <effort-done>9000</effort-done>
-    <start-constraint-date>2017-01-25T03:45:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
-    </style>
-    <start-no-earlier-than>2017-01-25T03:45:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t184">
-    <title>基础数据结构</title>
-    <priority>3000</priority>
-    <effort>1800</effort>
+  <task id="t185">
+    <title>C++标准程序库</title>
+    <priority>100</priority>
+    <effort>10800</effort>
     <start-constraint-date>2017-01-26T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
-      <value key="gantt-fill-color">
-        <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
-      </value>
     </style>
     <start-no-earlier-than>2017-01-26T03:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t185">
-    <title>C++标准程序库</title>
+  <task id="t186">
+    <title>大话数据结构</title>
     <priority>100</priority>
-    <effort>10800</effort>
+    <effort>18000</effort>
     <start-constraint-date>2017-01-26T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
