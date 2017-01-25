@@ -1799,12 +1799,13 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>18000</effort-done>
     <child-task idref="t169"/>
     <child-task idref="t170"/>
     <child-task idref="t171"/>
     <child-task idref="t172"/>
     <child-task idref="t173"/>
+    <child-task idref="t185"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1866,14 +1867,15 @@
   <task id="t173">
     <title>C++标准程序库</title>
     <priority>100</priority>
-    <effort>14400</effort>
-    <start-constraint-date>2017-01-23T03:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-01-25T07:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-23T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-25T07:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t174">
     <title>STL源码剖析</title>
@@ -2024,6 +2026,18 @@
       </value>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-26T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t185">
+    <title>C++标准程序库</title>
+    <priority>100</priority>
+    <effort>10800</effort>
+    <start-constraint-date>2017-01-26T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
     <start-no-earlier-than>2017-01-26T03:00:00.000Z</start-no-earlier-than>
