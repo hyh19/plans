@@ -104,6 +104,7 @@
         <event start="2017-01-24T10:00:00.000Z" end="2017-01-24T10:45:00.000Z" sd="5867" st="64800" ed="5867" et="67500"/>
         <event start="2017-01-25T05:00:00.000Z" end="2017-01-25T05:30:00.000Z" sd="5868" st="46800" ed="5868" et="48600"/>
         <event start="2017-01-26T06:30:00.000Z" end="2017-01-26T07:00:00.000Z" sd="5869" st="52200" ed="5869" et="54000"/>
+        <event start="2017-01-26T13:45:00.000Z" end="2017-01-26T14:15:00.000Z" sd="5869" st="78300" ed="5869" et="80100"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -1796,13 +1797,23 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>18000</effort-done>
+    <effort-done>19800</effort-done>
     <child-task idref="t169"/>
     <child-task idref="t170"/>
     <child-task idref="t171"/>
     <child-task idref="t172"/>
     <child-task idref="t173"/>
     <child-task idref="t185"/>
+    <child-task idref="t192"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <lit>P226</lit>
+          </run>
+        </p>
+      </text>
+    </note>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2001,14 +2012,15 @@
   <task id="t185">
     <title>C++标准程序库</title>
     <priority>100</priority>
-    <effort>10800</effort>
-    <start-constraint-date>2017-01-26T03:00:00.000Z</start-constraint-date>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-01-26T13:45:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-26T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-01-26T13:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t186">
     <title>大话数据结构</title>
@@ -2074,6 +2086,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-27T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t192">
+    <title>C++标准程序库</title>
+    <priority>100</priority>
+    <effort>9000</effort>
+    <start-constraint-date>2017-01-28T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-28T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

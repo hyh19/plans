@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <task-change-set user="Yuhui Huang" date="2017-01-24T10:26:26.893Z" timestamp="2017-01-24T10:26:26.893Z">
-    <change idref="t130" attribute="internalEffortDone" type="real" from="63000" to="75600" resolved="yes"/>
-    <change idref="t183" to="t130" to-position="8" resolved="yes">
-      <change idref="t183" attribute="effort" type="real" from="28800" to="10800"/>
-      <change idref="t183" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t183" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-26T03:00:00.000Z"/>
-      <change idref="t183" attribute="priority" type="real" from="0" to="3000"/>
-      <change idref="t183" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-    &quot;gantt-fill-color&quot; =     {
-        b = &quot;0.566152&quot;;
-        g = &quot;0.803&quot;;
-        r = &quot;0.440847&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t183" attribute="title" type="string" to="基础数据结构 #9"/>
-    </change>
-    <change idref="t182" attribute="effort" type="real" from="23400" to="12600" resolved="yes"/>
-    <change idref="t182" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-25T03:00:00.000Z" to="2017-01-24T07:15:00.000Z" resolved="yes"/>
-    <change idref="t182" attribute="internalEffortDone" type="real" from="0" to="12600" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-01-25T05:16:01.457Z" timestamp="2017-01-25T05:16:01.457Z">
     <change idref="t183" attribute="title" type="string" from="基础数据结构" to="基础数据结构 #9" resolved="yes"/>
     <change idref="t183" attribute="isSplitChunk" type="real" from="0" to="1" resolved="yes"/>
@@ -261,14 +234,40 @@
     </change>
     <change idref="t189" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-26T07:15:00.000Z" to="2017-01-26T06:45:00.000Z" resolved="yes"/>
   </task-change-set>
-  <resource-change-set user="Yuhui Huang" date="2017-01-24T10:26:26.888Z" timestamp="2017-01-24T10:26:26.888Z">
-    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBMBCQ0RFBUXGRsfISMlKCkrLjI01AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8tLBEW5iJHROAA1AIDBAUvMDEvERboIkeTqAAiR5qwANQCAwQFMxMMMxEW6tQCAwQFMzU2MyJHlywAIkehuAAACAAeACcAKgAtADAAMwA2ADsAQABJAEwAUQBWAF8AYgBnAGwAdQB4AH0AhgCPAJIAmwCeAKcAqgCzALYAuwDAAMkAzADVANgA4QDmAO8A8gD3AQABCQEMARUBGAEdASYBKQEuATMBPAE/AUgBTQAAAAAAAAIBAAAAAAAAADcAAAAAAAAAAAAAAAAAAAFS" to="YnBsaXN0MDCvEBQBCQ0RFBUXGRsfISMlKCkrLjI0N9QCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZ1AIDBAUaDxAaERbb1AIDBAUcHR4cERbdIkd9IAAiR4IUANQCAwQFIA8QIBEW39QCAwQFIg8QIhEW4dQCAwQFIh0kIiJHiRwA1AIDBAUmDycmERbiIkdS8ADUAgMEBSYdHibUAgMEBSoPECoRFuPUAgMEBSwPLSwRFuYiR0TgANQCAwQFLzAxLxEW6CJHk6gAIkeasADUAgMEBTMTDDMRFurUAgMEBTM1NjMiR5csACJHobgA1AIDBAU4HTk4ERbrIkeD1gAACAAfACgAKwAuADEANAA3ADwAQQBKAE0AUgBXAGAAYwBoAG0AdgB5AH4AhwCQAJMAnACfAKgAqwC0ALcAvADBAMoAzQDWANkA4gDnAPAA8wD4AQEBCgENARYBGQEeAScBKgEvATQBPQFAAUkBTgFTAVwBXwAAAAAAAAIBAAAAAAAAADoAAAAAAAAAAAAAAAAAAAFk" resolved="yes"/>
-  </resource-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-26T14:16:56.726Z" timestamp="2017-01-26T14:16:56.726Z">
+    <change idref="t168" attribute="internalEffortDone" type="real" from="18000" to="19800" resolved="yes"/>
+    <change idref="t185" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-26T03:00:00.000Z" to="2017-01-26T13:45:00.000Z" resolved="yes"/>
+    <change idref="t185" attribute="internalEffortDone" type="real" from="0" to="1800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-26T14:17:08.595Z" timestamp="2017-01-26T14:17:08.595Z">
+    <change idref="t192" to="t168" to-position="6" resolved="yes">
+      <change idref="t192" attribute="effort" type="real" from="28800" to="9000"/>
+      <change idref="t192" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t192" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-28T03:00:00.000Z"/>
+      <change idref="t192" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t192" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t192" attribute="title" type="string" to="C++标准程序库 #7"/>
+    </change>
+    <change idref="t185" attribute="effort" type="real" from="10800" to="1800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-26T14:17:31.113Z" timestamp="2017-01-26T14:17:31.113Z">
+    <change idref="t168" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIFAyMjZ9" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-25T05:16:24.993Z" timestamp="2017-01-25T05:16:24.993Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBQBCQ0RFBUXGRsfISMlKCkrLjI0N9QCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZ1AIDBAUaDxAaERbb1AIDBAUcHR4cERbdIkd9IAAiR4IUANQCAwQFIA8QIBEW39QCAwQFIg8QIhEW4dQCAwQFIh0kIiJHiRwA1AIDBAUmDycmERbiIkdS8ADUAgMEBSYdHibUAgMEBSoPECoRFuPUAgMEBSwPLSwRFuYiR0TgANQCAwQFLzAxLxEW6CJHk6gAIkeasADUAgMEBTMTDDMRFurUAgMEBTM1NjMiR5csACJHobgA1AIDBAU4HTk4ERbrIkeD1gAACAAfACgAKwAuADEANAA3ADwAQQBKAE0AUgBXAGAAYwBoAG0AdgB5AH4AhwCQAJMAnACfAKgAqwC0ALcAvADBAMoAzQDWANkA4gDnAPAA8wD4AQEBCgENARYBGQEeAScBKgEvATQBPQFAAUkBTgFTAVwBXwAAAAAAAAIBAAAAAAAAADoAAAAAAAAAAAAAAAAAAAFk" to="YnBsaXN0MDCvEBUBCQ0RFBUXGRsfISMlKCkrLjI0NzrUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4m1AIDBAUqDxAqERbj1AIDBAUsDy0sERbmIkdE4ADUAgMEBS8wMS8RFugiR5OoACJHmrAA1AIDBAUzEwwzERbq1AIDBAUzNTYzIkeXLAAiR6G4ANQCAwQFOB05OBEW6yJHg9YA1AIDBAU7DxA7ERbsAAgAIAApACwALwAyADUAOAA9AEIASwBOAFMAWABhAGQAaQBuAHcAegB/AIgAkQCUAJ0AoACpAKwAtQC4AL0AwgDLAM4A1wDaAOMA6ADxAPQA+QECAQsBDgEXARoBHwEoASsBMAE1AT4BQQFKAU8BVAFdAWABZQFuAAAAAAAAAgEAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAXE=" resolved="yes"/>
   </resource-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-26T09:01:22.891Z" timestamp="2017-01-26T09:01:22.891Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBUBCQ0RFBUXGRsfISMlKCkrLjI0NzrUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4m1AIDBAUqDxAqERbj1AIDBAUsDy0sERbmIkdE4ADUAgMEBS8wMS8RFugiR5OoACJHmrAA1AIDBAUzEwwzERbq1AIDBAUzNTYzIkeXLAAiR6G4ANQCAwQFOB05OBEW6yJHg9YA1AIDBAU7DxA7ERbsAAgAIAApACwALwAyADUAOAA9AEIASwBOAFMAWABhAGQAaQBuAHcAegB/AIgAkQCUAJ0AoACpAKwAtQC4AL0AwgDLAM4A1wDaAOMA6ADxAPQA+QECAQsBDgEXARoBHwEoASsBMAE1AT4BQQFKAU8BVAFdAWABZQFuAAAAAAAAAgEAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAXE=" to="YnBsaXN0MDCvEBYBCQ0RFBUXGRsfISMlKCkrLjI0Nzo81AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8tLBEW5iJHROAA1AIDBAUvMDEvERboIkeTqAAiR5qwANQCAwQFMxMMMxEW6tQCAwQFMzU2MyJHlywAIkehuADUAgMEBTgdOTgRFusiR4PWANQCAwQFOw8QOxEW7NQCAwQFPT4nPREW7SJHS+gAAAgAIQAqAC0AMAAzADYAOQA+AEMATABPAFQAWQBiAGUAagBvAHgAewCAAIkAkgCVAJ4AoQCqAK0AtgC5AL4AwwDMAM8A2ADbAOQA6QDyAPUA+gEDAQwBDwEYARsBIAEpASwBMQE2AT8BQgFLAVABVQFeAWEBZgFvAXIBewF+AAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAYM=" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2017-01-26T14:16:24.668Z" timestamp="2017-01-26T14:16:24.668Z">
+    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBYBCQ0RFBUXGRsfISMlKCkrLjI0Nzo81AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8tLBEW5iJHROAA1AIDBAUvMDEvERboIkeTqAAiR5qwANQCAwQFMxMMMxEW6tQCAwQFMzU2MyJHlywAIkehuADUAgMEBTgdOTgRFusiR4PWANQCAwQFOw8QOxEW7NQCAwQFPT4nPREW7SJHS+gAAAgAIQAqAC0AMAAzADYAOQA+AEMATABPAFQAWQBiAGUAagBvAHgAewCAAIkAkgCVAJ4AoQCqAK0AtgC5AL4AwwDMAM8A2ADbAOQA6QDyAPUA+gEDAQwBDwEYARsBIAEpASwBMQE2AT8BQgFLAVABVQFeAWEBZgFvAXIBewF+AAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAYM=" to="YnBsaXN0MDCvEBcBCQ0RFBUXGRsfISMlKCkrLjI0Nzo8P9QCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZ1AIDBAUaDxAaERbb1AIDBAUcHR4cERbdIkd9IAAiR4IUANQCAwQFIA8QIBEW39QCAwQFIg8QIhEW4dQCAwQFIh0kIiJHiRwA1AIDBAUmDycmERbiIkdS8ADUAgMEBSYdHibUAgMEBSoPECoRFuPUAgMEBSwPLSwRFuYiR0TgANQCAwQFLzAxLxEW6CJHk6gAIkeasADUAgMEBTMTDDMRFurUAgMEBTM1NjMiR5csACJHobgA1AIDBAU4HTk4ERbrIkeD1gDUAgMEBTsPEDsRFuzUAgMEBT0+Jz0RFu0iR0voANQCAwQFPUBBPSJHmO4AIkeccgAACAAiACsALgAxADQANwA6AD8ARABNAFAAVQBaAGMAZgBrAHAAeQB8AIEAigCTAJYAnwCiAKsArgC3ALoAvwDEAM0A0ADZANwA5QDqAPMA9gD7AQQBDQEQARkBHAEhASoBLQEyATcBQAFDAUwBUQFWAV8BYgFnAXABcwF8AX8BhAGNAZIAAAAAAAACAQAAAAAAAABCAAAAAAAAAAAAAAAAAAABlw==" resolved="yes"/>
   </resource-change-set>
   <metadata-change-set user="Yuhui Huang" date="2017-01-10T10:40:47.041Z" timestamp="2017-01-10T10:40:47.041Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{
