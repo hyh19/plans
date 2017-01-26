@@ -103,6 +103,7 @@
         <event start="2017-01-23T13:30:00.000Z" end="2017-01-23T15:00:00.000Z" sd="5866" st="77400" ed="5866" et="82800"/>
         <event start="2017-01-24T10:00:00.000Z" end="2017-01-24T10:45:00.000Z" sd="5867" st="64800" ed="5867" et="67500"/>
         <event start="2017-01-25T05:00:00.000Z" end="2017-01-25T05:30:00.000Z" sd="5868" st="46800" ed="5868" et="48600"/>
+        <event start="2017-01-26T06:30:00.000Z" end="2017-01-26T07:00:00.000Z" sd="5869" st="52200" ed="5869" et="54000"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -2026,9 +2027,10 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>7200</effort-done>
+    <effort-done>16200</effort-done>
     <child-task idref="t188"/>
     <child-task idref="t189"/>
+    <child-task idref="t191"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2051,7 +2053,20 @@
   <task id="t189">
     <title>数据结构与算法分析C++描述第三版</title>
     <priority>100</priority>
-    <effort>21600</effort>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-01-26T06:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-26T06:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t191">
+    <title>数据结构与算法分析C++描述第三版</title>
+    <priority>100</priority>
+    <effort>12600</effort>
     <start-constraint-date>2017-01-27T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
