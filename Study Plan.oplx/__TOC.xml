@@ -7,10 +7,10 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1231</split-view-divider-position>
-      <outline x="0" y="0" w="1231" h="938">
+      <split-view-divider-position>1272</split-view-divider-position>
+      <outline x="0" y="0" w="1272" h="938">
         <column name="Notes" width="20"/>
-        <column name="Title" width="363"/>
+        <column name="Title" width="404"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -20,11 +20,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="84"/>
-        <expanded-items idrefs="t46 t59 t1 t47 t76 t144 t22 t100 t3 t89 t56 t4 t136 t60 t147 t119 t49 t99 t20 t115 t8"/>
-        <expanded-item-notes idrefs="t77 t4 t48 t96 t120 t101"/>
-        <selected-items-at-filter-time idrefs="t168 t178 t146 t147 t144 t154 t174 t145"/>
+        <expanded-items idrefs="t8 t99 t49 t4 t119 t115 t47 t144 t20 t56 t147 t76 t59 t60 t100 t136 t3 t46"/>
+        <expanded-item-notes idrefs="t48 t77 t4 t96 t101 t120"/>
+        <selected-items-at-filter-time idrefs="t168 t178 t174 t146 t147 t144 t154 t187 t145"/>
       </outline>
-      <gantt-view x="-61" y="0" w="319" h="938">
+      <gantt-view x="-61" y="0" w="278" h="938">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -144,7 +144,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>187</next-task-id>
+    <next-task-id>190</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

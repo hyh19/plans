@@ -286,6 +286,7 @@
     <child-task idref="t89"/>
     <child-task idref="t22"/>
     <child-task idref="t178"/>
+    <child-task idref="t187"/>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
@@ -2019,6 +2020,45 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-26T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t187">
+    <title>数据结构与算法分析C++描述第三版</title>
+    <split/>
+    <priority>100</priority>
+    <effort>28800</effort>
+    <effort-done>7200</effort-done>
+    <child-task idref="t188"/>
+    <child-task idref="t189"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t188">
+    <title>数据结构与算法分析C++描述第三版</title>
+    <priority>100</priority>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-01-26T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-26T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t189">
+    <title>数据结构与算法分析C++描述第三版</title>
+    <priority>100</priority>
+    <effort>21600</effort>
+    <start-constraint-date>2017-01-27T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-27T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
