@@ -7,8 +7,8 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>991</split-view-divider-position>
-      <outline x="11" y="0" w="991" h="698">
+      <split-view-divider-position>978</split-view-divider-position>
+      <outline x="2" y="0" w="978" h="698">
         <column name="Notes" width="20"/>
         <column name="Title" width="434"/>
         <column name="Priority" width="60"/>
@@ -21,7 +21,7 @@
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t168 t178 t187 t146 t147 t144 t154 t193 t174 t145"/>
       </outline>
-      <gantt-view x="-61" y="0" w="287" h="698">
+      <gantt-view x="0" y="0" w="0" h="0">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -68,13 +68,13 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="938">
+      <outline x="0" y="0" w="306" h="698">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="157"/>
+        <column name="Resource" width="175"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="0" y="0" w="1216" h="938">
+      <timeline x="0" y="0" w="944" h="698">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -141,7 +141,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>196</next-task-id>
+    <next-task-id>197</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

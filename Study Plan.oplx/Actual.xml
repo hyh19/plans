@@ -106,6 +106,7 @@
         <event start="2017-01-26T06:30:00.000Z" end="2017-01-26T07:00:00.000Z" sd="5869" st="52200" ed="5869" et="54000"/>
         <event start="2017-01-26T13:45:00.000Z" end="2017-01-26T14:15:00.000Z" sd="5869" st="78300" ed="5869" et="80100"/>
         <event start="2017-01-28T02:00:00.000Z" end="2017-01-28T03:00:00.000Z" sd="5871" st="36000" ed="5871" et="39600"/>
+        <event start="2017-01-28T05:00:00.000Z" end="2017-01-28T07:00:00.000Z" sd="5871" st="46800" ed="5871" et="54000"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -1840,9 +1841,15 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>3600</effort-done>
+    <effort-done>10800</effort-done>
     <child-task idref="t194"/>
     <child-task idref="t195"/>
+    <child-task idref="t196"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
   </task>
   <task id="t194">
     <title>数据结构与算法分析C语言描述第二版</title>
@@ -1850,13 +1857,36 @@
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-28T02:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-01-28T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t195">
     <title>数据结构与算法分析C语言描述第二版</title>
     <priority>100</priority>
-    <effort>25200</effort>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-01-28T04:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-28T04:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t196">
+    <title>数据结构与算法分析C语言描述第二版</title>
+    <priority>100</priority>
+    <effort>18000</effort>
     <start-constraint-date>2017-01-29T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-01-29T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
