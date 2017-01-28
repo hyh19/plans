@@ -137,11 +137,391 @@
   <task-change-set user="Yuhui Huang" date="2017-01-26T14:17:31.113Z" timestamp="2017-01-26T14:17:31.113Z">
     <change idref="t168" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcZnMyNCBcY2YyIFAyMjZ9" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-28T04:36:07.212Z" timestamp="2017-01-28T04:36:07.212Z">
+    <change idref="t6" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-27T03:30:00.000Z" resolved="yes"/>
+    <change idref="t6" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t13" from="t6" from-position="1" resolved="yes">
+      <change idref="t13" attribute="effort" type="real" from="28800" to="5400"/>
+      <change idref="t13" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t13" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-28T03:00:00.000Z"/>
+      <change idref="t13" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}"/>
+      <change idref="t13" attribute="title" type="string" to="Programming Guides #2"/>
+    </change>
+    <change idref="t12" from="t6" from-position="0" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="12600"/>
+      <change idref="t12" attribute="internalEffortDone" type="real" from="0" to="12600"/>
+      <change idref="t12" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2016-12-27T03:30:00.000Z"/>
+      <change idref="t12" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}"/>
+      <change idref="t12" attribute="title" type="string" to="Programming Guides #1"/>
+    </change>
+    <change idref="t124" from="t120" from-position="1" resolved="yes">
+      <change idref="t124" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t124" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+      <change idref="t124" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t124" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-12T03:30:00.000Z"/>
+      <change idref="t124" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZ2l0aHViLmNvbS9Db2Rlck1KTGVlL01KRXh0ZW5zaW9uIn19e1xmbGRyc2x0IApcZjBcZnMyNCBcY2YyIFx1cDAgXG5vc3VwZXJzdWIgXHVsbm9uZSBcb2JsaXF1ZW5lc3MwIFxleHBhbnNpb24wIGh0dHBzOi8vZ2l0aHViLmNvbS9Db2Rlck1KTGVlL01KRXh0ZW5zaW9ufX19"/>
+      <change idref="t124" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t124" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t124" attribute="title" type="string" to="MJExtension #2"/>
+    </change>
+    <change idref="t123" attribute="effort" type="real" from="10800" to="18000" resolved="yes"/>
+    <change idref="t123" attribute="internalEffortDone" type="real" from="10800" to="18000" resolved="yes"/>
+    <change idref="t133" attribute="title" type="string" from="MJExtension #3" to="MJExtension #2" resolved="yes"/>
+    <change idref="t134" attribute="title" type="string" from="MJExtension #4" to="MJExtension #3" resolved="yes"/>
+    <change idref="t157" from="t154" from-position="2" resolved="yes">
+      <change idref="t157" attribute="effort" type="real" from="28800" to="5400"/>
+      <change idref="t157" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t157" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t157" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-19T03:30:00.000Z"/>
+      <change idref="t157" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t157" attribute="title" type="string" to="排序算法 #3"/>
+    </change>
+    <change idref="t156" attribute="effort" type="real" from="7200" to="12600" resolved="yes"/>
+    <change idref="t156" attribute="internalEffortDone" type="real" from="7200" to="12600" resolved="yes"/>
+    <change idref="t164" attribute="title" type="string" from="排序算法 #4" to="排序算法 #3" resolved="yes"/>
+    <change idref="t165" attribute="title" type="string" from="排序算法 #5" to="排序算法 #4" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-28T04:37:33.355Z" timestamp="2017-01-28T04:37:33.355Z">
+    <change idref="t193" to="t20" to-position="4" resolved="yes">
+      <change idref="t193" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t193" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-28T02:00:00.000Z"/>
+      <change idref="t193" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t193" attribute="title" type="string" to="数据结构与算法分析C语言描述第二版"/>
+    </change>
+    <change idref="t65" from="t48" from-position="1" resolved="yes">
+      <change idref="t65" attribute="effort" type="real" from="28800" to="5400"/>
+      <change idref="t65" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t65" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t65" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-04T02:30:00.000Z"/>
+      <change idref="t65" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t65" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}"/>
+      <change idref="t65" attribute="title" type="string" to="AVFoundation Programming Guide #2"/>
+    </change>
+    <change idref="t61" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-04T07:30:00.000Z" resolved="yes"/>
+    <change idref="t61" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t69" from="t61" from-position="1" resolved="yes">
+      <change idref="t69" attribute="effort" type="real" from="28800" to="9000"/>
+      <change idref="t69" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t69" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-05T03:00:00.000Z"/>
+      <change idref="t69" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t69" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t69" attribute="title" type="string" to="Testing with Xcode #2"/>
+    </change>
+    <change idref="t68" from="t61" from-position="0" resolved="yes">
+      <change idref="t68" attribute="effort" type="real" from="28800" to="5400"/>
+      <change idref="t68" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t68" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t68" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-04T07:30:00.000Z"/>
+      <change idref="t68" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t68" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t68" attribute="title" type="string" to="Testing with Xcode #1"/>
+    </change>
+    <change idref="t64" attribute="effort" type="real" from="9000" to="14400" resolved="yes"/>
+    <change idref="t64" attribute="internalEffortDone" type="real" from="9000" to="14400" resolved="yes"/>
+    <change idref="t66" attribute="title" type="string" from="AVFoundation Programming Guide #3" to="AVFoundation Programming Guide #2" resolved="yes"/>
+    <change idref="t80" from="t77" from-position="2" resolved="yes">
+      <change idref="t80" attribute="effort" type="real" from="28800" to="9000"/>
+      <change idref="t80" attribute="internalEffortDone" type="real" from="0" to="9000"/>
+      <change idref="t80" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t80" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-06T02:00:00.000Z"/>
+      <change idref="t80" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTA0XGNvY29hc3VicnRmNzYwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBIZWx2ZXRpY2FOZXVlO30Ke1xjb2xvcnRibDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDg1XGdyZWVuODVcYmx1ZTg1O30Ke1wqXGV4cGFuZGVkY29sb3J0Ymw7O1xjc2dyYXlcYzQwOTIyO30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCntcZmllbGR7XCpcZmxkaW5zdHtIWVBFUkxJTksgImh0dHBzOi8vZGV2ZWxvcGVyLmFwcGxlLmNvbS9saWJyYXJ5L2NvbnRlbnQvc2FtcGxlY29kZS9BVkNhbSJ9fXtcZmxkcnNsdCAKXGYwXGZzMjQgXGNmMiBcdXAwIFxub3N1cGVyc3ViIFx1bG5vbmUgXG9ibGlxdWVuZXNzMCBcZXhwYW5zaW9uMCBodHRwczovL2RldmVsb3Blci5hcHBsZS5jb20vbGlicmFyeS9jb250ZW50L3NhbXBsZWNvZGUvQVZDYW19fX0="/>
+      <change idref="t80" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t80" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-color&quot; =     {
+        b = 0;
+        g = &quot;0.149131&quot;;
+        r = 1;
+        space = srgb;
+    };
+    &quot;strikethrough-style&quot; = single;
+}"/>
+      <change idref="t80" attribute="title" type="string" to="AVCam-iOS #3"/>
+    </change>
+    <change idref="t79" attribute="effort" type="real" from="9000" to="18000" resolved="yes"/>
+    <change idref="t79" attribute="internalEffortDone" type="real" from="9000" to="18000" resolved="yes"/>
+    <change idref="t142" from="t130" from-position="3" resolved="yes">
+      <change idref="t142" attribute="effort" type="real" from="28800" to="7200"/>
+      <change idref="t142" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+      <change idref="t142" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t142" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-16T03:30:00.000Z"/>
+      <change idref="t142" attribute="priority" type="real" from="0" to="3000"/>
+      <change idref="t142" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+    &quot;gantt-fill-color&quot; =     {
+        b = &quot;0.566152&quot;;
+        g = &quot;0.803&quot;;
+        r = &quot;0.440847&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t142" attribute="title" type="string" to="基础数据结构 #4"/>
+    </change>
+    <change idref="t135" attribute="effort" type="real" from="3600" to="10800" resolved="yes"/>
+    <change idref="t135" attribute="internalEffortDone" type="real" from="3600" to="10800" resolved="yes"/>
+    <change idref="t143" attribute="title" type="string" from="基础数据结构 #5" to="基础数据结构 #4" resolved="yes"/>
+    <change idref="t145" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-16T09:00:00.000Z" resolved="yes"/>
+    <change idref="t145" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t151" from="t145" from-position="1" resolved="yes">
+      <change idref="t151" attribute="effort" type="real" from="28800" to="27000"/>
+      <change idref="t151" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t151" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-17T03:00:00.000Z"/>
+      <change idref="t151" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t151" attribute="title" type="string" to="Source Code #2"/>
+    </change>
+    <change idref="t150" from="t145" from-position="0" resolved="yes">
+      <change idref="t150" attribute="effort" type="real" from="28800" to="1800"/>
+      <change idref="t150" attribute="internalEffortDone" type="real" from="0" to="1800"/>
+      <change idref="t150" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t150" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-16T09:00:00.000Z"/>
+      <change idref="t150" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t150" attribute="title" type="string" to="Source Code #1"/>
+    </change>
+    <change idref="t146" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-16T08:00:00.000Z" resolved="yes"/>
+    <change idref="t146" attribute="isSplitTask" type="real" from="1" to="0" resolved="yes"/>
+    <change idref="t149" from="t146" from-position="1" resolved="yes">
+      <change idref="t149" attribute="effort" type="real" from="28800" to="25200"/>
+      <change idref="t149" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t149" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-17T03:00:00.000Z"/>
+      <change idref="t149" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t149" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t149" attribute="title" type="string" to="我所理解的Cocos2d-x #2"/>
+    </change>
+    <change idref="t148" from="t146" from-position="0" resolved="yes">
+      <change idref="t148" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t148" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t148" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t148" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-16T08:00:00.000Z"/>
+      <change idref="t148" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t148" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t148" attribute="title" type="string" to="我所理解的Cocos2d-x #1"/>
+    </change>
+    <change idref="t152" attribute="title" type="string" from="基础数据结构 #6" to="基础数据结构 #5" resolved="yes"/>
+    <change idref="t153" attribute="title" type="string" from="基础数据结构 #7" to="基础数据结构 #6" resolved="yes"/>
+    <change idref="t170" from="t168" from-position="1" resolved="yes">
+      <change idref="t170" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t170" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t170" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t170" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-21T13:00:00.000Z"/>
+      <change idref="t170" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t170" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t170" attribute="title" type="string" to="C++标准程序库 #2"/>
+    </change>
+    <change idref="t169" attribute="effort" type="real" from="5400" to="9000" resolved="yes"/>
+    <change idref="t169" attribute="internalEffortDone" type="real" from="5400" to="9000" resolved="yes"/>
+    <change idref="t171" attribute="title" type="string" from="C++标准程序库 #3" to="C++标准程序库 #2" resolved="yes"/>
+    <change idref="t172" attribute="title" type="string" from="C++标准程序库 #4" to="C++标准程序库 #3" resolved="yes"/>
+    <change idref="t173" attribute="title" type="string" from="C++标准程序库 #5" to="C++标准程序库 #4" resolved="yes"/>
+    <change idref="t186" from="t178" from-position="3" resolved="yes">
+      <change idref="t186" attribute="effort" type="real" from="28800" to="18000"/>
+      <change idref="t186" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t186" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-26T03:00:00.000Z"/>
+      <change idref="t186" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t186" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t186" attribute="title" type="string" to="大话数据结构 #4"/>
+    </change>
+    <change idref="t180" from="t178" from-position="1" resolved="yes">
+      <change idref="t180" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t180" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t180" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t180" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-23T13:45:00.000Z"/>
+      <change idref="t180" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t180" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t180" attribute="title" type="string" to="大话数据结构 #2"/>
+    </change>
+    <change idref="t179" attribute="effort" type="real" from="3600" to="7200" resolved="yes"/>
+    <change idref="t179" attribute="internalEffortDone" type="real" from="3600" to="7200" resolved="yes"/>
+    <change idref="t181" attribute="title" type="string" from="大话数据结构 #3" to="大话数据结构 #2" resolved="yes"/>
+    <change idref="t181" attribute="effort" type="real" from="3600" to="21600" resolved="yes"/>
+    <change idref="t182" attribute="title" type="string" from="基础数据结构 #8" to="基础数据结构 #7" resolved="yes"/>
+    <change idref="t185" attribute="title" type="string" from="C++标准程序库 #6" to="C++标准程序库 #5" resolved="yes"/>
+    <change idref="t192" attribute="title" type="string" from="C++标准程序库 #7" to="C++标准程序库 #6" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-01-28T04:37:51.057Z" timestamp="2017-01-28T04:37:51.057Z">
+    <change idref="t193" attribute="noEarlierThanConstraintDate" type="date" from="2017-01-28T02:00:00.000Z"/>
+    <change idref="t193" attribute="isSplitTask" type="real" from="0" to="1"/>
+    <change idref="t194" to="t193" to-position="0">
+      <change idref="t194" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t194" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t194" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t194" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-28T02:00:00.000Z"/>
+      <change idref="t194" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t194" attribute="title" type="string" to="数据结构与算法分析C语言描述第二版 #1"/>
+    </change>
+    <change idref="t195" to="t193" to-position="1">
+      <change idref="t195" attribute="effort" type="real" from="28800" to="25200"/>
+      <change idref="t195" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t195" attribute="noEarlierThanConstraintDate" type="date" to="2017-01-29T03:00:00.000Z"/>
+      <change idref="t195" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t195" attribute="title" type="string" to="数据结构与算法分析C语言描述第二版 #2"/>
+    </change>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-26T09:01:22.891Z" timestamp="2017-01-26T09:01:22.891Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBUBCQ0RFBUXGRsfISMlKCkrLjI0NzrUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4m1AIDBAUqDxAqERbj1AIDBAUsDy0sERbmIkdE4ADUAgMEBS8wMS8RFugiR5OoACJHmrAA1AIDBAUzEwwzERbq1AIDBAUzNTYzIkeXLAAiR6G4ANQCAwQFOB05OBEW6yJHg9YA1AIDBAU7DxA7ERbsAAgAIAApACwALwAyADUAOAA9AEIASwBOAFMAWABhAGQAaQBuAHcAegB/AIgAkQCUAJ0AoACpAKwAtQC4AL0AwgDLAM4A1wDaAOMA6ADxAPQA+QECAQsBDgEXARoBHwEoASsBMAE1AT4BQQFKAU8BVAFdAWABZQFuAAAAAAAAAgEAAAAAAAAAPAAAAAAAAAAAAAAAAAAAAXE=" to="YnBsaXN0MDCvEBYBCQ0RFBUXGRsfISMlKCkrLjI0Nzo81AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8tLBEW5iJHROAA1AIDBAUvMDEvERboIkeTqAAiR5qwANQCAwQFMxMMMxEW6tQCAwQFMzU2MyJHlywAIkehuADUAgMEBTgdOTgRFusiR4PWANQCAwQFOw8QOxEW7NQCAwQFPT4nPREW7SJHS+gAAAgAIQAqAC0AMAAzADYAOQA+AEMATABPAFQAWQBiAGUAagBvAHgAewCAAIkAkgCVAJ4AoQCqAK0AtgC5AL4AwwDMAM8A2ADbAOQA6QDyAPUA+gEDAQwBDwEYARsBIAEpASwBMQE2AT8BQgFLAVABVQFeAWEBZgFvAXIBewF+AAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAYM=" resolved="yes"/>
   </resource-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-01-26T14:16:24.668Z" timestamp="2017-01-26T14:16:24.668Z">
     <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBYBCQ0RFBUXGRsfISMlKCkrLjI0Nzo81AIDBAUGBwgGUmVkUnN0UmV0UnNkERbUIkeFmAAiR4ygANQCAwQFCgsMChEW1SJHDKAAIkcasADUAgMEBQ4PEA4RFtYiRzbQACJHPdgA1AIDBAUSEwwSERbXIkcTqADUAgMEBRIPEBLUAgMEBRYHCBYRFtjUAgMEBRgTDBgRFtnUAgMEBRoPEBoRFtvUAgMEBRwdHhwRFt0iR30gACJHghQA1AIDBAUgDxAgERbf1AIDBAUiDxAiERbh1AIDBAUiHSQiIkeJHADUAgMEBSYPJyYRFuIiR1LwANQCAwQFJh0eJtQCAwQFKg8QKhEW49QCAwQFLA8tLBEW5iJHROAA1AIDBAUvMDEvERboIkeTqAAiR5qwANQCAwQFMxMMMxEW6tQCAwQFMzU2MyJHlywAIkehuADUAgMEBTgdOTgRFusiR4PWANQCAwQFOw8QOxEW7NQCAwQFPT4nPREW7SJHS+gAAAgAIQAqAC0AMAAzADYAOQA+AEMATABPAFQAWQBiAGUAagBvAHgAewCAAIkAkgCVAJ4AoQCqAK0AtgC5AL4AwwDMAM8A2ADbAOQA6QDyAPUA+gEDAQwBDwEYARsBIAEpASwBMQE2AT8BQgFLAVABVQFeAWEBZgFvAXIBewF+AAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAAAAAAAAAAAYM=" to="YnBsaXN0MDCvEBcBCQ0RFBUXGRsfISMlKCkrLjI0Nzo8P9QCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZ1AIDBAUaDxAaERbb1AIDBAUcHR4cERbdIkd9IAAiR4IUANQCAwQFIA8QIBEW39QCAwQFIg8QIhEW4dQCAwQFIh0kIiJHiRwA1AIDBAUmDycmERbiIkdS8ADUAgMEBSYdHibUAgMEBSoPECoRFuPUAgMEBSwPLSwRFuYiR0TgANQCAwQFLzAxLxEW6CJHk6gAIkeasADUAgMEBTMTDDMRFurUAgMEBTM1NjMiR5csACJHobgA1AIDBAU4HTk4ERbrIkeD1gDUAgMEBTsPEDsRFuzUAgMEBT0+Jz0RFu0iR0voANQCAwQFPUBBPSJHmO4AIkeccgAACAAiACsALgAxADQANwA6AD8ARABNAFAAVQBaAGMAZgBrAHAAeQB8AIEAigCTAJYAnwCiAKsArgC3ALoAvwDEAM0A0ADZANwA5QDqAPMA9gD7AQQBDQEQARkBHAEhASoBLQEyATcBQAFDAUwBUQFWAV8BYgFnAXABcwF8AX8BhAGNAZIAAAAAAAACAQAAAAAAAABCAAAAAAAAAAAAAAAAAAABlw==" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2017-01-28T04:36:07.206Z" timestamp="2017-01-28T04:36:07.206Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="39600,46800,54000,61200;39600,46800,54000,61200;39600,46800,54000,61200;39600,46800,54000,61200;39600,46800,54000,61200;39600,46800,54000,61200;39600,46800,54000,61200" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2017-01-28T04:37:33.350Z" timestamp="2017-01-28T04:37:33.350Z">
+    <change idref="r-1" attribute="overtimeString" type="string" from="YnBsaXN0MDCvEBcBCQ0RFBUXGRsfISMlKCkrLjI0Nzo8P9QCAwQFBgcIBlJlZFJzdFJldFJzZBEW1CJHhZgAIkeMoADUAgMEBQoLDAoRFtUiRwygACJHGrAA1AIDBAUODxAOERbWIkc20AAiRz3YANQCAwQFEhMMEhEW1yJHE6gA1AIDBAUSDxAS1AIDBAUWBwgWERbY1AIDBAUYEwwYERbZ1AIDBAUaDxAaERbb1AIDBAUcHR4cERbdIkd9IAAiR4IUANQCAwQFIA8QIBEW39QCAwQFIg8QIhEW4dQCAwQFIh0kIiJHiRwA1AIDBAUmDycmERbiIkdS8ADUAgMEBSYdHibUAgMEBSoPECoRFuPUAgMEBSwPLSwRFuYiR0TgANQCAwQFLzAxLxEW6CJHk6gAIkeasADUAgMEBTMTDDMRFurUAgMEBTM1NjMiR5csACJHobgA1AIDBAU4HTk4ERbrIkeD1gDUAgMEBTsPEDsRFuzUAgMEBT0+Jz0RFu0iR0voANQCAwQFPUBBPSJHmO4AIkeccgAACAAiACsALgAxADQANwA6AD8ARABNAFAAVQBaAGMAZgBrAHAAeQB8AIEAigCTAJYAnwCiAKsArgC3ALoAvwDEAM0A0ADZANwA5QDqAPMA9gD7AQQBDQEQARkBHAEhASoBLQEyATcBQAFDAUwBUQFWAV8BYgFnAXABcwF8AX8BhAGNAZIAAAAAAAACAQAAAAAAAABCAAAAAAAAAAAAAAAAAAABlw==" to="YnBsaXN0MDCvEBgBCQ0RFBUXGRsfISMlKCkrLjI0Nzo8P0LUAgMEBQYHCAZSZWRSc3RSZXRSc2QRFtQiR4WYACJHjKAA1AIDBAUKCwwKERbVIkcMoAAiRxqwANQCAwQFDg8QDhEW1iJHNtAAIkc92ADUAgMEBRITDBIRFtciRxOoANQCAwQFEg8QEtQCAwQFFgcIFhEW2NQCAwQFGBMMGBEW2dQCAwQFGg8QGhEW29QCAwQFHB0eHBEW3SJHfSAAIkeCFADUAgMEBSAPECARFt/UAgMEBSIPECIRFuHUAgMEBSIdJCIiR4kcANQCAwQFJg8nJhEW4iJHUvAA1AIDBAUmHR4m1AIDBAUqDxAqERbj1AIDBAUsDy0sERbmIkdE4ADUAgMEBS8wMS8RFugiR5OoACJHmrAA1AIDBAUzEwwzERbq1AIDBAUzNTYzIkeXLAAiR6G4ANQCAwQFOB05OBEW6yJHg9YA1AIDBAU7DxA7ERbs1AIDBAU9Pic9ERbtIkdL6ADUAgMEBT1AQT0iR5juACJHnHIA1AIDBAVDCwxDERbvAAgAIwAsAC8AMgA1ADgAOwBAAEUATgBRAFYAWwBkAGcAbABxAHoAfQCCAIsAlACXAKAAowCsAK8AuAC7AMAAxQDOANEA2gDdAOYA6wD0APcA/AEFAQ4BEQEaAR0BIgErAS4BMwE4AUEBRAFNAVIBVwFgAWMBaAFxAXQBfQGAAYUBjgGTAZgBoQAAAAAAAAIBAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAGk" resolved="yes"/>
   </resource-change-set>
   <metadata-change-set user="Yuhui Huang" date="2017-01-10T10:40:47.041Z" timestamp="2017-01-10T10:40:47.041Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{

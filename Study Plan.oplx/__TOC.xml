@@ -7,24 +7,21 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>783</split-view-divider-position>
-      <outline x="0" y="0" w="783" h="698">
+      <split-view-divider-position>991</split-view-divider-position>
+      <outline x="11" y="0" w="991" h="698">
         <column name="Notes" width="20"/>
-        <column name="Title" width="367"/>
+        <column name="Title" width="434"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
         <column name="Effort Done" width="83"/>
-        <column name="Remaining Effort" width="113"/>
         <column name="Start" width="127"/>
         <column name="End" width="117"/>
-        <column name="Prerequisites" width="100"/>
-        <column name="Dependents" width="84"/>
         <expanded-items idrefs="t8 t3 t49 t4 t119 t115 t47 t144 t20 t56 t147 t76 t59 t60 t100 t136 t46 t99"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t168 t178 t187 t146 t147 t144 t154 t174 t145"/>
+        <selected-items-at-filter-time idrefs="t168 t178 t187 t146 t147 t144 t154 t193 t174 t145"/>
       </outline>
-      <gantt-view x="-61" y="0" w="195" h="698">
+      <gantt-view x="-61" y="0" w="287" h="698">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -56,7 +53,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="25.4316">
+        <scale scale-name="Automatic" full-day-width="25.6203">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="60.3452"/>
@@ -120,11 +117,11 @@
       </timeline>
     </resource-view>
     <calendar>
-      <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="755">
+      <split-view-divider-position>241</split-view-divider-position>
+      <outline x="0" y="0" w="241" h="515">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="175"/>
+        <column name="Resource" width="150"/>
         <column name="Custom Work Week" width="20"/>
         <column name="Schedule Exception" width="20"/>
       </outline>
@@ -144,7 +141,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>193</next-task-id>
+    <next-task-id>196</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
