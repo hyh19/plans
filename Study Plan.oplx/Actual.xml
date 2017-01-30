@@ -1841,10 +1841,11 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>10800</effort-done>
+    <effort-done>14400</effort-done>
     <child-task idref="t194"/>
     <child-task idref="t195"/>
     <child-task idref="t196"/>
+    <child-task idref="t197"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1880,7 +1881,8 @@
   <task id="t196">
     <title>数据结构与算法分析C语言描述第二版</title>
     <priority>100</priority>
-    <effort>18000</effort>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
     <start-constraint-date>2017-01-29T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -1888,6 +1890,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-29T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t197">
+    <title>数据结构与算法分析C语言描述第二版</title>
+    <priority>100</priority>
+    <effort>14400</effort>
+    <start-constraint-date>2017-01-30T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-01-30T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
