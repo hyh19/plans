@@ -51,31 +51,31 @@
     <schedule>
       <schedule-day day-of-week="sunday">
         <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="54000" end-time="64800"/>
       </schedule-day>
       <schedule-day day-of-week="monday">
         <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="54000" end-time="64800"/>
       </schedule-day>
       <schedule-day day-of-week="tuesday">
         <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="54000" end-time="64800"/>
       </schedule-day>
       <schedule-day day-of-week="wednesday">
         <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="54000" end-time="64800"/>
       </schedule-day>
       <schedule-day day-of-week="thursday">
         <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="54000" end-time="64800"/>
       </schedule-day>
       <schedule-day day-of-week="friday">
         <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="54000" end-time="64800"/>
       </schedule-day>
       <schedule-day day-of-week="saturday">
         <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="61200"/>
+        <time-span start-time="54000" end-time="64800"/>
       </schedule-day>
       <calendar name="Time Off" editable="yes" overtime="no">
         <event start="2017-01-15T03:00:00.000Z" end="2017-01-15T05:00:00.000Z" sd="5858" st="39600" ed="5858" et="46800"/>
@@ -109,6 +109,7 @@
         <event start="2017-01-28T05:00:00.000Z" end="2017-01-28T07:00:00.000Z" sd="5871" st="46800" ed="5871" et="54000"/>
         <event start="2017-01-30T06:00:00.000Z" end="2017-01-30T07:00:00.000Z" sd="5873" st="50400" ed="5873" et="54000"/>
         <event start="2017-01-30T09:00:00.000Z" end="2017-01-30T10:00:00.000Z" sd="5873" st="61200" ed="5873" et="64800"/>
+        <event start="2017-02-01T06:00:00.000Z" end="2017-02-01T07:00:00.000Z" sd="5875" st="50400" ed="5875" et="54000"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -732,7 +733,7 @@
     <start-no-earlier-than>2017-01-06T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t89">
-    <title>妙趣横生的算法（C语言实现）</title>
+    <title>妙趣横生的算法C语言实现</title>
     <type>group</type>
     <start-constraint-date>2017-01-03T03:00:00.000Z</start-constraint-date>
     <child-task idref="t90"/>
@@ -748,14 +749,15 @@
     <title>数据结构基础</title>
     <split/>
     <priority>1000</priority>
-    <effort>39600</effort>
-    <effort-done>27000</effort-done>
+    <effort>55800</effort>
+    <effort-done>39600</effort-done>
     <child-task idref="t91"/>
     <child-task idref="t92"/>
     <child-task idref="t93"/>
     <child-task idref="t94"/>
     <child-task idref="t95"/>
     <child-task idref="t107"/>
+    <child-task idref="t200"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -922,7 +924,8 @@
     <title>数据结构基础</title>
     <priority>1000</priority>
     <effort>12600</effort>
-    <start-constraint-date>2017-01-08T09:00:00.000Z</start-constraint-date>
+    <effort-done>12600</effort-done>
+    <start-constraint-date>2017-02-01T06:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -931,7 +934,7 @@
         <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-01-08T09:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-02-01T06:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t108">
     <title>常用的查找与排序算法</title>
@@ -1932,6 +1935,21 @@
       </value>
     </style>
     <start-no-earlier-than>2017-02-01T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t200">
+    <title>数据结构基础</title>
+    <priority>1000</priority>
+    <effort>16200</effort>
+    <start-constraint-date>2017-02-02T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+      <value key="gantt-fill-color">
+        <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-02T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
