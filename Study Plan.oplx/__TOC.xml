@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1279" y="-280" w="1879" h="1057">
+  <window x="1280" y="-280" w="1879" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1049</split-view-divider-position>
-      <outline x="4" y="0" w="1049" h="961">
+      <split-view-divider-position>1280</split-view-divider-position>
+      <outline x="0" y="0" w="1280" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="385"/>
+        <column name="Title" width="510"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -19,11 +19,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t8 t3 t49 t4 t119 t47 t210 t89 t56 t147 t76 t59 t60 t100 t206 t202 t46 t99"/>
+        <expanded-items idrefs="t8 t99 t49 t4 t119 t201 t47 t210 t89 t56 t147 t76 t59 t60 t100 t202 t3 t46"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t209 t145 t211 t201 t168 t174 t154 t210 t144 t208 t178 t187 t147 t193 t207 t203 t206 t202 t146"/>
+        <selected-items-at-filter-time idrefs="t211 t201 t178 t174 t168 t154 t210 t144 t145 t187 t193 t147 t203 t206 t202 t146"/>
       </outline>
-      <gantt-view x="-61" y="0" w="528" h="961">
+      <gantt-view x="-52" y="0" w="297" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>214</next-task-id>
+    <next-task-id>215</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

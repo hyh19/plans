@@ -1973,9 +1973,10 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>5400</effort-done>
+    <effort-done>10800</effort-done>
     <child-task idref="t204"/>
     <child-task idref="t205"/>
+    <child-task idref="t214"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1998,14 +1999,15 @@
   <task id="t205">
     <title>Java核心技术第9版</title>
     <priority>100</priority>
-    <effort>23400</effort>
-    <start-constraint-date>2017-02-04T03:00:00.000Z</start-constraint-date>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-02-03T07:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-02-04T03:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-02-03T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t206">
     <title>Mathematics</title>
@@ -2052,6 +2054,18 @@
     <title>微积分学教程</title>
     <priority>100</priority>
     <effort>25200</effort>
+    <start-constraint-date>2017-02-04T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-04T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t214">
+    <title>Java核心技术第9版</title>
+    <priority>100</priority>
+    <effort>18000</effort>
     <start-constraint-date>2017-02-04T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
