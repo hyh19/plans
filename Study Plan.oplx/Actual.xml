@@ -266,6 +266,7 @@
     <child-task idref="t178"/>
     <child-task idref="t187"/>
     <child-task idref="t193"/>
+    <child-task idref="t217"/>
     <style>
       <value key="gantt-fill-color">
         <color space="srgb" r="0.987" g="0.25662" b="0.287296"/>
@@ -2095,6 +2096,45 @@
     <title>Java核心技术第9版</title>
     <priority>100</priority>
     <effort>7200</effort>
+    <start-constraint-date>2017-02-05T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-05T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t217">
+    <title>数据结构与算法分析Java语言描述第2版</title>
+    <split/>
+    <priority>100</priority>
+    <effort>28800</effort>
+    <effort-done>2700</effort-done>
+    <child-task idref="t218"/>
+    <child-task idref="t219"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t218">
+    <title>数据结构与算法分析Java语言描述第2版</title>
+    <priority>100</priority>
+    <effort>2700</effort>
+    <effort-done>2700</effort-done>
+    <start-constraint-date>2017-02-04T08:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-04T08:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t219">
+    <title>数据结构与算法分析Java语言描述第2版</title>
+    <priority>100</priority>
+    <effort>26100</effort>
     <start-constraint-date>2017-02-05T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">

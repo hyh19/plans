@@ -19,9 +19,9 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t3 t8 t49 t4 t119 t201 t47 t89 t210 t56 t100 t147 t59 t60 t76 t202 t99 t46"/>
+        <expanded-items idrefs="t3 t8 t49 t4 t119 t47 t89 t210 t20 t56 t100 t147 t59 t60 t76 t202 t99 t46"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t211 t145 t178 t168 t174 t154 t144 t193 t201 t210 t187 t147 t203 t146 t202 t206"/>
+        <selected-items-at-filter-time idrefs="t211 t145 t178 t168 t174 t154 t144 t193 t201 t210 t217 t147 t203 t187 t146 t202 t206"/>
       </outline>
       <gantt-view x="-52" y="0" w="357" h="961">
         <view-mode>split</view-mode>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>217</next-task-id>
+    <next-task-id>220</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
@@ -158,8 +158,8 @@ End:</group-table-style>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>
     <currency-format>CN¥1,234.56</currency-format>
-    <duration-format hours-per-day="5" hours-per-week="35" hours-per-month="150" hours-per-year="1825" hours="true"/>
-    <effort-format hours-per-day="5" hours-per-week="35" hours-per-month="150" hours-per-year="1825" hours="true"/>
+    <duration-format hours-per-day="5" hours-per-week="35" hours-per-month="150" hours-per-year="1825" minutes="true" hours="true"/>
+    <effort-format hours-per-day="5" hours-per-week="35" hours-per-month="150" hours-per-year="1825" minutes="true" hours="true"/>
     <base-style>
       <style/>
     </base-style>
