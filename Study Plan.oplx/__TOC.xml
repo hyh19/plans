@@ -19,7 +19,7 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t8 t221 t49 t4 t119 t46 t47 t89 t220 t210 t56 t147 t76 t59 t60 t100 t202 t3 t99"/>
+        <expanded-items idrefs="t8 t46 t49 t4 t119 t47 t89 t210 t56 t147 t76 t59 t60 t100 t206 t202 t3 t99"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t168 t221 t210 t146 t144 t202 t222 t147 t211 t178 t220 t145 t193 t187 t203 t154 t201 t174 t217 t206"/>
       </outline>
@@ -70,13 +70,13 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="961">
+      <outline x="0" y="0" w="306" h="681">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="157"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="0" y="0" w="1543" h="961">
+      <timeline x="0" y="0" w="915" h="681">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -120,7 +120,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>241</split-view-divider-position>
-      <outline x="0" y="0" w="241" h="498">
+      <outline x="0" y="0" w="241" h="657">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="150"/>

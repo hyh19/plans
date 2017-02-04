@@ -50,32 +50,39 @@
     <type>Group</type>
     <schedule>
       <schedule-day day-of-week="sunday">
-        <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="64800"/>
+        <time-span start-time="36000" end-time="46800"/>
+        <time-span start-time="52200" end-time="63000"/>
+        <time-span start-time="73800" end-time="84600"/>
       </schedule-day>
       <schedule-day day-of-week="monday">
-        <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="64800"/>
+        <time-span start-time="36000" end-time="46800"/>
+        <time-span start-time="52200" end-time="63000"/>
+        <time-span start-time="73800" end-time="84600"/>
       </schedule-day>
       <schedule-day day-of-week="tuesday">
-        <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="64800"/>
+        <time-span start-time="36000" end-time="46800"/>
+        <time-span start-time="52200" end-time="63000"/>
+        <time-span start-time="73800" end-time="84600"/>
       </schedule-day>
       <schedule-day day-of-week="wednesday">
-        <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="64800"/>
+        <time-span start-time="36000" end-time="46800"/>
+        <time-span start-time="52200" end-time="63000"/>
+        <time-span start-time="73800" end-time="84600"/>
       </schedule-day>
       <schedule-day day-of-week="thursday">
-        <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="64800"/>
+        <time-span start-time="36000" end-time="46800"/>
+        <time-span start-time="52200" end-time="63000"/>
+        <time-span start-time="73800" end-time="84600"/>
       </schedule-day>
       <schedule-day day-of-week="friday">
-        <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="64800"/>
+        <time-span start-time="36000" end-time="46800"/>
+        <time-span start-time="52200" end-time="63000"/>
+        <time-span start-time="73800" end-time="84600"/>
       </schedule-day>
       <schedule-day day-of-week="saturday">
-        <time-span start-time="39600" end-time="46800"/>
-        <time-span start-time="54000" end-time="64800"/>
+        <time-span start-time="36000" end-time="46800"/>
+        <time-span start-time="52200" end-time="63000"/>
+        <time-span start-time="73800" end-time="84600"/>
       </schedule-day>
       <calendar name="Time Off" editable="yes" overtime="no">
         <event start="2017-01-15T03:00:00.000Z" end="2017-01-15T05:00:00.000Z" sd="5858" st="39600" ed="5858" et="46800"/>
