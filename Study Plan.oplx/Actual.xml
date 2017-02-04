@@ -112,6 +112,7 @@
         <event start="2017-02-01T06:00:00.000Z" end="2017-02-01T07:00:00.000Z" sd="5875" st="50400" ed="5875" et="54000"/>
         <event start="2017-02-03T05:00:00.000Z" end="2017-02-03T06:00:00.000Z" sd="5877" st="46800" ed="5877" et="50400"/>
         <event start="2017-02-04T06:00:00.000Z" end="2017-02-04T07:00:00.000Z" sd="5878" st="50400" ed="5878" et="54000"/>
+        <event start="2017-02-04T12:45:00.000Z" end="2017-02-04T13:45:00.000Z" sd="5878" st="74700" ed="5878" et="78300"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -157,6 +158,7 @@
     <child-task idref="t144"/>
     <child-task idref="t201"/>
     <child-task idref="t206"/>
+    <child-task idref="t220"/>
     <note>
       <text>
         <p>
@@ -2142,6 +2144,59 @@
       </value>
     </style>
     <start-no-earlier-than>2017-02-05T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t220">
+    <title>English</title>
+    <type>group</type>
+    <start-constraint-date>2017-02-04T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t221"/>
+    <start-no-earlier-than>2017-02-04T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t221">
+    <title>Movies</title>
+    <type>group</type>
+    <start-constraint-date>2017-02-04T03:00:00.000Z</start-constraint-date>
+    <child-task idref="t222"/>
+    <start-no-earlier-than>2017-02-04T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t222">
+    <title>The Shawshank Redemption (1994)</title>
+    <split/>
+    <priority>100</priority>
+    <effort>28800</effort>
+    <effort-done>3600</effort-done>
+    <child-task idref="t223"/>
+    <child-task idref="t224"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t223">
+    <title>The Shawshank Redemption (1994)</title>
+    <priority>100</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-02-04T12:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-04T12:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t224">
+    <title>The Shawshank Redemption (1994)</title>
+    <priority>100</priority>
+    <effort>25200</effort>
+    <start-constraint-date>2017-02-06T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-06T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
