@@ -111,6 +111,7 @@
         <event start="2017-01-30T09:00:00.000Z" end="2017-01-30T10:00:00.000Z" sd="5873" st="61200" ed="5873" et="64800"/>
         <event start="2017-02-01T06:00:00.000Z" end="2017-02-01T07:00:00.000Z" sd="5875" st="50400" ed="5875" et="54000"/>
         <event start="2017-02-03T05:00:00.000Z" end="2017-02-03T06:00:00.000Z" sd="5877" st="46800" ed="5877" et="50400"/>
+        <event start="2017-02-04T06:00:00.000Z" end="2017-02-04T07:00:00.000Z" sd="5878" st="50400" ed="5878" et="54000"/>
       </calendar>
     </schedule>
     <child-resource idref="r1"/>
@@ -1973,11 +1974,12 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>16200</effort-done>
+    <effort-done>21600</effort-done>
     <child-task idref="t204"/>
     <child-task idref="t205"/>
     <child-task idref="t214"/>
     <child-task idref="t215"/>
+    <child-task idref="t216"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2079,7 +2081,20 @@
   <task id="t215">
     <title>Java核心技术第9版</title>
     <priority>100</priority>
-    <effort>12600</effort>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-02-04T06:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-04T06:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t216">
+    <title>Java核心技术第9版</title>
+    <priority>100</priority>
+    <effort>7200</effort>
     <start-constraint-date>2017-02-05T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
