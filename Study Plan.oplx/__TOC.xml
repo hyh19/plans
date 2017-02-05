@@ -19,11 +19,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t8 t46 t49 t201 t4 t119 t47 t89 t56 t100 t147 t59 t60 t76 t202 t99 t3"/>
+        <expanded-items idrefs="t8 t221 t49 t201 t4 t119 t46 t47 t89 t220 t56 t100 t147 t59 t60 t76 t202 t99 t3"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t168 t221 t210 t146 t144 t202 t222 t211 t147 t178 t193 t145 t220 t187 t203 t154 t201 t174 t217 t206"/>
       </outline>
-      <gantt-view x="223" y="0" w="125" h="918">
+      <gantt-view x="227" y="0" w="125" h="918">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>227</next-task-id>
+    <next-task-id>229</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
