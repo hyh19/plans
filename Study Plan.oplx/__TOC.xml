@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1346" y="-263" w="1783" h="1014">
+  <window x="1345" y="-263" w="1783" h="1014">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
@@ -23,7 +23,7 @@
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t168 t221 t146 t210 t144 t202 t222 t211 t147 t178 t193 t145 t220 t187 t203 t154 t201 t174 t217 t206"/>
       </outline>
-      <gantt-view x="92" y="0" w="260" h="918">
+      <gantt-view x="98" y="0" w="260" h="918">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>230</next-task-id>
+    <next-task-id>231</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
