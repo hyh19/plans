@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="0" w="1280" h="777">
+  <window x="1280" y="-280" w="1879" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>978</split-view-divider-position>
-      <outline x="48" y="0" w="978" h="681">
+      <split-view-divider-position>1277</split-view-divider-position>
+      <outline x="0" y="0" w="1277" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="512"/>
+        <column name="Title" width="507"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -19,11 +19,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t8 t221 t49 t201 t4 t119 t99 t47 t89 t220 t56 t147 t76 t59 t100 t60 t202 t3 t46"/>
+        <expanded-items idrefs="t8 t221 t49 t4 t119 t3 t234 t47 t89 t56 t147 t76 t59 t60 t232 t100 t202 t46 t99"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t168 t221 t146 t210 t144 t202 t222 t211 t147 t178 t193 t145 t220 t187 t203 t154 t201 t174 t217 t206"/>
+        <selected-items-at-filter-time idrefs="t168 t221 t210 t232 t146 t144 t235 t202 t233 t222 t211 t147 t178 t193 t145 t220 t187 t203 t154 t234 t201 t174 t217 t206"/>
       </outline>
-      <gantt-view x="0" y="0" w="0" h="0">
+      <gantt-view x="64" y="0" w="300" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -70,13 +70,13 @@
     </task-view>
     <resource-view>
       <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="681">
+      <outline x="0" y="0" w="306" h="961">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="157"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="0" y="0" w="915" h="681">
+      <timeline x="0" y="0" w="1243" h="961">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -120,7 +120,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>241</split-view-divider-position>
-      <outline x="0" y="0" w="241" h="894">
+      <outline x="0" y="0" w="241" h="937">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="150"/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>232</next-task-id>
+    <next-task-id>238</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
@@ -158,8 +158,8 @@ End:</group-table-style>
     <numbering-style>wbs</numbering-style>
     <critical-path-slack>0</critical-path-slack>
     <currency-format>CN¥1,234.56</currency-format>
-    <duration-format hours-per-day="5" hours-per-week="35" hours-per-month="150" hours-per-year="1825" hours="true"/>
-    <effort-format hours-per-day="5" hours-per-week="35" hours-per-month="150" hours-per-year="1825" hours="true"/>
+    <duration-format hours-per-day="8" hours-per-week="56" hours-per-month="240" hours-per-year="2920" hours="true"/>
+    <effort-format hours-per-day="8" hours-per-week="56" hours-per-month="240" hours-per-year="2920" hours="true"/>
     <base-style>
       <style/>
     </base-style>
