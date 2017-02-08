@@ -1362,12 +1362,13 @@
     <title>C++程序设计语言特别版</title>
     <split/>
     <priority>100</priority>
-    <effort>28800</effort>
-    <effort-done>25200</effort-done>
+    <effort>54000</effort>
+    <effort-done>27000</effort-done>
     <child-task idref="t140"/>
     <child-task idref="t141"/>
     <child-task idref="t166"/>
-    <child-task idref="t167"/>
+    <child-task idref="t238"/>
+    <child-task idref="t239"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -1577,18 +1578,6 @@
       </value>
     </style>
     <start-no-earlier-than>2017-01-21T03:30:00.000Z</start-no-earlier-than>
-  </task>
-  <task id="t167">
-    <title>C++程序设计语言特别版</title>
-    <priority>100</priority>
-    <effort>3600</effort>
-    <start-constraint-date>2017-01-22T03:00:00.000Z</start-constraint-date>
-    <style>
-      <value key="font-fill">
-        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
-      </value>
-    </style>
-    <start-no-earlier-than>2017-01-22T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t168">
     <title>C++标准程序库</title>
@@ -2342,6 +2331,31 @@
       </value>
     </style>
     <start-no-earlier-than>2017-02-08T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t238">
+    <title>C++程序设计语言特别版</title>
+    <priority>100</priority>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-02-08T02:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-08T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t239">
+    <title>C++程序设计语言特别版</title>
+    <priority>100</priority>
+    <effort>27000</effort>
+    <start-constraint-date>2017-02-09T02:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-09T02:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
