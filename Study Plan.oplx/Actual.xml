@@ -165,8 +165,8 @@
     <child-task idref="t144"/>
     <child-task idref="t201"/>
     <child-task idref="t206"/>
-    <child-task idref="t220"/>
     <child-task idref="t232"/>
+    <child-task idref="t220"/>
     <note>
       <text>
         <p>
@@ -2168,11 +2168,12 @@
     <split/>
     <priority>100</priority>
     <effort>28800</effort>
-    <effort-done>9000</effort-done>
+    <effort-done>10800</effort-done>
     <child-task idref="t223"/>
     <child-task idref="t224"/>
     <child-task idref="t228"/>
     <child-task idref="t231"/>
+    <child-task idref="t245"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2273,14 +2274,15 @@
   <task id="t231">
     <title>The Shawshank Redemption</title>
     <priority>100</priority>
-    <effort>19800</effort>
-    <start-constraint-date>2017-02-07T02:00:00.000Z</start-constraint-date>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-02-08T13:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-02-07T02:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-02-08T13:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t232">
     <title>MySQL</title>
@@ -2417,6 +2419,18 @@
     <title>轻量级Java EE企业应用实战</title>
     <priority>1000</priority>
     <effort>23400</effort>
+    <start-constraint-date>2017-02-09T02:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-09T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t245">
+    <title>The Shawshank Redemption</title>
+    <priority>100</priority>
+    <effort>18000</effort>
     <start-constraint-date>2017-02-09T02:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
