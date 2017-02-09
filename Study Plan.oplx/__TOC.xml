@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="0" y="0" w="1250" h="777">
+  <window x="1332" y="-227" w="1804" h="1004">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>948</split-view-divider-position>
-      <outline x="0" y="0" w="948" h="681">
+      <split-view-divider-position>1199</split-view-divider-position>
+      <outline x="2" y="0" w="1199" h="908">
         <column name="Notes" width="20"/>
         <column name="Title" width="533"/>
         <column name="Priority" width="60"/>
@@ -23,7 +23,7 @@
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t232 t221 t210 t146 t168 t144 t246 t235 t250 t202 t222 t147 t211 t242 t178 t220 t145 t193 t187 t203 t154 t234 t201 t174 t217 t206"/>
       </outline>
-      <gantt-view x="0" y="0" w="0" h="0">
+      <gantt-view x="-52" y="0" w="303" h="908">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -55,7 +55,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="13.4546">
+        <scale scale-name="Automatic" full-day-width="575.789">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="60.3452"/>
@@ -120,7 +120,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>241</split-view-divider-position>
-      <outline x="0" y="0" w="241" h="937">
+      <outline x="0" y="0" w="241" h="725">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="150"/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>253</next-task-id>
+    <next-task-id>254</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
