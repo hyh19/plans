@@ -8,7 +8,7 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1199</split-view-divider-position>
-      <outline x="2" y="0" w="1199" h="908">
+      <outline x="0" y="0" w="1199" h="908">
         <column name="Notes" width="20"/>
         <column name="Title" width="533"/>
         <column name="Priority" width="60"/>
@@ -19,7 +19,7 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t46 t221 t59 t47 t76 t202 t3 t89 t100 t56 t147 t136 t60 t4 t220 t119 t49 t99 t234 t201 t8"/>
+        <expanded-items idrefs="t232 t46 t221 t59 t47 t76 t202 t3 t89 t100 t56 t147 t136 t60 t4 t220 t119 t49 t99 t234 t201 t8"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t232 t221 t210 t146 t168 t144 t246 t235 t250 t202 t222 t147 t211 t242 t178 t220 t145 t193 t187 t203 t154 t234 t201 t174 t217 t206"/>
       </outline>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>254</next-task-id>
+    <next-task-id>255</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
