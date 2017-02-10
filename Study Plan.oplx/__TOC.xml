@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1332" y="-227" w="1804" h="1004">
+  <window x="1290" y="-227" w="1804" h="1004">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1199</split-view-divider-position>
-      <outline x="0" y="0" w="1199" h="908">
+      <split-view-divider-position>1202</split-view-divider-position>
+      <outline x="0" y="0" w="1202" h="908">
         <column name="Notes" width="20"/>
-        <column name="Title" width="533"/>
+        <column name="Title" width="432"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -19,11 +19,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t232 t46 t221 t59 t47 t76 t202 t3 t89 t100 t56 t147 t136 t60 t4 t220 t119 t49 t99 t234 t201 t8"/>
+        <expanded-items idrefs="t232 t221 t46 t59 t47 t76 t202 t89 t3 t100 t56 t147 t136 t60 t4 t119 t220 t49 t99 t234 t201 t8"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t232 t221 t210 t146 t168 t144 t246 t235 t250 t202 t222 t147 t211 t242 t178 t220 t145 t193 t187 t203 t154 t234 t201 t174 t217 t206"/>
+        <selected-items-at-filter-time idrefs="t232 t168 t146 t210 t221 t246 t235 t144 t250 t202 t222 t211 t147 t242 t178 t193 t145 t220 t187 t203 t154 t234 t174 t201 t217 t206"/>
       </outline>
-      <gantt-view x="-52" y="0" w="303" h="908">
+      <gantt-view x="0" y="0" w="300" h="908">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -120,7 +120,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>241</split-view-divider-position>
-      <outline x="0" y="0" w="241" h="725">
+      <outline x="0" y="0" w="241" h="884">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
         <column name="Resource" width="150"/>
