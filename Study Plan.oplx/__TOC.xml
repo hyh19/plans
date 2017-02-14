@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1280" y="-280" w="1879" h="1057">
+  <window x="0" y="0" w="1247" h="777">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1316</split-view-divider-position>
-      <outline x="0" y="0" w="1316" h="961">
+      <split-view-divider-position>945</split-view-divider-position>
+      <outline x="0" y="17" w="945" h="681">
         <column name="Notes" width="20"/>
-        <column name="Title" width="546"/>
+        <column name="Title" width="504"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -19,11 +19,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t232 t221 t46 t59 t47 t76 t89 t100 t202 t3 t56 t4 t136 t60 t147 t220 t119 t49 t99 t234 t201 t8"/>
+        <expanded-items idrefs="t46 t221 t232 t59 t47 t76 t202 t3 t100 t89 t56 t147 t136 t4 t60 t119 t220 t49 t99 t234 t201 t8"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t168 t232 t221 t146 t210 t246 t235 t144 t250 t202 t222 t211 t147 t242 t178 t220 t145 t193 t187 t203 t154 t234 t174 t201 t217 t206"/>
+        <selected-items-at-filter-time idrefs="t168 t221 t210 t146 t232 t246 t144 t235 t250 t202 t222 t147 t211 t178 t242 t220 t145 t193 t187 t203 t154 t234 t174 t201 t217 t206"/>
       </outline>
-      <gantt-view x="0" y="0" w="261" h="961">
+      <gantt-view x="0" y="0" w="0" h="0">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -55,7 +55,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="575.789">
+        <scale scale-name="Automatic" full-day-width="3.28575">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="60.3452"/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>259</next-task-id>
+    <next-task-id>260</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
