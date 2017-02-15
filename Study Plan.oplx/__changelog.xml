@@ -108,6 +108,42 @@
     </change>
     <change idref="t261" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-15T09:57:56.982Z" timestamp="2017-02-15T09:57:56.982Z">
+    <change idref="t263" to="t201" to-position="1" resolved="yes">
+      <change idref="t263" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t263" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-15T00:00:00.000Z"/>
+      <change idref="t263" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t263" attribute="title" type="string" to="Topics"/>
+    </change>
+    <change idref="t264" to="t263" to-position="0" resolved="yes">
+      <change idref="t264" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-15T00:00:00.000Z"/>
+      <change idref="t264" attribute="title" type="string" to="Maven"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-15T09:58:14.364Z" timestamp="2017-02-15T09:58:14.364Z">
+    <change idref="t264" attribute="noEarlierThanConstraintDate" type="date" from="2017-02-15T00:00:00.000Z" to="2017-02-15T07:00:00.000Z" resolved="yes"/>
+    <change idref="t264" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-15T09:58:49.394Z" timestamp="2017-02-15T09:58:49.394Z">
+    <change idref="t264" attribute="priority" type="real" from="0" to="100" resolved="yes"/>
+    <change idref="t264" attribute="noEarlierThanConstraintDate" type="date" from="2017-02-15T07:00:00.000Z" resolved="yes"/>
+    <change idref="t264" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t265" to="t264" to-position="0" resolved="yes">
+      <change idref="t265" attribute="effort" type="real" from="28800" to="5400"/>
+      <change idref="t265" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t265" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t265" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-15T07:00:00.000Z"/>
+      <change idref="t265" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t265" attribute="title" type="string" to="Maven #1"/>
+    </change>
+    <change idref="t266" to="t264" to-position="1" resolved="yes">
+      <change idref="t266" attribute="effort" type="real" from="28800" to="23400"/>
+      <change idref="t266" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t266" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-16T00:00:00.000Z"/>
+      <change idref="t266" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t266" attribute="title" type="string" to="Maven #2"/>
+    </change>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>

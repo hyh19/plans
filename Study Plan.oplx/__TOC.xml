@@ -8,9 +8,9 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>945</split-view-divider-position>
-      <outline x="0" y="235" w="945" h="681">
+      <outline x="2" y="0" w="945" h="681">
         <column name="Notes" width="20"/>
-        <column name="Title" width="489"/>
+        <column name="Title" width="562"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -19,9 +19,9 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t232 t221 t46 t59 t47 t76 t89 t100 t202 t3 t56 t4 t136 t60 t147 t119 t220 t49 t99 t234 t201 t8"/>
+        <expanded-items idrefs="t46 t221 t232 t59 t263 t47 t76 t100 t89 t3 t56 t4 t147 t60 t136 t119 t220 t49 t99 t234 t201 t8"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t232 t168 t146 t221 t210 t144 t235 t246 t250 t202 t222 t211 t147 t178 t242 t193 t145 t220 t187 t203 t154 t234 t174 t201 t217 t206"/>
+        <selected-items-at-filter-time idrefs="t232 t221 t210 t146 t263 t168 t246 t235 t144 t250 t202 t222 t211 t147 t264 t178 t242 t220 t145 t193 t187 t203 t154 t234 t201 t174 t217 t206"/>
       </outline>
       <gantt-view x="0" y="0" w="0" h="0">
         <view-mode>split</view-mode>
@@ -55,7 +55,7 @@
         <task-bar-label task-type="task" position="right">
           <key>Assigned</key>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="3.28575">
+        <scale scale-name="Automatic" full-day-width="356.021">
           <selected/>
         </scale>
         <scale scale-name="Day" full-day-width="60.3452"/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>263</next-task-id>
+    <next-task-id>267</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
