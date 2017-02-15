@@ -47,8 +47,72 @@
     <change idref="t256" attribute="noEarlierThanConstraintDate" type="date" from="2017-02-11T02:00:00.000Z" to="2017-02-13T07:30:00.000Z" resolved="yes"/>
     <change idref="t256" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-15T05:04:51.958Z" timestamp="2017-02-15T05:04:51.958Z">
+    <change idref="t260" to="t235" to-position="4" resolved="yes">
+      <change idref="t260" attribute="effort" type="real" from="28800" to="16200"/>
+      <change idref="t260" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t260" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-15T00:00:00.000Z"/>
+      <change idref="t260" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t260" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t260" attribute="title" type="string" to="MySQL必知必会 #5"/>
+    </change>
+    <change idref="t254" attribute="effort" type="real" from="18000" to="1800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-15T05:08:02.978Z" timestamp="2017-02-15T05:08:02.978Z">
+    <change idref="t250" attribute="internalEffortDone" type="real" from="30600" to="39600" resolved="yes"/>
+    <change idref="t259" attribute="noEarlierThanConstraintDate" type="date" from="2017-02-14T02:00:00.000Z" to="2017-02-14T07:00:00.000Z" resolved="yes"/>
+    <change idref="t259" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-15T05:09:01.111Z" timestamp="2017-02-15T05:09:01.111Z">
+    <change idref="t250" attribute="effort" type="real" from="54000" to="68400" resolved="yes"/>
+    <change idref="t250" attribute="internalEffortDone" type="real" from="39600" to="52200" resolved="yes"/>
+    <change idref="t261" to="t250" to-position="6" resolved="yes">
+      <change idref="t261" attribute="internalEffortDone" type="real" from="0" to="12600"/>
+      <change idref="t261" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t261" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-15T01:30:00.000Z"/>
+      <change idref="t261" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t261" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t261" attribute="title" type="string" to="疯狂Java讲义第3版 #7"/>
+    </change>
+    <change idref="t259" attribute="effort" type="real" from="23400" to="9000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-15T05:09:12.444Z" timestamp="2017-02-15T05:09:12.444Z">
+    <change idref="t262" to="t250" to-position="7" resolved="yes">
+      <change idref="t262" attribute="effort" type="real" from="28800" to="16200"/>
+      <change idref="t262" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t262" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-16T00:00:00.000Z"/>
+      <change idref="t262" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t262" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t262" attribute="title" type="string" to="疯狂Java讲义第3版 #8"/>
+    </change>
+    <change idref="t261" attribute="effort" type="real" from="28800" to="12600" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
+  </resource-change-set>
+  <resource-change-set user="Yuhui Huang" date="2017-02-15T05:04:51.948Z" timestamp="2017-02-15T05:04:51.948Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="36000,46800,52200,64800,68400,84600;36000,46800,52200,64800,68400,84600;36000,46800,52200,64800,68400,84600;36000,46800,52200,64800,68400,84600;36000,46800,52200,64800,68400,84600;36000,46800,52200,64800,68400,84600;36000,46800,52200,64800,68400,84600" to="28800,86400;28800,86400;28800,86400;28800,86400;28800,86400;28800,86400;28800,86400" resolved="yes"/>
   </resource-change-set>
   <metadata-change-set user="Yuhui Huang" date="2017-01-10T10:40:47.041Z" timestamp="2017-01-10T10:40:47.041Z">
     <change idref="m1" attribute="baselineInfo" type="dict" from="{
