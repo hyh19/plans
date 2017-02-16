@@ -2296,12 +2296,13 @@
     <split/>
     <priority>1000</priority>
     <effort>28800</effort>
-    <effort-done>12600</effort-done>
+    <effort-done>14400</effort-done>
     <child-task idref="t236"/>
     <child-task idref="t237"/>
     <child-task idref="t241"/>
     <child-task idref="t254"/>
     <child-task idref="t260"/>
+    <child-task idref="t272"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2628,14 +2629,15 @@
   <task id="t260">
     <title>MySQL必知必会</title>
     <priority>1000</priority>
-    <effort>16200</effort>
-    <start-constraint-date>2017-02-15T00:00:00.000Z</start-constraint-date>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-02-16T13:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-02-15T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-02-16T13:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t261">
     <title>疯狂Java讲义第3版</title>
@@ -2750,6 +2752,18 @@
   </task>
   <task id="t271">
     <title>Maven实战</title>
+    <priority>1000</priority>
+    <effort>14400</effort>
+    <start-constraint-date>2017-02-17T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-17T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t272">
+    <title>MySQL必知必会</title>
     <priority>1000</priority>
     <effort>14400</effort>
     <start-constraint-date>2017-02-17T00:00:00.000Z</start-constraint-date>
