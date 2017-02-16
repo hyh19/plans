@@ -2698,10 +2698,11 @@
     <split/>
     <priority>1000</priority>
     <effort>28800</effort>
-    <effort-done>7200</effort-done>
+    <effort-done>14400</effort-done>
     <child-task idref="t268"/>
     <child-task idref="t269"/>
     <child-task idref="t270"/>
+    <child-task idref="t271"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2737,7 +2738,20 @@
   <task id="t270">
     <title>Maven实战</title>
     <priority>1000</priority>
-    <effort>21600</effort>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-02-16T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-16T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t271">
+    <title>Maven实战</title>
+    <priority>1000</priority>
+    <effort>14400</effort>
     <start-constraint-date>2017-02-17T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
