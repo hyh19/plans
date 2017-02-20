@@ -7,10 +7,10 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>1468</split-view-divider-position>
-      <outline x="0" y="0" w="1468" h="961">
+      <split-view-divider-position>1308</split-view-divider-position>
+      <outline x="0" y="0" w="1308" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="698"/>
+        <column name="Title" width="711"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="%Done" width="82"/>
@@ -23,7 +23,7 @@
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t168 t221 t210 t146 t263 t274 t232 t144 t235 t246 t250 t202 t222 t211 t275 t147 t264 t178 t242 t193 t145 t220 t187 t203 t267 t154 t234 t174 t201 t217 t206"/>
       </outline>
-      <gantt-view x="-53" y="0" w="109" h="961">
+      <gantt-view x="-53" y="0" w="269" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>287</next-task-id>
+    <next-task-id>288</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
