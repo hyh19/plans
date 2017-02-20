@@ -2809,13 +2809,14 @@
     <split/>
     <priority>2000</priority>
     <effort>46800</effort>
-    <effort-done>32400</effort-done>
+    <effort-done>43200</effort-done>
     <child-task idref="t280"/>
     <child-task idref="t281"/>
     <child-task idref="t282"/>
     <child-task idref="t283"/>
     <child-task idref="t284"/>
     <child-task idref="t285"/>
+    <child-task idref="t286"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2915,7 +2916,20 @@
   <task id="t285">
     <title>Servlet、JSP和Spring MVC初学指南</title>
     <priority>2000</priority>
-    <effort>14400</effort>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-02-20T06:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-20T06:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t286">
+    <title>Servlet、JSP和Spring MVC初学指南</title>
+    <priority>2000</priority>
+    <effort>3600</effort>
     <start-constraint-date>2017-02-21T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
