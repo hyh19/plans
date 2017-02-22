@@ -2673,6 +2673,7 @@
     <type>group</type>
     <start-constraint-date>2017-02-15T00:00:00.000Z</start-constraint-date>
     <child-task idref="t264"/>
+    <child-task idref="t296"/>
     <start-no-earlier-than>2017-02-15T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t264">
@@ -2683,6 +2684,11 @@
     <effort-done>5400</effort-done>
     <child-task idref="t265"/>
     <child-task idref="t266"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
   </task>
   <task id="t265">
     <title>Maven</title>
@@ -2690,6 +2696,11 @@
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-02-15T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-02-15T07:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t266">
@@ -2697,6 +2708,11 @@
     <priority>100</priority>
     <effort>23400</effort>
     <start-constraint-date>2017-02-16T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-02-16T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t267">
@@ -2704,7 +2720,7 @@
     <split/>
     <priority>1000</priority>
     <effort>59400</effort>
-    <effort-done>30600</effort-done>
+    <effort-done>37800</effort-done>
     <child-task idref="t268"/>
     <child-task idref="t269"/>
     <child-task idref="t270"/>
@@ -2712,6 +2728,7 @@
     <child-task idref="t290"/>
     <child-task idref="t293"/>
     <child-task idref="t294"/>
+    <child-task idref="t295"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2813,7 +2830,7 @@
     <split/>
     <priority>2000</priority>
     <effort>72000</effort>
-    <effort-done>55800</effort-done>
+    <effort-done>59400</effort-done>
     <child-task idref="t280"/>
     <child-task idref="t281"/>
     <child-task idref="t282"/>
@@ -2976,13 +2993,14 @@
     <title>Servlet、JSP和Spring MVC初学指南</title>
     <priority>2000</priority>
     <effort>16200</effort>
-    <start-constraint-date>2017-02-23T00:00:00.000Z</start-constraint-date>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-02-22T12:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-02-23T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-02-22T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t290">
     <title>Maven实战</title>
@@ -3013,7 +3031,8 @@
   <task id="t294">
     <title>Maven实战</title>
     <priority>1000</priority>
-    <effort>28800</effort>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
     <start-constraint-date>2017-02-22T07:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -3021,6 +3040,31 @@
       </value>
     </style>
     <start-no-earlier-than>2017-02-22T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t295">
+    <title>Maven实战</title>
+    <priority>1000</priority>
+    <effort>21600</effort>
+    <start-constraint-date>2017-02-23T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-23T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t296">
+    <title>IDEA</title>
+    <priority>1000</priority>
+    <effort>28800</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-02-22T09:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-22T09:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
