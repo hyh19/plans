@@ -154,6 +154,7 @@
     <child-task idref="t206"/>
     <child-task idref="t232"/>
     <child-task idref="t300"/>
+    <child-task idref="t306"/>
     <note>
       <text>
         <p>
@@ -2706,8 +2707,8 @@
     <title>Servlet、JSP和Spring MVC初学指南</title>
     <split/>
     <priority>2000</priority>
-    <effort>88200</effort>
-    <effort-done>77400</effort-done>
+    <effort>106200</effort>
+    <effort-done>82800</effort-done>
     <child-task idref="t280"/>
     <child-task idref="t281"/>
     <child-task idref="t282"/>
@@ -2721,6 +2722,8 @@
     <child-task idref="t297"/>
     <child-task idref="t298"/>
     <child-task idref="t299"/>
+    <child-task idref="t311"/>
+    <child-task idref="t312"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2975,7 +2978,7 @@
   <task id="t299">
     <title>Servlet、JSP和Spring MVC初学指南</title>
     <priority>2000</priority>
-    <effort>14400</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-02-24T04:00:00.000Z</start-constraint-date>
     <style>
@@ -3034,6 +3037,84 @@
       </value>
     </style>
     <start-no-earlier-than>2017-02-24T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t306">
+    <title>Linux</title>
+    <type>group</type>
+    <start-constraint-date>2017-02-24T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t307"/>
+    <start-no-earlier-than>2017-02-24T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t307">
+    <title>Books</title>
+    <type>group</type>
+    <start-constraint-date>2017-02-24T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t308"/>
+    <start-no-earlier-than>2017-02-24T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t308">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <split/>
+    <priority>100</priority>
+    <effort>28800</effort>
+    <effort-done>7200</effort-done>
+    <child-task idref="t309"/>
+    <child-task idref="t310"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t309">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>100</priority>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-02-24T13:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-24T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t310">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>100</priority>
+    <effort>21600</effort>
+    <start-constraint-date>2017-02-25T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t311">
+    <title>Servlet、JSP和Spring MVC初学指南</title>
+    <priority>2000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-02-24T07:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-24T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t312">
+    <title>Servlet、JSP和Spring MVC初学指南</title>
+    <priority>2000</priority>
+    <effort>23400</effort>
+    <start-constraint-date>2017-02-25T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-25T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
