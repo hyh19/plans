@@ -345,6 +345,29 @@
     <change idref="t308" attribute="effort" type="real" from="28800" to="54000" resolved="yes"/>
     <change idref="t314" attribute="effort" type="real" from="3600" to="28800" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-25T13:52:25.292Z" timestamp="2017-02-25T13:52:25.292Z">
+    <change idref="t308" attribute="internalEffortDone" type="real" from="25200" to="30600" resolved="yes"/>
+    <change idref="t314" attribute="noEarlierThanConstraintDate" type="date" from="2017-02-26T00:00:00.000Z" to="2017-02-25T12:30:00.000Z" resolved="yes"/>
+    <change idref="t314" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-02-25T13:52:32.871Z" timestamp="2017-02-25T13:52:32.871Z">
+    <change idref="t315" to="t308" to-position="4" resolved="yes">
+      <change idref="t315" attribute="effort" type="real" from="28800" to="23400"/>
+      <change idref="t315" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t315" attribute="noEarlierThanConstraintDate" type="date" to="2017-02-26T00:00:00.000Z"/>
+      <change idref="t315" attribute="priority" type="real" from="0" to="100"/>
+      <change idref="t315" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t315" attribute="title" type="string" to="鸟哥的Linux私房菜基础篇 #5"/>
+    </change>
+    <change idref="t314" attribute="effort" type="real" from="28800" to="5400" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
