@@ -3056,10 +3056,12 @@
     <title>鸟哥的Linux私房菜基础篇</title>
     <split/>
     <priority>100</priority>
-    <effort>28800</effort>
-    <effort-done>7200</effort-done>
+    <effort>54000</effort>
+    <effort-done>25200</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
+    <child-task idref="t313"/>
+    <child-task idref="t314"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3082,14 +3084,15 @@
   <task id="t310">
     <title>鸟哥的Linux私房菜基础篇</title>
     <priority>100</priority>
-    <effort>21600</effort>
-    <start-constraint-date>2017-02-25T00:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-02-25T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-02-25T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-02-25T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t311">
     <title>Servlet、JSP和Spring MVC初学指南</title>
@@ -3115,6 +3118,31 @@
       </value>
     </style>
     <start-no-earlier-than>2017-02-25T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t313">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>100</priority>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2017-02-25T05:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-25T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t314">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>100</priority>
+    <effort>28800</effort>
+    <start-constraint-date>2017-02-26T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-26T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
