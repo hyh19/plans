@@ -3057,13 +3057,15 @@
     <title>鸟哥的Linux私房菜基础篇</title>
     <split/>
     <priority>100</priority>
-    <effort>54000</effort>
-    <effort-done>30600</effort-done>
+    <effort>70200</effort>
+    <effort-done>41400</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
     <child-task idref="t314"/>
     <child-task idref="t315"/>
+    <child-task idref="t321"/>
+    <child-task idref="t322"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3150,14 +3152,15 @@
   <task id="t315">
     <title>鸟哥的Linux私房菜基础篇</title>
     <priority>100</priority>
-    <effort>23400</effort>
-    <start-constraint-date>2017-02-26T00:00:00.000Z</start-constraint-date>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-02-26T06:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-02-26T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-02-26T06:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t316">
     <title>Unix</title>
@@ -3204,6 +3207,31 @@
     <title>Unix入门经典</title>
     <priority>100</priority>
     <effort>21600</effort>
+    <start-constraint-date>2017-02-27T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-27T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t321">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>100</priority>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-02-26T14:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-26T14:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t322">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>100</priority>
+    <effort>28800</effort>
     <start-constraint-date>2017-02-27T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
