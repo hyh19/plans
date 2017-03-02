@@ -3059,7 +3059,7 @@
     <split/>
     <priority>2000</priority>
     <effort>280800</effort>
-    <effort-done>100800</effort-done>
+    <effort-done>102600</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3075,6 +3075,7 @@
     <child-task idref="t328"/>
     <child-task idref="t329"/>
     <child-task idref="t330"/>
+    <child-task idref="t339"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3344,14 +3345,15 @@
   <task id="t330">
     <title>鸟哥的Linux私房菜基础篇</title>
     <priority>2000</priority>
-    <effort>180000</effort>
-    <start-constraint-date>2017-03-02T00:00:00.000Z</start-constraint-date>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-03-02T13:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-02T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-02T13:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t331">
     <title>Python</title>
@@ -3440,6 +3442,18 @@
     <title>Head First Python</title>
     <priority>2000</priority>
     <effort>194400</effort>
+    <start-constraint-date>2017-03-03T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t339">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>2000</priority>
+    <effort>178200</effort>
     <start-constraint-date>2017-03-03T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
