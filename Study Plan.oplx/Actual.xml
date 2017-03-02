@@ -3372,11 +3372,12 @@
     <split/>
     <priority>2000</priority>
     <effort>223200</effort>
-    <effort-done>19800</effort-done>
+    <effort-done>28800</effort-done>
     <child-task idref="t334"/>
     <child-task idref="t335"/>
     <child-task idref="t336"/>
     <child-task idref="t337"/>
+    <child-task idref="t338"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3425,7 +3426,8 @@
   <task id="t337">
     <title>Head First Python</title>
     <priority>2000</priority>
-    <effort>203400</effort>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
     <start-constraint-date>2017-03-02T07:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -3433,6 +3435,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-03-02T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t338">
+    <title>Head First Python</title>
+    <priority>2000</priority>
+    <effort>194400</effort>
+    <start-constraint-date>2017-03-03T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-03T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
