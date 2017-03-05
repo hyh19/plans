@@ -157,6 +157,7 @@
     <child-task idref="t306"/>
     <child-task idref="t316"/>
     <child-task idref="t331"/>
+    <child-task idref="t346"/>
     <note>
       <text>
         <p>
@@ -3543,6 +3544,59 @@
       </value>
     </style>
     <start-no-earlier-than>2017-03-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t346">
+    <title>PHP</title>
+    <type>group</type>
+    <start-constraint-date>2017-03-05T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t347"/>
+    <start-no-earlier-than>2017-03-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t347">
+    <title>Books</title>
+    <type>group</type>
+    <start-constraint-date>2017-03-05T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t348"/>
+    <start-no-earlier-than>2017-03-05T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t348">
+    <title>PHP、MySQL和Apache入门经典</title>
+    <split/>
+    <priority>2000</priority>
+    <effort>28800</effort>
+    <effort-done>9000</effort-done>
+    <child-task idref="t349"/>
+    <child-task idref="t350"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t349">
+    <title>PHP、MySQL和Apache入门经典</title>
+    <priority>2000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-03-05T02:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-05T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t350">
+    <title>PHP、MySQL和Apache入门经典</title>
+    <priority>2000</priority>
+    <effort>19800</effort>
+    <start-constraint-date>2017-03-05T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-05T07:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
