@@ -3497,10 +3497,11 @@
     <split/>
     <priority>2000</priority>
     <effort>28800</effort>
-    <effort-done>12600</effort-done>
+    <effort-done>16200</effort-done>
     <child-task idref="t343"/>
     <child-task idref="t344"/>
     <child-task idref="t345"/>
+    <child-task idref="t352"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3536,14 +3537,15 @@
   <task id="t345">
     <title>Python编程快速上手</title>
     <priority>2000</priority>
-    <effort>16200</effort>
-    <start-constraint-date>2017-03-05T00:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-03-05T14:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-05T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-05T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t346">
     <title>PHP</title>
@@ -3604,6 +3606,18 @@
     <title>PHP、MySQL和Apache入门经典</title>
     <priority>2000</priority>
     <effort>28800</effort>
+    <start-constraint-date>2017-03-06T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-06T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t352">
+    <title>Python编程快速上手</title>
+    <priority>2000</priority>
+    <effort>12600</effort>
     <start-constraint-date>2017-03-06T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
