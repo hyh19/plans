@@ -3060,7 +3060,7 @@
     <split/>
     <priority>2000</priority>
     <effort>280800</effort>
-    <effort-done>102600</effort-done>
+    <effort-done>118800</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3077,6 +3077,8 @@
     <child-task idref="t329"/>
     <child-task idref="t330"/>
     <child-task idref="t339"/>
+    <child-task idref="t355"/>
+    <child-task idref="t356"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3458,14 +3460,15 @@
   <task id="t339">
     <title>鸟哥的Linux私房菜基础篇</title>
     <priority>2000</priority>
-    <effort>178200</effort>
-    <start-constraint-date>2017-03-03T00:00:00.000Z</start-constraint-date>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-03-06T07:45:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-03T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-06T07:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t340">
     <title>Head First Python</title>
@@ -3497,11 +3500,12 @@
     <split/>
     <priority>2000</priority>
     <effort>28800</effort>
-    <effort-done>16200</effort-done>
+    <effort-done>19800</effort-done>
     <child-task idref="t343"/>
     <child-task idref="t344"/>
     <child-task idref="t345"/>
     <child-task idref="t352"/>
+    <child-task idref="t357"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3566,10 +3570,12 @@
     <split/>
     <priority>2000</priority>
     <effort>46800</effort>
-    <effort-done>18000</effort-done>
+    <effort-done>27000</effort-done>
     <child-task idref="t349"/>
     <child-task idref="t350"/>
     <child-task idref="t351"/>
+    <child-task idref="t353"/>
+    <child-task idref="t354"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3605,26 +3611,90 @@
   <task id="t351">
     <title>PHP、MySQL和Apache入门经典</title>
     <priority>2000</priority>
-    <effort>28800</effort>
-    <start-constraint-date>2017-03-06T00:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-03-06T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-06T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-06T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t352">
     <title>Python编程快速上手</title>
     <priority>2000</priority>
-    <effort>12600</effort>
-    <start-constraint-date>2017-03-06T00:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-03-06T14:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-06T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-06T14:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t353">
+    <title>PHP、MySQL和Apache入门经典</title>
+    <priority>2000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-03-06T06:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-06T06:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t354">
+    <title>PHP、MySQL和Apache入门经典</title>
+    <priority>2000</priority>
+    <effort>19800</effort>
+    <start-constraint-date>2017-03-08T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t355">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>2000</priority>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-03-07T02:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-07T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t356">
+    <title>鸟哥的Linux私房菜基础篇</title>
+    <priority>2000</priority>
+    <effort>162000</effort>
+    <start-constraint-date>2017-03-08T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-08T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t357">
+    <title>Python编程快速上手</title>
+    <priority>2000</priority>
+    <effort>9000</effort>
+    <start-constraint-date>2017-03-08T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-08T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
