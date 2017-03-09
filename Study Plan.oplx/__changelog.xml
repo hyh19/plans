@@ -264,6 +264,29 @@
     </change>
     <change idref="t361" attribute="effort" type="real" from="28800" to="7200" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-03-09T04:26:17.126Z" timestamp="2017-03-09T04:26:17.126Z">
+    <change idref="t275" attribute="internalEffortDone" type="real" from="106200" to="113400" resolved="yes"/>
+    <change idref="t362" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-09T00:00:00.000Z" to="2017-03-09T02:30:00.000Z" resolved="yes"/>
+    <change idref="t362" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-03-09T04:26:22.448Z" timestamp="2017-03-09T04:26:22.448Z">
+    <change idref="t363" to="t275" to-position="18" resolved="yes">
+      <change idref="t363" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t363" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t363" attribute="noEarlierThanConstraintDate" type="date" to="2017-03-10T00:00:00.000Z"/>
+      <change idref="t363" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t363" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t363" attribute="title" type="string" to="Servlet、JSP和Spring MVC初学指南 #19"/>
+    </change>
+    <change idref="t362" attribute="effort" type="real" from="21600" to="7200" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
