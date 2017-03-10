@@ -2945,16 +2945,20 @@
   </task>
   <task id="t296">
     <title>IDEA</title>
+    <split/>
     <priority>1000</priority>
-    <effort>28800</effort>
-    <effort-done>3600</effort-done>
-    <start-constraint-date>2017-02-22T09:00:00.000Z</start-constraint-date>
+    <effort>57600</effort>
+    <effort-done>43200</effort-done>
+    <child-task idref="t364"/>
+    <child-task idref="t365"/>
+    <child-task idref="t366"/>
+    <child-task idref="t367"/>
+    <child-task idref="t368"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-02-22T09:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t297">
     <title>Servlet、JSP和Spring MVC初学指南</title>
@@ -3778,6 +3782,70 @@
       </value>
     </style>
     <start-no-earlier-than>2017-03-10T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t364">
+    <title>IDEA</title>
+    <priority>1000</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-02-22T09:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-02-22T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t365">
+    <title>IDEA</title>
+    <priority>1000</priority>
+    <effort>16200</effort>
+    <effort-done>16200</effort-done>
+    <start-constraint-date>2017-03-09T06:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-09T06:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t366">
+    <title>IDEA</title>
+    <priority>1000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-03-10T01:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-10T01:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t367">
+    <title>IDEA</title>
+    <priority>1000</priority>
+    <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2017-03-10T05:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-10T05:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t368">
+    <title>IDEA</title>
+    <priority>1000</priority>
+    <effort>14400</effort>
+    <start-constraint-date>2017-03-11T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-11T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
