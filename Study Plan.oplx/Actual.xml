@@ -2697,8 +2697,8 @@
     <title>Spring+MyBatis实战</title>
     <split/>
     <priority>100</priority>
-    <effort>28800</effort>
-    <effort-done>9000</effort-done>
+    <effort>37800</effort>
+    <effort-done>18000</effort-done>
     <child-task idref="t278"/>
     <child-task idref="t279"/>
     <style>
@@ -2757,14 +2757,15 @@
   <task id="t279">
     <title>Spring+MyBatis实战</title>
     <priority>100</priority>
-    <effort>19800</effort>
-    <start-constraint-date>2017-02-18T00:00:00.000Z</start-constraint-date>
+    <effort>28800</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-03-13T06:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-02-18T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-13T06:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t280">
     <title>Servlet、JSP和Spring MVC初学指南</title>
