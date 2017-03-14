@@ -2218,13 +2218,15 @@
     <split/>
     <priority>1000</priority>
     <effort>43200</effort>
-    <effort-done>18000</effort-done>
+    <effort-done>21600</effort-done>
     <child-task idref="t236"/>
     <child-task idref="t237"/>
     <child-task idref="t241"/>
     <child-task idref="t254"/>
     <child-task idref="t260"/>
     <child-task idref="t272"/>
+    <child-task idref="t377"/>
+    <child-task idref="t378"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2683,7 +2685,7 @@
   <task id="t272">
     <title>MySQL必知必会</title>
     <priority>1000</priority>
-    <effort>28800</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-03-13T03:45:00.000Z</start-constraint-date>
     <style>
@@ -2697,12 +2699,13 @@
     <title>Spring+MyBatis实战</title>
     <split/>
     <priority>100</priority>
-    <effort>37800</effort>
-    <effort-done>23400</effort-done>
+    <effort>52200</effort>
+    <effort-done>36000</effort-done>
     <child-task idref="t278"/>
     <child-task idref="t279"/>
     <child-task idref="t374"/>
     <child-task idref="t375"/>
+    <child-task idref="t376"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3939,14 +3942,53 @@
   <task id="t375">
     <title>Spring+MyBatis实战</title>
     <priority>100</priority>
-    <effort>14400</effort>
-    <start-constraint-date>2017-03-14T00:00:00.000Z</start-constraint-date>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-03-14T02:45:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-14T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-14T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t376">
+    <title>Spring+MyBatis实战</title>
+    <priority>100</priority>
+    <effort>23400</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-03-14T06:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-14T06:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t377">
+    <title>MySQL必知必会</title>
+    <priority>1000</priority>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-03-14T13:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-14T13:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t378">
+    <title>MySQL必知必会</title>
+    <priority>1000</priority>
+    <effort>21600</effort>
+    <start-constraint-date>2017-03-15T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-15T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
