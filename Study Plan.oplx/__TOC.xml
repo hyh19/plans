@@ -8,7 +8,7 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1352</split-view-divider-position>
-      <outline x="0" y="0" w="1352" h="961">
+      <outline x="0" y="57" w="1352" h="961">
         <column name="Notes" width="20"/>
         <column name="Title" width="582"/>
         <column name="Priority" width="60"/>
@@ -23,7 +23,7 @@
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t242 t332 t348 t250 t274 t203 t317 t211 t301 t235 t145 t333 t267 t263 t275 t306 t318 t193 t146 t302 t232 t154 t178 t346 t174 t342 t264 t217 t307 t201 t296 t147 t347 t331 t187 t206 t308 t202 t316 t210 t144 t234 t246 t168 t300"/>
       </outline>
-      <gantt-view x="631684" y="0" w="222" h="961">
+      <gantt-view x="631684" y="57" w="222" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -143,7 +143,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>379</next-task-id>
+    <next-task-id>382</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
