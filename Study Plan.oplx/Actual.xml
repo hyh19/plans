@@ -2409,7 +2409,7 @@
     <split/>
     <priority>1000</priority>
     <effort>68400</effort>
-    <effort-done>54000</effort-done>
+    <effort-done>55800</effort-done>
     <child-task idref="t251"/>
     <child-task idref="t252"/>
     <child-task idref="t253"/>
@@ -2419,6 +2419,7 @@
     <child-task idref="t261"/>
     <child-task idref="t262"/>
     <child-task idref="t381"/>
+    <child-task idref="t382"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4023,7 +4024,20 @@
   <task id="t381">
     <title>疯狂Java讲义第3版</title>
     <priority>1000</priority>
-    <effort>14400</effort>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-03-15T14:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-15T14:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t382">
+    <title>疯狂Java讲义第3版</title>
+    <priority>1000</priority>
+    <effort>12600</effort>
     <start-constraint-date>2017-03-16T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
