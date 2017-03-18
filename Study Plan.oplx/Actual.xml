@@ -3092,11 +3092,11 @@
     <start-no-earlier-than>2017-02-24T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t308">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <split/>
     <priority>2000</priority>
     <effort>280800</effort>
-    <effort-done>120600</effort-done>
+    <effort-done>133200</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3115,6 +3115,8 @@
     <child-task idref="t339"/>
     <child-task idref="t355"/>
     <child-task idref="t356"/>
+    <child-task idref="t393"/>
+    <child-task idref="t394"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -3122,7 +3124,7 @@
     </style>
   </task>
   <task id="t309">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>7200</effort>
     <effort-done>7200</effort-done>
@@ -3135,7 +3137,7 @@
     <start-no-earlier-than>2017-02-24T13:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t310">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>3600</effort>
     <effort-done>3600</effort-done>
@@ -3174,7 +3176,7 @@
     <start-no-earlier-than>2017-02-25T02:45:00.000Z</start-no-earlier-than>
   </task>
   <task id="t313">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>14400</effort>
     <effort-done>14400</effort-done>
@@ -3187,7 +3189,7 @@
     <start-no-earlier-than>2017-02-25T05:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t314">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>5400</effort>
     <effort-done>5400</effort-done>
@@ -3200,7 +3202,7 @@
     <start-no-earlier-than>2017-02-25T12:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t315">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>9000</effort>
     <effort-done>9000</effort-done>
@@ -3266,7 +3268,7 @@
     <start-no-earlier-than>2017-02-27T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t321">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>1800</effort>
     <effort-done>1800</effort-done>
@@ -3279,7 +3281,7 @@
     <start-no-earlier-than>2017-02-26T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t322">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>9000</effort>
     <effort-done>9000</effort-done>
@@ -3292,7 +3294,7 @@
     <start-no-earlier-than>2017-02-27T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t323">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>9000</effort>
     <effort-done>9000</effort-done>
@@ -3305,7 +3307,7 @@
     <start-no-earlier-than>2017-02-27T06:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t324">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>5400</effort>
     <effort-done>5400</effort-done>
@@ -3318,7 +3320,7 @@
     <start-no-earlier-than>2017-02-27T13:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t325">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>10800</effort>
     <effort-done>10800</effort-done>
@@ -3331,7 +3333,7 @@
     <start-no-earlier-than>2017-02-28T02:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t326">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>7200</effort>
     <effort-done>7200</effort-done>
@@ -3344,7 +3346,7 @@
     <start-no-earlier-than>2017-02-28T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t327">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>3600</effort>
     <effort-done>3600</effort-done>
@@ -3357,7 +3359,7 @@
     <start-no-earlier-than>2017-02-28T14:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t328">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>10800</effort>
     <effort-done>10800</effort-done>
@@ -3370,7 +3372,7 @@
     <start-no-earlier-than>2017-03-01T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t329">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>3600</effort>
     <effort-done>3600</effort-done>
@@ -3383,7 +3385,7 @@
     <start-no-earlier-than>2017-03-01T07:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t330">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>1800</effort>
     <effort-done>1800</effort-done>
@@ -3495,7 +3497,7 @@
     <start-no-earlier-than>2017-03-03T01:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t339">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>5400</effort>
     <effort-done>5400</effort-done>
@@ -3699,7 +3701,7 @@
     <start-no-earlier-than>2017-03-07T07:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t355">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
     <effort>10800</effort>
     <effort-done>10800</effort-done>
@@ -3712,9 +3714,9 @@
     <start-no-earlier-than>2017-03-07T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t356">
-    <title>鸟哥的Linux私房菜基础篇</title>
+    <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>162000</effort>
+    <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-03-12T09:00:00.000Z</start-constraint-date>
     <style>
@@ -4157,6 +4159,31 @@
     <title>轻量级Java EE企业应用实战第4版</title>
     <priority>1000</priority>
     <effort>18000</effort>
+    <start-constraint-date>2017-03-19T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-19T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t393">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>12600</effort>
+    <effort-done>12600</effort-done>
+    <start-constraint-date>2017-03-18T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-18T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t394">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>147600</effort>
     <start-constraint-date>2017-03-19T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
