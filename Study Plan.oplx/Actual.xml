@@ -4260,7 +4260,21 @@
   </task>
   <task id="t402">
     <title>图解TCP/IP</title>
+    <split/>
     <effort>28800</effort>
+    <effort-done>14400</effort-done>
+    <child-task idref="t403"/>
+    <child-task idref="t404"/>
+    <child-task idref="t405"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t403">
+    <title>图解TCP/IP</title>
+    <effort>10800</effort>
     <effort-done>10800</effort-done>
     <start-constraint-date>2017-03-19T07:30:00.000Z</start-constraint-date>
     <style>
@@ -4269,6 +4283,29 @@
       </value>
     </style>
     <start-no-earlier-than>2017-03-19T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t404">
+    <title>图解TCP/IP</title>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-03-19T12:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-19T12:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t405">
+    <title>图解TCP/IP</title>
+    <effort>14400</effort>
+    <start-constraint-date>2017-03-20T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-20T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
