@@ -3097,7 +3097,7 @@
     <split/>
     <priority>2000</priority>
     <effort>280800</effort>
-    <effort-done>136800</effort-done>
+    <effort-done>142200</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3119,6 +3119,7 @@
     <child-task idref="t393"/>
     <child-task idref="t394"/>
     <child-task idref="t395"/>
+    <child-task idref="t410"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4198,17 +4199,18 @@
   <task id="t395">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>144000</effort>
-    <start-constraint-date>2017-03-20T00:00:00.000Z</start-constraint-date>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-03-20T08:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-20T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-20T08:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t396">
-    <title>Network</title>
+    <title>Networks</title>
     <type>group</type>
     <start-constraint-date>2017-03-19T00:00:00.000Z</start-constraint-date>
     <child-task idref="t397"/>
@@ -4220,6 +4222,7 @@
     <start-constraint-date>2017-03-19T00:00:00.000Z</start-constraint-date>
     <child-task idref="t399"/>
     <child-task idref="t402"/>
+    <child-task idref="t407"/>
     <start-no-earlier-than>2017-03-19T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t399">
@@ -4262,10 +4265,11 @@
     <title>图解TCP/IP</title>
     <split/>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>18000</effort-done>
     <child-task idref="t403"/>
     <child-task idref="t404"/>
     <child-task idref="t405"/>
+    <child-task idref="t406"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4298,14 +4302,74 @@
   </task>
   <task id="t405">
     <title>图解TCP/IP</title>
-    <effort>14400</effort>
-    <start-constraint-date>2017-03-20T00:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-03-20T02:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-20T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-20T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t406">
+    <title>图解TCP/IP</title>
+    <effort>10800</effort>
+    <start-constraint-date>2017-03-21T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t407">
+    <title>网络是怎样的连接的</title>
+    <split/>
+    <effort>28800</effort>
+    <effort-done>10800</effort-done>
+    <child-task idref="t408"/>
+    <child-task idref="t409"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t408">
+    <title>网络是怎样的连接的</title>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-03-20T05:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-20T05:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t409">
+    <title>网络是怎样的连接的</title>
+    <effort>18000</effort>
+    <start-constraint-date>2017-03-21T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-21T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t410">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>138600</effort>
+    <start-constraint-date>2017-03-21T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-21T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
