@@ -3097,7 +3097,7 @@
     <split/>
     <priority>2000</priority>
     <effort>280800</effort>
-    <effort-done>151200</effort-done>
+    <effort-done>154800</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3121,6 +3121,7 @@
     <child-task idref="t395"/>
     <child-task idref="t410"/>
     <child-task idref="t412"/>
+    <child-task idref="t415"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4392,14 +4393,15 @@
   <task id="t412">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>129600</effort>
-    <start-constraint-date>2017-03-22T00:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-03-21T13:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-22T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-21T13:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t413">
     <title>网络是怎样的连接的</title>
@@ -4416,6 +4418,18 @@
   <task id="t414">
     <title>网络是怎样的连接的</title>
     <effort>28800</effort>
+    <start-constraint-date>2017-03-22T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-22T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t415">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>126000</effort>
     <start-constraint-date>2017-03-22T00:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
