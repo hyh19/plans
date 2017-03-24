@@ -38,53 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-03-22T10:21:23.092Z" timestamp="2017-03-22T10:21:23.092Z">
-    <change idref="t414" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-22T00:00:00.000Z" to="2017-03-22T02:30:00.000Z" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-03-22T10:21:31.437Z" timestamp="2017-03-22T10:21:31.437Z">
-    <change idref="t407" attribute="internalEffortDone" type="real" from="19800" to="23400" resolved="yes"/>
-    <change idref="t414" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-03-22T10:21:40.947Z" timestamp="2017-03-22T10:21:40.947Z">
-    <change idref="t416" to="t407" to-position="5" resolved="yes">
-      <change idref="t416" attribute="effort" type="real" from="28800" to="25200"/>
-      <change idref="t416" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t416" attribute="noEarlierThanConstraintDate" type="date" to="2017-03-23T00:00:00.000Z"/>
-      <change idref="t416" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t416" attribute="title" type="string" to="网络是怎样的连接的 #6"/>
-    </change>
-    <change idref="t414" attribute="effort" type="real" from="28800" to="3600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-03-22T10:22:37.937Z" timestamp="2017-03-22T10:22:37.937Z">
-    <change idref="t308" attribute="internalEffortDone" type="real" from="154800" to="167400" resolved="yes"/>
-    <change idref="t415" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-22T00:00:00.000Z" to="2017-03-22T06:00:00.000Z" resolved="yes"/>
-    <change idref="t415" attribute="internalEffortDone" type="real" from="0" to="12600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-03-22T10:22:50.030Z" timestamp="2017-03-22T10:22:50.030Z">
-    <change idref="t417" to="t308" to-position="24" resolved="yes">
-      <change idref="t417" attribute="effort" type="real" from="28800" to="113400"/>
-      <change idref="t417" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t417" attribute="noEarlierThanConstraintDate" type="date" to="2017-03-23T00:00:00.000Z"/>
-      <change idref="t417" attribute="priority" type="real" from="0" to="2000"/>
-      <change idref="t417" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t417" attribute="title" type="string" to="鸟哥的Linux私房菜 #25"/>
-    </change>
-    <change idref="t415" attribute="effort" type="real" from="126000" to="12600" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-03-23T15:29:03.513Z" timestamp="2017-03-23T15:29:03.513Z">
     <change idref="t306" from="t4" from-position="9" to="t4" to-position="0" resolved="yes"/>
     <change idref="t308" attribute="internalEffortDone" type="real" from="167400" to="192600" resolved="yes"/>
@@ -141,6 +94,43 @@
       <change idref="t420" attribute="title" type="string" to="鸟哥的Linux私房菜 #28"/>
     </change>
     <change idref="t419" attribute="effort" type="real" from="95400" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-03-24T16:24:33.746Z" timestamp="2017-03-24T16:24:33.746Z">
+    <change idref="t308" attribute="internalEffortDone" type="real" from="192600" to="207000" resolved="yes"/>
+    <change idref="t421" to="t308" to-position="28" resolved="yes">
+      <change idref="t421" attribute="effort" type="real" from="28800" to="9000"/>
+      <change idref="t421" attribute="internalEffortDone" type="real" from="0" to="9000"/>
+      <change idref="t421" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t421" attribute="noEarlierThanConstraintDate" type="date" to="2017-03-24T06:30:00.000Z"/>
+      <change idref="t421" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t421" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t421" attribute="title" type="string" to="鸟哥的Linux私房菜 #29"/>
+    </change>
+    <change idref="t422" to="t308" to-position="29" resolved="yes">
+      <change idref="t422" attribute="effort" type="real" from="28800" to="73800"/>
+      <change idref="t422" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t422" attribute="noEarlierThanConstraintDate" type="date" to="2017-03-25T00:00:00.000Z"/>
+      <change idref="t422" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t422" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t422" attribute="title" type="string" to="鸟哥的Linux私房菜 #30"/>
+    </change>
+    <change idref="t420" attribute="effort" type="real" from="88200" to="5400" resolved="yes"/>
+    <change idref="t420" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-24T00:00:00.000Z" to="2017-03-24T03:00:00.000Z" resolved="yes"/>
+    <change idref="t420" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
