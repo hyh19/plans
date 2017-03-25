@@ -3097,7 +3097,7 @@
     <split/>
     <priority>2000</priority>
     <effort>280800</effort>
-    <effort-done>207000</effort-done>
+    <effort-done>221400</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3128,6 +3128,8 @@
     <child-task idref="t420"/>
     <child-task idref="t421"/>
     <child-task idref="t422"/>
+    <child-task idref="t423"/>
+    <child-task idref="t424"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4526,14 +4528,40 @@
   <task id="t422">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>73800</effort>
-    <start-constraint-date>2017-03-25T00:00:00.000Z</start-constraint-date>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-03-25T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-25T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-25T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t423">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-03-25T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-25T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t424">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>59400</effort>
+    <start-constraint-date>2017-03-25T12:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-25T12:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
