@@ -3097,7 +3097,7 @@
     <split/>
     <priority>2000</priority>
     <effort>280800</effort>
-    <effort-done>225000</effort-done>
+    <effort-done>248400</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3131,6 +3131,9 @@
     <child-task idref="t423"/>
     <child-task idref="t424"/>
     <child-task idref="t425"/>
+    <child-task idref="t426"/>
+    <child-task idref="t427"/>
+    <child-task idref="t428"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4568,14 +4571,53 @@
   <task id="t425">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>55800</effort>
-    <start-constraint-date>2017-03-26T00:00:00.000Z</start-constraint-date>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-03-26T01:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-26T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-26T01:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t426">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-03-26T06:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-26T06:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t427">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-03-26T13:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-26T13:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t428">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>32400</effort>
+    <start-constraint-date>2017-03-27T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-03-27T00:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
