@@ -3098,7 +3098,7 @@
     <split/>
     <priority>2000</priority>
     <effort>473400</effort>
-    <effort-done>333000</effort-done>
+    <effort-done>349200</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3146,6 +3146,8 @@
     <child-task idref="t437"/>
     <child-task idref="t438"/>
     <child-task idref="t439"/>
+    <child-task idref="t441"/>
+    <child-task idref="t442"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4765,14 +4767,15 @@
   <task id="t439">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>140400</effort>
-    <start-constraint-date>2017-03-31T02:00:00.000Z</start-constraint-date>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-03-31T03:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-31T02:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-03-31T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t440">
     <title>计算机操作系统第四版</title>
@@ -4780,6 +4783,31 @@
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-03-30T03:30:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-03-30T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t441">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-04-01T07:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-01T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t442">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>124200</effort>
+    <start-constraint-date>2017-04-01T12:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-01T12:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
