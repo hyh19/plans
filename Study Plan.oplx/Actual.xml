@@ -3099,7 +3099,7 @@
     <split/>
     <priority>2000</priority>
     <effort>570600</effort>
-    <effort-done>532800</effort-done>
+    <effort-done>541800</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3170,6 +3170,7 @@
     <child-task idref="t465"/>
     <child-task idref="t466"/>
     <child-task idref="t467"/>
+    <child-task idref="t468"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5131,7 +5132,8 @@
   <task id="t467">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>37800</effort>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
     <start-constraint-date>2017-04-08T06:00:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
@@ -5139,6 +5141,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-04-08T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t468">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>28800</effort>
+    <start-constraint-date>2017-04-08T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-08T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
