@@ -38,29 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-04-05T15:29:35.094Z" timestamp="2017-04-05T15:29:35.094Z">
-    <change idref="t308" attribute="internalEffortDone" type="real" from="462600" to="471600" resolved="yes"/>
-    <change idref="t459" attribute="noEarlierThanConstraintDate" type="date" from="2017-04-05T12:30:00.000Z" to="2017-04-05T13:00:00.000Z" resolved="yes"/>
-    <change idref="t459" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-04-05T15:29:42.621Z" timestamp="2017-04-05T15:29:42.621Z">
-    <change idref="t460" to="t308" to-position="62" resolved="yes">
-      <change idref="t460" attribute="effort" type="real" from="28800" to="99000"/>
-      <change idref="t460" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t460" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-06T00:00:00.000Z"/>
-      <change idref="t460" attribute="priority" type="real" from="0" to="2000"/>
-      <change idref="t460" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t460" attribute="title" type="string" to="鸟哥的Linux私房菜 #63"/>
-    </change>
-    <change idref="t459" attribute="effort" type="real" from="108000" to="9000" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-04-06T09:46:17.323Z" timestamp="2017-04-06T09:46:17.323Z">
     <change idref="t308" attribute="internalEffortDone" type="real" from="471600" to="480600" resolved="yes"/>
     <change idref="t461" to="t308" to-position="63" resolved="yes">
@@ -187,6 +164,28 @@
       <change idref="t466" attribute="title" type="string" to="鸟哥的Linux私房菜 #69"/>
     </change>
     <change idref="t465" attribute="effort" type="real" from="55800" to="10800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-08T03:53:23.233Z" timestamp="2017-04-08T03:53:23.233Z">
+    <change idref="t308" attribute="internalEffortDone" type="real" from="525600" to="532800" resolved="yes"/>
+    <change idref="t466" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-08T03:53:36.437Z" timestamp="2017-04-08T03:53:36.437Z">
+    <change idref="t467" to="t308" to-position="69" resolved="yes">
+      <change idref="t467" attribute="effort" type="real" from="28800" to="37800"/>
+      <change idref="t467" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t467" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-08T06:00:00.000Z"/>
+      <change idref="t467" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t467" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t467" attribute="title" type="string" to="鸟哥的Linux私房菜 #70"/>
+    </change>
+    <change idref="t466" attribute="effort" type="real" from="45000" to="7200" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
