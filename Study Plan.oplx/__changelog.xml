@@ -260,6 +260,17 @@
     </change>
     <change idref="t468" attribute="effort" type="real" from="324000" to="7200" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-09T09:28:59.591Z" timestamp="2017-04-09T09:28:59.591Z">
+    <change idref="t308" attribute="internalEffortDone" type="real" from="549000" to="556200" resolved="yes"/>
+    <change idref="t473" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-09T09:29:33.925Z" timestamp="2017-04-09T09:29:33.925Z">
+    <change idref="t416" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-23T00:00:00.000Z" to="2017-04-09T08:30:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-09T09:29:38.103Z" timestamp="2017-04-09T09:29:38.103Z">
+    <change idref="t407" attribute="internalEffortDone" type="real" from="23400" to="27000" resolved="yes"/>
+    <change idref="t416" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
