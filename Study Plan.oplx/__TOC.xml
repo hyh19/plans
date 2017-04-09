@@ -8,7 +8,7 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>1339</split-view-divider-position>
-      <outline x="0" y="1925" w="1339" h="961">
+      <outline x="0" y="0" w="1339" h="961">
         <column name="Notes" width="20"/>
         <column name="Title" width="569"/>
         <column name="Priority" width="60"/>
@@ -19,11 +19,11 @@
         <column name="End" width="117"/>
         <column name="Prerequisites" width="100"/>
         <column name="Dependents" width="100"/>
-        <expanded-items idrefs="t46 t301 t263 t317 t306 t332 t396 t47 t76 t59 t89 t100 t202 t3 t56 t147 t4 t60 t307 t119 t397 t49 t99 t331 t384 t234 t347 t8 t115"/>
+        <expanded-items idrefs="t46 t301 t263 t317 t306 t332 t59 t47 t76 t89 t100 t202 t3 t56 t147 t4 t60 t307 t119 t397 t49 t99 t331 t384 t234 t347 t8 t115"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
         <selected-items-at-filter-time idrefs="t250 t399 t440 t145 t342 t385 t201 t174 t307 t300 t146 t449 t470 t202 t308 t168 t147 t267 t301 t274 t217 t407 t154 t203 t210 t246 t296 t316 t232 t275 t302 t211 t331 t317 t346 t396 t178 t402 t318 t332 t234 t347 t397 t206 t263 t333 t193 t383 t235 t348 t242 t144 t187 t384 t264 t306"/>
       </outline>
-      <gantt-view x="610052" y="1925" w="235" h="961">
+      <gantt-view x="610049" y="0" w="235" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
