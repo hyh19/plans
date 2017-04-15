@@ -5419,9 +5419,10 @@
     <title>跟老男孩学Linux运维</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>25200</effort-done>
     <child-task idref="t489"/>
     <child-task idref="t490"/>
+    <child-task idref="t491"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5442,7 +5443,7 @@
   </task>
   <task id="t490">
     <title>跟老男孩学Linux运维</title>
-    <effort>207000</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-04-14T12:30:00.000Z</start-constraint-date>
     <style>
@@ -5451,6 +5452,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-04-14T12:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t491">
+    <title>跟老男孩学Linux运维</title>
+    <effort>201600</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-04-15T02:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-15T02:15:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
