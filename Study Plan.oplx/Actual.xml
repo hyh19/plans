@@ -3095,6 +3095,7 @@
     <child-task idref="t449"/>
     <child-task idref="t470"/>
     <child-task idref="t479"/>
+    <child-task idref="t492"/>
     <start-no-earlier-than>2017-02-24T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t308">
@@ -4290,6 +4291,7 @@
     <child-task idref="t399"/>
     <child-task idref="t402"/>
     <child-task idref="t407"/>
+    <child-task idref="t493"/>
     <start-no-earlier-than>2017-03-19T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t399">
@@ -5464,6 +5466,30 @@
       </value>
     </style>
     <start-no-earlier-than>2017-04-15T02:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t492">
+    <title>深入理解Nginx</title>
+    <effort>28800</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-04-15T07:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-15T07:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t493">
+    <title>图解HTTP</title>
+    <effort>28800</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-04-15T12:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-15T12:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
