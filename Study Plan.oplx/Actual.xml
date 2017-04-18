@@ -3103,7 +3103,7 @@
     <split/>
     <priority>2000</priority>
     <effort>865800</effort>
-    <effort-done>644400</effort-done>
+    <effort-done>649800</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3186,6 +3186,7 @@
     <child-task idref="t484"/>
     <child-task idref="t485"/>
     <child-task idref="t487"/>
+    <child-task idref="t499"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5306,10 +5307,11 @@
     <title>Shell从入门到精通</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>18000</effort-done>
+    <effort-done>21600</effort-done>
     <child-task idref="t482"/>
     <child-task idref="t483"/>
     <child-task idref="t486"/>
+    <child-task idref="t498"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5394,7 +5396,7 @@
   </task>
   <task id="t486">
     <title>Shell从入门到精通</title>
-    <effort>201600</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-04-13T13:00:00.000Z</start-constraint-date>
     <style>
@@ -5407,7 +5409,7 @@
   <task id="t487">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>230400</effort>
+    <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-04-14T02:30:00.000Z</start-constraint-date>
     <style>
@@ -5421,7 +5423,7 @@
     <title>跟老男孩学Linux运维</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>59400</effort-done>
+    <effort-done>72000</effort-done>
     <child-task idref="t489"/>
     <child-task idref="t490"/>
     <child-task idref="t491"/>
@@ -5429,6 +5431,7 @@
     <child-task idref="t495"/>
     <child-task idref="t496"/>
     <child-task idref="t497"/>
+    <child-task idref="t500"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5533,7 +5536,7 @@
   </task>
   <task id="t497">
     <title>跟老男孩学Linux运维</title>
-    <effort>163800</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-04-17T06:00:00.000Z</start-constraint-date>
     <style>
@@ -5542,6 +5545,43 @@
       </value>
     </style>
     <start-no-earlier-than>2017-04-17T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t498">
+    <title>Shell从入门到精通</title>
+    <effort>198000</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-04-18T13:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-18T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t499">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>221400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-04-18T02:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-18T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t500">
+    <title>跟老男孩学Linux运维</title>
+    <effort>156600</effort>
+    <effort-done>12600</effort-done>
+    <start-constraint-date>2017-04-18T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-18T06:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
