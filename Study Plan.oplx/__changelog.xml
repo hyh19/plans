@@ -135,6 +135,45 @@
     </change>
     <change idref="t510" attribute="effort" type="real" from="115200" to="18000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-23T09:00:07.404Z" timestamp="2017-04-23T09:00:07.404Z">
+    <change idref="t308" attribute="internalEffortDone" type="real" from="651600" to="658800" resolved="yes"/>
+    <change idref="t513" to="t308" to-position="84" resolved="yes">
+      <change idref="t513" attribute="effort" type="real" from="28800" to="214200"/>
+      <change idref="t513" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+      <change idref="t513" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t513" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-23T02:00:00.000Z"/>
+      <change idref="t513" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t513" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t513" attribute="title" type="string" to="鸟哥的Linux私房菜 #85"/>
+    </change>
+    <change idref="t506" attribute="effort" type="real" from="216000" to="1800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-23T09:00:39.943Z" timestamp="2017-04-23T09:00:39.943Z">
+    <change idref="t479" attribute="internalEffortDone" type="real" from="63000" to="70200" resolved="yes"/>
+    <change idref="t514" to="t479" to-position="10" resolved="yes">
+      <change idref="t514" attribute="effort" type="real" from="28800" to="153000"/>
+      <change idref="t514" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+      <change idref="t514" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t514" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-23T07:00:00.000Z"/>
+      <change idref="t514" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t514" attribute="title" type="string" to="Shell从入门到精通 #11"/>
+    </change>
+    <change idref="t511" attribute="effort" type="real" from="163800" to="10800" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
