@@ -38,65 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-04-21T15:29:17.951Z" timestamp="2017-04-21T15:29:17.951Z">
-    <change idref="t479" attribute="internalEffortDone" type="real" from="41400" to="45000" resolved="yes"/>
-    <change idref="t508" to="t479" to-position="7" resolved="yes">
-      <change idref="t508" attribute="effort" type="real" from="28800" to="174600"/>
-      <change idref="t508" attribute="internalEffortDone" type="real" from="0" to="3600"/>
-      <change idref="t508" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t508" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-21T02:30:00.000Z"/>
-      <change idref="t508" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t508" attribute="title" type="string" to="Shell从入门到精通 #8"/>
-    </change>
-    <change idref="t507" attribute="effort" type="real" from="180000" to="5400" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-04-21T15:29:39.318Z" timestamp="2017-04-21T15:29:39.318Z">
-    <change idref="t509" to="t479" to-position="8" resolved="yes">
-      <change idref="t509" attribute="effort" type="real" from="28800" to="171000"/>
-      <change idref="t509" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t509" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-21T06:30:00.000Z"/>
-      <change idref="t509" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t509" attribute="title" type="string" to="Shell从入门到精通 #9"/>
-    </change>
-    <change idref="t508" attribute="effort" type="real" from="174600" to="3600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-04-21T15:29:42.858Z" timestamp="2017-04-21T15:29:42.858Z">
-    <change idref="t479" attribute="internalEffortDone" type="real" from="45000" to="52200" resolved="yes"/>
-    <change idref="t509" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-04-21T15:30:10.365Z" timestamp="2017-04-21T15:30:10.365Z">
-    <change idref="t488" attribute="internalEffortDone" type="real" from="100800" to="118800" resolved="yes"/>
-    <change idref="t510" to="t488" to-position="11" resolved="yes">
-      <change idref="t510" attribute="effort" type="real" from="28800" to="115200"/>
-      <change idref="t510" attribute="internalEffortDone" type="real" from="0" to="18000"/>
-      <change idref="t510" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t510" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-21T08:30:00.000Z"/>
-      <change idref="t510" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t510" attribute="title" type="string" to="跟老男孩学Linux运维 #12"/>
-    </change>
-    <change idref="t505" attribute="effort" type="real" from="126000" to="10800" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-04-22T14:31:47.427Z" timestamp="2017-04-22T14:31:47.427Z">
     <change idref="t479" attribute="internalEffortDone" type="real" from="52200" to="63000" resolved="yes"/>
     <change idref="t511" to="t479" to-position="9" resolved="yes">
@@ -173,6 +114,45 @@
       <change idref="t514" attribute="title" type="string" to="Shell从入门到精通 #11"/>
     </change>
     <change idref="t511" attribute="effort" type="real" from="163800" to="10800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-24T10:50:11.303Z" timestamp="2017-04-24T10:50:11.303Z">
+    <change idref="t308" attribute="internalEffortDone" type="real" from="658800" to="669600" resolved="yes"/>
+    <change idref="t515" to="t308" to-position="85" resolved="yes">
+      <change idref="t515" attribute="effort" type="real" from="28800" to="207000"/>
+      <change idref="t515" attribute="internalEffortDone" type="real" from="0" to="10800"/>
+      <change idref="t515" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t515" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-24T03:00:00.000Z"/>
+      <change idref="t515" attribute="priority" type="real" from="0" to="2000"/>
+      <change idref="t515" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t515" attribute="title" type="string" to="鸟哥的Linux私房菜 #86"/>
+    </change>
+    <change idref="t513" attribute="effort" type="real" from="214200" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-04-24T10:50:46.204Z" timestamp="2017-04-24T10:50:46.204Z">
+    <change idref="t479" attribute="internalEffortDone" type="real" from="70200" to="75600" resolved="yes"/>
+    <change idref="t516" to="t479" to-position="11" resolved="yes">
+      <change idref="t516" attribute="effort" type="real" from="28800" to="145800"/>
+      <change idref="t516" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t516" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t516" attribute="noEarlierThanConstraintDate" type="date" to="2017-04-24T08:00:00.000Z"/>
+      <change idref="t516" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t516" attribute="title" type="string" to="Shell从入门到精通 #12"/>
+    </change>
+    <change idref="t514" attribute="effort" type="real" from="153000" to="7200" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
