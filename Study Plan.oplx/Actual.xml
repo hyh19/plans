@@ -3103,7 +3103,7 @@
     <split/>
     <priority>2000</priority>
     <effort>865800</effort>
-    <effort-done>669600</effort-done>
+    <effort-done>675000</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3190,6 +3190,7 @@
     <child-task idref="t506"/>
     <child-task idref="t513"/>
     <child-task idref="t515"/>
+    <child-task idref="t518"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5310,7 +5311,7 @@
     <title>Shell从入门到精通</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>75600</effort-done>
+    <effort-done>84600</effort-done>
     <child-task idref="t482"/>
     <child-task idref="t483"/>
     <child-task idref="t486"/>
@@ -5323,6 +5324,7 @@
     <child-task idref="t511"/>
     <child-task idref="t514"/>
     <child-task idref="t516"/>
+    <child-task idref="t519"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5773,7 +5775,7 @@
   <task id="t515">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>207000</effort>
+    <effort>10800</effort>
     <effort-done>10800</effort-done>
     <start-constraint-date>2017-04-24T03:00:00.000Z</start-constraint-date>
     <style>
@@ -5785,7 +5787,7 @@
   </task>
   <task id="t516">
     <title>Shell从入门到精通</title>
-    <effort>145800</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-04-24T08:00:00.000Z</start-constraint-date>
     <style>
@@ -5806,6 +5808,31 @@
       </value>
     </style>
     <start-no-earlier-than>2017-04-24T13:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t518">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>196200</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-04-25T02:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-25T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t519">
+    <title>Shell从入门到精通</title>
+    <effort>140400</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-04-25T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-25T06:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
