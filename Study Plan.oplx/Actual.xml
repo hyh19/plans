@@ -3096,6 +3096,7 @@
     <child-task idref="t470"/>
     <child-task idref="t479"/>
     <child-task idref="t492"/>
+    <child-task idref="t522"/>
     <start-no-earlier-than>2017-02-24T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t308">
@@ -3103,7 +3104,7 @@
     <split/>
     <priority>2000</priority>
     <effort>865800</effort>
-    <effort-done>675000</effort-done>
+    <effort-done>678600</effort-done>
     <child-task idref="t309"/>
     <child-task idref="t310"/>
     <child-task idref="t313"/>
@@ -3191,6 +3192,7 @@
     <child-task idref="t513"/>
     <child-task idref="t515"/>
     <child-task idref="t518"/>
+    <child-task idref="t521"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4926,7 +4928,7 @@
     <title>Linux循序渐进第2版</title>
     <split/>
     <effort>28800</effort>
-    <effort-done>9000</effort-done>
+    <effort-done>14400</effort-done>
     <child-task idref="t450"/>
     <child-task idref="t451"/>
     <style>
@@ -4950,13 +4952,14 @@
   <task id="t451">
     <title>Linux循序渐进第2版</title>
     <effort>19800</effort>
-    <start-constraint-date>2017-04-03T00:00:00.000Z</start-constraint-date>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-04-26T08:15:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-04-03T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-04-26T08:15:00.000Z</start-no-earlier-than>
   </task>
   <task id="t452">
     <title>鸟哥的Linux私房菜</title>
@@ -5311,7 +5314,7 @@
     <title>Shell从入门到精通</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>84600</effort-done>
+    <effort-done>88200</effort-done>
     <child-task idref="t482"/>
     <child-task idref="t483"/>
     <child-task idref="t486"/>
@@ -5325,6 +5328,7 @@
     <child-task idref="t514"/>
     <child-task idref="t516"/>
     <child-task idref="t519"/>
+    <child-task idref="t523"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5813,7 +5817,7 @@
   <task id="t518">
     <title>鸟哥的Linux私房菜</title>
     <priority>2000</priority>
-    <effort>196200</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-04-25T02:30:00.000Z</start-constraint-date>
     <style>
@@ -5825,7 +5829,7 @@
   </task>
   <task id="t519">
     <title>Shell从入门到精通</title>
-    <effort>140400</effort>
+    <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-04-25T06:00:00.000Z</start-constraint-date>
     <style>
@@ -5846,6 +5850,43 @@
       </value>
     </style>
     <start-no-earlier-than>2017-04-25T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t521">
+    <title>鸟哥的Linux私房菜</title>
+    <priority>2000</priority>
+    <effort>190800</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-04-26T01:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-26T01:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t522">
+    <title>Unix/Linux系统管理技术手册</title>
+    <effort>28800</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-04-26T02:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-26T02:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t523">
+    <title>Shell从入门到精通</title>
+    <effort>131400</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-04-26T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-26T07:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
