@@ -5317,7 +5317,7 @@
     <title>Shell从入门到精通</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>91800</effort-done>
+    <effort-done>95400</effort-done>
     <child-task idref="t482"/>
     <child-task idref="t483"/>
     <child-task idref="t486"/>
@@ -5333,6 +5333,7 @@
     <child-task idref="t519"/>
     <child-task idref="t523"/>
     <child-task idref="t525"/>
+    <child-task idref="t530"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5909,7 +5910,7 @@
   </task>
   <task id="t525">
     <title>Shell从入门到精通</title>
-    <effort>127800</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-04-27T05:00:00.000Z</start-constraint-date>
     <style>
@@ -5967,6 +5968,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-04-28T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t530">
+    <title>Shell从入门到精通</title>
+    <effort>124200</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-04-28T09:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-04-28T09:15:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
