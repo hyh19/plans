@@ -1975,7 +1975,7 @@
     <split/>
     <priority>100</priority>
     <effort>279000</effort>
-    <effort-done>70200</effort-done>
+    <effort-done>73800</effort-done>
     <child-task idref="t204"/>
     <child-task idref="t205"/>
     <child-task idref="t214"/>
@@ -1987,6 +1987,7 @@
     <child-task idref="t230"/>
     <child-task idref="t240"/>
     <child-task idref="t257"/>
+    <child-task idref="t541"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2414,7 +2415,7 @@
     <split/>
     <priority>1000</priority>
     <effort>271800</effort>
-    <effort-done>66600</effort-done>
+    <effort-done>70200</effort-done>
     <child-task idref="t251"/>
     <child-task idref="t252"/>
     <child-task idref="t253"/>
@@ -2426,6 +2427,7 @@
     <child-task idref="t381"/>
     <child-task idref="t382"/>
     <child-task idref="t539"/>
+    <child-task idref="t540"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -2513,7 +2515,7 @@
   <task id="t257">
     <title>Java核心技术第9版</title>
     <priority>100</priority>
-    <effort>216000</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-05-01T06:45:00.000Z</start-constraint-date>
     <style>
@@ -4933,13 +4935,14 @@
   <task id="t449">
     <title>循序渐进LInux第2版</title>
     <split/>
-    <effort>28800</effort>
-    <effort-done>27000</effort-done>
+    <effort>63000</effort>
+    <effort-done>28800</effort-done>
     <child-task idref="t450"/>
     <child-task idref="t451"/>
     <child-task idref="t526"/>
     <child-task idref="t536"/>
     <child-task idref="t537"/>
+    <child-task idref="t542"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5323,7 +5326,7 @@
     <title>Shell从入门到精通</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>100800</effort-done>
+    <effort-done>102600</effort-done>
     <child-task idref="t482"/>
     <child-task idref="t483"/>
     <child-task idref="t486"/>
@@ -5343,6 +5346,7 @@
     <child-task idref="t533"/>
     <child-task idref="t535"/>
     <child-task idref="t538"/>
+    <child-task idref="t543"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5454,7 +5458,7 @@
     <title>跟老男孩学Linux运维</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>167400</effort-done>
+    <effort-done>181800</effort-done>
     <child-task idref="t489"/>
     <child-task idref="t490"/>
     <child-task idref="t491"/>
@@ -5474,6 +5478,8 @@
     <child-task idref="t528"/>
     <child-task idref="t531"/>
     <child-task idref="t534"/>
+    <child-task idref="t544"/>
+    <child-task idref="t545"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6031,7 +6037,7 @@
   </task>
   <task id="t534">
     <title>跟老男孩学Linux运维</title>
-    <effort>52200</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-04-29T06:15:00.000Z</start-constraint-date>
     <style>
@@ -6067,7 +6073,7 @@
   </task>
   <task id="t537">
     <title>循序渐进LInux第2版</title>
-    <effort>5400</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-05-01T02:30:00.000Z</start-constraint-date>
     <style>
@@ -6079,7 +6085,7 @@
   </task>
   <task id="t538">
     <title>Shell从入门到精通</title>
-    <effort>117000</effort>
+    <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-05-01T06:00:00.000Z</start-constraint-date>
     <style>
@@ -6092,7 +6098,7 @@
   <task id="t539">
     <title>疯狂Java讲义第3版</title>
     <priority>1000</priority>
-    <effort>212400</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-05-01T12:45:00.000Z</start-constraint-date>
     <style>
@@ -6101,6 +6107,80 @@
       </value>
     </style>
     <start-no-earlier-than>2017-05-01T12:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t540">
+    <title>疯狂Java讲义第3版</title>
+    <priority>1000</priority>
+    <effort>205200</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-02T02:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-02T02:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t541">
+    <title>Java核心技术第9版</title>
+    <priority>100</priority>
+    <effort>208800</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-02T03:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-02T03:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t542">
+    <title>循序渐进LInux第2版</title>
+    <effort>36000</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-05-02T05:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-02T05:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t543">
+    <title>Shell从入门到精通</title>
+    <effort>115200</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-05-02T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-02T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t544">
+    <title>跟老男孩学Linux运维</title>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-05-02T07:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-02T07:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t545">
+    <title>跟老男孩学Linux运维</title>
+    <effort>39600</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-05-02T12:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-02T12:45:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
