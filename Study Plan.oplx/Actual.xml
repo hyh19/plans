@@ -3493,6 +3493,7 @@
     <start-constraint-date>2017-03-01T00:00:00.000Z</start-constraint-date>
     <child-task idref="t333"/>
     <child-task idref="t342"/>
+    <child-task idref="t555"/>
     <start-no-earlier-than>2017-03-01T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t333">
@@ -3621,14 +3622,17 @@
     <title>Python编程快速上手</title>
     <split/>
     <priority>2000</priority>
-    <effort>55800</effort>
-    <effort-done>27000</effort-done>
+    <effort>136800</effort>
+    <effort-done>39600</effort-done>
     <child-task idref="t343"/>
     <child-task idref="t344"/>
     <child-task idref="t345"/>
     <child-task idref="t352"/>
     <child-task idref="t357"/>
     <child-task idref="t469"/>
+    <child-task idref="t549"/>
+    <child-task idref="t550"/>
+    <child-task idref="t552"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -4935,14 +4939,16 @@
   <task id="t449">
     <title>循序渐进LInux第2版</title>
     <split/>
-    <effort>63000</effort>
-    <effort-done>28800</effort-done>
+    <effort>250200</effort>
+    <effort-done>50400</effort-done>
     <child-task idref="t450"/>
     <child-task idref="t451"/>
     <child-task idref="t526"/>
     <child-task idref="t536"/>
     <child-task idref="t537"/>
     <child-task idref="t542"/>
+    <child-task idref="t547"/>
+    <child-task idref="t551"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5197,7 +5203,7 @@
   <task id="t469">
     <title>Python编程快速上手</title>
     <priority>2000</priority>
-    <effort>32400</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-04-09T12:30:00.000Z</start-constraint-date>
     <style>
@@ -5326,7 +5332,7 @@
     <title>Shell从入门到精通</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>102600</effort-done>
+    <effort-done>108000</effort-done>
     <child-task idref="t482"/>
     <child-task idref="t483"/>
     <child-task idref="t486"/>
@@ -5347,6 +5353,8 @@
     <child-task idref="t535"/>
     <child-task idref="t538"/>
     <child-task idref="t543"/>
+    <child-task idref="t548"/>
+    <child-task idref="t553"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5457,8 +5465,8 @@
   <task id="t488">
     <title>跟老男孩学Linux运维</title>
     <split/>
-    <effort>216000</effort>
-    <effort-done>181800</effort-done>
+    <effort>397800</effort>
+    <effort-done>199800</effort-done>
     <child-task idref="t489"/>
     <child-task idref="t490"/>
     <child-task idref="t491"/>
@@ -5480,6 +5488,8 @@
     <child-task idref="t534"/>
     <child-task idref="t544"/>
     <child-task idref="t545"/>
+    <child-task idref="t546"/>
+    <child-task idref="t554"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6136,7 +6146,7 @@
   </task>
   <task id="t542">
     <title>循序渐进LInux第2版</title>
-    <effort>36000</effort>
+    <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-05-02T05:00:00.000Z</start-constraint-date>
     <style>
@@ -6148,7 +6158,7 @@
   </task>
   <task id="t543">
     <title>Shell从入门到精通</title>
-    <effort>115200</effort>
+    <effort>1800</effort>
     <effort-done>1800</effort-done>
     <start-constraint-date>2017-05-02T07:00:00.000Z</start-constraint-date>
     <style>
@@ -6172,7 +6182,7 @@
   </task>
   <task id="t545">
     <title>跟老男孩学Linux运维</title>
-    <effort>39600</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-05-02T12:45:00.000Z</start-constraint-date>
     <style>
@@ -6181,6 +6191,129 @@
       </value>
     </style>
     <start-no-earlier-than>2017-05-02T12:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t546">
+    <title>跟老男孩学Linux运维</title>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-05-03T01:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-03T01:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t547">
+    <title>循序渐进LInux第2版</title>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-05-03T08:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-03T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t548">
+    <title>Shell从入门到精通</title>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-05-03T13:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-03T13:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t549">
+    <title>Python编程快速上手</title>
+    <priority>2000</priority>
+    <effort>1800</effort>
+    <effort-done>1800</effort-done>
+    <start-constraint-date>2017-05-03T14:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-03T14:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t550">
+    <title>Python编程快速上手</title>
+    <priority>2000</priority>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-05-04T02:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-04T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t551">
+    <title>循序渐进LInux第2版</title>
+    <effort>216000</effort>
+    <effort-done>16200</effort-done>
+    <start-constraint-date>2017-05-04T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-04T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t552">
+    <title>Python编程快速上手</title>
+    <priority>2000</priority>
+    <effort>100800</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-05T01:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-05T01:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t553">
+    <title>Shell从入门到精通</title>
+    <effort>111600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-05T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-05T03:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t554">
+    <title>跟老男孩学Linux运维</title>
+    <effort>208800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-05-05T06:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-05T06:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t555">
+    <title>Python学习手册第4版</title>
+    <effort>216000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-05-05T12:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-05T12:45:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
