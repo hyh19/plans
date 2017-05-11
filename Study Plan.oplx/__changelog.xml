@@ -133,6 +133,25 @@
     </change>
     <change idref="t567" attribute="effort" type="real" from="190800" to="10800" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-05-11T14:56:34.918Z" timestamp="2017-05-11T14:56:34.918Z">
+    <change idref="t555" attribute="internalEffortDone" type="real" from="46800" to="50400" resolved="yes"/>
+    <change idref="t570" to="t555" to-position="6" resolved="yes">
+      <change idref="t570" attribute="effort" type="real" from="28800" to="169200"/>
+      <change idref="t570" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t570" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t570" attribute="noEarlierThanConstraintDate" type="date" to="2017-05-11T13:45:00.000Z"/>
+      <change idref="t570" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t570" attribute="title" type="string" to="Python学习手册第4版 #7"/>
+    </change>
+    <change idref="t565" attribute="effort" type="real" from="174600" to="5400" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>

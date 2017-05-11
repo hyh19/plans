@@ -6315,13 +6315,14 @@
     <title>Python学习手册第4版</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>46800</effort-done>
+    <effort-done>50400</effort-done>
     <child-task idref="t556"/>
     <child-task idref="t557"/>
     <child-task idref="t561"/>
     <child-task idref="t562"/>
     <child-task idref="t564"/>
     <child-task idref="t565"/>
+    <child-task idref="t570"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6438,7 +6439,7 @@
   </task>
   <task id="t565">
     <title>Python学习手册第4版</title>
-    <effort>174600</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-05-10T06:00:00.000Z</start-constraint-date>
     <style>
@@ -6497,6 +6498,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-05-11T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t570">
+    <title>Python学习手册第4版</title>
+    <effort>169200</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-11T13:45:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-11T13:45:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
