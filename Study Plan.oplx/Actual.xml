@@ -2416,7 +2416,7 @@
     <split/>
     <priority>1000</priority>
     <effort>271800</effort>
-    <effort-done>90000</effort-done>
+    <effort-done>95400</effort-done>
     <child-task idref="t251"/>
     <child-task idref="t252"/>
     <child-task idref="t253"/>
@@ -2433,6 +2433,7 @@
     <child-task idref="t568"/>
     <child-task idref="t571"/>
     <child-task idref="t575"/>
+    <child-task idref="t581"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -5914,10 +5915,11 @@
   <task id="t522">
     <title>Unix/Linux系统管理技术手册</title>
     <split/>
-    <effort>28800</effort>
-    <effort-done>9000</effort-done>
+    <effort>225000</effort>
+    <effort-done>16200</effort-done>
     <child-task idref="t576"/>
     <child-task idref="t577"/>
+    <child-task idref="t582"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6321,7 +6323,7 @@
     <title>Python学习手册</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>59400</effort-done>
+    <effort-done>63000</effort-done>
     <child-task idref="t556"/>
     <child-task idref="t557"/>
     <child-task idref="t561"/>
@@ -6331,6 +6333,7 @@
     <child-task idref="t570"/>
     <child-task idref="t574"/>
     <child-task idref="t580"/>
+    <child-task idref="t585"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6571,7 +6574,7 @@
   <task id="t575">
     <title>疯狂Java讲义</title>
     <priority>1000</priority>
-    <effort>185400</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-05-13T01:45:00.000Z</start-constraint-date>
     <style>
@@ -6595,7 +6598,7 @@
   </task>
   <task id="t577">
     <title>Unix/Linux系统管理技术手册</title>
-    <effort>23400</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-05-13T03:30:00.000Z</start-constraint-date>
     <style>
@@ -6614,14 +6617,15 @@
   </task>
   <task id="t579">
     <title>数据库系统概念</title>
-    <effort>28800</effort>
-    <effort-done>9000</effort-done>
-    <start-constraint-date>2017-05-13T07:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2017-05-13T07:00:00.000Z</start-no-earlier-than>
+    <split/>
+    <effort>225000</effort>
+    <effort-done>16200</effort-done>
+    <child-task idref="t583"/>
+    <child-task idref="t584"/>
   </task>
   <task id="t580">
     <title>Python学习手册</title>
-    <effort>162000</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-05-13T12:30:00.000Z</start-constraint-date>
     <style>
@@ -6630,6 +6634,57 @@
       </value>
     </style>
     <start-no-earlier-than>2017-05-13T12:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t581">
+    <title>疯狂Java讲义</title>
+    <priority>1000</priority>
+    <effort>181800</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-05-14T01:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-14T01:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t582">
+    <title>Unix/Linux系统管理技术手册</title>
+    <effort>216000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-05-14T03:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-14T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t583">
+    <title>数据库系统概念</title>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-05-13T07:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-13T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t584">
+    <title>数据库系统概念</title>
+    <effort>216000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-05-14T07:15:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-14T07:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t585">
+    <title>Python学习手册</title>
+    <effort>156600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-14T13:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-14T13:15:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
