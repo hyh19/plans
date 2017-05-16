@@ -130,6 +130,45 @@
   <task-change-set user="Yuhui Huang" date="2017-05-15T14:27:02.039Z" timestamp="2017-05-15T14:27:02.039Z">
     <change idref="t587" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-05-16T14:10:22.279Z" timestamp="2017-05-16T14:10:22.279Z">
+    <change idref="t555" attribute="internalEffortDone" type="real" from="63000" to="66600" resolved="yes"/>
+    <change idref="t588" to="t555" to-position="10" resolved="yes">
+      <change idref="t588" attribute="effort" type="real" from="28800" to="153000"/>
+      <change idref="t588" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t588" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t588" attribute="noEarlierThanConstraintDate" type="date" to="2017-05-16T12:00:00.000Z"/>
+      <change idref="t588" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t588" attribute="title" type="string" to="Python学习手册 #11"/>
+    </change>
+    <change idref="t585" attribute="effort" type="real" from="156600" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-05-16T14:10:59.143Z" timestamp="2017-05-16T14:10:59.143Z">
+    <change idref="t250" attribute="internalEffortDone" type="real" from="95400" to="99000" resolved="yes"/>
+    <change idref="t589" to="t250" to-position="17" resolved="yes">
+      <change idref="t589" attribute="effort" type="real" from="28800" to="176400"/>
+      <change idref="t589" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t589" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t589" attribute="noEarlierThanConstraintDate" type="date" to="2017-05-16T13:30:00.000Z"/>
+      <change idref="t589" attribute="priority" type="real" from="0" to="1000"/>
+      <change idref="t589" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t589" attribute="title" type="string" to="疯狂Java讲义 #18"/>
+    </change>
+    <change idref="t581" attribute="effort" type="real" from="181800" to="5400" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
