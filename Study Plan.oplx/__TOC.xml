@@ -8,18 +8,18 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>659</split-view-divider-position>
-      <outline x="0" y="595" w="659" h="681">
+      <outline x="0" y="419" w="659" h="681">
         <column name="Notes" width="20"/>
         <column name="Title" width="292"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
         <column name="Start" width="127"/>
-        <expanded-items idrefs="t46 t301 t263 t317 t59 t332 t306 t47 t76 t578 t89 t3 t202 t100 t56 t4 t147 t60 t307 t397 t119 t49 t99 t331 t347 t234 t384 t201 t8 t115"/>
+        <expanded-items idrefs="t46 t59 t301 t263 t306 t332 t317 t47 t578 t76 t89 t3 t100 t202 t56 t4 t147 t60 t307 t397 t119 t49 t99 t331 t347 t234 t384 t201 t115 t8"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t440 t399 t250 t145 t342 t385 t201 t307 t174 t300 t146 t449 t470 t202 t168 t308 t492 t555 t154 t267 t407 t274 t217 t301 t147 t203 t246 t210 t563 t493 t316 t296 t479 t232 t275 t302 t578 t211 t317 t331 t346 t396 t579 t178 t522 t318 t332 t488 t402 t234 t347 t397 t587 t206 t193 t333 t383 t573 t263 t242 t348 t235 t144 t264 t384 t187 t306"/>
+        <selected-items-at-filter-time idrefs="t250 t399 t440 t145 t342 t385 t201 t174 t307 t300 t146 t449 t470 t202 t168 t308 t492 t555 t301 t147 t267 t217 t274 t154 t407 t203 t246 t296 t493 t316 t210 t479 t563 t302 t275 t232 t578 t211 t317 t331 t346 t396 t579 t178 t402 t488 t522 t318 t332 t234 t347 t397 t587 t206 t333 t193 t383 t573 t263 t235 t242 t348 t144 t187 t264 t384 t306"/>
       </outline>
-      <gantt-view x="0" y="595" w="276" h="681">
+      <gantt-view x="0" y="419" w="276" h="681">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
