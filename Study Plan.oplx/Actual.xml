@@ -161,6 +161,7 @@
     <child-task idref="t383"/>
     <child-task idref="t396"/>
     <child-task idref="t578"/>
+    <child-task idref="t592"/>
     <note>
       <text>
         <p>
@@ -2216,14 +2217,15 @@
     <type>group</type>
     <start-constraint-date>2017-02-07T02:00:00.000Z</start-constraint-date>
     <child-task idref="t235"/>
+    <child-task idref="t596"/>
     <start-no-earlier-than>2017-02-07T02:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t235">
     <title>MySQL必知必会</title>
     <split/>
     <priority>1000</priority>
-    <effort>43200</effort>
-    <effort-done>32400</effort-done>
+    <effort>68400</effort>
+    <effort-done>39600</effort-done>
     <child-task idref="t236"/>
     <child-task idref="t237"/>
     <child-task idref="t241"/>
@@ -4123,14 +4125,15 @@
   <task id="t380">
     <title>MySQL必知必会</title>
     <priority>1000</priority>
-    <effort>10800</effort>
-    <start-constraint-date>2017-03-16T00:00:00.000Z</start-constraint-date>
+    <effort>36000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-05-20T12:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-16T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-05-20T12:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t381">
     <title>疯狂Java讲义</title>
@@ -6748,6 +6751,44 @@
       </value>
     </style>
     <start-no-earlier-than>2017-05-18T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t592">
+    <title>Git</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-20T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t593"/>
+    <start-no-earlier-than>2017-05-20T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t593">
+    <title>Books</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-20T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t595"/>
+    <start-no-earlier-than>2017-05-20T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t595">
+    <title>Learn Version Control with Git</title>
+    <effort>28800</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-05-20T02:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-20T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t596">
+    <title>高性能MySQL</title>
+    <effort>28800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-05-20T05:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-20T05:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
