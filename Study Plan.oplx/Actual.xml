@@ -6332,7 +6332,7 @@
     <title>Python学习手册</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>77400</effort-done>
+    <effort-done>81000</effort-done>
     <child-task idref="t556"/>
     <child-task idref="t557"/>
     <child-task idref="t561"/>
@@ -6346,6 +6346,7 @@
     <child-task idref="t588"/>
     <child-task idref="t591"/>
     <child-task idref="t604"/>
+    <child-task idref="t607"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6823,10 +6824,11 @@
     <title>MySQL与MariaDB学习指南</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>18000</effort-done>
+    <effort-done>23400</effort-done>
     <child-task idref="t602"/>
     <child-task idref="t603"/>
     <child-task idref="t605"/>
+    <child-task idref="t606"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6859,7 +6861,7 @@
   </task>
   <task id="t604">
     <title>Python学习手册</title>
-    <effort>144000</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-05-24T10:45:00.000Z</start-constraint-date>
     <style>
@@ -6871,7 +6873,7 @@
   </task>
   <task id="t605">
     <title>MySQL与MariaDB学习指南</title>
-    <effort>203400</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-05-24T12:45:00.000Z</start-constraint-date>
     <style>
@@ -6880,6 +6882,30 @@
       </value>
     </style>
     <start-no-earlier-than>2017-05-24T12:45:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t606">
+    <title>MySQL与MariaDB学习指南</title>
+    <effort>198000</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-05-25T11:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-25T11:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t607">
+    <title>Python学习手册</title>
+    <effort>138600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-25T13:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-25T13:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
