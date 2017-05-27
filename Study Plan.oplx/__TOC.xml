@@ -7,19 +7,19 @@
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>904</split-view-divider-position>
-      <outline x="0" y="688" w="904" h="961">
+      <split-view-divider-position>659</split-view-divider-position>
+      <outline x="0" y="900" w="659" h="961">
         <column name="Notes" width="20"/>
-        <column name="Title" width="537"/>
+        <column name="Title" width="292"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
         <column name="Start" width="127"/>
-        <expanded-items idrefs="t232 t46 t59 t301 t317 t306 t332 t263 t47 t76 t593 t100 t3 t202 t89 t56 t4 t147 t60 t307 t397 t119 t49 t99 t331 t347 t234 t384 t201 t8 t115"/>
+        <expanded-items idrefs="t232 t46 t59 t301 t317 t306 t263 t332 t47 t76 t593 t100 t3 t202 t89 t56 t147 t4 t60 t307 t119 t397 t49 t99 t331 t347 t234 t384 t201 t8 t115"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t440 t399 t596 t306 t145 t342 t385 t201 t174 t307 t597 t300 t146 t449 t470 t202 t308 t168 t492 t555 t301 t217 t407 t267 t147 t154 t274 t203 t246 t296 t479 t493 t563 t210 t316 t302 t232 t275 t578 t592 t211 t331 t317 t346 t396 t579 t593 t318 t332 t488 t522 t178 t402 t234 t347 t397 t587 t206 t263 t383 t333 t193 t573 t235 t348 t242 t595 t144 t187 t601 t264 t384 t250"/>
+        <selected-items-at-filter-time idrefs="t440 t399 t306 t596 t145 t342 t385 t201 t307 t174 t597 t300 t146 t449 t470 t202 t168 t308 t492 t555 t217 t267 t274 t147 t407 t301 t154 t203 t316 t296 t563 t479 t246 t210 t493 t302 t275 t232 t592 t578 t211 t331 t317 t346 t396 t579 t593 t318 t332 t522 t402 t488 t178 t234 t347 t397 t587 t206 t263 t383 t333 t193 t573 t235 t242 t348 t595 t144 t264 t187 t384 t601 t250"/>
       </outline>
-      <gantt-view x="-52" y="688" w="665" h="961">
+      <gantt-view x="-52" y="900" w="910" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -139,7 +139,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>608</next-task-id>
+    <next-task-id>610</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
