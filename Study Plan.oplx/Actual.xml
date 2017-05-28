@@ -162,6 +162,7 @@
     <child-task idref="t396"/>
     <child-task idref="t578"/>
     <child-task idref="t592"/>
+    <child-task idref="t610"/>
     <note>
       <text>
         <p>
@@ -6825,12 +6826,13 @@
     <title>MySQL与MariaDB学习指南</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>28800</effort-done>
+    <effort-done>36000</effort-done>
     <child-task idref="t602"/>
     <child-task idref="t603"/>
     <child-task idref="t605"/>
     <child-task idref="t606"/>
     <child-task idref="t608"/>
+    <child-task idref="t616"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6911,7 +6913,7 @@
   </task>
   <task id="t608">
     <title>MySQL与MariaDB学习指南</title>
-    <effort>192600</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-05-27T11:30:00.000Z</start-constraint-date>
     <style>
@@ -6932,6 +6934,54 @@
       </value>
     </style>
     <start-no-earlier-than>2017-05-27T13:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t610">
+    <title>JavaScript</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-28T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t612"/>
+    <start-no-earlier-than>2017-05-28T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t612">
+    <title>Books</title>
+    <type>group</type>
+    <start-constraint-date>2017-05-28T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t613"/>
+    <start-no-earlier-than>2017-05-28T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t613">
+    <title>JavaScript权威指南</title>
+    <split/>
+    <effort>216000</effort>
+    <effort-done>18000</effort-done>
+    <child-task idref="t614"/>
+    <child-task idref="t615"/>
+  </task>
+  <task id="t614">
+    <title>JavaScript权威指南</title>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-05-28T01:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-28T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t615">
+    <title>JavaScript权威指南</title>
+    <effort>207000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-05-28T06:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-05-28T06:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t616">
+    <title>MySQL与MariaDB学习指南</title>
+    <effort>187200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-05-28T12:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-28T12:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
