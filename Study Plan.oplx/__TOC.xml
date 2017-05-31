@@ -8,18 +8,18 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>659</split-view-divider-position>
-      <outline x="0" y="282" w="659" h="961">
+      <outline x="0" y="324" w="659" h="961">
         <column name="Notes" width="20"/>
         <column name="Title" width="292"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
         <column name="Start" width="127"/>
-        <expanded-items idrefs="t232 t46 t301 t59 t263 t317 t332 t47 t76 t593 t202 t3 t100 t89 t56 t147 t4 t60 t612 t307 t119 t397 t49 t99 t610 t331 t384 t234 t347 t8"/>
+        <expanded-items idrefs="t46 t232 t301 t59 t317 t263 t332 t47 t76 t593 t100 t3 t89 t202 t56 t147 t4 t60 t612 t307 t119 t397 t49 t610 t331 t99 t384 t234 t347 t8"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t440 t399 t596 t250 t145 t342 t385 t201 t174 t307 t597 t146 t300 t610 t449 t470 t202 t308 t168 t555 t492 t301 t267 t407 t217 t274 t154 t147 t203 t316 t296 t479 t493 t563 t210 t246 t302 t275 t232 t578 t592 t612 t211 t317 t331 t346 t613 t593 t396 t579 t318 t332 t488 t522 t402 t178 t234 t347 t397 t587 t206 t263 t383 t573 t333 t193 t235 t348 t242 t595 t144 t187 t601 t384 t264 t306"/>
+        <selected-items-at-filter-time idrefs="t440 t399 t596 t250 t145 t342 t385 t201 t174 t307 t597 t300 t146 t449 t610 t470 t202 t168 t308 t492 t555 t147 t274 t407 t154 t301 t267 t217 t203 t210 t316 t563 t246 t296 t479 t493 t302 t275 t612 t592 t578 t232 t211 t317 t331 t346 t396 t579 t613 t593 t178 t318 t488 t402 t332 t522 t234 t347 t397 t587 t206 t333 t383 t573 t193 t263 t235 t348 t242 t595 t144 t187 t384 t264 t601 t306"/>
       </outline>
-      <gantt-view x="-52" y="282" w="910" h="961">
+      <gantt-view x="-52" y="324" w="910" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -139,7 +139,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>623</next-task-id>
+    <next-task-id>625</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

@@ -6333,7 +6333,7 @@
     <title>Python学习手册</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>88200</effort-done>
+    <effort-done>91800</effort-done>
     <child-task idref="t556"/>
     <child-task idref="t557"/>
     <child-task idref="t561"/>
@@ -6350,6 +6350,7 @@
     <child-task idref="t607"/>
     <child-task idref="t609"/>
     <child-task idref="t622"/>
+    <child-task idref="t624"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6956,13 +6957,14 @@
     <split/>
     <priority>1000</priority>
     <effort>216000</effort>
-    <effort-done>45000</effort-done>
+    <effort-done>48600</effort-done>
     <child-task idref="t614"/>
     <child-task idref="t615"/>
     <child-task idref="t617"/>
     <child-task idref="t618"/>
     <child-task idref="t620"/>
     <child-task idref="t621"/>
+    <child-task idref="t623"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -7061,7 +7063,7 @@
   <task id="t621">
     <title>JavaScript权威指南</title>
     <priority>1000</priority>
-    <effort>178200</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-05-30T06:00:00.000Z</start-constraint-date>
     <style>
@@ -7073,7 +7075,7 @@
   </task>
   <task id="t622">
     <title>Python学习手册</title>
-    <effort>131400</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-05-30T12:15:00.000Z</start-constraint-date>
     <style>
@@ -7082,6 +7084,31 @@
       </value>
     </style>
     <start-no-earlier-than>2017-05-30T12:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t623">
+    <title>JavaScript权威指南</title>
+    <priority>1000</priority>
+    <effort>171000</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-06-01T11:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-01T11:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t624">
+    <title>Python学习手册</title>
+    <effort>127800</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-31T13:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-31T13:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
