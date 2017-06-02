@@ -8,18 +8,18 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>659</split-view-divider-position>
-      <outline x="0" y="244" w="659" h="961">
+      <outline x="0" y="328" w="659" h="961">
         <column name="Notes" width="20"/>
         <column name="Title" width="292"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
         <column name="Start" width="127"/>
-        <expanded-items idrefs="t46 t232 t301 t59 t317 t263 t332 t47 t76 t593 t89 t100 t3 t202 t56 t4 t147 t60 t307 t612 t119 t397 t49 t610 t99 t331 t384 t234 t347 t8"/>
+        <expanded-items idrefs="t46 t232 t59 t301 t263 t317 t332 t47 t76 t593 t100 t3 t89 t383 t56 t202 t4 t147 t60 t307 t612 t397 t119 t49 t99 t610 t626 t347 t234 t384 t331 t8"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t306 t399 t596 t440 t145 t342 t385 t201 t174 t307 t597 t300 t146 t449 t610 t470 t202 t168 t308 t492 t555 t147 t407 t217 t267 t154 t301 t274 t210 t246 t316 t493 t563 t203 t296 t479 t232 t302 t612 t275 t592 t578 t211 t317 t331 t346 t613 t593 t396 t579 t178 t318 t488 t332 t522 t402 t234 t347 t397 t587 t206 t263 t383 t333 t573 t193 t242 t348 t235 t595 t144 t187 t601 t264 t384 t250"/>
+        <selected-items-at-filter-time idrefs="t440 t306 t596 t399 t145 t342 t385 t201 t174 t307 t597 t300 t146 t610 t449 t470 t202 t308 t168 t492 t555 t301 t407 t267 t147 t274 t217 t154 t203 t316 t296 t626 t479 t493 t246 t563 t210 t232 t302 t612 t578 t592 t275 t211 t317 t331 t346 t613 t579 t593 t396 t402 t178 t488 t318 t628 t332 t522 t234 t347 t397 t587 t206 t333 t263 t573 t383 t193 t235 t348 t242 t595 t144 t264 t384 t601 t187 t250"/>
       </outline>
-      <gantt-view x="-52" y="244" w="910" h="961">
+      <gantt-view x="-52" y="328" w="910" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -139,7 +139,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>626</next-task-id>
+    <next-task-id>629</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
