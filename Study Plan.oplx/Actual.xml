@@ -3511,6 +3511,7 @@
     <child-task idref="t342"/>
     <child-task idref="t555"/>
     <child-task idref="t563"/>
+    <child-task idref="t630"/>
     <start-no-earlier-than>2017-03-01T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t333">
@@ -6334,7 +6335,7 @@
     <title>Python学习手册</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>100800</effort-done>
+    <effort-done>111600</effort-done>
     <child-task idref="t556"/>
     <child-task idref="t557"/>
     <child-task idref="t561"/>
@@ -6354,6 +6355,7 @@
     <child-task idref="t624"/>
     <child-task idref="t625"/>
     <child-task idref="t627"/>
+    <child-task idref="t629"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -7134,7 +7136,7 @@
   </task>
   <task id="t627">
     <title>Python学习手册</title>
-    <effort>118800</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-06-02T12:00:00.000Z</start-constraint-date>
     <style>
@@ -7150,6 +7152,25 @@
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-06-02T13:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-06-02T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t629">
+    <title>Python学习手册</title>
+    <effort>115200</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-06-03T00:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-03T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t630">
+    <title>21天学通Python</title>
+    <effort>28800</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-06-03T06:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-03T06:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
