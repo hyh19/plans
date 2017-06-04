@@ -7147,11 +7147,12 @@
     <start-no-earlier-than>2017-06-02T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t628">
-    <title>21天学通HTML+CSS+JavaScript Web开发</title>
+    <title>21天学通HTML+CSS+JavaScript</title>
+    <split/>
     <effort>216000</effort>
-    <effort-done>3600</effort-done>
-    <start-constraint-date>2017-06-02T13:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2017-06-02T13:00:00.000Z</start-no-earlier-than>
+    <effort-done>9000</effort-done>
+    <child-task idref="t631"/>
+    <child-task idref="t632"/>
   </task>
   <task id="t629">
     <title>Python学习手册</title>
@@ -7171,6 +7172,20 @@
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-06-03T06:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-06-03T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t631">
+    <title>21天学通HTML+CSS+JavaScript</title>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-06-02T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-02T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t632">
+    <title>21天学通HTML+CSS+JavaScript</title>
+    <effort>212400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-06-04T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-04T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
