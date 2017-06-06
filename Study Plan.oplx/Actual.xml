@@ -7190,10 +7190,25 @@
   </task>
   <task id="t633">
     <title>JavaScript入门经典</title>
+    <split/>
     <effort>216000</effort>
+    <effort-done>9000</effort-done>
+    <child-task idref="t634"/>
+    <child-task idref="t635"/>
+  </task>
+  <task id="t634">
+    <title>JavaScript入门经典</title>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-06-05T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-06-05T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t635">
+    <title>JavaScript入门经典</title>
+    <effort>210600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-06-06T12:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-06T12:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

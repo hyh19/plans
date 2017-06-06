@@ -38,28 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-06-04T13:23:42.818Z" timestamp="2017-06-04T13:23:42.818Z">
-    <change idref="t628" attribute="noEarlierThanConstraintDate" type="date" from="2017-06-02T13:00:00.000Z" resolved="yes"/>
-    <change idref="t628" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t628" attribute="internalEffortDone" type="real" from="3600" to="9000" resolved="yes"/>
-    <change idref="t631" to="t628" to-position="0" resolved="yes">
-      <change idref="t631" attribute="effort" type="real" from="28800" to="3600"/>
-      <change idref="t631" attribute="internalEffortDone" type="real" from="0" to="3600"/>
-      <change idref="t631" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t631" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-02T13:00:00.000Z"/>
-      <change idref="t631" attribute="title" type="string" to="21天学通HTML+CSS+JavaScript Web开发 #1"/>
-    </change>
-    <change idref="t632" to="t628" to-position="1" resolved="yes">
-      <change idref="t632" attribute="effort" type="real" from="28800" to="212400"/>
-      <change idref="t632" attribute="internalEffortDone" type="real" from="0" to="5400"/>
-      <change idref="t632" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t632" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-04T12:00:00.000Z"/>
-      <change idref="t632" attribute="title" type="string" to="21天学通HTML+CSS+JavaScript Web开发 #2"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-06-04T13:24:04.519Z" timestamp="2017-06-04T13:24:04.519Z">
-    <change idref="t628" attribute="title" type="string" from="21天学通HTML+CSS+JavaScript Web开发" to="21天学通HTML+CSS+JavaScript" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-06-05T13:26:19.607Z" timestamp="2017-06-05T13:26:19.607Z">
     <change idref="t633" to="t612" to-position="1" resolved="yes">
       <change idref="t633" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-05T00:00:00.000Z"/>
@@ -74,6 +52,25 @@
   </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-06-05T13:26:57.899Z" timestamp="2017-06-05T13:26:57.899Z">
     <change idref="t633" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-06T13:39:26.498Z" timestamp="2017-06-06T13:39:26.498Z">
+    <change idref="t633" attribute="noEarlierThanConstraintDate" type="date" from="2017-06-05T12:00:00.000Z" resolved="yes"/>
+    <change idref="t633" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t633" attribute="internalEffortDone" type="real" from="5400" to="9000" resolved="yes"/>
+    <change idref="t634" to="t633" to-position="0" resolved="yes">
+      <change idref="t634" attribute="effort" type="real" from="28800" to="5400"/>
+      <change idref="t634" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t634" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t634" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-05T12:00:00.000Z"/>
+      <change idref="t634" attribute="title" type="string" to="JavaScript入门经典 #1"/>
+    </change>
+    <change idref="t635" to="t633" to-position="1" resolved="yes">
+      <change idref="t635" attribute="effort" type="real" from="28800" to="210600"/>
+      <change idref="t635" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t635" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t635" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-06T12:30:00.000Z"/>
+      <change idref="t635" attribute="title" type="string" to="JavaScript入门经典 #2"/>
+    </change>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
