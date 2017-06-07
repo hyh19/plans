@@ -8,18 +8,18 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>659</split-view-divider-position>
-      <outline x="0" y="29" w="659" h="961">
+      <outline x="0" y="54" w="659" h="961">
         <column name="Notes" width="20"/>
         <column name="Title" width="292"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
         <column name="Start" width="127"/>
-        <expanded-items idrefs="t232 t46 t301 t59 t317 t263 t332 t47 t76 t593 t100 t202 t89 t383 t56 t3 t4 t147 t60 t612 t307 t119 t397 t49 t99 t610 t331 t384 t234 t347 t626 t8"/>
+        <expanded-items idrefs="t46 t232 t301 t263 t317 t59 t332 t47 t76 t593 t100 t3 t202 t383 t56 t89 t147 t4 t60 t612 t307 t397 t119 t49 t610 t331 t626 t384 t234 t99 t347 t8"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t250 t399 t596 t630 t440 t145 t342 t385 t201 t307 t174 t597 t300 t146 t449 t610 t470 t202 t168 t308 t492 t555 t217 t274 t301 t154 t407 t147 t267 t210 t246 t316 t633 t626 t563 t479 t296 t493 t232 t275 t612 t578 t302 t203 t592 t211 t331 t317 t346 t396 t579 t613 t593 t318 t332 t522 t402 t488 t628 t178 t234 t347 t397 t587 t206 t333 t383 t573 t263 t193 t242 t348 t235 t595 t144 t187 t384 t264 t601 t306"/>
+        <selected-items-at-filter-time idrefs="t440 t630 t399 t596 t306 t145 t342 t385 t201 t307 t174 t597 t146 t300 t449 t470 t610 t202 t168 t308 t555 t492 t154 t267 t274 t301 t407 t217 t147 t203 t316 t296 t633 t479 t210 t563 t493 t626 t232 t275 t302 t578 t592 t612 t246 t211 t331 t317 t346 t396 t613 t593 t579 t402 t522 t628 t318 t332 t178 t488 t234 t347 t397 t587 t206 t263 t193 t573 t383 t333 t242 t235 t348 t595 t144 t264 t384 t601 t187 t250"/>
       </outline>
-      <gantt-view x="-52" y="29" w="910" h="961">
+      <gantt-view x="-52" y="54" w="910" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -139,7 +139,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>636</next-task-id>
+    <next-task-id>637</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>
