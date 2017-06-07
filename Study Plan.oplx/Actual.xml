@@ -7192,7 +7192,7 @@
     <title>JavaScript入门经典</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>12600</effort-done>
+    <effort-done>14400</effort-done>
     <child-task idref="t634"/>
     <child-task idref="t635"/>
     <child-task idref="t636"/>
@@ -7214,7 +7214,7 @@
   <task id="t636">
     <title>JavaScript入门经典</title>
     <effort>207000</effort>
-    <effort-done>3600</effort-done>
+    <effort-done>5400</effort-done>
     <start-constraint-date>2017-06-07T12:30:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-06-07T12:30:00.000Z</start-no-earlier-than>
   </task>
