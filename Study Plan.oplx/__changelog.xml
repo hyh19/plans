@@ -38,23 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-06-07T13:27:08.780Z" timestamp="2017-06-07T13:27:08.780Z">
-    <change idref="t636" to="t633" to-position="2" resolved="yes">
-      <change idref="t636" attribute="effort" type="real" from="28800" to="207000"/>
-      <change idref="t636" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t636" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-07T12:30:00.000Z"/>
-      <change idref="t636" attribute="title" type="string" to="JavaScript入门经典 #3"/>
-    </change>
-    <change idref="t635" attribute="effort" type="real" from="210600" to="3600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-06-07T13:27:12.339Z" timestamp="2017-06-07T13:27:12.339Z">
-    <change idref="t633" attribute="internalEffortDone" type="real" from="9000" to="12600" resolved="yes"/>
-    <change idref="t636" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-06-07T14:06:32.927Z" timestamp="2017-06-07T14:06:32.927Z">
-    <change idref="t633" attribute="internalEffortDone" type="real" from="12600" to="14400" resolved="yes"/>
-    <change idref="t636" attribute="internalEffortDone" type="real" from="3600" to="5400" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-06-08T14:09:18.719Z" timestamp="2017-06-08T14:09:18.719Z">
     <change idref="t637" to="t4" to-position="18" resolved="yes">
       <change idref="t637" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-08T00:00:00.000Z"/>
@@ -88,6 +71,133 @@
   <task-change-set user="Yuhui Huang" date="2017-06-08T14:09:54.831Z" timestamp="2017-06-08T14:09:54.831Z">
     <change idref="t639" attribute="noEarlierThanConstraintDate" type="date" from="2017-06-08T00:00:00.000Z" to="2017-06-08T11:30:00.000Z" resolved="yes"/>
     <change idref="t639" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:01:51.750Z" timestamp="2017-06-10T14:01:51.750Z">
+    <change idref="t639" attribute="effort" type="real" from="28800" to="225000" resolved="yes"/>
+    <change idref="t639" attribute="noEarlierThanConstraintDate" type="date" from="2017-06-08T11:30:00.000Z" resolved="yes"/>
+    <change idref="t639" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t639" attribute="internalEffortDone" type="real" from="9000" to="16200" resolved="yes"/>
+    <change idref="t640" to="t639" to-position="0" resolved="yes">
+      <change idref="t640" attribute="effort" type="real" from="28800" to="9000"/>
+      <change idref="t640" attribute="internalEffortDone" type="real" from="0" to="9000"/>
+      <change idref="t640" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t640" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-08T11:30:00.000Z"/>
+      <change idref="t640" attribute="title" type="string" to="Ansible权威指南 #1"/>
+    </change>
+    <change idref="t641" to="t639" to-position="1" resolved="yes">
+      <change idref="t641" attribute="effort" type="real" from="28800" to="216000"/>
+      <change idref="t641" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+      <change idref="t641" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t641" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-10T01:00:00.000Z"/>
+      <change idref="t641" attribute="title" type="string" to="Ansible权威指南 #2"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:01:59.724Z" timestamp="2017-06-10T14:01:59.724Z">
+    <change idref="t639" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:02:16.825Z" timestamp="2017-06-10T14:02:16.825Z">
+    <change idref="t633" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:02:36.036Z" timestamp="2017-06-10T14:02:36.036Z">
+    <change idref="t633" attribute="internalEffortDone" type="real" from="14400" to="19800" resolved="yes"/>
+    <change idref="t642" to="t633" to-position="3" resolved="yes">
+      <change idref="t642" attribute="effort" type="real" from="28800" to="201600"/>
+      <change idref="t642" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t642" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t642" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-10T05:30:00.000Z"/>
+      <change idref="t642" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t642" attribute="title" type="string" to="JavaScript入门经典 #4"/>
+    </change>
+    <change idref="t636" attribute="effort" type="real" from="207000" to="5400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:03:09.930Z" timestamp="2017-06-10T14:03:09.930Z">
+    <change idref="t555" attribute="internalEffortDone" type="real" from="111600" to="117000" resolved="yes"/>
+    <change idref="t643" to="t555" to-position="20" resolved="yes">
+      <change idref="t643" attribute="effort" type="real" from="28800" to="104400"/>
+      <change idref="t643" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t643" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t643" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-10T07:30:00.000Z"/>
+      <change idref="t643" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t643" attribute="title" type="string" to="Python学习手册 #21"/>
+    </change>
+    <change idref="t629" attribute="effort" type="real" from="115200" to="10800" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:03:34.564Z" timestamp="2017-06-10T14:03:34.564Z">
+    <change idref="t644" to="t4" to-position="19" resolved="yes">
+      <change idref="t644" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t644" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-10T00:00:00.000Z"/>
+      <change idref="t644" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t644" attribute="title" type="string" to="Node.js"/>
+    </change>
+    <change idref="t645" to="t644" to-position="0" resolved="yes">
+      <change idref="t645" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-10T00:00:00.000Z"/>
+      <change idref="t645" attribute="title" type="string" to="Books"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:03:46.484Z" timestamp="2017-06-10T14:03:46.484Z">
+    <change idref="t645" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t645" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t645" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t645" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t645" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t645" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t645" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t645" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t645" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t645" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t645" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t645" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t646" to="t645" to-position="0" resolved="yes">
+      <change idref="t646" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-10T00:00:00.000Z"/>
+      <change idref="t646" attribute="title" type="string" to="了不起的Node.js"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:03:52.194Z" timestamp="2017-06-10T14:03:52.194Z">
+    <change idref="t646" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:04:00.325Z" timestamp="2017-06-10T14:04:00.325Z">
+    <change idref="t646" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:04:10.328Z" timestamp="2017-06-10T14:04:10.328Z">
+    <change idref="t646" attribute="noEarlierThanConstraintDate" type="date" from="2017-06-10T00:00:00.000Z" to="2017-06-10T13:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-10T14:04:13.564Z" timestamp="2017-06-10T14:04:13.564Z">
+    <change idref="t646" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>

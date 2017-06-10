@@ -164,6 +164,7 @@
     <child-task idref="t592"/>
     <child-task idref="t610"/>
     <child-task idref="t637"/>
+    <child-task idref="t644"/>
     <note>
       <text>
         <p>
@@ -6336,7 +6337,7 @@
     <title>Python学习手册</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>111600</effort-done>
+    <effort-done>117000</effort-done>
     <child-task idref="t556"/>
     <child-task idref="t557"/>
     <child-task idref="t561"/>
@@ -6357,6 +6358,7 @@
     <child-task idref="t625"/>
     <child-task idref="t627"/>
     <child-task idref="t629"/>
+    <child-task idref="t643"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -7158,7 +7160,7 @@
   </task>
   <task id="t629">
     <title>Python学习手册</title>
-    <effort>115200</effort>
+    <effort>10800</effort>
     <effort-done>10800</effort-done>
     <start-constraint-date>2017-06-03T00:00:00.000Z</start-constraint-date>
     <style>
@@ -7193,16 +7195,27 @@
     <title>JavaScript入门经典</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>19800</effort-done>
     <child-task idref="t634"/>
     <child-task idref="t635"/>
     <child-task idref="t636"/>
+    <child-task idref="t642"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
   </task>
   <task id="t634">
     <title>JavaScript入门经典</title>
     <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-06-05T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-06-05T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t635">
@@ -7210,13 +7223,23 @@
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-06-06T12:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-06-06T12:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t636">
     <title>JavaScript入门经典</title>
-    <effort>207000</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-06-07T12:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-06-07T12:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t637">
@@ -7235,10 +7258,90 @@
   </task>
   <task id="t639">
     <title>Ansible权威指南</title>
-    <effort>28800</effort>
+    <split/>
+    <effort>225000</effort>
+    <effort-done>16200</effort-done>
+    <child-task idref="t640"/>
+    <child-task idref="t641"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t640">
+    <title>Ansible权威指南</title>
+    <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-06-08T11:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-06-08T11:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t641">
+    <title>Ansible权威指南</title>
+    <effort>216000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-06-10T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-10T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t642">
+    <title>JavaScript入门经典</title>
+    <effort>201600</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-06-10T05:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-10T05:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t643">
+    <title>Python学习手册</title>
+    <effort>104400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-06-10T07:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-10T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t644">
+    <title>Node.js</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-10T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t645"/>
+    <start-no-earlier-than>2017-06-10T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t645">
+    <title>Books</title>
+    <type>group</type>
+    <start-constraint-date>2017-06-10T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t646"/>
+    <start-no-earlier-than>2017-06-10T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t646">
+    <title>了不起的Node.js</title>
+    <effort>216000</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-06-10T13:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-10T13:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
