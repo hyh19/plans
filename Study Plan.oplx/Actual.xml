@@ -3514,14 +3514,16 @@
     <child-task idref="t555"/>
     <child-task idref="t563"/>
     <child-task idref="t630"/>
+    <child-task idref="t658"/>
+    <child-task idref="t659"/>
     <start-no-earlier-than>2017-03-01T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t333">
     <title>Head First Python</title>
     <split/>
     <priority>2000</priority>
-    <effort>54000</effort>
-    <effort-done>46800</effort-done>
+    <effort>82800</effort>
+    <effort-done>54000</effort-done>
     <child-task idref="t334"/>
     <child-task idref="t335"/>
     <child-task idref="t336"/>
@@ -3629,14 +3631,15 @@
   <task id="t341">
     <title>Head First Python</title>
     <priority>2000</priority>
-    <effort>7200</effort>
-    <start-constraint-date>2017-03-05T00:00:00.000Z</start-constraint-date>
+    <effort>36000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-06-18T12:30:00.000Z</start-constraint-date>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-03-05T00:00:00.000Z</start-no-earlier-than>
+    <start-no-earlier-than>2017-06-18T12:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t342">
     <title>Python编程快速上手</title>
@@ -6337,7 +6340,7 @@
     <title>Python学习手册</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>117000</effort-done>
+    <effort-done>120600</effort-done>
     <child-task idref="t556"/>
     <child-task idref="t557"/>
     <child-task idref="t561"/>
@@ -6359,6 +6362,7 @@
     <child-task idref="t627"/>
     <child-task idref="t629"/>
     <child-task idref="t643"/>
+    <child-task idref="t657"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6451,15 +6455,16 @@
   </task>
   <task id="t563">
     <title>用Python写网络爬虫</title>
+    <split/>
     <effort>28800</effort>
-    <effort-done>3600</effort-done>
-    <start-constraint-date>2017-05-09T01:30:00.000Z</start-constraint-date>
+    <effort-done>12600</effort-done>
+    <child-task idref="t662"/>
+    <child-task idref="t663"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
       </value>
     </style>
-    <start-no-earlier-than>2017-05-09T01:30:00.000Z</start-no-earlier-than>
   </task>
   <task id="t564">
     <title>Python学习手册</title>
@@ -7309,7 +7314,7 @@
   </task>
   <task id="t643">
     <title>Python学习手册</title>
-    <effort>104400</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-06-10T07:30:00.000Z</start-constraint-date>
     <style>
@@ -7470,6 +7475,71 @@
       </value>
     </style>
     <start-no-earlier-than>2017-06-16T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t657">
+    <title>Python学习手册</title>
+    <effort>99000</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-06-17T02:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-17T02:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t658">
+    <title>Python自动化运维</title>
+    <effort>216000</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-06-17T03:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-17T03:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t659">
+    <title>Python核心编程</title>
+    <split/>
+    <effort>216000</effort>
+    <effort-done>18000</effort-done>
+    <child-task idref="t660"/>
+    <child-task idref="t661"/>
+  </task>
+  <task id="t660">
+    <title>Python核心编程</title>
+    <effort>10800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-06-17T08:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-17T08:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t661">
+    <title>Python核心编程</title>
+    <effort>205200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-06-18T01:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-18T01:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t662">
+    <title>用Python写网络爬虫</title>
+    <effort>3600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-05-09T01:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-05-09T01:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t663">
+    <title>用Python写网络爬虫</title>
+    <effort>25200</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-06-18T07:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-18T07:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
