@@ -6457,9 +6457,10 @@
     <title>用Python写网络爬虫</title>
     <split/>
     <effort>28800</effort>
-    <effort-done>12600</effort-done>
+    <effort-done>18000</effort-done>
     <child-task idref="t662"/>
     <child-task idref="t663"/>
+    <child-task idref="t664"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -7531,7 +7532,7 @@
   </task>
   <task id="t663">
     <title>用Python写网络爬虫</title>
-    <effort>25200</effort>
+    <effort>9000</effort>
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-06-18T07:30:00.000Z</start-constraint-date>
     <style>
@@ -7540,6 +7541,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-06-18T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t664">
+    <title>用Python写网络爬虫</title>
+    <effort>16200</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-06-19T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-19T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

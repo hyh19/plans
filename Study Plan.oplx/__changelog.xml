@@ -145,6 +145,27 @@
     <change idref="t341" attribute="noEarlierThanConstraintDate" type="date" from="2017-03-05T00:00:00.000Z" to="2017-06-18T12:30:00.000Z" resolved="yes"/>
     <change idref="t341" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-19T13:49:06.896Z" timestamp="2017-06-19T13:49:06.896Z">
+    <change idref="t664" to="t563" to-position="2" resolved="yes">
+      <change idref="t664" attribute="effort" type="real" from="28800" to="16200"/>
+      <change idref="t664" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t664" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-19T12:00:00.000Z"/>
+      <change idref="t664" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t664" attribute="title" type="string" to="用Python写网络爬虫 #3"/>
+    </change>
+    <change idref="t663" attribute="effort" type="real" from="25200" to="9000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-19T13:49:14.723Z" timestamp="2017-06-19T13:49:14.723Z">
+    <change idref="t563" attribute="internalEffortDone" type="real" from="12600" to="18000" resolved="yes"/>
+    <change idref="t664" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
