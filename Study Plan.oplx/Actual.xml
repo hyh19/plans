@@ -1973,6 +1973,7 @@
     <child-task idref="t267"/>
     <child-task idref="t274"/>
     <child-task idref="t275"/>
+    <child-task idref="t665"/>
     <start-no-earlier-than>2017-02-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t203">
@@ -7500,9 +7501,10 @@
     <title>Python核心编程</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>18000</effort-done>
+    <effort-done>32400</effort-done>
     <child-task idref="t660"/>
     <child-task idref="t661"/>
+    <child-task idref="t666"/>
   </task>
   <task id="t660">
     <title>Python核心编程</title>
@@ -7513,7 +7515,7 @@
   </task>
   <task id="t661">
     <title>Python核心编程</title>
-    <effort>205200</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-06-18T01:30:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-06-18T01:30:00.000Z</start-no-earlier-than>
@@ -7553,6 +7555,20 @@
       </value>
     </style>
     <start-no-earlier-than>2017-06-19T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t665">
+    <title>Spring Boot 实战</title>
+    <effort>216000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-06-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t666">
+    <title>Python核心编程</title>
+    <effort>198000</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2017-06-21T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-21T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
