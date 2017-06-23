@@ -7558,10 +7558,11 @@
   </task>
   <task id="t665">
     <title>Spring Boot 实战</title>
+    <split/>
     <effort>216000</effort>
-    <effort-done>7200</effort-done>
-    <start-constraint-date>2017-06-22T12:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2017-06-22T12:00:00.000Z</start-no-earlier-than>
+    <effort-done>12600</effort-done>
+    <child-task idref="t667"/>
+    <child-task idref="t668"/>
   </task>
   <task id="t666">
     <title>Python核心编程</title>
@@ -7569,6 +7570,20 @@
     <effort-done>14400</effort-done>
     <start-constraint-date>2017-06-21T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-06-21T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t667">
+    <title>Spring Boot 实战</title>
+    <effort>7200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-06-22T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-22T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t668">
+    <title>Spring Boot 实战</title>
+    <effort>208800</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-06-23T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-06-23T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
