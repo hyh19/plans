@@ -1974,6 +1974,7 @@
     <child-task idref="t274"/>
     <child-task idref="t275"/>
     <child-task idref="t665"/>
+    <child-task idref="t671"/>
     <start-no-earlier-than>2017-02-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t203">
@@ -7560,9 +7561,15 @@
     <title>Spring Boot 实战</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>12600</effort-done>
+    <effort-done>30600</effort-done>
     <child-task idref="t667"/>
     <child-task idref="t668"/>
+    <child-task idref="t669"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
   </task>
   <task id="t666">
     <title>Python核心编程</title>
@@ -7576,14 +7583,48 @@
     <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-06-22T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-06-22T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t668">
     <title>Spring Boot 实战</title>
-    <effort>208800</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-06-23T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-06-23T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t669">
+    <title>Spring Boot 实战</title>
+    <effort>203400</effort>
+    <effort-done>18000</effort-done>
+    <start-constraint-date>2017-06-24T01:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-24T01:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t671">
+    <title>Java EE开发的颠覆者：Spring Boot实战</title>
+    <effort>216000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-06-24T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-24T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

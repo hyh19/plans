@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="1279" y="-280" w="1871" h="1057">
+  <window x="1280" y="-280" w="1871" h="1057">
     <editing-scenario>aTkDw3MqWDS</editing-scenario>
     <comparison-scenario>mdKZNp_tsWe</comparison-scenario>
     <view>task</view>
@@ -8,18 +8,18 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>659</split-view-divider-position>
-      <outline x="0" y="54" w="659" h="961">
+      <outline x="0" y="2" w="659" h="961">
         <column name="Notes" width="20"/>
         <column name="Title" width="292"/>
         <column name="Priority" width="60"/>
         <column name="Effort" width="70"/>
         <column name="Effort Done" width="83"/>
         <column name="Start" width="127"/>
-        <expanded-items idrefs="t332 t8 t626 t638 t610 t59 t317 t46 t384 t301 t47 t263 t397 t99 t232 t119 t49 t593 t60 t612 t307 t201 t147 t644 t3 t56 t347 t331 t4 t100 t202 t89 t76 t645 t383 t234"/>
+        <expanded-items idrefs="t332 t8 t626 t638 t610 t59 t317 t46 t384 t301 t47 t263 t397 t99 t232 t119 t49 t60 t593 t612 t307 t201 t147 t644 t3 t347 t56 t331 t4 t100 t202 t89 t76 t645 t383 t234"/>
         <expanded-item-notes idrefs="t168 t4 t120 t101 t48 t77 t96"/>
-        <selected-items-at-filter-time idrefs="t384 t235 t637 t201 t396 t626 t316 t178 t488 t144 t385 t638 t592 t202 t397 t317 t650 t145 t306 t639 t593 t168 t203 t628 t318 t146 t307 t479 t250 t399 t342 t296 t147 t308 t331 t193 t595 t630 t492 t274 t217 t332 t263 t573 t596 t665 t470 t206 t493 t275 t402 t333 t264 t597 t563 t242 t644 t610 t300 t449 t633 t587 t346 t174 t645 t301 t232 t347 t646 t267 t210 t612 t302 t658 t348 t187 t601 t440 t555 t578 t211 t383 t613 t234 t659 t154 t246 t407 t579 t522"/>
+        <selected-items-at-filter-time idrefs="t671 t384 t235 t637 t201 t396 t316 t488 t626 t178 t385 t144 t638 t592 t202 t397 t317 t650 t145 t306 t639 t593 t168 t203 t628 t318 t146 t307 t479 t250 t399 t342 t296 t147 t308 t331 t193 t595 t630 t492 t274 t217 t332 t573 t665 t596 t263 t206 t470 t493 t275 t402 t333 t264 t597 t563 t242 t644 t610 t300 t449 t633 t587 t346 t174 t645 t301 t232 t347 t646 t267 t210 t612 t302 t658 t601 t440 t187 t348 t555 t670 t578 t211 t613 t383 t234 t659 t154 t246 t407 t579 t522"/>
       </outline>
-      <gantt-view x="-52" y="54" w="910" h="961">
+      <gantt-view x="-52" y="2" w="910" h="961">
         <view-mode>split</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -139,7 +139,7 @@ End:</group-table-style>
     </network-view>
   </window>
   <project>
-    <next-task-id>669</next-task-id>
+    <next-task-id>672</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="aTkDw3MqWDS" name="Actual" filename="Actual.xml"/>
     <scenario id="pM4-oWdBYrv" name="Baseline 26/12/2016" filename="pM4-oWdBYrv.xml"/>

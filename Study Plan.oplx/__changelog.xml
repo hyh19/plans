@@ -83,6 +83,48 @@
       <change idref="t668" attribute="title" type="string" to="Spring Boot 实战 #2"/>
     </change>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-24T13:58:24.933Z" timestamp="2017-06-24T13:58:24.933Z">
+    <change idref="t665" attribute="internalEffortDone" type="real" from="12600" to="30600" resolved="yes"/>
+    <change idref="t669" to="t665" to-position="2" resolved="yes">
+      <change idref="t669" attribute="effort" type="real" from="28800" to="203400"/>
+      <change idref="t669" attribute="internalEffortDone" type="real" from="0" to="18000"/>
+      <change idref="t669" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t669" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-24T01:00:00.000Z"/>
+      <change idref="t669" attribute="title" type="string" to="Spring Boot 实战 #3"/>
+    </change>
+    <change idref="t668" attribute="effort" type="real" from="208800" to="5400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-24T13:59:15.701Z" timestamp="2017-06-24T13:59:15.701Z">
+    <change idref="t671" to="t202" to-position="7" resolved="yes">
+      <change idref="t671" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-24T00:00:00.000Z"/>
+      <change idref="t671" attribute="title" type="string" to="Java EE开发的颠覆者：Spring Boot实战"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-24T13:59:22.670Z" timestamp="2017-06-24T13:59:22.670Z">
+    <change idref="t665" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+    <change idref="t671" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-24T13:59:47.328Z" timestamp="2017-06-24T13:59:47.328Z">
+    <change idref="t671" attribute="noEarlierThanConstraintDate" type="date" from="2017-06-24T00:00:00.000Z" to="2017-06-24T12:00:00.000Z" resolved="yes"/>
+    <change idref="t671" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-06-24T13:59:51.990Z" timestamp="2017-06-24T13:59:51.990Z">
+    <change idref="t671" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
