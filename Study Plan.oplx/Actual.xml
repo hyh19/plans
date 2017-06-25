@@ -1975,6 +1975,7 @@
     <child-task idref="t275"/>
     <child-task idref="t665"/>
     <child-task idref="t671"/>
+    <child-task idref="t672"/>
     <start-no-earlier-than>2017-02-03T03:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t203">
@@ -2425,7 +2426,7 @@
     <split/>
     <priority>1000</priority>
     <effort>271800</effort>
-    <effort-done>109800</effort-done>
+    <effort-done>113400</effort-done>
     <child-task idref="t251"/>
     <child-task idref="t252"/>
     <child-task idref="t253"/>
@@ -2446,6 +2447,7 @@
     <child-task idref="t589"/>
     <child-task idref="t590"/>
     <child-task idref="t600"/>
+    <child-task idref="t673"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6830,7 +6832,7 @@
   <task id="t600">
     <title>疯狂Java讲义</title>
     <priority>1000</priority>
-    <effort>167400</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-05-21T12:30:00.000Z</start-constraint-date>
     <style>
@@ -7625,6 +7627,31 @@
       </value>
     </style>
     <start-no-earlier-than>2017-06-24T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t672">
+    <title>Groovy程序设计</title>
+    <effort>216000</effort>
+    <effort-done>16200</effort-done>
+    <start-constraint-date>2017-06-25T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-25T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t673">
+    <title>疯狂Java讲义</title>
+    <priority>1000</priority>
+    <effort>162000</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-06-25T03:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-25T03:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
