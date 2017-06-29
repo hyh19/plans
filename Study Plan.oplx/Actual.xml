@@ -7632,9 +7632,10 @@
     <title>Groovy程序设计</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>23400</effort-done>
+    <effort-done>27000</effort-done>
     <child-task idref="t674"/>
     <child-task idref="t675"/>
+    <child-task idref="t676"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -7668,7 +7669,7 @@
   </task>
   <task id="t675">
     <title>Groovy程序设计</title>
-    <effort>199800</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-06-28T12:00:00.000Z</start-constraint-date>
     <style>
@@ -7677,6 +7678,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-06-28T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t676">
+    <title>Groovy程序设计</title>
+    <effort>192600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-06-29T13:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-06-29T13:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
