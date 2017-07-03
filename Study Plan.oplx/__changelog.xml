@@ -131,6 +131,25 @@
       <change idref="t681" attribute="title" type="string" to="Gradle实战 #2"/>
     </change>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-03T14:01:24.938Z" timestamp="2017-07-03T14:01:24.938Z">
+    <change idref="t672" attribute="internalEffortDone" type="real" from="30600" to="36000" resolved="yes"/>
+    <change idref="t682" to="t672" to-position="4" resolved="yes">
+      <change idref="t682" attribute="effort" type="real" from="28800" to="185400"/>
+      <change idref="t682" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t682" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t682" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-03T12:30:00.000Z"/>
+      <change idref="t682" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t682" attribute="title" type="string" to="Groovy程序设计 #5"/>
+    </change>
+    <change idref="t677" attribute="effort" type="real" from="189000" to="3600" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
