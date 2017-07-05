@@ -38,25 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-07-03T14:01:24.938Z" timestamp="2017-07-03T14:01:24.938Z">
-    <change idref="t672" attribute="internalEffortDone" type="real" from="30600" to="36000" resolved="yes"/>
-    <change idref="t682" to="t672" to-position="4" resolved="yes">
-      <change idref="t682" attribute="effort" type="real" from="28800" to="185400"/>
-      <change idref="t682" attribute="internalEffortDone" type="real" from="0" to="5400"/>
-      <change idref="t682" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t682" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-03T12:30:00.000Z"/>
-      <change idref="t682" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t682" attribute="title" type="string" to="Groovy程序设计 #5"/>
-    </change>
-    <change idref="t677" attribute="effort" type="real" from="189000" to="3600" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-07-04T15:21:04.126Z" timestamp="2017-07-04T15:21:04.126Z">
     <change idref="t672" attribute="internalEffortDone" type="real" from="36000" to="39600" resolved="yes"/>
     <change idref="t683" to="t672" to-position="5" resolved="yes">
@@ -94,6 +75,44 @@
       <change idref="t684" attribute="title" type="string" to="Gradle实战 #3"/>
     </change>
     <change idref="t681" attribute="effort" type="real" from="189000" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-05T14:14:39.694Z" timestamp="2017-07-05T14:14:39.694Z">
+    <change idref="t672" attribute="internalEffortDone" type="real" from="39600" to="43200" resolved="yes"/>
+    <change idref="t685" to="t672" to-position="6" resolved="yes">
+      <change idref="t685" attribute="effort" type="real" from="28800" to="176400"/>
+      <change idref="t685" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t685" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t685" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-05T12:00:00.000Z"/>
+      <change idref="t685" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t685" attribute="title" type="string" to="Groovy程序设计 #7"/>
+    </change>
+    <change idref="t683" attribute="effort" type="real" from="180000" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-05T14:15:01.416Z" timestamp="2017-07-05T14:15:01.416Z">
+    <change idref="t679" attribute="internalEffortDone" type="real" from="41400" to="45000" resolved="yes"/>
+    <change idref="t686" to="t679" to-position="3" resolved="yes">
+      <change idref="t686" attribute="effort" type="real" from="28800" to="174600"/>
+      <change idref="t686" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t686" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t686" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-05T13:15:00.000Z"/>
+      <change idref="t686" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t686" attribute="title" type="string" to="Gradle实战 #4"/>
+    </change>
+    <change idref="t684" attribute="effort" type="real" from="181800" to="7200" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>

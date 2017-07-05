@@ -7634,13 +7634,14 @@
     <title>Groovy程序设计</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>39600</effort-done>
+    <effort-done>43200</effort-done>
     <child-task idref="t674"/>
     <child-task idref="t675"/>
     <child-task idref="t676"/>
     <child-task idref="t677"/>
     <child-task idref="t682"/>
     <child-task idref="t683"/>
+    <child-task idref="t685"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -7724,10 +7725,11 @@
     <title>Gradle实战</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>41400</effort-done>
+    <effort-done>45000</effort-done>
     <child-task idref="t680"/>
     <child-task idref="t681"/>
     <child-task idref="t684"/>
+    <child-task idref="t686"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -7772,7 +7774,7 @@
   </task>
   <task id="t683">
     <title>Groovy程序设计</title>
-    <effort>180000</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-07-04T12:15:00.000Z</start-constraint-date>
     <style>
@@ -7784,7 +7786,7 @@
   </task>
   <task id="t684">
     <title>Gradle实战</title>
-    <effort>181800</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-07-04T13:30:00.000Z</start-constraint-date>
     <style>
@@ -7793,6 +7795,30 @@
       </value>
     </style>
     <start-no-earlier-than>2017-07-04T13:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t685">
+    <title>Groovy程序设计</title>
+    <effort>176400</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-07-05T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-07-05T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t686">
+    <title>Gradle实战</title>
+    <effort>174600</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-07-05T13:15:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-07-05T13:15:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
