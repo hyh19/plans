@@ -6649,6 +6649,7 @@
     <title>Database</title>
     <type>group</type>
     <start-constraint-date>2017-05-13T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t689"/>
     <child-task idref="t579"/>
     <child-task idref="t587"/>
     <start-no-earlier-than>2017-05-13T00:00:00.000Z</start-no-earlier-than>
@@ -7819,6 +7820,20 @@
       </value>
     </style>
     <start-no-earlier-than>2017-07-05T13:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t689">
+    <title>Books</title>
+    <type>group</type>
+    <start-constraint-date>2017-07-06T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t690"/>
+    <start-no-earlier-than>2017-07-06T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t690">
+    <title>MongoDB权威指南第2版</title>
+    <effort>216000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-07-06T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-07-06T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

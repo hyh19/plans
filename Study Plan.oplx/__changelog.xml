@@ -114,6 +114,23 @@
     </change>
     <change idref="t684" attribute="effort" type="real" from="181800" to="7200" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-06T15:12:21.833Z" timestamp="2017-07-06T15:12:21.833Z">
+    <change idref="t689" to="t578" to-position="0" resolved="yes">
+      <change idref="t689" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t689" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-06T00:00:00.000Z"/>
+      <change idref="t689" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t689" attribute="title" type="string" to="Books"/>
+    </change>
+    <change idref="t690" to="t689" to-position="0" resolved="yes">
+      <change idref="t690" attribute="effort" type="real" from="28800" to="216000"/>
+      <change idref="t690" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-06T00:00:00.000Z"/>
+      <change idref="t690" attribute="title" type="string" to="MongoDB权威指南第2版"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-06T15:12:41.151Z" timestamp="2017-07-06T15:12:41.151Z">
+    <change idref="t690" attribute="noEarlierThanConstraintDate" type="date" from="2017-07-06T00:00:00.000Z" to="2017-07-06T12:00:00.000Z" resolved="yes"/>
+    <change idref="t690" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
