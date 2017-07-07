@@ -7826,6 +7826,7 @@
     <type>group</type>
     <start-constraint-date>2017-07-06T00:00:00.000Z</start-constraint-date>
     <child-task idref="t690"/>
+    <child-task idref="t691"/>
     <start-no-earlier-than>2017-07-06T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t690">
@@ -7834,6 +7835,13 @@
     <effort-done>9000</effort-done>
     <start-constraint-date>2017-07-06T12:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-07-06T12:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t691">
+    <title>MongoDB实战第2版</title>
+    <effort>216000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-07-07T12:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-07-07T12:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
