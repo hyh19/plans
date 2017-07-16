@@ -7845,10 +7845,11 @@
     <title>MongoDB实战</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>19800</effort-done>
+    <effort-done>23400</effort-done>
     <child-task idref="t692"/>
     <child-task idref="t693"/>
     <child-task idref="t702"/>
+    <child-task idref="t703"/>
   </task>
   <task id="t692">
     <title>MongoDB实战</title>
@@ -7915,17 +7916,39 @@
   </task>
   <task id="t701">
     <title>Ruby基础教程</title>
+    <split/>
     <effort>216000</effort>
+    <effort-done>25200</effort-done>
+    <child-task idref="t704"/>
+    <child-task idref="t705"/>
+  </task>
+  <task id="t702">
+    <title>MongoDB实战</title>
+    <effort>5400</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-07-15T09:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-07-15T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t703">
+    <title>MongoDB实战</title>
+    <effort>196200</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-07-16T03:15:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-07-16T03:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t704">
+    <title>Ruby基础教程</title>
+    <effort>10800</effort>
     <effort-done>10800</effort-done>
     <start-constraint-date>2017-07-15T06:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-07-15T06:00:00.000Z</start-no-earlier-than>
   </task>
-  <task id="t702">
-    <title>MongoDB实战</title>
-    <effort>201600</effort>
-    <effort-done>5400</effort-done>
-    <start-constraint-date>2017-07-15T09:00:00.000Z</start-constraint-date>
-    <start-no-earlier-than>2017-07-15T09:00:00.000Z</start-no-earlier-than>
+  <task id="t705">
+    <title>Ruby基础教程</title>
+    <effort>205200</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2017-07-16T07:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-07-16T07:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
