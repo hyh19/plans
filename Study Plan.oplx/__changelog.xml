@@ -38,36 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-07-16T14:02:43.233Z" timestamp="2017-07-16T14:02:43.233Z">
-    <change idref="t691" attribute="internalEffortDone" type="real" from="19800" to="23400" resolved="yes"/>
-    <change idref="t703" to="t691" to-position="3" resolved="yes">
-      <change idref="t703" attribute="effort" type="real" from="28800" to="196200"/>
-      <change idref="t703" attribute="internalEffortDone" type="real" from="0" to="3600"/>
-      <change idref="t703" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t703" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-16T03:15:00.000Z"/>
-      <change idref="t703" attribute="title" type="string" to="MongoDB实战 #4"/>
-    </change>
-    <change idref="t702" attribute="effort" type="real" from="201600" to="5400" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-07-16T14:03:21.385Z" timestamp="2017-07-16T14:03:21.385Z">
-    <change idref="t701" attribute="noEarlierThanConstraintDate" type="date" from="2017-07-15T06:00:00.000Z" resolved="yes"/>
-    <change idref="t701" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t701" attribute="internalEffortDone" type="real" from="10800" to="25200" resolved="yes"/>
-    <change idref="t704" to="t701" to-position="0" resolved="yes">
-      <change idref="t704" attribute="effort" type="real" from="28800" to="10800"/>
-      <change idref="t704" attribute="internalEffortDone" type="real" from="0" to="10800"/>
-      <change idref="t704" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t704" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-15T06:00:00.000Z"/>
-      <change idref="t704" attribute="title" type="string" to="Ruby基础教程 #1"/>
-    </change>
-    <change idref="t705" to="t701" to-position="1" resolved="yes">
-      <change idref="t705" attribute="effort" type="real" from="28800" to="205200"/>
-      <change idref="t705" attribute="internalEffortDone" type="real" from="0" to="14400"/>
-      <change idref="t705" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t705" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-16T07:00:00.000Z"/>
-      <change idref="t705" attribute="title" type="string" to="Ruby基础教程 #2"/>
-    </change>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-07-18T13:53:00.280Z" timestamp="2017-07-18T13:53:00.280Z">
     <change idref="t691" attribute="internalEffortDone" type="real" from="23400" to="30600" resolved="yes"/>
     <change idref="t706" to="t691" to-position="4" resolved="yes">
@@ -78,6 +48,17 @@
       <change idref="t706" attribute="title" type="string" to="MongoDB实战 #5"/>
     </change>
     <change idref="t703" attribute="effort" type="real" from="196200" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-19T15:38:41.551Z" timestamp="2017-07-19T15:38:41.551Z">
+    <change idref="t691" attribute="internalEffortDone" type="real" from="30600" to="36000" resolved="yes"/>
+    <change idref="t707" to="t691" to-position="5" resolved="yes">
+      <change idref="t707" attribute="effort" type="real" from="28800" to="185400"/>
+      <change idref="t707" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t707" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t707" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-19T13:00:00.000Z"/>
+      <change idref="t707" attribute="title" type="string" to="MongoDB实战 #6"/>
+    </change>
+    <change idref="t706" attribute="effort" type="real" from="192600" to="7200" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
