@@ -38,17 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-07-18T13:53:00.280Z" timestamp="2017-07-18T13:53:00.280Z">
-    <change idref="t691" attribute="internalEffortDone" type="real" from="23400" to="30600" resolved="yes"/>
-    <change idref="t706" to="t691" to-position="4" resolved="yes">
-      <change idref="t706" attribute="effort" type="real" from="28800" to="192600"/>
-      <change idref="t706" attribute="internalEffortDone" type="real" from="0" to="7200"/>
-      <change idref="t706" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t706" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-18T12:00:00.000Z"/>
-      <change idref="t706" attribute="title" type="string" to="MongoDB实战 #5"/>
-    </change>
-    <change idref="t703" attribute="effort" type="real" from="196200" to="3600" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-07-19T15:38:41.551Z" timestamp="2017-07-19T15:38:41.551Z">
     <change idref="t691" attribute="internalEffortDone" type="real" from="30600" to="36000" resolved="yes"/>
     <change idref="t707" to="t691" to-position="5" resolved="yes">
@@ -59,6 +48,38 @@
       <change idref="t707" attribute="title" type="string" to="MongoDB实战 #6"/>
     </change>
     <change idref="t706" attribute="effort" type="real" from="192600" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-21T13:13:51.821Z" timestamp="2017-07-21T13:13:51.821Z">
+    <change idref="t708" to="t689" to-position="2" resolved="yes">
+      <change idref="t708" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-21T00:00:00.000Z"/>
+      <change idref="t708" attribute="title" type="string" to="MongoDB入门经典"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-21T13:13:56.194Z" timestamp="2017-07-21T13:13:56.194Z">
+    <change idref="t708" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-21T13:14:14.266Z" timestamp="2017-07-21T13:14:14.266Z">
+    <change idref="t708" attribute="noEarlierThanConstraintDate" type="date" from="2017-07-21T00:00:00.000Z" to="2017-07-20T11:15:00.000Z" resolved="yes"/>
+    <change idref="t708" attribute="internalEffortDone" type="real" from="0" to="9000" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-07-21T13:14:42.355Z" timestamp="2017-07-21T13:14:42.355Z">
+    <change idref="t708" attribute="noEarlierThanConstraintDate" type="date" from="2017-07-20T11:15:00.000Z" resolved="yes"/>
+    <change idref="t708" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t708" attribute="internalEffortDone" type="real" from="9000" to="14400" resolved="yes"/>
+    <change idref="t709" to="t708" to-position="0" resolved="yes">
+      <change idref="t709" attribute="effort" type="real" from="28800" to="9000"/>
+      <change idref="t709" attribute="internalEffortDone" type="real" from="0" to="9000"/>
+      <change idref="t709" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t709" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-20T11:15:00.000Z"/>
+      <change idref="t709" attribute="title" type="string" to="MongoDB入门经典 #1"/>
+    </change>
+    <change idref="t710" to="t708" to-position="1" resolved="yes">
+      <change idref="t710" attribute="effort" type="real" from="28800" to="207000"/>
+      <change idref="t710" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t710" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t710" attribute="noEarlierThanConstraintDate" type="date" to="2017-07-21T11:30:00.000Z"/>
+      <change idref="t710" attribute="title" type="string" to="MongoDB入门经典 #2"/>
+    </change>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>

@@ -7828,6 +7828,7 @@
     <start-constraint-date>2017-07-06T00:00:00.000Z</start-constraint-date>
     <child-task idref="t690"/>
     <child-task idref="t691"/>
+    <child-task idref="t708"/>
     <start-no-earlier-than>2017-07-06T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t690">
@@ -7965,6 +7966,28 @@
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-07-19T13:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-07-19T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t708">
+    <title>MongoDB入门经典</title>
+    <split/>
+    <effort>216000</effort>
+    <effort-done>14400</effort-done>
+    <child-task idref="t709"/>
+    <child-task idref="t710"/>
+  </task>
+  <task id="t709">
+    <title>MongoDB入门经典</title>
+    <effort>9000</effort>
+    <effort-done>9000</effort-done>
+    <start-constraint-date>2017-07-20T11:15:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-07-20T11:15:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t710">
+    <title>MongoDB入门经典</title>
+    <effort>207000</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-07-21T11:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-07-21T11:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
