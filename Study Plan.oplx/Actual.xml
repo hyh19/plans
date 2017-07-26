@@ -7971,10 +7971,11 @@
     <title>MongoDB入门经典</title>
     <split/>
     <effort>216000</effort>
-    <effort-done>18000</effort-done>
+    <effort-done>21600</effort-done>
     <child-task idref="t709"/>
     <child-task idref="t710"/>
     <child-task idref="t711"/>
+    <child-task idref="t712"/>
   </task>
   <task id="t709">
     <title>MongoDB入门经典</title>
@@ -7992,10 +7993,17 @@
   </task>
   <task id="t711">
     <title>MongoDB入门经典</title>
-    <effort>201600</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-07-25T13:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-07-25T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t712">
+    <title>MongoDB入门经典</title>
+    <effort>198000</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-07-26T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-07-26T13:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
