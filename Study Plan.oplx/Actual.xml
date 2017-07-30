@@ -166,6 +166,7 @@
     <child-task idref="t637"/>
     <child-task idref="t644"/>
     <child-task idref="t699"/>
+    <child-task idref="t723"/>
     <note>
       <text>
         <p>
@@ -7172,6 +7173,11 @@
     <effort-done>9000</effort-done>
     <child-task idref="t631"/>
     <child-task idref="t632"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
   </task>
   <task id="t629">
     <title>Python学习手册</title>
@@ -7197,6 +7203,11 @@
     <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-06-02T13:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-06-02T13:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t632">
@@ -7204,6 +7215,11 @@
     <effort>212400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-06-04T12:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
     <start-no-earlier-than>2017-06-04T12:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t633">
@@ -7403,10 +7419,11 @@
     <title>疯狂HTML 5/CSS 3/JavaScript讲义</title>
     <split/>
     <effort>111600</effort>
-    <effort-done>12600</effort-done>
+    <effort-done>19800</effort-done>
     <child-task idref="t654"/>
     <child-task idref="t655"/>
     <child-task idref="t656"/>
+    <child-task idref="t728"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -7475,7 +7492,7 @@
   </task>
   <task id="t656">
     <title>疯狂HTML 5/CSS 3/JavaScript讲义</title>
-    <effort>104400</effort>
+    <effort>5400</effort>
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-06-16T12:00:00.000Z</start-constraint-date>
     <style>
@@ -8012,6 +8029,69 @@
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-07-28T13:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-07-28T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t723">
+    <title>Weixin</title>
+    <type>group</type>
+    <start-constraint-date>2017-07-29T06:00:00.000Z</start-constraint-date>
+    <child-task idref="t724"/>
+    <start-no-earlier-than>2017-07-29T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t724">
+    <title>Books</title>
+    <type>group</type>
+    <start-constraint-date>2017-07-29T06:00:00.000Z</start-constraint-date>
+    <child-task idref="t725"/>
+    <start-no-earlier-than>2017-07-29T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t725">
+    <title>微信小程序开发实战</title>
+    <split/>
+    <effort>216000</effort>
+    <effort-done>23400</effort-done>
+    <child-task idref="t726"/>
+    <child-task idref="t727"/>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+  </task>
+  <task id="t726">
+    <title>微信小程序开发实战</title>
+    <effort>16200</effort>
+    <effort-done>16200</effort-done>
+    <start-constraint-date>2017-07-29T06:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-07-29T06:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t727">
+    <title>微信小程序开发实战</title>
+    <effort>199800</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-07-30T07:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-07-30T07:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t728">
+    <title>疯狂HTML 5/CSS 3/JavaScript讲义</title>
+    <effort>99000</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-07-30T09:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-07-30T09:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
