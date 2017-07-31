@@ -7419,11 +7419,12 @@
     <title>疯狂HTML 5/CSS 3/JavaScript讲义</title>
     <split/>
     <effort>111600</effort>
-    <effort-done>19800</effort-done>
+    <effort-done>23400</effort-done>
     <child-task idref="t654"/>
     <child-task idref="t655"/>
     <child-task idref="t656"/>
     <child-task idref="t728"/>
+    <child-task idref="t729"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -8083,7 +8084,7 @@
   </task>
   <task id="t728">
     <title>疯狂HTML 5/CSS 3/JavaScript讲义</title>
-    <effort>99000</effort>
+    <effort>7200</effort>
     <effort-done>7200</effort-done>
     <start-constraint-date>2017-07-30T09:00:00.000Z</start-constraint-date>
     <style>
@@ -8092,6 +8093,18 @@
       </value>
     </style>
     <start-no-earlier-than>2017-07-30T09:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t729">
+    <title>疯狂HTML 5/CSS 3/JavaScript讲义</title>
+    <effort>91800</effort>
+    <effort-done>3600</effort-done>
+    <start-constraint-date>2017-07-31T13:00:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-07-31T13:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
