@@ -189,6 +189,25 @@
     </change>
     <change idref="t728" attribute="effort" type="real" from="99000" to="7200" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-08-01T13:35:46.909Z" timestamp="2017-08-01T13:35:46.909Z">
+    <change idref="t650" attribute="internalEffortDone" type="real" from="23400" to="27000" resolved="yes"/>
+    <change idref="t730" to="t650" to-position="5" resolved="yes">
+      <change idref="t730" attribute="effort" type="real" from="28800" to="88200"/>
+      <change idref="t730" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t730" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t730" attribute="noEarlierThanConstraintDate" type="date" to="2017-08-01T12:30:00.000Z"/>
+      <change idref="t730" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t730" attribute="title" type="string" to="疯狂HTML 5/CSS 3/JavaScript讲义 #6"/>
+    </change>
+    <change idref="t729" attribute="effort" type="real" from="91800" to="3600" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
