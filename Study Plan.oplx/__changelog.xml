@@ -151,6 +151,15 @@
     <change idref="t650" attribute="internalEffortDone" type="real" from="37800" to="41400" resolved="yes"/>
     <change idref="t739" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-08-06T13:54:34.062Z" timestamp="2017-08-06T13:54:34.062Z">
+    <change idref="t637" from="t4" from-position="18" resolved="yes">
+      <change idref="t637" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t637" attribute="noEarlierThanConstraintDate" type="date" to="2017-06-08T00:00:00.000Z"/>
+      <change idref="t637" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t637" attribute="title" type="string" to="Ansible"/>
+    </change>
+    <change idref="t639" from="t638" from-position="0" to="t307" to-position="10" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
