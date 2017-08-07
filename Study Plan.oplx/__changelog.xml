@@ -160,6 +160,19 @@
     </change>
     <change idref="t639" from="t638" from-position="0" to="t307" to-position="10" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-08-07T14:06:17.219Z" timestamp="2017-08-07T14:06:17.219Z">
+    <change idref="t740" to="t383" to-position="2" resolved="yes">
+      <change idref="t740" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t740" attribute="noEarlierThanConstraintDate" type="date" to="2017-08-07T00:00:00.000Z"/>
+      <change idref="t740" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t740" attribute="title" type="string" to="Docs"/>
+    </change>
+    <change idref="t741" to="t740" to-position="0" resolved="yes">
+      <change idref="t741" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t741" attribute="noEarlierThanConstraintDate" type="date" to="2017-08-07T13:00:00.000Z"/>
+      <change idref="t741" attribute="title" type="string" to="MDN web docs"/>
+    </change>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
