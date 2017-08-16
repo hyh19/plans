@@ -54,6 +54,22 @@
     <change idref="t746" attribute="noEarlierThanConstraintDate" type="date" from="2017-08-15T00:00:00.000Z" to="2017-08-15T13:00:00.000Z" resolved="yes"/>
     <change idref="t746" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-08-16T14:31:37.028Z" timestamp="2017-08-16T14:31:37.028Z">
+    <change idref="t747" to="t331" to-position="1" resolved="yes">
+      <change idref="t747" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t747" attribute="noEarlierThanConstraintDate" type="date" to="2017-08-16T00:00:00.000Z"/>
+      <change idref="t747" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t747" attribute="title" type="string" to="Docs"/>
+    </change>
+    <change idref="t748" to="t747" to-position="0" resolved="yes">
+      <change idref="t748" attribute="noEarlierThanConstraintDate" type="date" to="2017-08-16T00:00:00.000Z"/>
+      <change idref="t748" attribute="title" type="string" to="Python官方文档"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-08-16T14:31:52.876Z" timestamp="2017-08-16T14:31:52.876Z">
+    <change idref="t748" attribute="noEarlierThanConstraintDate" type="date" from="2017-08-16T00:00:00.000Z" to="2017-08-16T13:00:00.000Z" resolved="yes"/>
+    <change idref="t748" attribute="internalEffortDone" type="real" from="0" to="5400" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>

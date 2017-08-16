@@ -3514,6 +3514,7 @@
     <type>group</type>
     <start-constraint-date>2017-03-01T00:00:00.000Z</start-constraint-date>
     <child-task idref="t332"/>
+    <child-task idref="t747"/>
     <start-no-earlier-than>2017-03-01T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t332">
@@ -8276,6 +8277,20 @@
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-08-15T13:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-08-15T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t747">
+    <title>Docs</title>
+    <type>group</type>
+    <start-constraint-date>2017-08-16T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t748"/>
+    <start-no-earlier-than>2017-08-16T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t748">
+    <title>Python官方文档</title>
+    <effort>28800</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-08-16T13:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-08-16T13:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
