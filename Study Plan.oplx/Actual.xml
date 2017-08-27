@@ -166,6 +166,7 @@
     <child-task idref="t644"/>
     <child-task idref="t699"/>
     <child-task idref="t723"/>
+    <child-task idref="t749"/>
     <note>
       <text>
         <p>
@@ -3658,7 +3659,7 @@
     <split/>
     <priority>2000</priority>
     <effort>136800</effort>
-    <effort-done>39600</effort-done>
+    <effort-done>46800</effort-done>
     <child-task idref="t343"/>
     <child-task idref="t344"/>
     <child-task idref="t345"/>
@@ -3668,6 +3669,7 @@
     <child-task idref="t549"/>
     <child-task idref="t550"/>
     <child-task idref="t552"/>
+    <child-task idref="t752"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -6315,7 +6317,7 @@
   <task id="t552">
     <title>Python编程快速上手</title>
     <priority>2000</priority>
-    <effort>100800</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-05-05T01:30:00.000Z</start-constraint-date>
     <style>
@@ -8291,6 +8293,33 @@
     <effort-done>5400</effort-done>
     <start-constraint-date>2017-08-16T13:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-08-16T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t749">
+    <title>Tools</title>
+    <type>group</type>
+    <start-constraint-date>2017-08-27T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t750"/>
+    <start-no-earlier-than>2017-08-27T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t750">
+    <title>Charles</title>
+    <effort>28800</effort>
+    <effort-done>14400</effort-done>
+    <start-constraint-date>2017-08-27T07:30:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-08-27T07:30:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t752">
+    <title>Python编程快速上手</title>
+    <priority>2000</priority>
+    <effort>97200</effort>
+    <effort-done>7200</effort-done>
+    <start-constraint-date>2017-08-27T09:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-08-27T09:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
