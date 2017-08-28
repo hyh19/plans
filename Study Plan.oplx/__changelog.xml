@@ -71,6 +71,25 @@
     </change>
     <change idref="t552" attribute="effort" type="real" from="100800" to="3600" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-08-28T14:13:01.310Z" timestamp="2017-08-28T14:13:01.310Z">
+    <change idref="t748" attribute="noEarlierThanConstraintDate" type="date" from="2017-08-16T13:00:00.000Z" resolved="yes"/>
+    <change idref="t748" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t748" attribute="internalEffortDone" type="real" from="5400" to="9000" resolved="yes"/>
+    <change idref="t753" to="t748" to-position="0" resolved="yes">
+      <change idref="t753" attribute="effort" type="real" from="28800" to="5400"/>
+      <change idref="t753" attribute="internalEffortDone" type="real" from="0" to="5400"/>
+      <change idref="t753" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t753" attribute="noEarlierThanConstraintDate" type="date" to="2017-08-16T13:00:00.000Z"/>
+      <change idref="t753" attribute="title" type="string" to="Python官方文档 #1"/>
+    </change>
+    <change idref="t754" to="t748" to-position="1" resolved="yes">
+      <change idref="t754" attribute="effort" type="real" from="28800" to="23400"/>
+      <change idref="t754" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t754" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t754" attribute="noEarlierThanConstraintDate" type="date" to="2017-08-28T13:00:00.000Z"/>
+      <change idref="t754" attribute="title" type="string" to="Python官方文档 #2"/>
+    </change>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
