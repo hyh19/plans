@@ -7927,6 +7927,7 @@
     <type>group</type>
     <start-constraint-date>2017-07-15T00:00:00.000Z</start-constraint-date>
     <child-task idref="t700"/>
+    <child-task idref="t755"/>
     <start-no-earlier-than>2017-07-15T00:00:00.000Z</start-no-earlier-than>
   </task>
   <task id="t700">
@@ -8335,6 +8336,20 @@
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-08-28T13:00:00.000Z</start-constraint-date>
     <start-no-earlier-than>2017-08-28T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t755">
+    <title>Docs</title>
+    <type>group</type>
+    <start-constraint-date>2017-08-31T00:00:00.000Z</start-constraint-date>
+    <child-task idref="t756"/>
+    <start-no-earlier-than>2017-08-31T00:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t756">
+    <title>Rails官方文档</title>
+    <effort>28800</effort>
+    <effort-done>10800</effort-done>
+    <start-constraint-date>2017-08-31T11:00:00.000Z</start-constraint-date>
+    <start-no-earlier-than>2017-08-31T11:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
