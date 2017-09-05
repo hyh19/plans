@@ -122,6 +122,17 @@
   <task-change-set user="Yuhui Huang" date="2017-09-04T13:50:35.167Z" timestamp="2017-09-04T13:50:35.167Z">
     <change idref="t764" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-09-05T13:48:07.982Z" timestamp="2017-09-05T13:48:07.982Z">
+    <change idref="t765" to="t332" to-position="7" resolved="yes">
+      <change idref="t765" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-05T00:00:00.000Z"/>
+      <change idref="t765" attribute="title" type="string" to="Django架站的16堂课"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-09-05T13:48:30.466Z" timestamp="2017-09-05T13:48:30.466Z">
+    <change idref="t765" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
+    <change idref="t765" attribute="noEarlierThanConstraintDate" type="date" from="2017-09-05T00:00:00.000Z" to="2017-09-05T13:00:00.000Z" resolved="yes"/>
+    <change idref="t765" attribute="internalEffortDone" type="real" from="0" to="3600" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
