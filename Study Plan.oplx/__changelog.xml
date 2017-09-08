@@ -38,17 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-09-06T13:55:59.621Z" timestamp="2017-09-06T13:55:59.621Z">
-    <change idref="t766" to="t747" to-position="1" resolved="yes">
-      <change idref="t766" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-06T00:00:00.000Z"/>
-      <change idref="t766" attribute="title" type="string" to="Django官方文档"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-09-06T13:56:17.084Z" timestamp="2017-09-06T13:56:17.084Z">
-    <change idref="t766" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
-    <change idref="t766" attribute="noEarlierThanConstraintDate" type="date" from="2017-09-06T00:00:00.000Z" to="2017-09-06T12:00:00.000Z" resolved="yes"/>
-    <change idref="t766" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-09-07T15:02:24.677Z" timestamp="2017-09-07T15:02:24.677Z">
     <change idref="t766" attribute="noEarlierThanConstraintDate" type="date" from="2017-09-06T12:00:00.000Z" resolved="yes"/>
     <change idref="t766" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
@@ -67,6 +56,22 @@
       <change idref="t768" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-07T12:00:00.000Z"/>
       <change idref="t768" attribute="title" type="string" to="Django官方文档 #2"/>
     </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-09-08T15:01:24.949Z" timestamp="2017-09-08T15:01:24.949Z">
+    <change idref="t769" to="t331" to-position="2" resolved="yes">
+      <change idref="t769" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t769" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-08T00:00:00.000Z"/>
+      <change idref="t769" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t769" attribute="title" type="string" to="Manual"/>
+    </change>
+    <change idref="t770" to="t769" to-position="0" resolved="yes">
+      <change idref="t770" attribute="internalEffortDone" type="real" from="0" to="9000"/>
+      <change idref="t770" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-08T12:00:00.000Z"/>
+      <change idref="t770" attribute="title" type="string" to="Python Practice"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-09-08T15:02:07.440Z" timestamp="2017-09-08T15:02:07.440Z">
+    <change idref="t769" attribute="title" type="string" from="Manual" to="Practices" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
