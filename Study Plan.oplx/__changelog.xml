@@ -38,52 +38,24 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-09-08T15:01:24.949Z" timestamp="2017-09-08T15:01:24.949Z">
-    <change idref="t769" to="t331" to-position="2" resolved="yes">
-      <change idref="t769" attribute="isGroup" type="real" from="0" to="1"/>
-      <change idref="t769" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-08T00:00:00.000Z"/>
-      <change idref="t769" attribute="taskType" type="real" from="0" to="2"/>
-      <change idref="t769" attribute="title" type="string" to="Manual"/>
+  <task-change-set user="Yuhui Huang" date="2017-09-13T13:29:23.657Z" timestamp="2017-09-13T13:29:23.657Z">
+    <change idref="t765" attribute="noEarlierThanConstraintDate" type="date" from="2017-09-05T13:00:00.000Z" resolved="yes"/>
+    <change idref="t765" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t765" attribute="internalEffortDone" type="real" from="3600" to="10800" resolved="yes"/>
+    <change idref="t774" to="t765" to-position="0" resolved="yes">
+      <change idref="t774" attribute="effort" type="real" from="28800" to="3600"/>
+      <change idref="t774" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t774" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t774" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-05T13:00:00.000Z"/>
+      <change idref="t774" attribute="title" type="string" to="Django架站的16堂课 #1"/>
     </change>
-    <change idref="t770" to="t769" to-position="0" resolved="yes">
-      <change idref="t770" attribute="internalEffortDone" type="real" from="0" to="9000"/>
-      <change idref="t770" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-08T12:00:00.000Z"/>
-      <change idref="t770" attribute="title" type="string" to="Python Practice"/>
+    <change idref="t775" to="t765" to-position="1" resolved="yes">
+      <change idref="t775" attribute="effort" type="real" from="28800" to="212400"/>
+      <change idref="t775" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+      <change idref="t775" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t775" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-13T11:30:00.000Z"/>
+      <change idref="t775" attribute="title" type="string" to="Django架站的16堂课 #2"/>
     </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-09-08T15:02:07.440Z" timestamp="2017-09-08T15:02:07.440Z">
-    <change idref="t769" attribute="title" type="string" from="Manual" to="Practices" resolved="yes"/>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-09-10T13:33:35.323Z" timestamp="2017-09-10T13:33:35.323Z">
-    <change idref="t770" attribute="effort" type="real" from="28800" to="216000" resolved="yes"/>
-    <change idref="t770" attribute="noEarlierThanConstraintDate" type="date" from="2017-09-08T12:00:00.000Z" resolved="yes"/>
-    <change idref="t770" attribute="isSplitTask" type="real" from="0" to="1" resolved="yes"/>
-    <change idref="t770" attribute="internalEffortDone" type="real" from="9000" to="21600" resolved="yes"/>
-    <change idref="t771" to="t770" to-position="0" resolved="yes">
-      <change idref="t771" attribute="effort" type="real" from="28800" to="9000"/>
-      <change idref="t771" attribute="internalEffortDone" type="real" from="0" to="9000"/>
-      <change idref="t771" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t771" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-08T12:00:00.000Z"/>
-      <change idref="t771" attribute="title" type="string" to="Python Practice #1"/>
-    </change>
-    <change idref="t772" to="t770" to-position="1" resolved="yes">
-      <change idref="t772" attribute="effort" type="real" from="28800" to="207000"/>
-      <change idref="t772" attribute="internalEffortDone" type="real" from="0" to="12600"/>
-      <change idref="t772" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t772" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-09T02:00:00.000Z"/>
-      <change idref="t772" attribute="title" type="string" to="Python Practice #2"/>
-    </change>
-  </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-09-10T13:34:21.454Z" timestamp="2017-09-10T13:34:21.454Z">
-    <change idref="t766" attribute="internalEffortDone" type="real" from="14400" to="27000" resolved="yes"/>
-    <change idref="t773" to="t766" to-position="2" resolved="yes">
-      <change idref="t773" attribute="effort" type="real" from="28800" to="201600"/>
-      <change idref="t773" attribute="internalEffortDone" type="real" from="0" to="12600"/>
-      <change idref="t773" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t773" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-10T02:00:00.000Z"/>
-      <change idref="t773" attribute="title" type="string" to="Django官方文档 #3"/>
-    </change>
-    <change idref="t768" attribute="effort" type="real" from="208800" to="7200" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
