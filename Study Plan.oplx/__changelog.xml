@@ -137,6 +137,32 @@
     <change idref="t781" attribute="title" type="string" from="Ruby基础教程第4版 #5" to="Ruby 基础教程第 4 版 #5" resolved="yes"/>
     <change idref="t781" attribute="effort" type="real" from="171000" to="3600" resolved="yes"/>
   </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-09-21T13:16:21.727Z" timestamp="2017-09-21T13:16:21.727Z">
+    <change idref="t701" attribute="title" type="string" from="Ruby 基础教程第 4 版" to="Ruby基础教程第4版" resolved="yes"/>
+    <change idref="t701" attribute="internalEffortDone" type="real" from="54000" to="57600" resolved="yes"/>
+    <change idref="t783" to="t701" to-position="6" resolved="yes">
+      <change idref="t783" attribute="effort" type="real" from="28800" to="162000"/>
+      <change idref="t783" attribute="internalEffortDone" type="real" from="0" to="3600"/>
+      <change idref="t783" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t783" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-21T12:00:00.000Z"/>
+      <change idref="t783" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t783" attribute="title" type="string" to="Ruby基础教程第4版 #7"/>
+    </change>
+    <change idref="t704" attribute="title" type="string" from="Ruby 基础教程第 4 版 #1" to="Ruby基础教程第4版 #1" resolved="yes"/>
+    <change idref="t705" attribute="title" type="string" from="Ruby 基础教程第 4 版 #2" to="Ruby基础教程第4版 #2" resolved="yes"/>
+    <change idref="t760" attribute="title" type="string" from="Ruby 基础教程第 4 版 #3" to="Ruby基础教程第4版 #3" resolved="yes"/>
+    <change idref="t761" attribute="title" type="string" from="Ruby 基础教程第 4 版 #4" to="Ruby基础教程第4版 #4" resolved="yes"/>
+    <change idref="t781" attribute="title" type="string" from="Ruby 基础教程第 4 版 #5" to="Ruby基础教程第4版 #5" resolved="yes"/>
+    <change idref="t782" attribute="title" type="string" from="Ruby 基础教程第 4 版 #6" to="Ruby基础教程第4版 #6" resolved="yes"/>
+    <change idref="t782" attribute="effort" type="real" from="167400" to="5400" resolved="yes"/>
+  </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
   </resource-change-set>
