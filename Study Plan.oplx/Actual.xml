@@ -3737,7 +3737,7 @@
     <split/>
     <priority>2000</priority>
     <effort>252000</effort>
-    <effort-done>72000</effort-done>
+    <effort-done>77400</effort-done>
     <child-task idref="t349"/>
     <child-task idref="t350"/>
     <child-task idref="t351"/>
@@ -3747,6 +3747,7 @@
     <child-task idref="t784"/>
     <child-task idref="t785"/>
     <child-task idref="t786"/>
+    <child-task idref="t787"/>
     <style>
       <value key="font-fill">
         <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
@@ -8709,7 +8710,7 @@
   <task id="t786">
     <title>PHP、MySQL 和 Apache 入门经典</title>
     <priority>2000</priority>
-    <effort>183600</effort>
+    <effort>3600</effort>
     <effort-done>3600</effort-done>
     <start-constraint-date>2017-09-25T13:00:00.000Z</start-constraint-date>
     <style>
@@ -8718,6 +8719,19 @@
       </value>
     </style>
     <start-no-earlier-than>2017-09-25T13:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t787">
+    <title>PHP、MySQL 和 Apache 入门经典</title>
+    <priority>2000</priority>
+    <effort>180000</effort>
+    <effort-done>5400</effort-done>
+    <start-constraint-date>2017-09-27T12:30:00.000Z</start-constraint-date>
+    <style>
+      <value key="font-fill">
+        <color space="srgb" r="0.0168042" g="0.198351" b="1"/>
+      </value>
+    </style>
+    <start-no-earlier-than>2017-09-27T12:30:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
