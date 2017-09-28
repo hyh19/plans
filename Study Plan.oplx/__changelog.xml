@@ -38,59 +38,6 @@
       <change idref="t269" attribute="title" type="string" to="Maven实战 #2"/>
     </change>
   </task-change-set>
-  <task-change-set user="Yuhui Huang" date="2017-09-25T14:31:32.425Z" timestamp="2017-09-25T14:31:32.425Z">
-    <change idref="t348" attribute="effort" type="real" from="46800" to="252000" resolved="yes"/>
-    <change idref="t348" attribute="internalEffortDone" type="real" from="36000" to="72000" resolved="yes"/>
-    <change idref="t784" to="t348" to-position="6" resolved="yes">
-      <change idref="t784" attribute="effort" type="real" from="28800" to="18000"/>
-      <change idref="t784" attribute="internalEffortDone" type="real" from="0" to="18000"/>
-      <change idref="t784" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t784" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-23T02:00:00.000Z"/>
-      <change idref="t784" attribute="priority" type="real" from="0" to="2000"/>
-      <change idref="t784" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t784" attribute="title" type="string" to="PHP、MySQL和Apache入门经典 #7"/>
-    </change>
-    <change idref="t785" to="t348" to-position="7" resolved="yes">
-      <change idref="t785" attribute="effort" type="real" from="28800" to="14400"/>
-      <change idref="t785" attribute="internalEffortDone" type="real" from="0" to="14400"/>
-      <change idref="t785" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t785" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-24T02:00:00.000Z"/>
-      <change idref="t785" attribute="priority" type="real" from="0" to="2000"/>
-      <change idref="t785" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t785" attribute="title" type="string" to="PHP、MySQL和Apache入门经典 #8"/>
-    </change>
-    <change idref="t786" to="t348" to-position="8" resolved="yes">
-      <change idref="t786" attribute="effort" type="real" from="28800" to="183600"/>
-      <change idref="t786" attribute="internalEffortDone" type="real" from="0" to="3600"/>
-      <change idref="t786" attribute="isSplitChunk" type="real" from="0" to="1"/>
-      <change idref="t786" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-25T13:00:00.000Z"/>
-      <change idref="t786" attribute="priority" type="real" from="0" to="2000"/>
-      <change idref="t786" attribute="styleDict" type="dict" to="{
-    &quot;font-fill&quot; =     {
-        b = 1;
-        g = &quot;0.198351&quot;;
-        r = &quot;0.0168042&quot;;
-        space = srgb;
-    };
-}"/>
-      <change idref="t786" attribute="title" type="string" to="PHP、MySQL和Apache入门经典 #9"/>
-    </change>
-    <change idref="t358" attribute="effort" type="real" from="14400" to="3600" resolved="yes"/>
-  </task-change-set>
   <task-change-set user="Yuhui Huang" date="2017-09-25T14:31:53.669Z" timestamp="2017-09-25T14:31:53.669Z">
     <change idref="t348" attribute="title" type="string" from="PHP、MySQL和Apache入门经典" to="PHP、MySQL 和 Apache 入门经典"/>
   </task-change-set>
@@ -113,6 +60,39 @@
       <change idref="t787" attribute="title" type="string" to="PHP、MySQL 和 Apache 入门经典 #10"/>
     </change>
     <change idref="t786" attribute="effort" type="real" from="183600" to="3600" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Yuhui Huang" date="2017-09-28T13:27:48.618Z" timestamp="2017-09-28T13:27:48.618Z">
+    <change idref="t650" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义" to="疯狂 HTML 5/CSS 3/JavaScript 讲义" resolved="yes"/>
+    <change idref="t650" attribute="internalEffortDone" type="real" from="52200" to="59400" resolved="yes"/>
+    <change idref="t789" to="t650" to-position="13" resolved="yes">
+      <change idref="t789" attribute="effort" type="real" from="28800" to="59400"/>
+      <change idref="t789" attribute="internalEffortDone" type="real" from="0" to="7200"/>
+      <change idref="t789" attribute="isSplitChunk" type="real" from="0" to="1"/>
+      <change idref="t789" attribute="noEarlierThanConstraintDate" type="date" to="2017-09-28T11:00:00.000Z"/>
+      <change idref="t789" attribute="styleDict" type="dict" to="{
+    &quot;font-fill&quot; =     {
+        b = 1;
+        g = &quot;0.198351&quot;;
+        r = &quot;0.0168042&quot;;
+        space = srgb;
+    };
+}"/>
+      <change idref="t789" attribute="title" type="string" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #14"/>
+    </change>
+    <change idref="t654" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #1" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #1" resolved="yes"/>
+    <change idref="t655" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #2" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #2" resolved="yes"/>
+    <change idref="t656" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #3" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #3" resolved="yes"/>
+    <change idref="t728" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #4" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #4" resolved="yes"/>
+    <change idref="t729" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #5" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #5" resolved="yes"/>
+    <change idref="t730" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #6" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #6" resolved="yes"/>
+    <change idref="t731" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #7" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #7" resolved="yes"/>
+    <change idref="t732" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #8" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #8" resolved="yes"/>
+    <change idref="t736" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #9" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #9" resolved="yes"/>
+    <change idref="t739" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #10" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #10" resolved="yes"/>
+    <change idref="t742" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #11" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #11" resolved="yes"/>
+    <change idref="t743" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #12" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #12" resolved="yes"/>
+    <change idref="t744" attribute="title" type="string" from="疯狂HTML 5/CSS 3/JavaScript讲义 #13" to="疯狂 HTML 5/CSS 3/JavaScript 讲义 #13" resolved="yes"/>
+    <change idref="t744" attribute="effort" type="real" from="63000" to="3600" resolved="yes"/>
   </task-change-set>
   <resource-change-set user="Yuhui Huang" date="2017-02-04T13:53:06.899Z" timestamp="2017-02-04T13:53:06.899Z">
     <change idref="r-1" attribute="standardHoursString" type="string" from="39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800;39600,46800,54000,64800" to="36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600;36000,46800,52200,63000,73800,84600"/>
